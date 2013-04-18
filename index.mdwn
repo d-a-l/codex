@@ -1,2 +1,3 @@
 * [[Escáner cnba]] (Biblioteca del Colegio Nacional Buenos Aires)
 * [[escaner_rojiazul|Escáner "roji-azul"]] (prototipo)
+* [[Escáner "roji-azul"|escaner_rojiazul]] (prototipo)
