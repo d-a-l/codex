@@ -1,3 +1,10 @@
+### Escáneres
+
 * [[Modelos anteriores|modelos anteriores]]
 * [[Escáner CNBA|escaner_cnba]] (Biblioteca del Colegio Nacional Buenos Aires)
 * [[Escáner "roji-azul"|escaner_rojiazul]] (prototipo)
+
+
+### Software
+
+* [[Scan Tailor|scan_tailor]]
