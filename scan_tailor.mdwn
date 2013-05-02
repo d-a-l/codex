@@ -55,8 +55,6 @@ Al finalizar el proceso debe lerse:
 
 Continuar con la compilación:
 
-(como usuario sin privilegios)
-
     make
 
 (como root)
