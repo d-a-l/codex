@@ -1,0 +1,7 @@
+### dependencias para compilaciómn
+
+ build-essential cmake
+
+ libqt4-dev
+
+ libjpeg8-dev libtiff5-dev zlib1g-dev libpng12-dev libboost1.49-all-dev libxrender-dev 
