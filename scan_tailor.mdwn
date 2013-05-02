@@ -28,12 +28,11 @@ Instalar el resto de las dependencias:
 
 #### Descargar la última versión de Scan Tailor
 
-* descargar desde el sitio de Scan Tailor en [sourceforge](http://sourceforge.net/projects/scantailor/files/latest/download)
-* link directo de descarga para la versión 0.9.11.1 (abril de 2013): [scantailor-0.9.11.1.tar.gz](http://sourceforge.net/projects/scantailor/files/scantailor/0.9.11.1/scantailor-0.9.11.1.tar.gz/download)
-* copiar a un directorio para compilar, por ejemplo: `/opt/src`
-* descomprimir el archivo descargado en el lugar donde se realizara la compilación
+* Descargar la ultima versión desde el sitio de Scan Tailor en [sourceforge](http://sourceforge.net/projects/scantailor/files/latest/download). Link de descarga para la versión 0.9.11.1 (abril de 2013): [scantailor-0.9.11.1.tar.gz](http://sourceforge.net/projects/scantailor/files/scantailor/0.9.11.1/scantailor-0.9.11.1.tar.gz/download).
+* Copiar el archivo descargado a un directorio para compilar, por ejemplo: `/opt/src`.
+* Descomprimir el archivo.
 
-con la consola:
+Con la consola:
 
     wget http://sourceforge.net/projects/scantailor/files/scantailor/0.9.11.1/scantailor-0.9.11.1.tar.gz
     tar -xzvf scantailor-0.9.11.1.tar.gz
@@ -49,19 +48,19 @@ Abrir una consola en directorio que contiene el codigo fuente de Scan Tailor y e
 
     cmake .
 
-Al finalizar el proceso debe lerse
+Al finalizar el proceso debe lerse:
 
    - Configuring done 
    - Generating done
 
 Continuar con la compilación:
 
-como usuario sin privilegios:
+(como usuario sin privilegios)
 
     make
 
-como root:
+(como root)
 
     make install
 
-(En vez de `make install` puede utilizarse `checkintall`, que permite desinstalar el programa facilmentne desde el gestor de paquetes. Si no está instalado: `apt-get install checkintall`)
+En vez de `make install` puede utilizarse `checkintall`, que permite desinstalar el programa facilmentne desde el gestor de paquetes. Si no está instalado: `apt-get install checkintall`
