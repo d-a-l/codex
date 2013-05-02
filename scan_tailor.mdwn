@@ -53,12 +53,12 @@ Al finalizar el proceso debe lerse:
     - Configuring done 
     - Generating done
 
-Continuar con la compilación:
+Continuar con la compilación con make
 
     make
 
-(como root)
+Instalar en el sistema (como root)
 
     make install
 
-En vez de `make install` puede utilizarse `checkintall`, que permite desinstalar el programa facilmentne desde el gestor de paquetes. Si no está instalado: `apt-get install checkintall`
+**Nota**: en vez de `make install` puede utilizarse `checkintall`, que permite desinstalar el programa facilmentne desde el gestor de paquetes. Si no está instalado: `apt-get install checkintall`
