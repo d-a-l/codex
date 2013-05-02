@@ -42,6 +42,10 @@ Con la consola:
 
      git clone git://scantailor.git.sourceforge.net/gitroot/scantailor/scantailor 
 
+o clonar el repositorio sin todo el historial
+
+     git clone --depth 1 git://scantailor.git.sourceforge.net/gitroot/scantailor/scantailor 
+
 ### Compilar
 
 Abrir una consola en directorio que contiene el codigo fuente de Scan Tailor y ejecutar:
