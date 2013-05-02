@@ -3,7 +3,7 @@ Compilar Scan Tailor en Debian wheezy
 
 ### Pre-requisitos para la compilación
 
-Asegurarse que el repositorio de código fuente este habilitado en la lista de fuentes en `/etc/apt/sources.list`, sino agregar o descomentar esta linea:
+Asegurarse que el repositorio de código fuente este habilitado en la lista de fuentes de Debian, en `/etc/apt/sources.list`, sino agregar o descomentar esta linea:
 
     deb-src http://ftp.us.debian.org/debian wheeze main
 
