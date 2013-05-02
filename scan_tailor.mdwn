@@ -29,7 +29,7 @@ Instalar el resto de las dependencias:
 #### Descargar la última versión de Scan Tailor
 
 * Descargar la ultima versión desde el sitio de Scan Tailor en [sourceforge](http://sourceforge.net/projects/scantailor/files/latest/download). Link de descarga para la versión 0.9.11.1 (abril de 2013): [scantailor-0.9.11.1.tar.gz](http://sourceforge.net/projects/scantailor/files/scantailor/0.9.11.1/scantailor-0.9.11.1.tar.gz/download).
-* Copiar el archivo descargado a un directorio para compilar, por ejemplo: `/opt/src`.
+* Copiar el archivo descargado a un directorio para compilar, por ejemplo: `/opt/src`, o `/home/<usuario>/src`
 * Descomprimir el archivo.
 
 Con la consola:
