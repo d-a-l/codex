@@ -50,8 +50,8 @@ Abrir una consola en directorio que contiene el codigo fuente de Scan Tailor y e
 
 Al finalizar el proceso debe lerse:
 
-   - Configuring done 
-   - Generating done
+    - Configuring done 
+    - Generating done
 
 Continuar con la compilación:
 
