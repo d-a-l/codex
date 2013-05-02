@@ -3,15 +3,19 @@ Compilar Scan Tailor en Debian wheezy
 
 ### Pre-requisitos para la compilación
 
-Herramientas basicas para compilación:
+Asegurarse que el repositorio de código fuente este habilitado en la lista de fuentes en `/etc/apt/sources.list`, sino agregar o descomentar esta linea:
+
+    deb-src http://ftp.us.debian.org/debian wheeze main
+
+Instalar herramientas básicas para compilar:
 
     apt-get install build-essential cmake
 
-La librería QT
+Instalar el código fuente de la librería QT:
 
     apt-get install libqt4-dev
 
-Resto de las dependencias
+Instalar el resto de las dependencias:
 
     apt-get install libjpeg8-dev libtiff5-dev libpng12-dev
     apt-get install zlib1g-dev libboost1.49-all-dev libxrender-dev 
