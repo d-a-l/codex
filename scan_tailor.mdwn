@@ -31,7 +31,7 @@ con la consola:
     tar -xzvf scantailor-0.9.11.1.tar.gz
     cd scantailor-0.9.11.1
 
-### Desde el repositorio git
+#### Desde el repositorio git
 
      git clone git://scantailor.git.sourceforge.net/gitroot/scantailor/scantailor 
 
