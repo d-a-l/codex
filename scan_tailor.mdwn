@@ -1,6 +1,59 @@
-### Dependencias para compilación
+Compilar Scan Tailor en Debian wheezy
+-------------------------------------
 
-    build-essential cmake
-    libqt4-dev
-    libjpeg8-dev libtiff5-dev libpng12-dev
-    zlib1g-dev libboost1.49-all-dev libxrender-dev 
+### Pre-requisitos para la compilación
+
+Herramientas basicas para compilación:
+
+    apt-get install build-essential cmake
+
+La librería QT
+
+    apt-get install libqt4-dev
+
+Resto de las dependencias
+
+    apt-get install libjpeg8-dev libtiff5-dev libpng12-dev
+    apt-get install zlib1g-dev libboost1.49-all-dev libxrender-dev 
+
+### Obtener el código fuente
+
+#### Descargar la última versión de Scan Tailor
+
+* descargar desde http://sourceforge.net/projects/scantailor/files/latest/download
+* [scantailor-0.9.11.1.tar.gz](http://sourceforge.net/projects/scantailor/files/scantailor/0.9.11.1/scantailor-0.9.11.1.tar.gz/download)
+* copiar a un directorio para compilar, por ejemplo: `/opt/src`
+* descomprimir el archivo descargado en el lugar donde se realizara la compilación
+
+con la consola:
+
+    wget http://sourceforge.net/projects/scantailor/files/scantailor/0.9.11.1/scantailor-0.9.11.1.tar.gz
+    tar -xzvf scantailor-0.9.11.1.tar.gz
+    cd scantailor-0.9.11.1
+
+### Desde el repositorio git
+
+     git clone git://scantailor.git.sourceforge.net/gitroot/scantailor/scantailor 
+
+### Compilar
+
+Abrir una consola en directorio que contiene el codigo fuente de Scan Tailor y ejecutar:
+
+    cmake .
+
+Al finalizar el proceso debe lerse
+
+   - Configuring done 
+   - Generating done
+
+Continuar con la compilación:
+
+como usuario sin privilegios:
+
+    make
+
+como root:
+
+    make install
+
+(En vez de `make install` puede utilizarse `checkintall`, que permite desinstalar el programa facilmentne desde el gestor de paquetes. Si no está instalado: `apt-get install checkintall`)
