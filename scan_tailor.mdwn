@@ -56,7 +56,7 @@ Abrir una consola en directorio que contiene el codigo fuente de Scan Tailor y e
 
     cmake .
 
-Al finalizar el proceso debe lerse:
+Al finalizar el proceso debe leerse:
 
     - Configuring done 
     - Generating done
