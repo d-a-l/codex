@@ -40,7 +40,7 @@ Con la consola:
 
 #### Opción 2) Desde el repositorio git
 
-La versión del repositorio contiene las últimas actualizaciones incorporadas por los desarrolladores al software, pero puede presentar fallas (bugs) que que aun no han sido detectada o solucionadas.
+La versión del repositorio contiene las últimas actualizaciones incorporadas por los desarrolladores al software, pero puede presentar fallas (bugs) que que aún no han sido detectadas o solucionadas.
 
 Clonar el repositorio en una carpeta local:
 
