@@ -46,13 +46,13 @@ Clonar el repositorio en una carpeta local:
 
      git clone git://scantailor.git.sourceforge.net/gitroot/scantailor/scantailor 
 
-o clonar el repositorio sin todo el historial
+O clonar el repositorio sin todo el historial:
 
      git clone --depth 1 git://scantailor.git.sourceforge.net/gitroot/scantailor/scantailor 
 
 ### Compilar
 
-Abrir una consola en directorio que contiene el codigo fuente de Scan Tailor y ejecutar:
+Abrir una consola en directorio que contiene el código fuente de Scan Tailor y ejecutar:
 
     cmake .
 
@@ -61,12 +61,12 @@ Al finalizar el proceso debe leerse:
     - Configuring done 
     - Generating done
 
-Compilar con make
+Compilar con *make*
 
     make
 
-Instalar en el sistema (como root)
+Instalar en el sistema (como *root*)
 
     make install
 
-**Nota**: en vez de `make install` puede utilizarse `checkinstall`, que permite desinstalar el programa facilmente desde el gestor de paquetes. Si no está instalado: `apt-get install checkinstall`
+**Nota**: en vez de `make install` puede utilizarse `checkinstall`, que permite desinstalar el programa facilmente desde el gestor de paquetes de Debian. Si no está instalado: `apt-get install checkinstall`
