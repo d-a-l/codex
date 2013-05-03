@@ -61,7 +61,7 @@ Al finalizar el proceso debe leerse:
     - Configuring done 
     - Generating done
 
-Continuar con la compilación con make
+Compilar con make
 
     make
 
