@@ -3,7 +3,7 @@ Compilar Scan Tailor en Debian Wheezy
 
 ### Pre-requisitos para la compilación
 
-Asegurarse que el repositorio de código fuente este habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como root) y agregar o descomentar esta línea:
+Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
 
     deb-src http://ftp.us.debian.org/debian wheeze main
 
@@ -28,7 +28,7 @@ Instalar el resto de las dependencias:
 
 #### Opción 1) Descargar la última versión de Scan Tailor
 
-* Descargar la ultima versión desde el sitio de Scan Tailor en [sourceforge](http://sourceforge.net/projects/scantailor/files/latest/download). Link de descarga para la versión 0.9.11.1 (abril de 2013): [scantailor-0.9.11.1.tar.gz](http://sourceforge.net/projects/scantailor/files/scantailor/0.9.11.1/scantailor-0.9.11.1.tar.gz/download).
+* Descargar la ultima versión desde el sitio de Scan Tailor en [`sourceforge`](http://sourceforge.net/projects/scantailor/files/latest/download). Link de descarga para la versión 0.9.11.1 (abril de 2013): [`scantailor-0.9.11.1.tar.gz`](http://sourceforge.net/projects/scantailor/files/scantailor/0.9.11.1/scantailor-0.9.11.1.tar.gz/download).
 * Copiar el archivo descargado a un directorio para compilar, por ejemplo: `/opt/src`, o `/home/<usuario>/src`
 * Descomprimir el archivo.
 
@@ -40,7 +40,7 @@ Con la consola:
 
 #### Opción 2) Desde el repositorio git
 
-La versión del repositorio contiene las últimas actualizaciones incorporadas por los desarrolladores al software, pero puede presentar fallas (bugs) que que aún no han sido detectadas o solucionadas.
+La versión del repositorio contiene las últimas actualizaciones incorporadas por los desarrolladores al *software*, pero puede presentar fallas (*bugs*) que aún no han sido detectadas o solucionadas.
 
 Clonar el repositorio en una carpeta local:
 
