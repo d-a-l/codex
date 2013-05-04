@@ -8,3 +8,5 @@
 ### Software
 
 * [[Scan Tailor|scan_tailor]]
+* [[Gphoto2]]
+* [[Ptpcam]]
