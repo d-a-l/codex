@@ -1,4 +1,6 @@
-### compilar el cliente ptpcam
+### Compilar el cliente ptpcam
+
+A partir del [tutorial de diybookscanner.eu](https://github.com/markvdb/diybookscanner/wiki/Software-triggering-on-Debian-GNU-Linux).
 
 Instalar los paquetes necesarios para la descarga del código y compilación:
 
@@ -23,3 +25,11 @@ O crear un enlace simbólico:
     ln -s /home/<user>/ptpcam/ptpcam /usr/bin/ptpcam
 
 (reemplazar <user> por la carpeta del usuario)
+
+* * * * *
+
+enlaces
+
+* [PTP Extension de CHDK](http://chdk.wikia.com/wiki/PTP_Extension) en el wiki de CHDK, donde se referencian varios clientes PTP que soportan funciones de CHDK.
+* ptpcam de [chdkde](https://www.assembla.com/spaces/chdkde/wiki), el cliente [utilizado en diybookscanner.eu](https://github.com/markvdb/diybookscanner/wiki/Software-triggering-on-Debian-GNU-Linux).
+* [chdkptp](https://www.assembla.com/spaces/chdkptp/wiki), otro cliente ptp para chdk, que incluye [Live View GUI](https://www.assembla.com/wiki/show/chdkptp/Live_View_GUI).
