@@ -5,8 +5,23 @@
 * [[Escáner "roji-azul"|escaner_rojiazul]] (prototipo)
 
 
-### Software
+### Software para PC
 
-* [[Scan Tailor|scan_tailor]]
-* [[Gphoto]]
-* [[Ptpcam]]
+* Software específico para post-procesamiento de DIYBookScanners
+ - [[Scan Tailor|scan_tailor]]
+* OCR
+ - [[tesserac-ocr]]
+* Generadores de formatos finales para libros electrónicos
+ - [[djvubind]] - Generador de archivos en formato [djvu](http://es.wikipedia.org/djvu)
+ - [[gscan2pdf]] - Generador de archivos en formato PDF y djvu
+* Procesadores de imágenes genéricos
+ - [[ImageMagick]]
+ - [[Python Imaging Library (PIL)|PIL]] - Librería de procesamiento de imágenes de Python 
+* Control y conexión con cámaras
+ - [[Gphoto]] - La libreria genérica para conectar cámaras digitales a PCs en GNU/Linux
+ - [[Ptpcam]] - Cliente para controlar las funciones PTP de CHDK
+
+### Software para Cámaras Digitales
+
+* Cannon
+ - [[CHDK]] - Cannon Hack Development Kit
