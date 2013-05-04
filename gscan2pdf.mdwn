@@ -1,1 +1,2 @@
-### Compilación de gscan2pdf
+Compilar gscan2pdf en Debian Wheeze
+-----------------------------------
