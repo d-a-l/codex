@@ -1,0 +1,25 @@
+### compilar el cliente ptpcam
+
+Instalar los paquetes necesarios para la descarga del código y compilación:
+
+    apt-get install subversion libusb-dev
+
+Descargar la última versión de *ptpcam*:
+
+    cd ~
+    svn co http://subversion.assembla.com/svn/chdkde/trunk/tools/ptpcam/
+
+Compilar:
+
+    cd ~/ptpcam
+    make
+
+Copiar el ejecutable compilado a la carpeta correspondiente (como *root*):
+
+    cp ptpcam/ptpcam /usr/bin/ptpcam
+
+O crear un enlace simbólico:
+
+    ln -s /home/<user>/ptpcam/ptpcam /usr/bin/ptpcam
+
+(reemplazar <user> por la carpeta del usuario)
