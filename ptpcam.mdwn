@@ -30,6 +30,9 @@ O crear un enlace simbólico:
 
 enlaces
 
+* Del [repositorio oficial de diybookscanner.org en github](https://github.com/markvdb/diybookscanner/)
+ - [test_keypedal.sh script](https://github.com/markvdb/diybookscanner/blob/master/misc/test_keypedal.sh)
+ - [Software triggering on Debian GNU/Linux](https://github.com/markvdb/diybookscanner/wiki/Software-triggering-on-Debian-GNU-Linux).
 * [PTP Extension de CHDK](http://chdk.wikia.com/wiki/PTP_Extension) en el wiki de CHDK, donde se referencian varios clientes PTP que soportan funciones de CHDK.
 * ptpcam de [chdkde](https://www.assembla.com/spaces/chdkde/wiki), el cliente [utilizado en diybookscanner.eu](https://github.com/markvdb/diybookscanner/wiki/Software-triggering-on-Debian-GNU-Linux).
 * [chdkptp](https://www.assembla.com/spaces/chdkptp/wiki), otro cliente ptp para chdk, que incluye [Live View GUI](https://www.assembla.com/wiki/show/chdkptp/Live_View_GUI).
