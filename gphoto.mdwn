@@ -1,0 +1,9 @@
+### Sobre gPhoto
+
+`gPhoto2` es un set de aplicaciones libres para cámaras digitales, listo para usar, desarrollado por un gran equipo de colaboradores voluntarios alrededor del mundo. Soporta mas de 1600 camaras y es utilizado para descargar y interactuar con las camras digitales desde una PC con un sistema operativo GNU/Linux. `libgphoto2` es la librería que pueden utilizar otros programas para acceder a las cámaras digitale.
+
+### Instalación
+
+Para instalar gPhoto2 en Debian
+
+    apt-get install gphoto2
