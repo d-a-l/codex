@@ -1,2 +1,58 @@
 Compilar gscan2pdf en Debian Wheeze
 -----------------------------------
+
+### Prerequisitos para la compilación
+
+Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
+
+    deb-src http://ftp.us.debian.org/debian wheeze main
+
+Actualizar la lista de paquetes de Debian:
+
+    apt-get update
+
+Instalar herramientas para compilar:
+
+    apt-get install build-essential
+
+Paquetes que probablemete ya tenga instalados
+
+    imagemagick libgtk2.0-0
+
+Librerías de perl
+
+    apt-get install libglib-perl libgtk2-perl libgtk2-imageview-perl libgtk2-ex-simple-list-perl liblocale-gettext-perl libpdf-api2-perl libset-intspan-perl perlmagick
+
+Otras dependencias
+
+    apt-get install libtiff-tools sane-utils
+
+Paquetes opcionales que habilitan más funciones en el programa:
+
+    apt-get install sane # frontend requerido para scanadf
+    apt-get install libgtk2-ex-podviewer-perl # para acceder a la documentación
+    apt-get install djvulibre-bin # utilidades para DjVu
+    apt-get install unpaper # postprocesamiento de libros (márgenes, inclinación, etc)
+    apt-get install xdg-utils 
+
+nota: ultimas versiones de unpaper http://www.flameeyes.eu/projects/unpaper
+
+gocr ultima: 0.50 debian wheezy: 0.49
+http://jocr.sourceforge.net/.
+
+tesseract ultima: 3.02.02 debian wheezy: 3.02.01-6
+http://code.google.com/p/tesseract-ocr/
+
+ocropus debian sid: 0.3.1-4:
+See http://code.google.com/p/ocropus/
+
+cuneiform 1.1.0+dfsg-4 (non-free)
+See http://launchpad.net/cuneiform-linux
+
+
+
+
+http://sourceforge.net/projects/gscan2pdf/files/
+
+perl Makefile.PL
+
