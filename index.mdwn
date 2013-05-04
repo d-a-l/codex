@@ -5,7 +5,7 @@
 * [[Escáner "roji-azul"|escaner_rojiazul]] (prototipo)
 
 
-### Software para PC
+### Software Libre para Digitalización
 
 * Software específico para post-procesamiento de DIYBookScanners
  - [[Scan Tailor|scan_tailor]]
@@ -21,7 +21,7 @@
  - [[Gphoto]] - La libreria genérica para conectar cámaras digitales a PCs en GNU/Linux
  - [[Ptpcam]] - Cliente para controlar las funciones PTP de CHDK
 
-### Software para Cámaras Digitales
+### Software Libre para Cámaras Digitales
 
 * Cannon
  - [[CHDK]] - Cannon Hack Development Kit
