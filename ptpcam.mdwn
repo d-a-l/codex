@@ -34,5 +34,5 @@ enlaces
 * ptpcam de [chdkde](https://www.assembla.com/spaces/chdkde/wiki), el cliente [utilizado en diybookscanner.eu](https://github.com/markvdb/diybookscanner/wiki/Software-triggering-on-Debian-GNU-Linux).
 * [chdkptp](https://www.assembla.com/spaces/chdkptp/wiki), otro cliente ptp para chdk, que incluye [Live View GUI](https://www.assembla.com/wiki/show/chdkptp/Live_View_GUI).
 * Foro [chdk-treff.de](http://forum.chdk-treff.de/):
-- [elementare PTP-Interface-Funktion](http://forum.chdk-treff.de/viewtopic.php?f=7&t=2122)
-- [ptpCamGui - USB-Kamerasteuerung inkl. Datei-Download/Upload](http://forum.chdk-treff.de/viewtopic.php?f=7&t=2207)
+  - [elementare PTP-Interface-Funktion](http://forum.chdk-treff.de/viewtopic.php?f=7&t=2122)
+  - [ptpCamGui - USB-Kamerasteuerung inkl. Datei-Download/Upload](http://forum.chdk-treff.de/viewtopic.php?f=7&t=2207)
