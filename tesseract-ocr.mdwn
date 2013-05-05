@@ -5,7 +5,7 @@ Compilar e Instalar tesseract-ocr en Debian Wheezy
 
 #### Previamente compilar la librería [*leptonica*](http://www.leptonica.com/)
 
-Deben estar instaladas en el sistema ´libjpeg8-dev libtiff5-dev libpng12-dev´:
+Deben estar instaladas en el sistema `libjpeg8-dev libtiff5-dev libpng12-dev`:
 
     apt-get install libjpeg8-dev libtiff5-dev libpng12-dev
 
