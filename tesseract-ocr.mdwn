@@ -3,13 +3,26 @@ Compilar e Instalar tesseract-ocr en Debian Wheezy
 
 ### Pre-requisitos para la compilación
 
-#### Previamente compilar la librería [*leptonica*](http://www.leptonica.com/)
+Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
 
-Deben estar instaladas en el sistema `libjpeg8-dev libtiff5-dev libpng12-dev`:
+    deb-src http://ftp.us.debian.org/debian wheeze main
 
-    apt-get install libjpeg8-dev libtiff5-dev libpng12-dev
+Actualizar la lista de paquetes de Debian:
 
-Descargar la última versión del código fuente del [sitio de leptonica](http://www.leptonica.com/download.html):
+    apt-get update
+
+El sistema debe tener instaladas las herramientas básicas de compilación, de lo contrario:
+
+    apt-get install autoconf automake libtool build-essential
+
+Dependencias de desarrollo necesarias `libjpeg`, libtiff`, libpng`, y `zlib1g`:
+
+    apt-get install libjpeg8-dev libtiff5-dev libpng12-dev zlib1g-dev
+
+
+#### Previamente se debe compilar la librería ['Leptonica'](http://www.leptonica.com/)
+
+Descargar la última versión del código fuente del [sitio leptonica.com](http://www.leptonica.com/download.html):
 
     cd ~
     wget http://www.leptonica.com/source/leptonica-1.69.tar.gz
@@ -42,7 +55,7 @@ O utilizando chekinstall (recomendado)
 
 #### Opción 1) Descargar el código fuente de la última versión de tesseract (recomendado)
 
-Descargar el archivo desde el [sitio web de tesseract](http://code.google.com/p/tesseract-ocr/)
+Descargar el archivo desde el [sitio web de tesseract-ocr](http://code.google.com/p/tesseract-ocr/)
 
     cd ~
     wget http://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.02.tar.gz
@@ -59,7 +72,30 @@ ir al directorio creado:
 #### Descargar directamente desde el repositorio:
 
     svn checkout http://tesseract-ocr.googlecode.com/svn/trunk/ tesseract-ocr-read-only
+    cd tesseract-ocr
 
 ### Compilar e Instalar
 
-     
+Tesseract utiliza el proceso estándar de compilación basado en `autotools`. En el directorio raiz del código fuente descargado ejecutar:
+
+    ./autogen.sh
+    ./configure
+
+Compilar
+
+    make
+
+Instalar (como *root*)
+
+    make install
+
+O utilizando `checkinstall` (recomendado)
+
+    checkinstall
+
+configurar vínculos del enlazador dinámico en tiempo de ejecución con `ldconfig`, (como *root*): 
+
+    ldconfig
+
+
+
