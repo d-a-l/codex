@@ -49,12 +49,16 @@ See http://code.google.com/p/ocropus/
 cuneiform 1.1.0+dfsg-4 (non-free)
 See http://launchpad.net/cuneiform-linux
 
-
-
-
 http://sourceforge.net/projects/gscan2pdf/files/
 
 perl Makefile.PL
+make
+chekinstall
 
-gettext 
-liblocale-msgfmt-perl ?
+-----
+
+paquetes que faltan:
+
+- gettext 
+- liblocale-msgfmt-perl ?
+- nstalar todas las dependencias que da apt cuando se pide instalar gscan2pdf
