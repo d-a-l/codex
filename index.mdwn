@@ -5,7 +5,7 @@
 * [[Escáner "roji-azul"|escaner_rojiazul]] (prototipo)
 
 
-### Software Libre para Digitalización
+### Software Libre para digitalización
 
 * Software específico para post-procesamiento de DIYBookScanners
  - [[Scan Tailor|scan_tailor]]
