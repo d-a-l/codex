@@ -10,7 +10,7 @@
 * Software específico para post-procesamiento de DIYBookScanners
  - [[Scan Tailor|scan_tailor]]
 * OCR
- - [[tesserac-ocr]]
+ - [[tesseract-ocr]]
 * Generadores de formatos finales para libros electrónicos
  - [[djvubind]] - Generador de archivos en formato [djvu](http://es.wikipedia.org/djvu)
  - [[gscan2pdf]] - Generador de archivos en formato PDF y djvu
