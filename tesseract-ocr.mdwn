@@ -69,7 +69,7 @@ ir al directorio creado:
     cd tesseract-ocr-3.02.02
 
 
-#### Descargar directamente desde el repositorio:
+#### Opción 2) Descargar directamente desde el repositorio:
 
     svn checkout http://tesseract-ocr.googlecode.com/svn/trunk/ tesseract-ocr-read-only
     cd tesseract-ocr
