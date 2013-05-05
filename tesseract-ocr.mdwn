@@ -68,6 +68,28 @@ Descomprimir el archivo descargado
 
     svn checkout http://tesseract-ocr.googlecode.com/svn/trunk/ tesseract-ocr-read-only
 
+### Descargar e instalar los archivos de idiomas
+
+Descargar de la [sección de descargas](http://code.google.com/p/tesseract-ocr/downloads/list) del sitio de tesseract-ocr los archivos de idioma necesarios, por ejemplo:
+
+    wget http://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.eng.tar.gz&can=2&q=
+    wget http://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.spa.tar.gz&can=2&q=
+    wget http://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.spa_old.tar.gz&can=2&q=
+    wget http://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.por.tar.gz&can=2&q=
+    wget http://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.fra.tar.gz&can=2&q=
+
+Descomprimir los archivos
+
+    tar -czfv tesseract-ocr-3.02.eng.tar.gz
+    tar -czfv tesseract-ocr-3.02.spa.tar.gz
+    tar -czfv tesseract-ocr-3.02.spa_old.tar.gz
+    tar -czfv tesseract-ocr-3.02.por.tar.gz
+    tar -czfv tesseract-ocr-3.02.fra.tar.gz
+
+Se creará la carpeta `~/tesseract.ocr/tessdata` con los arhivos de idiomas, que se deben mover a `/usr/local/share/tessdata` (como *root*):
+
+    move tesseract.ocr/tessdata /usr/local/share/
+
 ### Compilar
 
 Renombrar el directorio raíz del código fuente descargado (para compatibilizar con Debian):
@@ -88,29 +110,6 @@ Tesseract utiliza el proceso estándar de compilación basado en `autotools`:
 Compilar:
 
     make
-
-### Descargar e instalar los archivos de idiomas
-
-Descargar de la [sección de descargas](http://code.google.com/p/tesseract-ocr/downloads/list) del sitio de tesseract-ocr los archivos de idioma necesarios, por ejemplo:
-
-    wget http://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.eng.tar.gz&can=2&q=
-    wget http://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.spa.tar.gz&can=2&q=
-    wget http://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.spa_old.tar.gz&can=2&q=
-    wget http://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.por.tar.gz&can=2&q=
-    wget http://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.02.fra.tar.gz&can=2&q=
-
-Descomprimir los archivos
-
-    tar -czfv tesseract-ocr-3.02.eng.tar.gz
-    tar -czfv tesseract-ocr-3.02.spa.tar.gz
-    tar -czfv tesseract-ocr-3.02.spa_old.tar.gz
-    tar -czfv tesseract-ocr-3.02.por.tar.gz
-    tar -czfv tesseract-ocr-3.02.fra.tar.gz
-
-Se creará la carpeta `~/tesseract.ocr/tessdata` con los arhivos de idiomas, que se deben mover a `/usr/local/share/tessdata`:
-(como *root*)
-
-    move tesseract.ocr/tessdata /usr/local/share/
 
 ### Instalar 
 
