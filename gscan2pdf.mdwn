@@ -56,3 +56,5 @@ http://sourceforge.net/projects/gscan2pdf/files/
 
 perl Makefile.PL
 
+gettext 
+liblocale-msgfmt-perl ?
