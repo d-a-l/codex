@@ -17,7 +17,7 @@ El sistema debe tener instaladas las herramientas básicas de compilación, de l
 
     apt-get install autoconf automake libtool build-essential
 
-Dependencias de desarrollo necesarias `libjpeg`, libtiff`, libpng`, y `zlib1g`:
+Dependencias de desarrollo necesarias para Tesseract `libjpeg`, `libtiff`, libpng`, y `zlib1g`:
 
     apt-get install libjpeg8-dev libtiff5-dev libpng12-dev zlib1g-dev
 
