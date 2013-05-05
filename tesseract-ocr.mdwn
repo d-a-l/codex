@@ -64,17 +64,15 @@ Descomprimir el archivo descargado
 
     tar -czfv tesseract-ocr-3.02.02.tar.gz
 
-ir al directorio creado:
-
-    cd tesseract-ocr-3.02.02
-
-
 #### Opción 2) Descargar directamente desde el repositorio:
 
     svn checkout http://tesseract-ocr.googlecode.com/svn/trunk/ tesseract-ocr-read-only
-    cd tesseract-ocr
 
 ### Compilar e Instalar
+
+Ir al directorio raíz del código fuente descargado:
+
+    cd tesseract-ocr
 
 Tesseract utiliza el proceso estándar de compilación basado en `autotools`. En el directorio raiz del código fuente descargado ejecutar:
 
@@ -93,7 +91,7 @@ O utilizando `checkinstall` (recomendado)
 
     checkinstall
 
-configurar vínculos del enlazador dinámico en tiempo de ejecución con `ldconfig`, (como *root*): 
+Configurar vínculos del enlazador dinámico en tiempo de ejecución con `ldconfig` (como *root*): 
 
     ldconfig
 
