@@ -7,7 +7,7 @@ En el sitio de tesseract-ocr (en inglés): [**instrucciones para la instalación
 
 Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
 
-    deb-src http://ftp.us.debian.org/debian wheeze main
+    deb-src http://ftp.us.debian.org/debian wheezy main
 
 Actualizar la lista de paquetes de Debian:
 
