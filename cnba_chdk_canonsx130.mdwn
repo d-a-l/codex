@@ -1,0 +1,58 @@
+Instlación de CHDK en cámaras Canon SX130 IS
+--------------------------------------------
+
+(para tarjetas SD de mas de 4MB)
+
+1- Descargar y descomprimir el firmware de chdk
+
+   http://mighty-hoernsche.de/bins/sx130is-101f-1.1.0-2112-full_BETA.zip
+
+
+2- Insertar la tarjeta SD en la PC
+
+3- Iniciar [[Gparted|http://es.wikipedia.org/wiki/GParted]]
+
+4- Borrar todas las particiones que tenga la tarjeta (se deben desmontar primero, se puede hacer desde Gparted).
+
+5- Crear una partición primaria FAT16 del tamaño mínimo posible (1MB es suficiente, pero al parecer el mínimo es de 16 MB según las opciones que permite Gparted).
+
+*  Hacer clic derecho sobre "sin asignar". Se abre un menu contextual: seleccionar el menu "nuevo".
+*  Se abre "crear una particion nueva", cargar las siguientes opciones: *Crear como:* "Particion primaria", *Sistema de archivos:* "fat16", luego, *Espacio libre:* "0", *Tamaño nuevo:* "16MB" (el mínimo posible) y finalmente *"añadir"*
+*  Gparted crea un nueva tarea, aplicar la operación (en el menu, arriba el icono ok).
+*  Gparted creará la partición y avisará cuando la operación concluya.
+
+6- Crear una segunda partición primaria FAT32 que ocupe el resto de espacio en la tarjeta:
+
+*  Volver a hacer click en "sin asignar".
+*  Se abre nuevamente "crear una particion nueva", cargar las opciones: *Crear como:* "Particion primaria" y *Sistema de archivos:* "fat32". Automáticamente se cargarán los demás items para que esta partición ocupe todo el espacio restante del dispositivo. Finalizar con *"añadir"*
+*  Gparted creará un nueva tarea a realizar. Aplicar las operación.
+*  Gparted creará la partición FAT32 y avisará cuando la operación concluya.
+
+7- Hacer "bootable" la partición de FAT16
+
+* En el menu de las particines creadas, seleccionar la particion "FAT16" y haciendo clic con el botón derecho del ratón abrir un menu contextual. Seleccionar la opción *"Gestionar Flags"*, asignar "boot" (esta acción Gparted la realiza inmediatamente, no se genera una tarea).
+
+8- Anotar el nombre de sistema de la particion FAT16 booteable creada en el paso 5. Generalmente `/dev/sdb1` si la pc tiene un solo disco rígido y ningún otro dispositivo montado, excepto la tarjeta SD.
+
+9- Cerrar Gparted
+
+10- Abrir una consola como `root` y ejecutar el siguiente comando, reemplazando `/dev/sdx1`, por el nombre de sistema de la partición de FAT16 que anotamos en el paso 8. **importante: si esta mal asigando `/dev/sdx1` se afectará otra partición del sistema de manera irrecuperable y se puede arruinar el disco de la PC**.
+
+   echo -n BOOTDISK | dd bs=1 count=8 seek=64 of=/dev/sdx1
+
+Usando sudo el comando es
+
+   echo -n BOOTDISK | sudo dd bs=1 count=8 seek=64 of=/dev/sdx1
+
+11- Montar nuevamente las particiones (lo mas simple es retirar y volver a insertar la tarjeta si el sistema las monta automaticamente).
+
+12- Copiar a ambas particiones (FAT16 y FAT32) el firmware CHDK descargado para la camara en el paso 1, incluyendo la carpeta 'CHDK' (y respetando el árbol de directorios) (queda por determinar realmente qué archivos deben cargarse en la FAT16 para que arranque, con copiar el archivo DISKBOOT solamente no alcanza).
+
+13- Desmontar y extraer la tarjeta de la PC.
+
+14- Colocar como 'look' el switch de la tarjeta.
+
+15- Insertar la tarjeta en la camara, al encenderla debe cargar CHDK.
+
+**Importante: al agregar scripts o modificar algo de CHDK, debe hacerse en la particion de FAT32**
+
