@@ -1,3 +1,7 @@
+Manual de Configuración Escáner CNBA
+------------------------------------
+
+
 ### Instalación de CHDK en las cámaras digitales
 
 * [[Averiguar cuál es la versión correcta de CHDK para una cámara digital Canon|chdk_version]]
