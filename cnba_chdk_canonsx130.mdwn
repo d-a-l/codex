@@ -5,8 +5,7 @@ Instlación de CHDK en cámaras Canon SX130 IS
 
 1- Descargar y descomprimir el firmware de chdk
 
-   http://mighty-hoernsche.de/bins/sx130is-101f-1.1.0-2112-full_BETA.zip
-
+    http://mighty-hoernsche.de/bins/sx130is-101f-1.1.0-2112-full_BETA.zip
 
 2- Insertar la tarjeta SD en la PC
 
@@ -38,11 +37,11 @@ Instlación de CHDK en cámaras Canon SX130 IS
 
 10- Abrir una consola como `root` y ejecutar el siguiente comando, reemplazando `/dev/sdx1`, por el nombre de sistema de la partición de FAT16 que anotamos en el paso 8. **importante: si esta mal asigando `/dev/sdx1` se afectará otra partición del sistema de manera irrecuperable y se puede arruinar el disco de la PC**.
 
-   echo -n BOOTDISK | dd bs=1 count=8 seek=64 of=/dev/sdx1
+    echo -n BOOTDISK | dd bs=1 count=8 seek=64 of=/dev/sdx1
 
 Usando sudo el comando es
 
-   echo -n BOOTDISK | sudo dd bs=1 count=8 seek=64 of=/dev/sdx1
+    echo -n BOOTDISK | sudo dd bs=1 count=8 seek=64 of=/dev/sdx1
 
 11- Montar nuevamente las particiones (lo mas simple es retirar y volver a insertar la tarjeta si el sistema las monta automaticamente).
 
