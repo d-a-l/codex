@@ -1,4 +1,4 @@
-DaL-CNBA - Manual de Montaje y Calibración
+DaL-CNBA - Manual de Montaje y Configuración
 -------------------------------------------------
 
 ## Montaje del escaner
