@@ -3,13 +3,13 @@ Manual de Uso - Escáner CNBA
 
 ### 1. Preparación del Escaner
 
-1. Verificaciones y ajustes previos
+1.1 Verificaciones y ajustes previos
   * Ortogonalidad
   * Platina
   * Montaje de las cámaras
-2. Encendido
+1.2 Encendido
   * Conexión y encendido del escaner
   * Conexión y encendido de las cámaras 
   * Ajuste de la iluminación
-3. Colocación de libro
-4. Ajuste inicial de las cámaras
+1.3 Colocación de libro
+1.4 Ajuste inicial de las cámaras
