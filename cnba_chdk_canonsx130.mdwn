@@ -1,7 +1,7 @@
 Instalación de CHDK en cámaras Canon PowerShot  SX130 IS
 --------------------------------------------
 
-Este tutorial se refiere a los modelos de cámaras utilizados en el [[escáner de la Biblioteca del CNBA|escaner_cnba]], para tarjetas SD de mas de 4MB.
+*Este tutorial se refiere a los modelos de cámaras utilizados en el [[escáner de la Biblioteca del CNBA|escaner_cnba]], para tarjetas SD de mas de 4MB.*
 
 1- Descargar y descomprimir el *firmware* de CHDK opción `1.01F` para la cámara `Canon PowerShot SX130IS` desde [[http://mighty-hoernsche.de|http://mighty-hoernsche.de/]] (para averiguar cuál es la opción correcta de *firmware* para otra cámara Canon SX130 (puede ser 1.01C, 1.01D ó 1.01F) seguir [[este tutorial|chdk_version]])
 
