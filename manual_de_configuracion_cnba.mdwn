@@ -1,4 +1,4 @@
-DaL-CNBA - Manual de Montaje y Configuración
+DaL-CNBA - Manual de Montaje, Instalación y Calibración
 -------------------------------------------------
 
 ## Montaje del escaner
@@ -9,9 +9,17 @@ DaL-CNBA - Manual de Montaje y Configuración
 
 ### Montaje de los brazos
 
+## Calibración del escáner
+
+### Calibración de luces
+
+### Calibracion de Brazos
+
 ## Cámaras Digitales
 
 ### Instalación de CHDK en las cámaras digitales
 
 * [[Averiguar cuál es la versión correcta de CHDK para una cámara digital Canon|chdk_version]]
 * [[Instalar CHDK en las cámaras PowerShot SX130 IS|cnba_chdk_canonsx130]]
+
+### Instalación de software de postproceso
