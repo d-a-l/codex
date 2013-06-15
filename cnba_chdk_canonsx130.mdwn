@@ -7,31 +7,31 @@ Instalación de CHDK en cámaras Canon PowerShot  SX130 IS
 
 2- Insertar la tarjeta SD en la PC
 
-3- Iniciar [[Gparted|http://es.wikipedia.org/wiki/GParted]].
+3- Iniciar [[GParted|http://es.wikipedia.org/wiki/GParted]] desde el menu sistema (si no esta instalado `apt-get install gparted` como *root*).
 
-4- Borrar todas las particiones que tenga la tarjeta (se deben desmontar primero, se puede hacer desde Gparted).
+4- Borrar todas las particiones que tenga la tarjeta (se deben desmontar primero, se puede hacer desde GParted).
 
-5- Crear una partición primaria FAT16 del tamaño mínimo posible (1MB es suficiente, pero al parecer el mínimo es de 16 MB según las opciones que permite Gparted).
+5- Crear una partición primaria FAT16 del tamaño mínimo posible (1MB es suficiente, pero al parecer el mínimo es de 16 MB según las opciones que permite GParted).
 
 *  Hacer clic derecho sobre "sin asignar". Se abre un menu contextual: seleccionar el menu "nuevo".
 *  Se abre "crear una particion nueva", cargar las siguientes opciones: *Crear como:* "Particion primaria", *Sistema de archivos:* "fat16", luego, *Espacio libre:* "0", *Tamaño nuevo:* "16MB" (el mínimo posible) y finalmente *"añadir"*
-*  Gparted crea un nueva tarea, aplicar la operación (en el menu, arriba el icono ok).
-*  Gparted creará la partición y avisará cuando la operación concluya.
+*  GParted crea un nueva tarea, aplicar la operación (en el menu, arriba el icono ok).
+*  GParted creará la partición y avisará cuando la operación concluya.
 
 6- Crear una segunda partición primaria FAT32 que ocupe el resto de espacio en la tarjeta:
 
 *  Volver a hacer click en "sin asignar".
 *  Se abre nuevamente "crear una particion nueva", cargar las opciones: *Crear como:* "Particion primaria" y *Sistema de archivos:* "fat32". Automáticamente se cargarán los demás items para que esta partición ocupe todo el espacio restante del dispositivo. Finalizar con *"añadir"*
-*  Gparted creará un nueva tarea a realizar. Aplicar las operación.
-*  Gparted creará la partición FAT32 y avisará cuando la operación concluya.
+*  GParted creará un nueva tarea a realizar. Aplicar las operación.
+*  GParted creará la partición FAT32 y avisará cuando la operación concluya.
 
 7- Hacer "bootable" la partición de FAT16
 
-* En el menu de las particines creadas, seleccionar la particion "FAT16" y haciendo clic con el botón derecho del ratón abrir un menu contextual. Seleccionar la opción *"Gestionar Flags"*, asignar "boot" (esta acción Gparted la realiza inmediatamente, no se genera una tarea).
+* En el menu de las particines creadas, seleccionar la particion "FAT16" y haciendo clic con el botón derecho del ratón abrir un menu contextual. Seleccionar la opción *"Gestionar Flags"*, asignar "boot" (esta acción GParted la realiza inmediatamente, no se genera una tarea).
 
 8- Anotar el nombre de sistema de la particion FAT16 booteable creada en el paso 5. Generalmente `/dev/sdb1` si la pc tiene un solo disco rígido y ningún otro dispositivo montado, excepto la tarjeta SD.
 
-9- Cerrar Gparted
+9- Cerrar GParted.
 
 10- Abrir una consola como `root` y ejecutar el siguiente comando, reemplazando `/dev/sdx1`, por el nombre de sistema de la partición de FAT16 que anotamos en el paso 8. **importante: si esta mal asigando `/dev/sdx1` se afectará otra partición del sistema de manera irrecuperable y se puede arruinar el disco de la PC**.
 
