@@ -1,8 +1,8 @@
 Manual de Uso - Escáner CNBA
 ----------------------------
 
-1. Preparación del Escaner
-2. Proceso de digitalización
-3. Post-proceso
+1. [[Preparación del Escaner|CNBA_preparacion_del_escaner]]
+2. [[Proceso de digitalización|CNBA_proceso_de_digitalizacion]]
+3. [[Post-proceso|Postproceso]]
 
-Problemas Frecuentes
+[[Problemas Frecuentes|CNBA_problemas_frecuentes]]
