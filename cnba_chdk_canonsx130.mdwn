@@ -3,7 +3,7 @@ Instlación de CHDK en cámaras Canon SX130 IS
 
 (para tarjetas SD de mas de 4MB)
 
-1- Descargar y descomprimir el *firmware* de CHDK opción `1.01F` para la cámara Canon PowerShot SX130IS desde [[http://mighty-hoernsche.de|http://mighty-hoernsche.de/]].
+1- Descargar y descomprimir el *firmware* de CHDK opción `1.01F` para la cámara 'Canon PowerShot SX130IS` desde [[http://mighty-hoernsche.de|http://mighty-hoernsche.de/]].
 
 Para averiguar cuál es la opción correcta de *firmware* para una cámara Canon SX130 (puede ser 1.01C, 1.01D ó 1.01F) seguir [[este tutorial|http://chdk.wikia.com/wiki/Ver.req#Q._How_can_I_get_the_original_firmware_version_number_of_my_camera.3F]]
 
