@@ -4,5 +4,5 @@ Escáner de Libros de la Biblioteca del Colegio Nacional Buenos Aires
 
 ### Instalación de CHDK en las cámaras digitales
 
-* [[Cómo averiguar cuál es la versión correcta de CHDK para una cámara digital Canon|CHDK_version]]
-* [[Cómo instalar CHDK en las cámaras PowerShot SX130 IS|CNBA_CHDK_canonSX130]]
+* [[Averiguar cuál es la versión correcta de CHDK para una cámara digital Canon|CHDK_version]]
+* [[Instalar CHDK en las cámaras PowerShot SX130 IS|CNBA_CHDK_canonSX130]]
