@@ -1,1 +1,3 @@
 # Escáner de la Biblioteca del Colegio Nacional Buenos Aires
+
+[[Intalación de CHDK|CNBA_CHDK_canonSX130]]
