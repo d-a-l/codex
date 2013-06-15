@@ -1,0 +1,8 @@
+Manual de Uso - Escáner CNBA
+----------------------------
+
+ 1) Preparación del Escaner
+ 2) Proceso de digitalización
+ 3) Post-proceso
+
+Problemas Frecuentes
