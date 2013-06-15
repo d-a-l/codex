@@ -1,8 +1,21 @@
 Escáner de Libros de la Biblioteca del Colegio Nacional Buenos Aires
 --------------------------------------------------------------------
 
+## Fotografías
 
-### Instalación de CHDK en las cámaras digitales
+* Partes del Escaner.
+* Escaner armado y funcionando en la Biblioteca del CNBA.
 
-* [[Averiguar cuál es la versión correcta de CHDK para una cámara digital Canon|CHDK_version]]
-* [[Instalar CHDK en las cámaras PowerShot SX130 IS|CNBA_CHDK_canonSX130]]
+## Construcción
+
+* [[Planos|Planos_CNBA]]
+* [[Manual de Construcción|Manual_de_construccion_CNBA]]
+
+## Manuales 
+
+* [[Manual Instalación y Configuración|Manual_de_configuracion_CNBA]]
+* [[Manual de Uso|Manual_de_uso_CNBA]]
+
+
+
+
