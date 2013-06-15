@@ -7,7 +7,7 @@ Instalación de CHDK en cámaras Canon PowerShot  SX130 IS
 
 2- Insertar la tarjeta SD en la PC
 
-3- Iniciar [[GParted|http://es.wikipedia.org/wiki/GParted]] desde el menu sistema (si no esta instalado `apt-get install gparted` como *root*).
+3- Iniciar [[GParted|http://es.wikipedia.org/wiki/GParted]] desde el menu sistema (si no esta instalado ejecutar el comando `apt-get install gparted` como *root*, en una terminal).
 
 4- Borrar todas las particiones que tenga la tarjeta (se deben desmontar primero, se puede hacer desde GParted).
 
