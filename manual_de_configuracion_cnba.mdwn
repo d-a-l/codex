@@ -1,6 +1,15 @@
-Manual de Configuración Escáner CNBA
-------------------------------------
+DaL-CNBA - Manual de Montaje y Calibración
+-------------------------------------------------
 
+## Montaje del escaner
+
+### Montaje de las luces
+
+### Montaje de la platina
+
+### Montaje de los brazos
+
+## Cámaras Digitales
 
 ### Instalación de CHDK en las cámaras digitales
 
