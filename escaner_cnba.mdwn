@@ -13,7 +13,7 @@ DaL-CNBA - Escáner de Libros de la Biblioteca del Colegio Nacional Buenos Aires
 
 ### Manuales 
 
-* [[Manual Calibración y Configuración|Manual_de_configuracion_CNBA]]
+* [[Manual de Montaje, Instalación y Calibración|Manual_de_configuracion_CNBA]]
 * [[Manual de Uso|Manual_de_uso_CNBA]]
 
 
