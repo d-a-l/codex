@@ -3,7 +3,7 @@ Escáner de Libros de la Biblioteca del Colegio Nacional Buenos Aires
 
 ### Fotografías
 
-* Partes del Escaner.
+* Detalle de las partes del Escaner.
 * Escaner armado y funcionando en la Biblioteca del CNBA.
 
 ### Construcción
