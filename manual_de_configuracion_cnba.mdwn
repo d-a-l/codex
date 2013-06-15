@@ -1,0 +1,4 @@
+### Instalación de CHDK en las cámaras digitales
+
+* [[Averiguar cuál es la versión correcta de CHDK para una cámara digital Canon|chdk_version]]
+* [[Instalar CHDK en las cámaras PowerShot SX130 IS|cnba_chdk_canonsx130]]
