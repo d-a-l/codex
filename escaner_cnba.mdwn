@@ -3,8 +3,8 @@ DaL-CNBA - Escáner de Libros de la Biblioteca del Colegio Nacional Buenos Aires
 
 ### Fotografías
 
-* Detalle de las partes del Escaner.
-* Escaner armado y funcionando en la Biblioteca del CNBA.
+* Detalle de las partes del Escáner.
+* Escáner armado y funcionando en la Biblioteca del CNBA.
 
 ### Construcción
 
