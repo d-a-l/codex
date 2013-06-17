@@ -14,7 +14,7 @@ Instalación de CHDK en cámaras Canon PowerShot  SX130 IS
 5) Crear una partición primaria FAT16 del tamaño mínimo posible (1MB es suficiente, pero al parecer el mínimo es de 16 MB según las opciones que permite GParted).
 
 *  Hacer clic derecho sobre "sin asignar". Se abre un menu contextual: seleccionar el menu "nuevo".
-*  Se abre "crear una particion nueva", cargar las siguientes opciones: *Crear como:* "Particion primaria", *Sistema de archivos:* `fat16`, luego, *Espacio libre:* `0`, *Tamaño nuevo:* `16MB` (el mínimo posible) y finalmente *añadir*
+*  Se abre "crear una partición nueva", cargar las siguientes opciones: *Crear como:* "Particion primaria", *Sistema de archivos:* `fat16`, luego, *Espacio libre:* `0`, *Tamaño nuevo:* `16MB` (el mínimo posible) y finalmente *añadir*
 *  GParted crea un nueva tarea, aplicar la operación (en el menu, arriba el icono ok).
 *  GParted creará la partición y avisará cuando la operación concluya.
 
