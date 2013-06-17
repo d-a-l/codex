@@ -51,5 +51,5 @@ Usando `sudo` el comando es:
 
 15) Insertar la tarjeta en la camara, al encenderla debe cargar CHDK.
 
-**Importante: al agregar scripts o modificar algo de CHDK, debe hacerse en la particion de FAT32**
+**Importante: al agregar scripts o modificar algo de CHDK, debe hacerse en la partición de FAT32**
 
