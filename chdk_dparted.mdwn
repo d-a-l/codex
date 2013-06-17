@@ -2,9 +2,11 @@
 
 ## Crear las particiones en las tarjetas SD usando Gparted
 
-Gparted es un programa que se utiliza para crear y borrar particiones en lso dispositivos de almacenamiento que utilice su PC. Atención, Gparted corre como "root", por lo tanto puede alterar cualquier dispositivo, incluido el disco rígido, por lo tanto debe ser muy cuidadoso eligiendo el dispositivo correcto de las lista.
+GParted es un programa que se utiliza para crear y borrar particiones en los dispositivos de almacenamiento que utilice su PC. **Atención, Gparted corre como "root", por lo tanto puede alterar cualquier dispositivo, incluido su disco rígido, por lo tanto debe ser muy cuidadoso eligiendo el dispositivo correcto de las lista**. La mayor parte de las operaciones en GParted, primero se configuran y recién al hacer clic sobre "OK", las tareas se ralizan efectivamente luego de pedir una confirmacióń.
 
-La mayor parte de las operaciones, primero se configuran y recién al hacer clic sobre "OK", las tareas se ralizan efectivamente.
+### Selección del dispositivo y borrado de su contenido
+
+-- en construcción --
 
 ### Primera partición mínima FAT16
 
