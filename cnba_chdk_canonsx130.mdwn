@@ -60,4 +60,4 @@ Usando `sudo` el comando es:
 
 **Importante: al agregar scripts o modificar algo de CHDK, debe hacerse en la partición de FAT32**
 
-![gparted1](/media/img/gparted-chdk/gparted-01.png)
+
