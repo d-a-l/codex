@@ -1,4 +1,4 @@
-**Este apartado complementa el tutorial de [[instalación de CHDK en cámaras Canon PowerShot SX130 IS|cnba_chdk_canonsx130]]**
+*Este apartado es un complemento de [[instalación de CHDK en cámaras Canon PowerShot SX130 IS|cnba_chdk_canonsx130]] para el [[escáner CNBA|escaner_cnba]]*
 
 ## Crear las particiones en las tarjetas SD usando Gparted
 
