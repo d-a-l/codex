@@ -11,17 +11,24 @@ Instalación de CHDK en cámaras Canon PowerShot  SX130 IS
 
 4) Borrar todas las particiones que tenga la tarjeta (se deben desmontar primero, se puede hacer desde GParted).
 
-5) Crear una partición primaria FAT16 del tamaño mínimo posible (1MB es suficiente, pero al parecer el mínimo es de 16 MB según las opciones que permite GParted).
+5) Crear una partición primaria FAT16 del tamaño mínimo posible (1MB es suficiente, pero al parecer el mínimo es de 16 MB según las opciones que permite GParted). Para más detalles consultar [[crear particiones para chdk con gparted|chdk_dparted]]
 
 *  Hacer clic derecho sobre "sin asignar". Se abre un menu contextual: seleccionar el menu "nuevo".
-*  Se abre "crear una partición nueva", cargar las siguientes opciones: *Crear como:* "Particion primaria", *Sistema de archivos:* `fat16`, luego, *Espacio libre:* `0`, *Tamaño nuevo:* `16MB` (el mínimo posible) y finalmente *añadir*
+*  Se abre "crear una partición nueva", cargar las siguientes opciones y al finalizar hacer clic en *añadir*: 
+   *  Crear como: `Particion primaria`
+   *  Sistema de archivos: `fat16`
+   *  Espacio libre: `0`
+   *  Tamaño nuevo: `16MB` (el mínimo posible)
 *  GParted crea un nueva tarea, aplicar la operación (en el menu, arriba el icono ok).
-*  GParted creará la partición y avisará cuando la operación concluya.
+*  GParted pedirá confirmación, creará la partición y avisará cuando la operación concluya.
 
 6) Crear una segunda partición primaria FAT32 que ocupe el resto de espacio en la tarjeta:
 
 *  Volver a hacer click en "sin asignar".
-*  Se abre nuevamente "crear una particion nueva", cargar las opciones: *Crear como:* `Particion primaria` y *Sistema de archivos:* `fat32`. Automáticamente se cargarán los demás items para que esta partición ocupe todo el espacio restante del dispositivo. Finalizar con *añadir*
+*  Se abre nuevamente "crear una particion nueva", cargar las opciones: 
+   *   Crear como: `Particion primaria` 
+   *   Sistema de archivos:* `fat32` 
+*  Automáticamente se cargarán los demás items para que esta partición ocupe todo el espacio restante del dispositivo. Finalizar con *añadir*
 *  GParted creará un nueva tarea a realizar. Aplicar las operación.
 *  GParted creará la partición FAT32 y avisará cuando la operación concluya.
 
