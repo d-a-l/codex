@@ -2,19 +2,23 @@ Gparted es un programa que se utiliza para crear y borrar particiones en lso dis
 
 La mayor parte de las operaciones, primero se configuran y recién al hacer clic sobre "OK", las tareas se ralizan efectivamente.
 
-Crear una nueva partición FAT16 de 16MB con clic derecho sobre espacio "sin asignar"
+### Primera partición mínima FAT16
+
+Crear una nueva partición haciendo clic derecho sobre espacio "sin asignar"
 ![gparted](/media/img/gparted-chdk/gparted-01.png)
 
-En el cuadro de diálogo que emerge, seleccionar lo siguiente (y al finalizar "añadir"):
+En el cuadro de diálogo que emerge crear la partición FAT16, seleccionando los siguientes parámetros (y al finalizar "añadir"):
 ![gparted](/media/img/gparted-chdk/gparted-02.png)
 
 Hacer clic el icono para aplicar las operaciones:
 ![gparted](/media/img/gparted-chdk/gparted-03.png)
 
-Respoder afirmativamente a la confirmación
+Respoder afirmativamente a la confirmación y esperar a que la operación finalice.
 ![gparted](/media/img/gparted-chdk/gparted-04.png)
 
-Al finalizar, crear la segunda particion FAT32 en el resto del espacio libre:
+### Segunda partición FAT32
+
+Crear de forma análoga la segunda particion FAT32 en el resto del espacio libre:
 ![gparted](/media/img/gparted-chdk/gparted-05.png)
 
 En el cuadro de diálogo que emerge, seleccionar lo siguiente (y al finalizar "añadir"):
@@ -25,11 +29,15 @@ Aplicar las operaciones y confirmar
 
 En esta instancia Ud. ya tendrá creadas las dos particiones necesarias.
 
+### Aplicar la etiqueta de arranque
+
 Ahora se debe aplicar la etiqueta "boot" a la primer partición creada:
 
 ![gparted](/media/img/gparted-chdk/gparted-08.png)
 
 ![gparted](/media/img/gparted-chdk/gparted-09.png)
+
+### Copiar la direción de la partición FAT16
 
 Copiar la dirección en el sistema de la primer partición FAT16 de la tarjeta. En el ejemplo es `/dev/sdc1/`, sin embargo esta dirección varía segun el numero de dispositivos que tenga su PC (uno, o más discos rígidos o unidades de almacenamiento)
 ![gparted](/media/img/gparted-chdk/gparted-10.png)
