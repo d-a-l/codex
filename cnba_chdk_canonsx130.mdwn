@@ -26,8 +26,8 @@ Instalación de CHDK en cámaras Canon PowerShot  SX130 IS
 
 *  Volver a hacer click en "sin asignar".
 *  Se abre nuevamente "crear una particion nueva", cargar las opciones: 
-   *   Crear como: `Particion primaria` 
-   *   Sistema de archivos:* `fat32` 
+   -   Crear como: `Particion primaria` 
+   -   Sistema de archivos:* `fat32` 
 *  Automáticamente se cargarán los demás items para que esta partición ocupe todo el espacio restante del dispositivo. Finalizar con *añadir*
 *  GParted creará un nueva tarea a realizar. Aplicar las operación.
 *  GParted creará la partición FAT32 y avisará cuando la operación concluya.
@@ -50,14 +50,4 @@ Usando `sudo` el comando es:
 
 11) Montar nuevamente las particiones (lo mas simple es retirar y volver a insertar la tarjeta si el sistema las monta automaticamente).
 
-12) Copiar a ambas particiones (FAT16 y FAT32) el firmware CHDK descargado para la camara en el paso 1, incluyendo la carpeta 'CHDK' (y respetando el árbol de directorios) (queda por determinar realmente qué archivos deben cargarse en la FAT16 para que arranque, con copiar el archivo DISKBOOT solamente no alcanza).
-
-13) Desmontar y extraer la tarjeta de la PC.
-
-14) Colocar como 'look' el switch de la tarjeta.
-
-15) Insertar la tarjeta en la camara, al encenderla debe cargar CHDK.
-
-**Importante: al agregar scripts o modificar algo de CHDK, debe hacerse en la partición de FAT32**
-
-
+12) Copiar a ambas particiones (FAT16 y FAT32) el firmware CHDK descargado para la camara en el paso 1, incluyendo la carpeta 'CHDK' (y respetando el árbol de directorios) (queda por determinar realmente qué archivos deben 
