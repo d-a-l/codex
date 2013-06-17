@@ -42,3 +42,4 @@ Ahora se debe aplicar la etiqueta "boot" a la primer partición creada:
 Copiar la dirección en el sistema de la primer partición FAT16 de la tarjeta. En el ejemplo es `/dev/sdc1/`, sin embargo esta dirección varía segun el numero de dispositivos que tenga su PC (uno, o más discos rígidos o unidades de almacenamiento)
 ![gparted](/media/img/gparted-chdk/gparted-10.png)
 
+**con este dato ya puede seguir el paso 10) del proceso en [[cnba_chdk_canonsx130]]**
