@@ -1,1 +1,1 @@
-Nota mental: podríamos usar geeqie mucho más intensamente de lo que lo estamos haciendo; tiene opciones para rotar y renombrar ya incluidas y eso evitaría correr miles de scripts o usar la terminal.
+http://en.wikipedia.org/wiki/Comparison_of_image_viewers
