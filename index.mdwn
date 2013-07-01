@@ -11,17 +11,21 @@
  - [[Scan Tailor|scan_tailor]]
 * OCR
  - [[tesseract-ocr]]
+ - [[cuneiform]] - permite guardar el texto por debajo de la imagen
 * Generadores de formatos finales para libros electrónicos
  - [[djvubind]] - Generador de archivos en formato [djvu](http://es.wikipedia.org/djvu)
  - [[gscan2pdf]] - Generador de archivos en formato PDF y djvu
 * Procesadores de imágenes genéricos
  - [[ImageMagick]]
- - [[Python Imaging Library (PIL)|PIL]] - Librería de procesamiento de imágenes de Python 
+ - [[Python Imaging Library (PIL)|PIL]] - Librería de procesamiento de imágenes de Python
 * Control y conexión con cámaras
  - [[Gphoto]] - La libreria genérica para conectar cámaras digitales a PCs en GNU/Linux
  - [[Ptpcam]] - Cliente para controlar las funciones PTP de CHDK
+* Visores de imágenes / renombrado / rotado / acciones en lote
+ - [[Geeqie]] - Visor y organizador de imágenes
+ - [[Phatch]] - Acciones en lote sobre imágenes (obsoleto)
 
 ### Software Libre para Cámaras Digitales
 
 * Cannon
- - [[CHDK]] - Cannon Hack Development Kit
+ - [[CHDK]] - Canon Hackers Development Kit
