@@ -1,0 +1,13 @@
+### Software de gestión de bibliotecas (Argentina)
+
+Koha comunidades
+
+* http://groups.yahoo.com/neo/groups/koha-es/info
+* http://www.koha.unlp.edu.ar/
+
+GPLib
+
+* http://informatica.filo.uba.ar/gplib
+ - [http://en.wikipedia.org/wiki/Greenstone_%28software%29 Greesntone]
+ - Tema 3
+ - [http://guarani.unne.edu.ar/ Siu-Guarani]
