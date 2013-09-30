@@ -8,6 +8,6 @@ Koha comunidades
 GPLib
 
 * http://informatica.filo.uba.ar/gplib
- - [Greesntone](http://en.wikipedia.org/wiki/Greenstone_%28software%29)
+ - [Greenstone](http://en.wikipedia.org/wiki/Greenstone_%28software%29)
  - Tema 3
  - [Siu-Guarani](http://guarani.unne.edu.ar/)
