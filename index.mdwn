@@ -29,3 +29,7 @@
 
 * Cannon
  - [[CHDK]] - Canon Hackers Development Kit
+
+----
+
+[[La Pila]]
