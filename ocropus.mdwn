@@ -1,13 +1,16 @@
 OCRopus
 -------
 
+
 [**OCRopus**](https://code.google.com/p/ocropus/) es ​​un sistema de Reconocimiento Óptico de Caracteres (OCR) escrito en Python, NumPy, y SciPy.
 
 
 Instalar OCRopus en Debian Wheezy
 ---------------------------------
 
+
 ### Dependencias
+
 
 Las siguientes operaciones deben ejecutarse como usuario *root*.
 
@@ -26,6 +29,7 @@ Instalar los paquetes de python requeridos por OCRopus:
 
 ### Obtener el código y modelos de datos de OCRopus:
 
+
 Elegir un directorio y realizar una copia local del repositorio de OCRopus (como usuario no root). Reemplazar `<version>` por la [última versión](https://code.google.com/p/ocropus/) disponible, al momento de escribir esta guía: 0.7
 
     hg clone -r ocropus-<version> https://code.google.com/p/ocropus
@@ -41,16 +45,17 @@ Descargar los modelos de datos (son alrededor de 500Mb):
 
 
 ### Instalar OCRopus en el sistema
-    
+
+
 Como *root* ejecutar:
 
     python setup.py install
 
-Para verificar que el programa funcione correctamente se puede ejecutar un test:
+Para verificar que el programa funcione correctamente se puede realizar un test:
 
     ./run-test
 
-Al finalizar el test, los resultados pueden leerse desde el navegador:
+Al finalizar el proceso, los resultados pueden leerse desde el navegador:
 
      firefox temp.html
      firefox temp-correction.html
