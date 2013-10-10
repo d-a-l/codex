@@ -40,9 +40,7 @@ Otras dependencias de desarrollo necesarias `libjpeg`, `libtiff`, `libpng`, y `z
 
     apt-get install libjpeg8-dev libtiff5-dev libpng12-dev zlib1g-dev
 
-Obtener el código fuente de `jbig2enc` desde el GitHub [descargar ZIP](https://github.com/agl/jbig2enc/archive/master.zip) y descomprimir el archivo (recomendado), o clonando el repositorio con el comando:
-
-    git clone https://github.com/agl/jbig2enc.git
+Obtener el código fuente de `jbig2enc` desde el GitHub [descargando el ZIP](https://github.com/agl/jbig2enc/archive/master.zip) y descomprimiendo el archivo en la carpeta elegida para realizar la compilación (recomendado), o clonando el repositorio con el comando `git clone https://github.com/agl/jbig2enc.git`.
 
 Luego, ingresar al directorio que contiene el código fuente:
 
@@ -54,18 +52,17 @@ Seguir el proceso tradicional de compilación:
     ./configure
     make
 
-Para instalar en el sistema utilice (como root):
+Y para instalar en el sistema utilice (como root):
 
     make install
 
-O utilizando chekinstall (recomendado)
+O `chekinstall` (recomendado)
 
-En caso de utilizar `checkinstall` asegurarse que exista el directorio `/usr/local/share/doc`, si no
-crearlo con el comando (como root) `mkdir /usr/local/share/doc`. Además debe agregarse un número de versión correcto (puede obtenerse [desde este archivo](https://github.com/agl/jbig2enc/blob/master/ChangeLog)) en el ítem 3 de `checkinstall` (por defecto checkinstall coloca "master" y da error al armar el paquete deb)
+En caso de usar `checkinstall` asegurarse que exista el directorio `/usr/local/share/doc` en su sistema, si no crearlo con el comando (como root) `mkdir /usr/local/share/doc`. Además debe agregarse un número de versión correcto (puede obtenerse [desde este archivo](https://github.com/agl/jbig2enc/blob/master/ChangeLog)) en el ítem 3 de la lista devuelta por `checkinstall` antes de iniciar el proceso de construcción del paquete deb (por defecto `checkinstall` colocará "master" y da error)
 
 ##### instalación de PDFbeads
 
-ejecutar (como root)
+Simplemente ejecutar (como root)
 
      gem install pdfbeads
 
