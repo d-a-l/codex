@@ -1,0 +1,71 @@
+Compilar e Instalar PDFBeads en Debian Wheezy
+--------------------------------------------------
+
+PDFBeads es un programa generador de PDFs desarrollado en Ruby por Alexey Kryukov. La aplicación fue diseñada especialmente para trabajar con las imágenes procesadas con [Scantailor]. Optimiza la compresión de imágenes dentro del PDF, generando documento de menor tamaño. Puede incorporar al PDF el texto obtenido del OCR.
+* [Sitio de PDFBeads en Rubyforge](http://rubyforge.org/projects/pdfbeads/)
+* [Hilo sodre PDFBeads en el foro de DIYBookScanner](http://diybookscanner.org/forum/viewtopic.php?f=3&t=683).
+
+### Pre-requisitos para la compilación
+
+Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
+
+    deb-src http://ftp.us.debian.org/debian wheezy main
+
+Actualizar la lista de paquetes de Debian:
+
+    apt-get update
+
+El sistema debe tener instalado [RubyGems](http://rubygems.org/) el gestor de paquetes para el lenguaje de programación [Ruby](http://es.wikipedia.org/wiki/Ruby):
+
+    apt-get install rubygems 
+
+Las siguientes paquetes de Ruby pueden instalarse desde el gestor de paquetes Debian:
+
+    apt-get install ruby-rmagick ruby-hpricot
+
+#### Previamente se debe compilar la librería ['jbig2enc'](https://github.com/agl/jbig2enc)
+
+[JBIG2](http://en.wikipedia.org/wiki/JBIG2) es un algoritmo de compresión que genera imágenes de menor tamaño. El algoritmo está patentado (por IBM y Mitsubishi), y por esa razón probablemente no esté incluído en los repositorios Debian para instalarse automáticamente. En los países donde no existen las patentes de software no existe impedimento. `jbig2enc` es una implementación del algoritmo en python.
+
+El proceso de compilación utiliza el set de herramientas de "GNU build system", que deben estar instaladas en el sistema:
+
+     apt-get install autotools-dev automake libtool
+
+`jbig2enc` utiliza la librería [Leptonica](http://leptonica.com/), que puede instalarse desde el repositorio de Debian:
+
+     apt-get install libleptonica-dev
+
+Otras dependencias de desarrollo necesarias `libjpeg`, `libtiff`, `libpng`, y `zlib1g`:
+
+    apt-get install libjpeg8-dev libtiff5-dev libpng12-dev zlib1g-dev
+
+Obtener el código fuente de `jbig2enc` desde el GitHub [descargar ZIP](https://github.com/agl/jbig2enc/archive/master.zip) y descomprimir el archivo (recomendado), o clonando el repositorio con el comando:
+
+    git clone https://github.com/agl/jbig2enc.git
+
+Luego, ingresar al directorio que contiene el código fuente:
+
+    cd jbig2enc-master
+
+Seguir el proceso tradicional de compilación:
+
+    ./autogen.sh
+    ./configure
+    make
+
+Para instalar en el sistema utilice (como root):
+
+    make install
+
+O utilizando chekinstall (recomendado)
+
+En caso de utilizar `checkinstall` asegurarse que exista el directorio `/usr/local/share/doc`, si no
+crearlo con el comando (como root) `mkdir /usr/local/share/doc`. Además debe agregarse un número de versión correcto (puede obtenerse [desde este archivo](https://github.com/agl/jbig2enc/blob/master/ChangeLog)) en el ítem 3 de `checkinstall` (por defecto checkinstall coloca "master" y da error al armar el paquete deb)
+
+##### instalación de PDFbeads
+
+ejecutar (como root)
+
+     gem install pdfbeads
+
+
