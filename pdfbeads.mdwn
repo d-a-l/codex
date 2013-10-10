@@ -28,17 +28,18 @@ Actualizar la lista de paquetes de Debian:
 
     apt-get update
 
-El sistema debe tener instalado [RubyGems](http://rubygems.org/) el gestor de paquetes para el lenguaje de programación [Ruby](http://es.wikipedia.org/wiki/Ruby):
+Instalar [RubyGems](http://rubygems.org/), el gestor de paquetes para el lenguaje de programación [Ruby](http://es.wikipedia.org/wiki/Ruby):
 
     apt-get install rubygems 
 
-Las siguientes paquetes de Ruby pueden instalarse desde el gestor de paquetes Debian:
+Instalar los siguientes paquetes de Ruby que pueden instalarse desde el gestor de paquetes Debian:
 
     apt-get install ruby-rmagick ruby-hpricot
 
+
 #### Previamente se debe compilar la librería ['jbig2enc'](https://github.com/agl/jbig2enc)
 
-[JBIG2](http://en.wikipedia.org/wiki/JBIG2) es un algoritmo de compresión que genera imágenes de menor tamaño. El algoritmo está patentado (por IBM y Mitsubishi), y por esa razón probablemente no esté incluído en los repositorios Debian para instalarse automáticamente. En los países donde no existen las patentes de software no existe impedimento. `jbig2enc` es una implementación del algoritmo en python.
+[JBIG2](http://en.wikipedia.org/wiki/JBIG2) es un algoritmo estandarizado de compresión que genera imágenes de menor tamaño. `jbig2enc` es una implementación libre en python.
 
 El proceso de compilación utiliza el set de herramientas de "GNU build system", que deben estar instaladas en el sistema:
 
