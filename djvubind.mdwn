@@ -1,0 +1,30 @@
+Djvubind
+--------
+
+**Djvubind** permite crear archivos [DjVu](http://es.wikipedia.org/wiki/DjVu) de alta calidad, optimizados especialmente oara versiones digitales de los libros escaneados. Utiliza DjVuLibre, minidjvu, y varios motores de OCR, permitiendo la creación del archivo DjVu desde un solo comando, a partir de las imágenes escaneadas.
+
+Instalación de Djvubind en Debian Wheezy
+----------------------------------------
+
+Instalar Python 3:
+
+    apt-get install python3 
+
+Instalar DjVuLibre, la implementación libre del formato DjVu y minidjvu:
+
+    apt-get install djvulibre-bin minidjvu
+
+Instalar ImageMagick y el motor de OCR tesseract (probablemente ya se encuentren en el sistema):
+
+    apt-get install imagemagick tesseract
+
+Descargar el código de la última versión de Djvubind desde [su sitio web](http://code.google.com/p/djvubind/), en la sección [downloads](http://code.google.com/p/djvubind/downloads/list), y descomprimir el archivo en una carpeta temporal, o realizar una copia local del repositorio con el comando `hg clone https://code.google.com/p/djvubind/`
+
+Luego, ingresar al directorio donde se encuentra el código del programa:
+
+    cd djvubind-*
+
+E instalar:
+
+    ./setup.py install --install-layout=deb
+
