@@ -15,6 +15,7 @@ Sobre PDFBeads
  -  [Sitio de PDFBeads en Rubyforge](http://rubyforge.org/projects/pdfbeads/)
  -  [Hilo sodre PDFBeads en el foro de DIYBookScanner](http://diybookscanner.org/forum/viewtopic.php?f=3&t=683).
 
+
 Instalar PDFBeads en Debian Wheezy
 ----------------------------------
 
