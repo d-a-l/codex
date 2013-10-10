@@ -11,9 +11,11 @@
  - [[Scan Tailor|scan_tailor]]
 * OCR
  - [[tesseract-ocr]]
- - [[cuneiform]] - permite guardar el texto por debajo de la imagen
+ - [[cuneiform]]
+ - [[ocropus]]
 * Generadores de formatos finales para libros electrónicos
  - [[djvubind]] - Generador de archivos en formato [djvu](http://es.wikipedia.org/djvu)
+ - [[pdfbeads]] - Generador de archivos en formato PDF
  - [[gscan2pdf]] - Generador de archivos en formato PDF y djvu
 * Procesadores de imágenes genéricos
  - [[ImageMagick]]
