@@ -5,7 +5,7 @@ Sobre PDFBeads
 
 ##### Características:
 
- -  Genera un archivo PDF a partir de archivos TIFF numerados en orden.
+ -  Genera un documento PDF a partir de archivos TIFF numerados en orden.
  -  Optimiza la compresión de imágenes dentro del PDF utilizando [JBIG2](http://en.wikipedia.org/wiki/JBIG2), obteniendo documento de menor tamaño.
  -  Utilizando el el formato estándar [hOCR](http://en.wikipedia.org/wiki/HOCR) puede incorporar al PDF información obtenida por reconocimiento óptico de caracteres ([OCR](http://es.wikipedia.org/wiki/Reconocimiento_%C3%B3ptico_de_caracteres)), habilitando búsquedas dentro del documento.
 
