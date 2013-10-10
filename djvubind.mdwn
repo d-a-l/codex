@@ -3,7 +3,7 @@ Djvubind
 
 **Djvubind** permite crear archivos [DjVu](http://es.wikipedia.org/wiki/DjVu) de alta calidad, optimizados especialmente para versiones digitales de los libros escaneados. Utiliza DjVuLibre, minidjvu, y varios motores de OCR, permitiendo la creación del archivo DjVu desde un solo comando, a partir de las imágenes escaneadas.
 
-Instalación de Djvubind en Debian Wheezy
+Instalar Djvubind en Debian Wheezy
 ----------------------------------------
 
 Instalar Python 3:
