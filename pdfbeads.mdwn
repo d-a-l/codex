@@ -65,13 +65,13 @@ Seguir el proceso tradicional de compilación:
     ./configure
     make
 
-Y para instalar en el sistema utilice (como root):
+Y para instalar en el sistema utilizar (como root):
 
     make install
 
 O `chekinstall` (recomendado)
 
-En caso de usar `checkinstall` asegurarse que exista el directorio `/usr/local/share/doc` en su sistema, si no crearlo con el comando (como root) `mkdir /usr/local/share/doc`. Además debe agregarse un número de versión correcto (puede obtenerse [desde este archivo](https://github.com/agl/jbig2enc/blob/master/ChangeLog)) en el ítem 3 de la lista devuelta por `checkinstall` antes de iniciar el proceso de construcción del paquete deb (por defecto `checkinstall` colocará "master" y da error)
+En caso de usar `checkinstall` asegurarse que exista el directorio `/usr/local/share/doc` en el sistema. Puede creárselo con el comando (como root) `mkdir /usr/local/share/doc`. Además debe ingresarse un número de versión correcto (puede obtenerse [desde este archivo](https://github.com/agl/jbig2enc/blob/master/ChangeLog)) en el ítem 3 de la lista devuelta por `checkinstall` antes de iniciar el proceso de construcción del paquete deb (por defecto `checkinstall` colocará "master" y provocará un error)
 
 ##### instalación de PDFbeads
 
