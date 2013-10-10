@@ -9,7 +9,7 @@ Instalar OCRopus en Debian Wheezy
 
 ### Dependencias
 
-Como usuario *root* ejecutar los siguientes operaciones.
+Como usuario *root* ejecutar las siguientes operaciones.
 
 Actualizar la lista de paquetes de Debian:
 
