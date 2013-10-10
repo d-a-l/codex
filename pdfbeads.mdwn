@@ -1,4 +1,4 @@
-Compilar e Instalar PDFBeads en Debian Wheezy
+Instalar PDFBeads en Debian Wheezy
 --------------------------------------------------
 
 **PDFBeads** es un programa generador de PDFs desarrollado en [Ruby](http://es.wikipedia.org/wiki/Ruby) por Alexey Kryukov. La aplicación fue diseñada especialmente para trabajar con las imágenes procesadas con [Scantailor](http://wiki.diybookscanner.org/scantailor). Optimiza la compresión de imágenes dentro del PDF, generando documento de menor tamaño. Puede incorporar al PDF el texto obtenido del OCR.
