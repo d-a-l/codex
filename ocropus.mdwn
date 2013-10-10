@@ -26,11 +26,10 @@ Instalar los paquetes de python requeridos por OCRopus:
 
 ### Obtener el código y modelos de datos de OCRopus:
 
-Elegir un directorio y realizar una copia local del repositorio de OCRopus (como usuario no root):
+Elegir un directorio y realizar una copia local del repositorio de OCRopus (como usuario no root). Reemplazar `<version>` por la [última versión](https://code.google.com/p/ocropus/) disponible, al momento de escribir esta guía: 0.7
 
     hg clone -r ocropus-<version> https://code.google.com/p/ocropus
 
-Reemplazar <version> por la [última versión](https://code.google.com/p/ocropus/) disponible, al momento de escribir esta guía: 0.7
 
 Ingresar al directorio donde se encuentra el código:
 
