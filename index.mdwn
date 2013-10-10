@@ -12,7 +12,7 @@
 * OCR
  - [[tesseract-ocr]]
  - [[cuneiform]]
- - [[ocropus]]
+ - [[ocropus]] [sitio web](https://code.google.com/p/ocropus/)
 * Generadores de formatos finales para libros electrónicos
  - [[djvubind]] - Generador de archivos en formato [djvu](http://es.wikipedia.org/djvu)
  - [[pdfbeads]] - Generador de archivos en formato PDF
