@@ -1,36 +1,51 @@
-## Instalación ##
+Compilar chdkptp en Debian Wheezy
+-------------------------------------
 
-### Dependencias: ###
+### Pre-requisitos para la compilación
+
+Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
+
+    deb-src http://ftp.us.debian.org/debian wheezy main
+
+Actualizar la lista de paquetes de Debian:
+
+    apt-get update
+
+Instalar dependencias
 
     apt-get install libusb-1.0-0 libusb-dev liblua5.1-0-dev liblua5.1-0 libusb-1.0-0-dev
 
-### IUP, CD, IM ###
-
-Descargar binarios precompilados de las librerías iup, cd, im (buscar los links de descarga a la ultima versión)
+Instalar IUP, CD, IM: Descargar los binarios precompilados de las librerías iup, cd, im (buscar los links de descarga a la ultima versión) del sitio del Instituto Tecgraf de Desenvolvimento de Software Técnico-Científico da PUC-Rio (Tecgraf/PUC-Rio) 
 
 * http://www.tecgraf.puc-rio.br/iup/
 * http://www.tecgraf.puc-rio.br/cd/
 * http://www.tecgraf.puc-rio.br/im/
 
-los archivos tar.gz descargados se descomprimen en ./ así que previamente crear carpetas contenedoras donde descomprimir, por ejemplo en mkdir /opt/src/iup-<ver>_Linux32_lib
+Los archivos tar.gz descargados se descomprimen en ./ así que previamente crear carpetas contenedoras donde descomprimir, por ejemplo en 
 
-para instalar, ingresar a cada carpeta y ejecutar los scripts
+   mkdir /opt/src/iup-<ver>_Linux32_lib
+   mkdir /opt/src/cd-<ver>_Linux32_lib
+   ...
+
+para instalar, ingresar a cada carpeta y ejecutar los scripts de instalación (en cada carpeta el archivo LINSTALL incluye mas info sobre la instalación)
 
     install
     install_dev
     config_lua_module
 
-### compilar chdkptp ###
+### Obtener el código fuente de chdkptp
 
-descargar el código fuente
+descargar el repositorio oficial
 
      svn co http://subversion.assembla.com/svn/chdkptp/trunk chdkptp
 
-crear archivo de configuración a partir del ejemplo
+### Configurar y compilar
+
+Crear archivo de configuración a partir del ejemplo
 
      mv config-sample-linux.mk config.mk
 
-editar el archivo y agregar los links a las librerias:
+Editar el archivo y agregar los links a las librerias:
 
     IUP_SUPPORT=1
     CD_SUPPORT=1
@@ -44,12 +59,12 @@ editar el archivo y agregar los links a las librerias:
     CD_LIB_DIR=/opt/src/cd-<ver>_Linux32_lib
     CD_INCLUDE_DIR=/opt/src/cd-<ver>_Linux32_lib/include
 
-compilar:
+Compilar:
 
     make
 
 
-## Verificaciones previas ##
+### Verificaciones previas para ejecutar chdkptp
 
 Desactivar automount
 
@@ -70,7 +85,7 @@ verificar si el paquete está instalado o no en el sistema:
      dpkg -s gvfs-backends|grep Status
 
 
-## Ejecutar chdkptp ##
+### Ejecutar chdkptp
 
 ir al directorio chdkptp
 
