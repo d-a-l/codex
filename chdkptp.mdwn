@@ -1,4 +1,4 @@
-== instalar
+## instalar
 
      svn co http://subversion.assembla.com/svn/chdkptp/trunk chdkptp
 
