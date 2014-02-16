@@ -251,6 +251,7 @@ connected: Canon DIGITAL IXUS 30, max packet size 64
 
 
 averiguar el nombre de la ultima foto
+
 * CDKPTP with Auto-file-transfer-to-PC for the S90 - Developmental Version http://chdk.setepontos.com/index.php?topic=9067.0
 * Downloading a picture that was just taken with chdkptp http://chdk.setepontos.com/index.php?topic=6872.0
 * Need advice on how to use CHDKPTP to retrieve file name of last picture taken  http://chdk.setepontos.com/index.php?topic=10458.0
