@@ -12,11 +12,7 @@ Descargar binarios precompilados de las librerías iup, cd, im (buscar los links
 * http://www.tecgraf.puc-rio.br/cd/
 * http://www.tecgraf.puc-rio.br/im/
 
-los archivos tar.gz descargados se descomprimen en ./ así que previamente crear un carpetas contenedoras donde descomprimir
-
-     mkdir /opt/src/iup-<ver>_Linux32_lib
-     mkdir /opt/src/cd-<ver>_Linux32_lib
-     mkdir /opt/src/im-<ver>_Linux32_lib
+los archivos tar.gz descargados se descomprimen en ./ así que previamente crear carpetas contenedoras donde descomprimir, por ejemplo en mkdir /opt/src/iup-<ver>_Linux32_lib
 
 para instalar, ingresar a cada carpeta y ejecutar los scripts
 
