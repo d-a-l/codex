@@ -9,6 +9,7 @@
 
 * Software específico para post-procesamiento de DIYBookScanners
  - [[Scan Tailor|scan_tailor]]
+ - [[Spreads]] (http://spreads.readthedocs.org/en/latest/)
 * OCR
  - [[tesseract-ocr]]
  - [[cuneiform]]
