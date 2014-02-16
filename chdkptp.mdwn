@@ -139,7 +139,7 @@ http://articulo.mercadolibre.com.ar/MLA-481116439-camara-digital-canon-powershot
 
 http://chdk.setepontos.com/index.php?topic=6231.msg83548#msg83548
 
-chdkptp -n -e"!mc=require('multicam')" -e"!mc:connect()" -e"!mc:start()" -e"!return mc:cmdwait('rec')" -e"!return mc:cmdwait('preshoot')" -e"!return mc:cmdwait('shoot')" -e"!return mc:cmdwait('play')" -e"!mc:cmd('exit')"
+    chdkptp -n -e"!mc=require('multicam')" -e"!mc:connect()" -e"!mc:start()" -e"!return mc:cmdwait('rec')" -e"!return mc:cmdwait('preshoot')" -e"!return mc:cmdwait('shoot')" -e"!return mc:cmdwait('play')" -e"!mc:cmd('exit')"
 
 ----
 
@@ -167,21 +167,21 @@ tip: `exec sys.sleep(1000)` para generar una pausa en la ejecución
 http://chdk.setepontos.com/index.php?topic=6231.msg95265#msg95265
 FYI, you may find it more convenient to put the commands into a file rather than using so many -e commands. e.g you could put the following in myfile.chdkptp
 
-delete DCIM
-exec sys.sleep(2000)
-luar switch_mode_usb(1); set_zoom(0); set_prop(6, 3); shoot(); switch_mode_usb(0)
-exec sys.sleep(2000)  
-mdl DCIM /tmp/chdk-download
-exec sys.sleep(2000) 
-delete DCIM
+    delete DCIM
+    exec sys.sleep(2000)
+    luar switch_mode_usb(1); set_zoom(0); set_prop(6, 3); shoot(); switch_mode_usb(0)
+    exec sys.sleep(2000)  
+    mdl DCIM /tmp/chdk-download
+    exec sys.sleep(2000) 
+    delete DCIM
 
-sudo sh /home/pi/chdkptp/chdkptp-sample.sh -c -rmyfile.chdkptp
+    sudo sh /home/pi/chdkptp/chdkptp-sample.sh -c -rmyfile.chdkptp
 
 ----
 http://chdk.setepontos.com/index.php?topic=6231.msg98677#msg98677
 You can get an idea of the time required for each step using the
 
-set cli_time=true
+    set cli_time=true
 
 ----
 
@@ -198,13 +198,13 @@ http://chdk.setepontos.com/index.php?topic=6231.msg89252#msg89252
 Re: CHDK PTP multiple instances
 http://chdk.setepontos.com/index.php?topic=8769.msg91611#msg91611
 
-___> !devs=chdk.list_usb_devices()
-___> !con1=chdku.connection(devs[1])
-___> !return con1:connect();
-=true
-___> !con2=chdku.connection(devs[2])
-___> !return con2:connect()
-=true
+    ___> !devs=chdk.list_usb_devices()
+    ___> !con1=chdku.connection(devs[1])
+    ___> !return con1:connect();
+    =true
+    ___> !con2=chdku.connection(devs[2])
+    ___> !return con2:connect()
+    =true
 
 ----
 
@@ -217,13 +217,13 @@ Controlling two cameras at once creates some additional complications, but it is
 
 http://chdk.wikia.com/wiki/Chdkptp_in_headless_linux_Dockstar_-_remote_control
 
-/usr/src/chdkptp/lua# /usr/src/chdkptp/chdkptp -i -c
-<con> =switch_mode_usb(1)
-<con> lua set_zoom(3)
-<con> lua shoot()
-<con> =switch_mode_usb(0)
-<con> download A/DCIM/133CANON/IMG_7440.JPG /var/www/7440.jpg
-<con>q
+    /usr/src/chdkptp/lua# /usr/src/chdkptp/chdkptp -i -c
+    <con> =switch_mode_usb(1)
+    <con> lua set_zoom(3)
+    <con> lua shoot()
+    <con> =switch_mode_usb(0)
+    <con> download A/DCIM/133CANON/IMG_7440.JPG /var/www/7440.jpg
+    <con>q
 
 -----
 
@@ -231,9 +231,11 @@ list remote
 http://chdk.setepontos.com/index.php?topic=8600.10
 
 connected: Canon DIGITAL IXUS 30, max packet size 64
-con> =return os.listdir('A/')
-5:return:table:{[1]="CHDK",[2]="DISKBOOT.BIN",[3]="DCIM",[4]="badpixel.bin",[5]="ver.req",[6]="paramdmp.log",[7]="MISC",[8]="chdk_ixus30_111006am.tar.gz",}
-con 5>
+
+    con> =return os.listdir('A/')
+    5:return:table:{[1]="CHDK",[2]="DISKBOOT.BIN",[3]="DCIM",[4]="badpixel.bin",[5]="ver.req",[6]="paramdmp.log",[7]="MISC",[8]="chdk_ixus30_111006am.tar.gz",}
+    con 5>
+
 -----
 
 
@@ -249,5 +251,5 @@ averiguar el nombre de la ultima foto
 
 
 
-download A/DCIM/133CANON/IMG_7440.JPG /var/www/7440.jpg
-q
+     download A/DCIM/133CANON/IMG_7440.JPG /var/www/7440.jpg
+     q
