@@ -23,6 +23,7 @@
 * Control y conexión con cámaras
  - [[Gphoto]] - La libreria genérica para conectar cámaras digitales a PCs en GNU/Linux
  - [[Ptpcam]] - Cliente para controlar las funciones PTP de CHDK
+ - [[chdkptp]] - Idem
 * Visores de imágenes / renombrado / rotado / acciones en lote
  - [[Geeqie]] - Visor y organizador de imágenes
  - [[Phatch]] - Acciones en lote sobre imágenes (obsoleto)
