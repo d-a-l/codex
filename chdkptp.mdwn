@@ -1,0 +1,203 @@
+== instalar ==
+
+     svn co http://subversion.assembla.com/svn/chdkptp/trunk chdkptp
+
+
+== Desactivar automount ==
+
+     gsettings set org.gnome.desktop.media-handling automount "false"
+     gsettings set org.gnome.desktop.media-handling automount-open "false"
+
+y para activar
+
+     gsettings set org.gnome.desktop.media-handling automount "true"
+     gsettings set org.gnome.desktop.media-handling automount-open "true"
+
+en forma permanente
+
+     sudo apt-get remove --purge gvfs-backends
+
+verificar si el paquete está instalado o no en el sistema:
+
+     dpkg -s gvfs-backends|grep Status
+
+
+== Ejecutar chdkptp ==
+
+ir al directorio chdkptp
+
+     cd /ruta/a/chdkptp
+
+antes de ejecutar se deben definir algunas variables de entorno
+
+     export LUA_PATH="./lua/?.lua"
+
+si IUP esta compilado pero no instalado en el sistema se debe especificar la ruta:
+
+     export LD_LIBRARY_PATH=/path/to/iup:/path/to/cd
+
+ejecutar chdkptp en interfase gráfica
+
+     ./chdkptp
+
+== Iniciar una Canon SX130 IS ==
+
+
+
+
+
+
+
+
+
+
+
+== links ==
+
+Documentación de chdkptp
+
+* [USAGE.TXT la principal referencia](http://trac.assembla.com/chdkptp/browser/trunk/USAGE.TXT)
+* En el foro CHDK -> [alternative ptp client](http://chdk.setepontos.com/index.php?topic=6231.0)
+* [El wiki de chdkptp](https://www.assembla.com/spaces/chdkptp/wiki)
+* Una referencia básica sobre script de chdktp: assembla.com -> [Scripting_Guide](https://www.assembla.com/spaces/chdkptp/wiki/Scripting_Guide)
+* Referencia sobre comandos para PTP: chdk.wikia.com -> [PTP_Scripting](http://chdk.wikia.com/wiki/Lua/PTP_Scripting)
+* http://chdk.wikia.com/wiki/Lua
+* http://chdk.wikia.com/wiki/Script_commands
+
+* chdk.wikia.com -> [Chdkptp in headless linux Dockstar - remote control](http://chdk.wikia.com/wiki/Chdkptp_in_headless_linux_Dockstar_-_remote_control)
+
+Referencias relacionadas
+
+* Sobre como setear valores de la configuracion desde el script: chdk.wikia.com -> [Script_commands#set_config_value](http://chdk.wikia.com/wiki/Script_commands#set_config_value)
+* imagemagick.org -> [How to convert raw image to compressed tif?](http://www.imagemagick.org/discourse-server/viewtopic.php?f=1&t=20324)
+
+Proyectos derivados/relacionados
+
+* pypi.python.org -> [pyptpchdk](https://pypi.python.org/pypi/pyptpchdk) A Python module that implements the Picture Transfer Protocol, including support for CHDK extensions.
+* Proyecto aparentemente derivado de chdkptp: [photowall](https://login.snurkle.net/projects/photowall/browser/pw/trunk/USAGE.TXT)
+* github.com/markvdb -> [Software triggering on Debian](GNU Linux https://github.com/markvdb/diybookscanner/wiki/Software-triggering-on-Debian-GNU-Linux)
+* github.com/markvdb -> [test_keypedal.sh](https://github.com/markvdb/diybookscanner/blob/master/misc/test_keypedal.sh)
+
+no CHDK
+
+* PSRemote http://www.breezesys.com/PSRemote/features.htm 
+* capture http://capture.sourceforge.net/
+
+== varios ==
+
+http://articulo.mercadolibre.com.ar/MLA-481116439-camara-digital-canon-powershot-a2200-hd-muy-poco-uso-_JM
+
+http://chdk.setepontos.com/index.php?topic=6231.msg83548#msg83548
+
+chdkptp -n -e"!mc=require('multicam')" -e"!mc:connect()" -e"!mc:start()" -e"!return mc:cmdwait('rec')" -e"!return mc:cmdwait('preshoot')" -e"!return mc:cmdwait('shoot')" -e"!return mc:cmdwait('play')" -e"!mc:cmd('exit')"
+
+----
+
+Rather than passing loads of -e commands, you would write your own lua file, and then do something like
+chdkptp -e"!dofile('myfile.lua')"
+
+----
+
+http://chdk.setepontos.com/index.php?topic=6231.msg88342#msg88342
+una lista de dependencias para compilar
+
+----
+
+http://chdk.setepontos.com/index.php?topic=6231.msg90966#msg90966
+multiple shot (!)
+
+----
+
+http://chdk.setepontos.com/index.php?topic=6231.msg94386#msg94386
+cmo ejecutar lua script
+tip: `exec sys.sleep(1000)` para generar una pausa en la ejecución
+
+----
+
+http://chdk.setepontos.com/index.php?topic=6231.msg95265#msg95265
+FYI, you may find it more convenient to put the commands into a file rather than using so many -e commands. e.g you could put the following in myfile.chdkptp
+
+delete DCIM
+exec sys.sleep(2000)
+luar switch_mode_usb(1); set_zoom(0); set_prop(6, 3); shoot(); switch_mode_usb(0)
+exec sys.sleep(2000)  
+mdl DCIM /tmp/chdk-download
+exec sys.sleep(2000) 
+delete DCIM
+
+sudo sh /home/pi/chdkptp/chdkptp-sample.sh -c -rmyfile.chdkptp
+
+----
+http://chdk.setepontos.com/index.php?topic=6231.msg98677#msg98677
+You can get an idea of the time required for each step using the
+
+set cli_time=true
+
+----
+
+http://chdk.setepontos.com/index.php?topic=6231.msg99844#msg99844
+=t0=get_tick_count();press('shoot_half');repeat sleep(10) until get_shooting();t1=get_tick_count();click('shoot_full');repeat sleep(10) until not get_sho oting(); t2=get_tick_count();return t1-t0,t2-t1
+
+----
+
+Sobre el problema de los permisos en usb
+http://chdk.setepontos.com/index.php?topic=6231.msg89252#msg89252
+
+----
+
+Re: CHDK PTP multiple instances
+http://chdk.setepontos.com/index.php?topic=8769.msg91611#msg91611
+
+___> !devs=chdk.list_usb_devices()
+___> !con1=chdku.connection(devs[1])
+___> !return con1:connect();
+=true
+___> !con2=chdku.connection(devs[2])
+___> !return con2:connect()
+=true
+
+----
+
+http://chdk.setepontos.com/index.php?topic=8454.0
+Controlling two cameras at once creates some additional complications, but it is possible. You have two options:
+1) Run two instances of the client program. This should work, but you have to be careful because some commands might reset the connection to the other camera. This could be done with either ptpcam or chdkptp client.
+2) Control both cameras using a single instance of the chdkptp client. chdkptp supports connecting to multiple cameras in it's Lua API, but the normal CLI and GUI only support one camera at a time. This means you'd need to use Lua code to control the cameras.
+
+----
+
+http://chdk.wikia.com/wiki/Chdkptp_in_headless_linux_Dockstar_-_remote_control
+
+/usr/src/chdkptp/lua# /usr/src/chdkptp/chdkptp -i -c
+<con> =switch_mode_usb(1)
+<con> lua set_zoom(3)
+<con> lua shoot()
+<con> =switch_mode_usb(0)
+<con> download A/DCIM/133CANON/IMG_7440.JPG /var/www/7440.jpg
+<con>q
+
+-----
+
+list remote
+http://chdk.setepontos.com/index.php?topic=8600.10
+
+connected: Canon DIGITAL IXUS 30, max packet size 64
+con> =return os.listdir('A/')
+5:return:table:{[1]="CHDK",[2]="DISKBOOT.BIN",[3]="DCIM",[4]="badpixel.bin",[5]="ver.req",[6]="paramdmp.log",[7]="MISC",[8]="chdk_ixus30_111006am.tar.gz",}
+con 5>
+-----
+
+
+averiguar el nombre de la ultima foto
+* CDKPTP with Auto-file-transfer-to-PC for the S90 - Developmental Version http://chdk.setepontos.com/index.php?topic=9067.0
+* Downloading a picture that was just taken with chdkptp http://chdk.setepontos.com/index.php?topic=6872.0
+* Need advice on how to use CHDKPTP to retrieve file name of last picture taken  http://chdk.setepontos.com/index.php?topic=10458.0
+* http://chdk.wikia.com/wiki/PTP_Extension/ptpcam_Examples
+* get_exp_count http://chdk.wikia.com/wiki/Script_commands
+* https://github.com/markvdb/diybookscanner/blob/master/misc/test_keypedal.sh
+
+* CHDK as a high-end webcam http://chdk.setepontos.com/index.php?topic=332.0
+
+
+
+download A/DCIM/133CANON/IMG_7440.JPG /var/www/7440.jpg
+q
