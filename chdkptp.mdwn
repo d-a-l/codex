@@ -1,9 +1,61 @@
-## instalar ##
+## Instalación ##
+
+### Dependencias: ###
+
+    apt-get install libusb-1.0-0 libusb-dev liblua5.1-0-dev liblua5.1-0 libusb-1.0-0-dev
+
+### IUP, CD, IM ###
+
+Descargar binarios precompilados de las librerías iup, cd, im (buscar los links de descarga a la ultima versión)
+
+* http://www.tecgraf.puc-rio.br/iup/
+* http://www.tecgraf.puc-rio.br/cd/
+* http://www.tecgraf.puc-rio.br/im/
+
+los archivos tar.gz descargados se descomprimen en ./ así que previamente crear un carpetas contenedoras donde descomprimir
+
+     mkdir /opt/src/iup-<ver>_Linux32_lib
+     mkdir /opt/src/cd-<ver>_Linux32_lib
+     mkdir /opt/src/im-<ver>_Linux32_lib
+
+para instalar, ingresar a cada carpeta y ejecutar los scripts
+
+    install
+    install_dev
+    config_lua_module
+
+### compilar chdkptp ###
+
+descargar el código fuente
 
      svn co http://subversion.assembla.com/svn/chdkptp/trunk chdkptp
 
+crear archivo de configuración a partir del ejemplo
 
-## Desactivar automount ##
+     mv config-sample-linux.mk config.mk
+
+editar el archivo y agregar los links a las librerias:
+
+    IUP_SUPPORT=1
+    CD_SUPPORT=1
+    CD_USE_PLUS=cairo
+
+    LUA_INCLUDE_DIR=/usr/include/lua5.1
+    LUA_LIB=lua5.1
+
+    IUP_LIB_DIR=/opt/src/iup-<ver>_Linux32_lib
+    IUP_INCLUDE_DIR=/opt/src/iup-<ver>_Linux32_lib/include
+    CD_LIB_DIR=/opt/src/cd-<ver>_Linux32_lib
+    CD_INCLUDE_DIR=/opt/src/cd-<ver>_Linux32_lib/include
+
+compilar:
+
+    make
+
+
+## Verificaciones previas ##
+
+Desactivar automount
 
      gsettings set org.gnome.desktop.media-handling automount "false"
      gsettings set org.gnome.desktop.media-handling automount-open "false"
@@ -32,7 +84,7 @@ antes de ejecutar se deben definir algunas variables de entorno
 
      export LUA_PATH="./lua/?.lua"
 
-si IUP esta compilado pero no instalado en el sistema se debe especificar la ruta:
+si IUP está compilado pero no instalado en el sistema se debe especificar la ruta:
 
      export LD_LIBRARY_PATH=/path/to/iup:/path/to/cd
 
@@ -50,8 +102,7 @@ ejecutar chdkptp en interfase gráfica
 
 
 
-
-== links 
+## links 
 
 Documentación de chdkptp
 
@@ -82,7 +133,7 @@ no CHDK
 * PSRemote http://www.breezesys.com/PSRemote/features.htm 
 * capture http://capture.sourceforge.net/
 
-== varios ==
+## varios
 
 http://articulo.mercadolibre.com.ar/MLA-481116439-camara-digital-canon-powershot-a2200-hd-muy-poco-uso-_JM
 
