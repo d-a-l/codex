@@ -1,9 +1,9 @@
-## instalar
+## instalar ##
 
      svn co http://subversion.assembla.com/svn/chdkptp/trunk chdkptp
 
 
-== Desactivar automount
+## Desactivar automount ##
 
      gsettings set org.gnome.desktop.media-handling automount "false"
      gsettings set org.gnome.desktop.media-handling automount-open "false"
@@ -22,7 +22,7 @@ verificar si el paquete está instalado o no en el sistema:
      dpkg -s gvfs-backends|grep Status
 
 
-== Ejecutar chdkptp
+## Ejecutar chdkptp ##
 
 ir al directorio chdkptp
 
@@ -40,7 +40,7 @@ ejecutar chdkptp en interfase gráfica
 
      ./chdkptp
 
-== Iniciar una Canon SX130 IS 
+## Iniciar una Canon SX130 IS ##
 
 
 
