@@ -40,7 +40,6 @@ ejecutar chdkptp en interfase gráfica
 
      ./chdkptp
 
-## Iniciar una Canon SX130 IS ##
 
 
 
