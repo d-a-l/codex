@@ -15,6 +15,8 @@
  - [[tesseract-ocr]]
  - [[cuneiform]]
  - [[ocropus]] [sitio web](https://code.google.com/p/ocropus/)
+* preproceso para OCR
+ - [[textcleaner]] http://www.fmwconcepts.com/imagemagick/textcleaner/index.php ([via](http://vbridge.co.uk/2012/11/05/how-we-tuned-tesseract-to-perform-as-well-as-a-commercial-ocr-package/))
 * Generadores de formatos finales para libros electrónicos
  - [[djvubind]] - Generador de archivos en formato [djvu](http://es.wikipedia.org/djvu)
  - [[pdfbeads]] - Generador de archivos en formato PDF
