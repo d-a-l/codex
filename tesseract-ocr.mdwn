@@ -3,6 +3,8 @@ Compilar e Instalar tesseract-ocr en Debian Wheezy
 
 En el sitio de tesseract-ocr (en inglés): [**instrucciones para la instalación de tesseract-ocr en varias plataformas**](http://code.google.com/p/tesseract-ocr/wiki/Compiling).
 
+Manual de Tesseract <https://tesseract-ocr.googlecode.com/svn/trunk/doc/tesseract.1.html>
+
 ### Pre-requisitos para la compilación
 
 Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
