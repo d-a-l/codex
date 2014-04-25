@@ -1,0 +1,3 @@
+ - Sitio <http://en.openocr.org/>
+ - Manual <http://www.linuxcertif.com/man/1/cuneiform/330520/>
+ - Instalación desde apt-get: `apt-get install cuneiform`
