@@ -71,10 +71,10 @@ Despues hay que modificar la profile de bash para que los scripts que están en 
 
 Abrir el archivo `/home/<usuario>/.profile` con un editor de texto y agregar al final:
 
-   # set PATH so it includes user's private bin if it exists
-   if [ -d "$HOME/bin" ] ; then
-       PATH="$HOME/bin:$PATH"
-   fi
+    # set PATH so it includes user's private bin if it exists
+    if [ -d "$HOME/bin" ] ; then
+        PATH="$HOME/bin:$PATH"
+    fi
 
 guardar el archivo y cerrar el editor de texto
 
