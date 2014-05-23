@@ -82,4 +82,4 @@ En la consola se deberian poder ejecutar los scripts, se puede probar escribiend
 
     generar
 
-y apretando <TAB>, se debería autocompletar o listar los nombres posibles (ej: `generar_pdf_ocr_cuneiform`)
+y apretando [TAB], se debería autocompletar o listar los nombres posibles (ej: `generar_pdf_ocr_cuneiform`)
