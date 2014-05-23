@@ -48,7 +48,7 @@ Este hay que compilar si o si, (parece que no genere un .deb cuando compilé). S
 
 ## scripts para usar pdfbeads
 
-descargar:
+Descargar:
 
    <http://grafiks.info/ddam/pdfbeads_scripts.tar.gz>
 
@@ -58,11 +58,11 @@ En la carpeta de usuario /home/<usuario>/ crear (si no existe) la carpeta `bin`
     mkdir bin
     cd bin
 
-copiar el archivo tar.gz descargado ahi, y descomprimir
+Copiar el archivo tar.gz descargado ahi, y descomprimir
 
     tar -xzvf pdfbeads_scripts.tar.gz
 
-luego hacer los scripts ejecutables (tambien se puede desde el explorador de archivos, con el menu contextual, en 'Propiedades' y luego la pestaña 'Permisos'), sino desde la consola
+Luego hacer que los scripts sean ejecutables (también se puede desde el explorador de archivos, con el menu contextual, en 'Propiedades' y luego la pestaña 'Permisos'), sino desde la consola
 
     cd /home/<usuario>/bin
     chmod a+x generar*
@@ -76,9 +76,9 @@ Abrir el archivo `/home/<usuario>/.profile` con un editor de texto y agregar al 
         PATH="$HOME/bin:$PATH"
     fi
 
-guardar el archivo y cerrar el editor de texto
+guardar el archivo y cerrar el editor de texto.
 
-en la consola se deberian poder ejecutar los scripts, se puede probar escribiendo
+En la consola se deberian poder ejecutar los scripts, se puede probar escribiendo:
 
     generar
 
