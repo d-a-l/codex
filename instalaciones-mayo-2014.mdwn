@@ -2,7 +2,7 @@
 
 primero instalar todas las dependencias que indicadas en la seccion "Pre-requisitos para la compilación" en este link:
 
-   http://codex.proyecto.derechoaleer.org/scan_tailor/
+    http://codex.proyecto.derechoaleer.org/scan_tailor/
 
 luego probar instalando este paquete precompilado de cuando lo compile yo
 
