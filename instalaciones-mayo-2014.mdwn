@@ -41,7 +41,7 @@ mas info aquí:
 
 ## pdfbeads
 
-Hay que compilar si o si :(, seguir instrucciones de aqui:
+Este hay que compilar si o si, (parece que no genere un .deb cuando compilé). Seguir instrucciones de aqui:
 
    <http://codex.proyecto.derechoaleer.org/pdfbeads/>
 
