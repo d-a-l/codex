@@ -2,13 +2,13 @@
 
 Primero instalar todas las dependencias que indicadas en la seccion "Pre-requisitos para la compilación" en este link:
 
-    http://codex.proyecto.derechoaleer.org/scan_tailor/
+   <http://codex.proyecto.derechoaleer.org/scan_tailor>
 
 luego probar instalando este paquete precompilado (de cuando lo compile yo en la compu del cnba)
 
 decargar:
 
-    http://grafiks.info/ddam/scantailor_0.9.10-dal-1_i386.deb
+   <http://grafiks.info/ddam/scantailor_0.9.10-dal-1_i386.deb>
 
 luego como root
 
@@ -25,7 +25,7 @@ Como root instalar desde el repositorio de Debian
 
 mas info aquí:
 
-    http://codex.proyecto.derechoaleer.org/tesseract-ocr/ 
+   <http://codex.proyecto.derechoaleer.org/tesseract-ocr/>
 
 
 ## cuneiform
@@ -36,22 +36,21 @@ Como root instalar desde el repositorio de Debian
 
 mas info aquí:
 
-    http://codex.proyecto.derechoaleer.org/cuneiform/
+   <http://codex.proyecto.derechoaleer.org/cuneiform/>
 
 
 ## pdfbeads
 
 Hay que compilar si o si :(, seguir instrucciones de aqui:
 
-    http://codex.proyecto.derechoaleer.org/pdfbeads/
-
+   <http://codex.proyecto.derechoaleer.org/pdfbeads/>
 
 
 ## scripts para usar pdfbeads
 
 descargar:
 
-    http://grafiks.info/ddam/pdfbeads_scripts.tar.gz
+   <http://grafiks.info/ddam/pdfbeads_scripts.tar.gz>
 
 En la carpeta de usuario /home/<usuario>/ crear (si no existe) la carpeta `bin`
 
