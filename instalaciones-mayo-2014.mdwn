@@ -21,7 +21,7 @@ si no anda, está la opción de compilar tal como esta indicado en el primer lin
 
 Como root instalar desde el repositorio de Debian
 
-    apt-get install tesseract-ocr
+    apt-get install tesseract-ocr tesseract-ocr-spa
 
 mas info aquí:
 
