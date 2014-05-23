@@ -52,7 +52,7 @@ Descargar:
 
    <http://grafiks.info/ddam/pdfbeads_scripts.tar.gz>
 
-En la carpeta de usuario /home/\<usuario\>/ crear (si no existe) la carpeta `bin`
+En la carpeta de usuario /home/usuario/ crear (si no existe) la carpeta `bin`
 
     cd /home/<usuario>
     mkdir bin
