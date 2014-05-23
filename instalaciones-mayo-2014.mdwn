@@ -4,7 +4,7 @@ Primero instalar todas las dependencias que indicadas en la seccion "Pre-requisi
 
    <http://codex.proyecto.derechoaleer.org/scan_tailor>
 
-luego probar instalando este paquete precompilado (de cuando lo compile yo en la compu del cnba)
+Luego instalar el paquete precompilado (de cuando lo compilé yo en la PC del cnba)
 
 decargar:
 
