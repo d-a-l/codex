@@ -36,6 +36,8 @@ Instalar [RubyGems](http://rubygems.org/), el gestor de paquetes para el lenguaj
 
     apt-get install rubygems ruby-full ruby-dev
 
+nota: en mayo de 2014 `apt-get install ruby1.9.1-full ruby1.9.1-dev rubygems1.9.1`
+
 Instalar los siguientes paquetes de Ruby que pueden instalarse desde el gestor de paquetes Debian:
 
     apt-get install ruby-rmagick ruby-hpricot
