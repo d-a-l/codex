@@ -5,7 +5,7 @@ Cuneiform es una herramienta de software para el reconocimiento óptico de carac
  - Sitio oficial de Cuneiform en inglés <http://en.openocr.org/>
  - Sitio oficial (en ruso) <http://cognitiveforms.com/ru/products_and_services/cuneiform>
 
-Cuneiform no es tan preciso como [[tesseract-ocr]], sin embargo es **extremadamente más rápido**. Cuando la calidad del texto en la imagen a realizar el reconocimiento de caracteres es *excelente*, devuelve un resultado óptimo muy cercano a tesseract, por lo cual es recomendable su uso en esos casos. Cuando la calidad del texto en la imagen no es tan buena, la diferencia con tesseract es enorme y se recomienda usar este último, auqnue es mucho más lento.
+Cuneiform no es tan preciso como [[tesseract-ocr]], sin embargo es **extremadamente más rápido**. Cuando la calidad del texto en la imagen a realizar el reconocimiento de caracteres es *excelente*, devuelve un resultado óptimo muy cercano a tesseract, por lo cual es recomendable su uso en esos casos. Cuando la calidad del texto en la imagen no es tan buena, la diferencia con tesseract es enorme y se recomienda usar este último.
 
 ### Instalación
 
