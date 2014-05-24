@@ -1,4 +1,4 @@
-### Sobre Cuneiform
+## Sobre Cuneiform
 
 Cuneiform es una herramienta de software para el reconocimiento óptico de caracteres (OCR). Fue desarrollado originalmente por "Cognitive Technologies" y, después de unos años sin desarrollo, fue lanzado como *freeware* el 12 de diciembre de 2007. El núcleo del motor de OCR fue liberado bajo [licencia BSD](http://es.wikipedia.org/wiki/Licencia_BSD) a principios de abril 2008. Más información en [wikipedia](http://en.wikipedia.org/wiki/CuneiForm_%28software%29)
 
@@ -7,7 +7,7 @@ Cuneiform es una herramienta de software para el reconocimiento óptico de carac
 
 Cuneiform no es tan preciso como [[tesseract-ocr]], sin embargo es **extremadamente más rápido**. Cuando la calidad del texto en la imagen a realizar el reconocimiento de caracteres es *excelente*, devuelve un resultado óptimo muy cercano a tesseract, por lo cual es recomendable su uso en esos casos. Cuando la calidad del texto en la imagen no es tan buena, la diferencia con tesseract es enorme y se recomienda usar este último.
 
-### Instalación
+## Instalación
 
 Se instala directamente desde el repositorio Debian.
 
