@@ -34,7 +34,7 @@ Actualizar la lista de paquetes de Debian:
 
 Instalar [RubyGems](http://rubygems.org/), el gestor de paquetes para el lenguaje de programación [Ruby](http://es.wikipedia.org/wiki/Ruby):
 
-    apt-get install rubygems ruby-full ruby-dev
+    apt-get install ruby-full ruby-dev rubygems
 
 nota: en mayo de 2014 `apt-get install ruby1.9.1-full ruby1.9.1-dev rubygems1.9.1`
 
