@@ -19,7 +19,7 @@ Instalar Cuneiform
 
     apt-get install cuneiform
 
-Cuneiform está en el repositorio *non-free*, por lo tanto si no está incluido en el [archivo con la lista  de fuentes o repositorios](http://es.wikipedia.org/wiki/Sources.list) de `apt`, el comando anterior contestará que el paquete `cuneiform` no existe. Para activar todos los repositorios de Debian (por defecto sólo viene activo `main`) editar (como *root*) el archivo de fuentes `/etc/apt/sources.list` y agregar `contrib` y `non-free` al final de cada línea por ejemplo en:
+Cuneiform está en el repositorio *non-free*, por lo tanto si no está incluido en el [archivo con la lista  de fuentes o repositorios](http://es.wikipedia.org/wiki/Sources.list) de `apt`, el comando anterior contestará que el paquete `cuneiform` no existe. Para activar todos los repositorios de Debian (por defecto sólo viene activo `main`) editar (como *root*) el archivo de fuentes `/etc/apt/sources.list` y agregar `contrib` y `non-free` al final de cada línea. Por ejemplo en:
 
     deb http://<url del repositorio debian>/debian wheezy main
 
