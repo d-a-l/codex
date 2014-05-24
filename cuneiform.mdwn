@@ -27,7 +27,7 @@ agregar
 
     deb http://<url del repositorio debian>/debian wheezy main contrib non-free
 
-Generalmente el archivo `sources.list` contiene tres repositorios *deb*, *deb-src* y *security*, se puede agregar `contrib non-free` a todos, aunque para instalar Cuneiform sólo es necesario en el repositorio principal (la primer línea). Más info sobre [configuración de repositorios Debian aquí](http://www.esdebian.org/wiki/introduccion-repositorios-debian)
+Generalmente el archivo `sources.list` contiene tres repositorios *deb*, *deb-src* y *security*, se puede agregar `contrib non-free` a todos, aunque para instalar Cuneiform sólo es necesario en el repositorio principal (la primer línea). Más info sobre [configuración de repositorios Debian aquí](http://www.esdebian.org/wiki/introduccion-repositorios-debian). Nota: Cuneiform ha sido recientemente liberado como software libre, asi que posiblemente en el futuro se lo encuentre en el repositorio main.
 
 Una vez modificado el archivo, guardarlo y volver a ejecutar `apt-get update` y `apt-get install cuneiform`
 
