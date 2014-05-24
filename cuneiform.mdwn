@@ -1,3 +1,34 @@
- - Sitio <http://en.openocr.org/>
+## Sobre cuneiform
+
+Cuneiform es una herramienta de software para el reconocimiento óptico de caracteres (OCR). Fue desarrollado originalmente por "Cognitive Technologies" y, después de unos años sin desarrollo, fue lanzado como *freeware* el 12 de diciembre de 2007. El núcleo del motor de OCR fue liberado bajo [licencia BSD](http://es.wikipedia.org/wiki/Licencia_BSD) a principios de abril 2008. Más información en [wikipedia](http://en.wikipedia.org/wiki/CuneiForm_%28software%29)
+
+ - Sitio oficil de Cuneiform en inglés <http://en.openocr.org/>
  - Manual <http://www.linuxcertif.com/man/1/cuneiform/330520/>
- - Instalación desde apt-get: `apt-get install cuneiform`
+
+Cuneiform no es tan preciso como [[tesseract-ocr]], sin embargo es **extremadamente más rápido**. Cuando la calidad del texto en la imagen a realizar OCR es excelente, devuelve un resultado muy cercano a tesseract, por lo cual es recomendable su uso en esos casos. Cuando la calidad del texto en la imagen no es tan buena, la diferencia con tesseract es enorme y se recomienda usar este último.
+
+## Instalación
+
+Se instala directamente desde el repositorio Debian.
+
+Actualizar la lista de paquetes:
+
+    apt-get update
+
+Instalar Cuneiform
+
+    apt-get install cuneiform
+
+Cuneiform está en el repositorio *non-free*, por lo tanto si no está incluido en apt el comando anterior contestará que el paquete `cuneiform` no existe. Para activar todos los repositorios de Debian (por defecto sólo viene activo `main`) editar (como *root*) el archivo `/etc/apt/sources.list` y agregar `contrib` y `non-free` al final de cada línea por ejemplo en:
+
+    deb http://<url del repositorio debian>/debian wheezy main
+
+agregar
+
+    deb http://<url del repositorio debian>/debian wheezy main contrib non-free
+
+Generalmente el archivo `sources.list` contiene tres repositorios *deb*, *deb-src* y *security*, se puede agregar `contrib non-free` a todos, aunque para instalar Cuneiform sólo es necesario en el repositorio principal (la primer línea). Más info sobre [configuración de repositorios Debian aquí](http://www.esdebian.org/wiki/introduccion-repositorios-debian)
+
+Una vez modificado el archivo, guardarlo y volver a ejecutar `apt-get update` y `apt-get install cuneiform`
+
+
