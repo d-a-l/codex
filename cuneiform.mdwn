@@ -1,13 +1,12 @@
-## Sobre cuneiform
+### Sobre Cuneiform
 
 Cuneiform es una herramienta de software para el reconocimiento óptico de caracteres (OCR). Fue desarrollado originalmente por "Cognitive Technologies" y, después de unos años sin desarrollo, fue lanzado como *freeware* el 12 de diciembre de 2007. El núcleo del motor de OCR fue liberado bajo [licencia BSD](http://es.wikipedia.org/wiki/Licencia_BSD) a principios de abril 2008. Más información en [wikipedia](http://en.wikipedia.org/wiki/CuneiForm_%28software%29)
 
- - Sitio oficil de Cuneiform en inglés <http://en.openocr.org/>
- - Manual <http://www.linuxcertif.com/man/1/cuneiform/330520/>
+ - Sitio oficial de Cuneiform en inglés <http://en.openocr.org/>
 
-Cuneiform no es tan preciso como [[tesseract-ocr]], sin embargo es **extremadamente más rápido**. Cuando la calidad del texto en la imagen a realizar OCR es excelente, devuelve un resultado muy cercano a tesseract, por lo cual es recomendable su uso en esos casos. Cuando la calidad del texto en la imagen no es tan buena, la diferencia con tesseract es enorme y se recomienda usar este último.
+Cuneiform no es tan preciso como [[tesseract-ocr]], sin embargo es **extremadamente más rápido**. Cuando la calidad del texto en la imagen a realizar el reconocimiento de caracteres es *excelente*, devuelve un resultado óptimo muy cercano a tesseract, por lo cual es recomendable su uso en esos casos. Cuando la calidad del texto en la imagen no es tan buena, la diferencia con tesseract es enorme y se recomienda usar este último, auqnue es mucho más lento.
 
-## Instalación
+### Instalación
 
 Se instala directamente desde el repositorio Debian.
 
@@ -31,4 +30,29 @@ Generalmente el archivo `sources.list` contiene tres repositorios *deb*, *deb-sr
 
 Una vez modificado el archivo, guardarlo y volver a ejecutar `apt-get update` y `apt-get install cuneiform`
 
+## Uso
 
+Sinopsis:
+
+    cuneiform  [--dotmatrix]  [-f FORMAT] [--fax] [-l LANGUAGE] [-o OUTPUT] INPUT
+
+Ejemplo:
+
+    cuneiform -f hocr -l spa -o out.html input.tif
+
+Donde
+
+ * `-f hocr` indica el formato de salida (el estándar hocr).
+ * `-l spa` el lenguaje en el que está escrito el texto a realizar OCR (español).
+ * `-o out.html` el archivo de salida con el texto resultante en formato hocr.
+ * `input.tif` al final del comando se coloca el nombre de la imagen a la que se le realizará el reconocimiento de caracteres.
+
+Para obtener una lista de los formatos de salida que admite Cuneiform:
+
+    cuneiform -f
+
+Para obtener una lista de los lenguajes soportados Cuneiform:
+
+    cuneiform -l
+
+Más información en <http://www.linuxcertif.com/man/1/cuneiform/330520/> ó <http://manpages.ubuntu.com/manpages/natty/man1/cuneiform.1.html>
