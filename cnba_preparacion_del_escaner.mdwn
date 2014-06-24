@@ -1,34 +1,46 @@
+## Elementos del escáner ##
+
+![fig 1](/media/img/cnba-scanner-manual/infografia.png)
+Figura 1 - Elementos del escáner
+
+## Referencias ##
+
 ![fig 1](/media/img/cnba-scanner-manual/referencias.png)
-[figura 1]
+Figura 2 - Referencias.
 
 
-# Conexión de las Cámaras al equipo y a la fuente de alimentación
+* * * * * 
 
+
+## 1. Conexión de las Cámaras al equipo y a la fuente de alimentación ##
 
 ### Verificaciones previas: ###
 
-- Verificar que las fuentes de alimentación se encuentren correctaemente enchufadas en el panel lateral, y que cada cable de alimentación llegue hasta el área de fijación de la cámara
-- Verificar que los cables USB se encuentren desplegados en el escaner y llegue cada uno desde el distribuidor USB ("A" en figura 1) hasta el área de fijación de cada cámara.
+- Verificar que las fuentes de alimentación (Figura 7, "A")se encuentren correctamente enchufadas en el panel lateral, y que cada cable de alimentación llegue hasta el área de fijación de la cámara.
+- Verificar que los cables USB se encuentren desplegados en el escaner y llegue cada uno desde el distribuidor USB (Figura 1, "A") hasta el área de fijación de cada cámara.
 
 ### Procedimiento ###
 
-Identificar los cables USB (1) y de alimentación (2) que se encuentran próximos al punto de fijación de la cámara (3) en el escáner. Abrir el panel de conexión en el costado derecho de la Canon PowerShot SX130 IS (4). Con delicadeza enchufar ambos conectores a los puntos de conexiónm correspondientes, segun indica la figura (4).
-
-![fig 2](/media/img/cnba-scanner-manual/fijacion_camaras.png)
-
-![fig 3](/media/img/cnba-scanner-manual/conexiones_camara.png)
+Identificar los cables USB (Figura 3 "A") y de alimentación (Figura 3 "B") que se encuentran próximos al punto de fijación de la cámara (Figura 2 "C") en el escáner. Abrir el panel de conexión en el costado derecho de la Canon PowerShot SX130 IS (Figura 4). Con delicadeza enchufar ambos conectores a los puntos de conexión correspondientes.
 
 ![fig 4](/media/img/cnba-scanner-manual/usb-fuente.png)
+Figura 3
 
-[tip] una vez conectada la fuente de alimentacion y el USB a la cámara, el dispositivo debe permanecer conectado hasta que deba retirarse del escáner. Se trata de reducir el número de conexiones y desconexiones físicas en la camara: los puntos de conexion se encuentran anclados directamente a la placa madre de la PowerShot SX130 IS, cualquier avería implicará el cambio de la placa, que es un repuesto costoso. La ficha de la fuente de alimentación es particularmente frágil. Para desconectar las cámaras del enlace USB con el equipo se dispone de la conexión (X en el diagrama general pag. X). Para desactivar la fuente de energía, el escaner dispone del botón de apagado del sistema eléctrico (Y en el diagrama general pag. Y).
+![fig 3](/media/img/cnba-scanner-manual/conexiones_camara.png)
+Figura 4
+
+[tip] una vez conectada la fuente de alimentacion y el USB a la cámara, el dispositivo debe permanecer conectado hasta que deba retirarse del escáner. Se trata de reducir el número de conexiones y desconexiones físicas en la camara: los puntos de conexion se encuentran anclados directamente a la placa madre de la PowerShot SX130 IS, cualquier avería implicará el cambio de la placa, que es un repuesto costoso. La ficha de la fuente de alimentación es particularmente frágil. Para desconectar las cámaras del enlace USB con el equipo se dispone de la conexión (Figura 2 "B"). Para desactivar la fuente de energía, el escaner dispone del botón de apagado del sistema eléctrico (Figura 7 ??).
 
 Colocación de las cámaras digitales en el escáner
 =================================================
 
 La cámara se fija al escaner mediante el ajuste de un tornillo que se enrosca en la base de la cámara, en el orificio estandar de fijación de ¼ ". Colocar la cámara segun lo indicado en la figura teniendo en cuanta la posicion de suplementos y material antideslizante.
 
-[figura: vista de la colocacion de la camara ya conectada, una mano toma la camara y la otra ajusta el tronillo y señalamiento de las partes: tornillo, tuercasd suplemento, antideslizante, etc]
+![fig](/media/img/cnba-scanner-manual/fijacion_camaras.png)
+Figura 5.
 
+[figura: vista de la colocacion de la camara, una mano toma la camara y la otra ajusta el tronillo y señalamiento de las partes: tornillo, tuercas, suplemento, antideslizante, etc]
+Figura 6.
 
 Encendido de la fuente de iluminación
 =====================================
@@ -42,7 +54,7 @@ Verificar que las lámparas estan correctamente enchufadas al panel (a)
 Encender las lámparas desde los interruptores (b).
 
 ![fig 5](/media/img/cnba-scanner-manual/panel_electrico.png)
-
+Figura 7 - Panel Lateral.
 
 Encendido de cámaras y equipo
 =============================
