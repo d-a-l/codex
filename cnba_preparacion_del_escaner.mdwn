@@ -73,7 +73,7 @@ Cámaras: Presionar el botón de encendido (N) ubicado en la parte superior de c
 
 ## 5. Ajuste de distancia camara/página según dimensiones del libro ##
 
-=== Consideraciones previas ===
+### Consideraciones previas ###
 
 Con distancia camara/página nos referimos a la distancia que existe entre el plano a ser fotografiado (la pagina del libro) y la lente de la cámara. Esta distancia varía segun el tamaño del libro: se busca que la imagen de la página abarque la mayor superficie posible dentro del sensor digital (es decir que ocupe todo el visor), manteniendo el zoom en una posicion fija. Si el libro es pequeño habra que acercar las camaras, si es grande, alejarlas. fig H
 
@@ -83,7 +83,7 @@ tip: ¿por que no se ajusta el tamaño de la pagina en el visor utilizando el zo
 
 [fig X dos imagenes de camara a igual distancia y el tipo de deformacion que produce el zoom, y otra camara a mayor distancia con la proyeccion correcta]
 
-=== Procedimiento ===
+### Procedimiento ###
 
 * Tomar las medidas del ancho y el alto del libro cerrado.
 * En el software asistente de digitalización (DALclick) seleccionar la opcion "Iniciar nuevo proyecto".
