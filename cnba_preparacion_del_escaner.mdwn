@@ -16,3 +16,17 @@ Manual de Uso - Escáner CNBA
 #### 1.3. Colocación del libro
 
 #### 1.4. Ajuste inicial de las cámaras
+
+
+![fig 1](media/img/cnba-scanner-manual/referencias.png)
+
+![fig 2](media/img/cnba-scanner-manual/fijacion_camaras.png)
+
+![fig 3](media/img/cnba-scanner-manual/conexiones_camara.png)
+
+![fig 4](media/img/cnba-scanner-manual/usb-fuente.png)
+
+![fig 5](media/img/cnba-scanner-manual/panel_electrico.png)
+
+
+
