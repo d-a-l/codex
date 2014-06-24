@@ -3,10 +3,10 @@
 ![fig 1](/media/img/cnba-scanner-manual/infografia.png)
 Figura 1 - Elementos del escáner
 
-## Referencias ##
+## Referencias: perillas de ajuste y conectores ##
 
 ![fig 1](/media/img/cnba-scanner-manual/referencias.png)
-Figura 2 - Referencias.
+Figura 2 - Referencias: perillas de ajuste y conectores
 
 
 * * * * * 
@@ -120,14 +120,14 @@ Para colocar la camara en posicion ortogonal disponemos de dos grados de movimie
 ![fig 5](/media/img/cnba-scanner-manual/ejes.png)
 
 
-=== Ortogonalidad del Eje X: ===
+### Ortogonalidad del Eje X: ###
 
 Utilizando la escuadra N, cuyo angulo es de 140°, se deberá alinear el brazo (X) aflojando la perilla (Y). La escuadra deberá colocarse tal como se indica en la fig 3. Para alinear el brazo (X) la linea blanca trazada sobre el mismo (Z) debera alinearse con la escuadra. Una vez alineado asegurarse de ajustar bien la perilla (Y)
 
 [fig 3: vista donde se vea el brazo Y, la linea, la escuadra colocada y el eje A representado]
 [fig 4: vista desde adentro donde se vea la perilla Y]
 
-=== Ortogonalidad del Eje Z: ===
+### Ortogonalidad del Eje Z: ###
 
 - Colocar el plano cuadriculado en la cama del escaner
 - Encender el display de la cámara, presionando levemente el boton de disparo (A).
@@ -136,7 +136,7 @@ Utilizando la escuadra N, cuyo angulo es de 140°, se deberá alinear el brazo (
 
 [fig 5: imagen que muestra la perilla N]
 
-=== Ortogonalidad del Eje Y: ===
+### Ortogonalidad del Eje Y: ###
 
 - Aflojar levemente el tornillo que fija la cámara y moviendola segun el eje C asegurarse de que las horizontales del plano cuadriculado se observen paralelas en el display, sin perspectiva.
 
