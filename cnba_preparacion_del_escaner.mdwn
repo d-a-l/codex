@@ -31,8 +31,7 @@ Figura 4
 
 [tip] una vez conectada la fuente de alimentacion y el USB a la cámara, el dispositivo debe permanecer conectado hasta que deba retirarse del escáner. Se trata de reducir el número de conexiones y desconexiones físicas en la camara: los puntos de conexion se encuentran anclados directamente a la placa madre de la PowerShot SX130 IS, cualquier avería implicará el cambio de la placa, que es un repuesto costoso. La ficha de la fuente de alimentación es particularmente frágil. Para desconectar las cámaras del enlace USB con el equipo se dispone de la conexión (Figura 2 "B"). Para desactivar la fuente de energía, el escaner dispone del botón de apagado del sistema eléctrico (Figura 7 ??).
 
-Colocación de las cámaras digitales en el escáner
-=================================================
+## 2. Colocación de las cámaras digitales en el escáner ##
 
 La cámara se fija al escaner mediante el ajuste de un tornillo que se enrosca en la base de la cámara, en el orificio estandar de fijación de ¼ ". Colocar la cámara segun lo indicado en la figura teniendo en cuanta la posicion de suplementos y material antideslizante.
 
@@ -42,8 +41,7 @@ Figura 5.
 [figura: vista de la colocacion de la camara, una mano toma la camara y la otra ajusta el tronillo y señalamiento de las partes: tornillo, tuercas, suplemento, antideslizante, etc]
 Figura 6.
 
-Encendido de la fuente de iluminación
-=====================================
+## 3. Encendido de la fuente de iluminación ##
 
 ### Verificaciones previas: ###
 
@@ -51,13 +49,13 @@ Verificar que las lámparas estan correctamente enchufadas al panel (a)
 
 ### Procedimiento ###
 
-Encender las lámparas desde los interruptores (b).
+Encender las lámparas desde los interruptores "B" (ver figura 7).
 
 ![fig 5](/media/img/cnba-scanner-manual/panel_electrico.png)
 Figura 7 - Panel Lateral.
 
-Encendido de cámaras y equipo
-=============================
+
+## 4. Encendido de cámaras y equipo ##
 
 ### Verificaciones previas: ###
 
@@ -73,8 +71,7 @@ PC: Encender la PC del boton de inicio (en el frente del gabinete), y el monitor
 Cámaras: Presionar el botón de encendido (N) ubicado en la parte superior de cada cámara Canon PowerShot SX130 IS. Verificar que las cámaras se enciendan y se muestre el logo "CHDK" en el display mientras se inicia cada cámara.
 
 
-Ajuste de distancia camara/página según dimensiones del libro
-=============================================================
+## 5. Ajuste de distancia camara/página según dimensiones del libro ##
 
 === Consideraciones previas ===
 
@@ -108,8 +105,7 @@ tip: también puede obtenerse este número utilizando la tabla X adjunta a este 
 
 ToDo: colocar una madera tope que evite que el tornillo cabeza redonda y cuello cuadrado se separe del conjunto porta-camara
 
-Ajuste de Ortogonalidad
-=======================
+## 6. Ajuste de Ortogonalidad ##
 
 tip: el ajuste de ortogonalidad es un proceso que se llevara a cabo inicialmente, al comenzar a utilizar el escaner. Normalmente no deberá volver a repetirse mientras no se retiren las camaras del equipo. A lo sumo, cada dia deberá realizarse una verificación de ortogonalidad al comenzar una nueva sesion de digitalizacion.
 
