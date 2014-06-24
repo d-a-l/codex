@@ -109,7 +109,7 @@ tip: el ajuste de ortogonalidad es un proceso que se llevara a cabo inicialmente
 
 Para colocar la camara en posicion ortogonal disponemos de dos grados de movimiento en el soporte de la camara. De la perilla (1) se controla el eje A, y del tornillo de fijacion de la cámara el eje B.
 
-![fig 5](/media/img/cnba-scanner-manual/panel_electrico.png)
+![fig 5](/media/img/cnba-scanner-manual/ejes.png)
 
 
 === Ortogonalidad del Eje X: ===
