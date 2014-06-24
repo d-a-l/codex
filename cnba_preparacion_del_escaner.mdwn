@@ -2,8 +2,8 @@
 [figura 1]
 
 
-Conexión de las Cámaras al equipo y a la fuente de alimentación
-===============================================================
+# Conexión de las Cámaras al equipo y a la fuente de alimentación
+
 
 ### Verificaciones previas: ###
 
