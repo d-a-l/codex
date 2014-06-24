@@ -1,4 +1,3 @@
-
 ![fig 1](/media/img/cnba-scanner-manual/referencias.png)
 [figura 1]
 
@@ -6,12 +5,12 @@
 Conexión de las Cámaras al equipo y a la fuente de alimentación
 ===============================================================
 
-=== Verificaciones previas: ===
+### Verificaciones previas: ###
 
 - Verificar que las fuentes de alimentación se encuentren correctaemente enchufadas en el panel lateral, y que cada cable de alimentación llegue hasta el área de fijación de la cámara
-- Verificar que los cables USB se encuentren desplegados en el escaner y llegue cada uno desde el distribuidor USB (B en figura 1) hasta el área de fijación de cada cámara.
+- Verificar que los cables USB se encuentren desplegados en el escaner y llegue cada uno desde el distribuidor USB ("A" en figura 1) hasta el área de fijación de cada cámara.
 
-=== Procedimiento ===
+### Procedimiento ###
 
 Identificar los cables USB (1) y de alimentación (2) que se encuentran próximos al punto de fijación de la cámara (3) en el escáner. Abrir el panel de conexión en el costado derecho de la Canon PowerShot SX130 IS (4). Con delicadeza enchufar ambos conectores a los puntos de conexiónm correspondientes, segun indica la figura (4).
 
@@ -34,11 +33,11 @@ La cámara se fija al escaner mediante el ajuste de un tornillo que se enrosca e
 Encendido de la fuente de iluminación
 =====================================
 
-=== Verificaciones previas: ===
+### Verificaciones previas: ###
 
 Verificar que las lámparas estan correctamente enchufadas al panel (a)
 
-=== Procedimiento ===
+### Procedimiento ###
 
 Encender las lámparas desde los interruptores (b).
 
@@ -48,14 +47,14 @@ Encender las lámparas desde los interruptores (b).
 Encendido de cámaras y equipo
 =============================
 
-=== Verificaciones previas: ===
+### Verificaciones previas: ###
 
 - Las cámaras PowerShot SX130 IS deben estar fijadas al escaner y conectadas a la fuente de alimentación y puerto USB
 - La conexión al distribuidor USB en la parte frontal superior del escaner debe estar *desconectada*. Si esta conectada, desconectela.
 - Verificar que el cable USB que llega desde la PC al distribuidor si este conectada en la PC.
 - Verificar la conexión de la PC a la red electrica.
 
-=== Procedimiento ===
+### Procedimiento ###
 
 PC: Encender la PC del boton de inicio (en el frente del gabinete), y el monitor. Luego de unos segundos ingresar nombre de usuario y contraseña para iniciar el sistema. Una vez iniciado el escritorio, hacer doble click en el icono (imagen del icono) para iniciar el software asistente de digitalización (DALclick). 
 
@@ -110,14 +109,17 @@ tip: el ajuste de ortogonalidad es un proceso que se llevara a cabo inicialmente
 
 Para colocar la camara en posicion ortogonal disponemos de dos grados de movimiento en el soporte de la camara. De la perilla (1) se controla el eje A, y del tornillo de fijacion de la cámara el eje B.
 
-=== Ortogonalidad del Eje A: ===
+![fig 5](/media/img/cnba-scanner-manual/panel_electrico.png)
+
+
+=== Ortogonalidad del Eje X: ===
 
 Utilizando la escuadra N, cuyo angulo es de 140°, se deberá alinear el brazo (X) aflojando la perilla (Y). La escuadra deberá colocarse tal como se indica en la fig 3. Para alinear el brazo (X) la linea blanca trazada sobre el mismo (Z) debera alinearse con la escuadra. Una vez alineado asegurarse de ajustar bien la perilla (Y)
 
 [fig 3: vista donde se vea el brazo Y, la linea, la escuadra colocada y el eje A representado]
 [fig 4: vista desde adentro donde se vea la perilla Y]
 
-=== Ortogonalidad del Eje B: ===
+=== Ortogonalidad del Eje Z: ===
 
 - Colocar el plano cuadriculado en la cama del escaner
 - Encender el display de la cámara, presionando levemente el boton de disparo (A).
@@ -126,7 +128,7 @@ Utilizando la escuadra N, cuyo angulo es de 140°, se deberá alinear el brazo (
 
 [fig 5: imagen que muestra la perilla N]
 
-=== Ortogonalidad del Eje C: ===
+=== Ortogonalidad del Eje Y: ===
 
 - Aflojar levemente el tornillo que fija la cámara y moviendola segun el eje C asegurarse de que las horizontales del plano cuadriculado se observen paralelas en el display, sin perspectiva.
 
