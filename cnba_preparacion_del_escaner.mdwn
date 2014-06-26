@@ -1,6 +1,8 @@
 ## Elementos del escáner ##
 
-![fig 1](/media/img/cnba-scanner-manual/infografia.png)
+Para familiarizarse con el escáner, comience reconociendo las diferentes partes del aparato y su función.
+
+![fig 1](/media/img/cnba-scanner-manual/elementos.png)
 Figura 1 - Elementos del escáner
 
 ## Referencias: perillas de ajuste y conectores ##
@@ -11,85 +13,96 @@ Figura 2 - Referencias: perillas de ajuste y conectores
 
 * * * * * 
 
-![fig 1](/media/img/cnba-scanner-manual/zoom.png)
-![fig 1](/media/img/cnba-scanner-manual/cnba-scanner-manual/ortogonalidad.png)
-![fig 1](/media/img/cnba-scanner-manual/deformacion-perspectiva.png)
-![fig 1](/media/img/cnba-scanner-manual/rotacion.png)
-![fig 1](/media/img/cnba-scanner-manual/ojopez1.png)
-![fig 1](/media/img/cnba-scanner-manual/ojopez2.png)
-
-* * * * *
-
-## 1. Conexión de las Cámaras al equipo y a la fuente de alimentación ##
+## 1. Conexión de las cámaras digitales ##
 
 ### Verificaciones previas: ###
 
-- Verificar que las fuentes de alimentación (Figura 7, "A")se encuentren correctamente enchufadas en el panel lateral, y que cada cable de alimentación llegue hasta el área de fijación de la cámara.
-- Verificar que los cables USB se encuentren desplegados en el escaner y llegue cada uno desde el distribuidor USB (Figura 1, "A") hasta el área de fijación de cada cámara.
+- Verificar que las fuentes de alimentación (J) se encuentren correctamente enchufadas en el panel lateral, y que cada cable de alimentación (C) llegue hasta el área de fijación de la cámara.
+- Verificar que los cables USB se encuentren desplegados en el escaner y llegue cada uno desde el distribuidor USB (A) hasta el área de fijación de cada cámara (C).
 
 ### Procedimiento ###
 
-Identificar los cables USB (Figura 3 "A") y de alimentación (Figura 3 "B") que se encuentran próximos al punto de fijación de la cámara (Figura 2 "C") en el escáner. Abrir el panel de conexión en el costado derecho de la Canon PowerShot SX130 IS (Figura 4). Con delicadeza enchufar ambos conectores a los puntos de conexión correspondientes.
+Identificar los cables USB y de alimentación (Ver Fig. 3) que se encuentran próximos al punto de fijación de la cámara (C) en el escáner. Abrir el panel de conexión en el costado derecho de la Canon PowerShot SX130 IS (Fig. 4). Con *mucha delicadeza* enchufar ambos conectores a los puntos de conexión correspondientes.
 
-![fig 4](/media/img/cnba-scanner-manual/usb-fuente.png)
-Figura 3
+![Figura 3](/media/img/cnba-scanner-manual/usb-fuente.png)
+Figura 3 - Conector Fuente de alimentación y USB
 
-![fig 3](/media/img/cnba-scanner-manual/conexiones_camara.png)
-Figura 4
+![Figura 4](/media/img/cnba-scanner-manual/conexiones_camara.png)
+Figura 4 - Panel lateral de la Canon PowerShot SX130 IS
 
-[tip] una vez conectada la fuente de alimentacion y el USB a la cámara, el dispositivo debe permanecer conectado hasta que deba retirarse del escáner. Se trata de reducir el número de conexiones y desconexiones físicas en la camara: los puntos de conexion se encuentran anclados directamente a la placa madre de la PowerShot SX130 IS, cualquier avería implicará el cambio de la placa, que es un repuesto costoso. La ficha de la fuente de alimentación es particularmente frágil. Para desconectar las cámaras del enlace USB con el equipo se dispone de la conexión (Figura 2 "B"). Para desactivar la fuente de energía, el escaner dispone del botón de apagado del sistema eléctrico (Figura 7 ??).
+[tip] Es recomendable que las cámaras queden conectadas en forma permanente. Se trata de reducir el número de conexiones y desconexiones físicas en la camara: los puntos de conexion se encuentran anclados directamente a la placa madre de la PowerShot SX130 IS, cualquier avería implicará el cambio de la placa, que es un repuesto costoso. La ficha de la fuente de alimentación es particularmente frágil. Para desconectar las cámaras del enlace USB con el equipo se dispone de la conexión (B). Para desactivar la fuente de energía, el escaner dispone del botón de apagado del sistema eléctrico (L), y su desconexión de la red eléctrica (N).
+
 
 ## 2. Colocación de las cámaras digitales en el escáner ##
 
-La cámara se fija al escaner mediante el ajuste de un tornillo que se enrosca en la base de la cámara, en el orificio estandar de fijación de ¼ ". Colocar la cámara segun lo indicado en la figura teniendo en cuanta la posicion de suplementos y material antideslizante.
+La cámara se fija al escaner mediante el ajuste de un tornillo que atraviesa el soporte (Ver Fig. 5) y se enrosca en la base de la cámara, en el orificio estandar de fijación de ¼ de pulgada. 
+
+### Procedimiento ###
+
+Colocar la cámara segun lo indicado en la *Figura 6* teniendo en cuenta la posición de suplementos y material antideslizante.
 
 ![fig](/media/img/cnba-scanner-manual/fijacion_camaras.png)
-Figura 5.
+Figura 5 - Puntos de fijación de las cámaras digitales al soporte.
 
 [figura: vista de la colocacion de la camara, una mano toma la camara y la otra ajusta el tronillo y señalamiento de las partes: tornillo, tuercas, suplemento, antideslizante, etc]
-Figura 6.
+Figura 6 - Procedimiento apra fijar las cámaras al soporte.
+
 
 ## 3. Encendido de la fuente de iluminación ##
 
 ### Verificaciones previas: ###
 
-Verificar que las lámparas estan correctamente enchufadas al panel (a)
+- Verificar la conexión eléctrica (M).
+- Verificar el correcto ajuste de las lámparas (O) en los portalámparas (el ajuste de las lámparas es a rosca, no deben estar flojas, ajústelas si es necesario).
 
 ### Procedimiento ###
 
-Encender las lámparas desde los interruptores "B" (ver figura 7).
-
-![fig 5](/media/img/cnba-scanner-manual/panel_electrico.png)
-Figura 7 - Panel Lateral.
+Encender las lámparas desde los interruptores (K).
 
 
 ## 4. Encendido de cámaras y equipo ##
 
 ### Verificaciones previas: ###
 
-- Las cámaras PowerShot SX130 IS deben estar fijadas al escaner y conectadas a la fuente de alimentación y puerto USB
-- La conexión al distribuidor USB en la parte frontal superior del escaner debe estar *desconectada*. Si esta conectada, desconectela.
-- Verificar que el cable USB que llega desde la PC al distribuidor si este conectada en la PC.
+- Las cámaras PowerShot SX130 IS ya deben estar fijadas al escáner y conectadas a la fuente de alimentación y puerto USB, como se describe en los items 1 y 2.
+- Verificar la coxión del cable USB escaner/PC (B).
 - Verificar la conexión de la PC a la red electrica.
 
 ### Procedimiento ###
 
-PC: Encender la PC del boton de inicio (en el frente del gabinete), y el monitor. Luego de unos segundos ingresar nombre de usuario y contraseña para iniciar el sistema. Una vez iniciado el escritorio, hacer doble click en el icono (imagen del icono) para iniciar el software asistente de digitalización (DALclick). 
+Paso 1: (PC) Encender la PC del botón de inicio del frente del gabinete y monitor. Luego de unos segundos ingresar nombre de usuario y contraseña para iniciar el sistema. 
 
-Cámaras: Presionar el botón de encendido (N) ubicado en la parte superior de cada cámara Canon PowerShot SX130 IS. Verificar que las cámaras se enciendan y se muestre el logo "CHDK" en el display mientras se inicia cada cámara.
+Paso 2: Desconectar el distribuidor USB en la parte frontal superior del escáner (B). 
+
+Paso 3: (PC) Una vez iniciado el escritorio, hacer doble click en el icono [imagen del icono aquí!] para iniciar el *software asistente de digitalización* (DALclick). 
+
+Paso 4: (Cámaras) Presionar el botón de encendido (C??) ubicado en la parte superior de cada cámara Canon PowerShot SX130 IS. Verificar que las cámaras se enciendan y se muestre el logo "CHDK" en el display (C1) mientras se inicia cada cámara.
 
 
-## 5. Ajuste de distancia camara/página según dimensiones del libro ##
+## 5. Posicionamiento  de las cámaras según las dimensiones del libro ##
 
 ### Consideraciones previas ###
 
-Con distancia camara/página nos referimos a la distancia que existe entre el plano a ser fotografiado (la pagina del libro) y la lente de la cámara. Esta distancia varía segun el tamaño del libro: se busca que la imagen de la página abarque la mayor superficie posible dentro del sensor digital (es decir que ocupe todo el visor), manteniendo el zoom en una posicion fija. Si el libro es pequeño habra que acercar las camaras, si es grande, alejarlas. fig H
+Nos referiremos a "d" como la distancia entre el objetivo de la cámara y el plano a ser fotografiado (la página del libro). Esta distancia deberá variar según el tamaño del libro para obtener una captura óptima. 
 
-[fig H, imagene de la pagina en el visor abarcando todo, signo correcto, y abarcando un area menor, incorrecto]
+Hay dos aspectos a tener en cuenta:
 
-tip: ¿por que no se ajusta el tamaño de la pagina en el visor utilizando el zoom? Si bien el zoom parece ofrecer una solución más práctica que mover las cámaras de posición, tiene el inconveniente de cambiar el grado de curvatura de las rectas del plano a digitalizar (fig X), si el angulo es muy abierto las lineas tienden a curvarse como en "ojo de pez". Esta deformación puede corregirse digitalmente, pero al costo de mayor tiempo de procesamiento y complejizacion del software. La efectividad del OCR (reconocimiento de caracteres) aumenta con la ortogonalidad de la imagen. Por el contrario, si el zoom es muy cerrado la distancia focal mínima puede ser mayor que la disponible e impedir un enfoque correcto (ademas, mayor distancia focal implica necesiadd de mayor iluminacion, lo cual reduce la nitidez al disminuir de la velocidad para compensar la falta de luz; menos velocidad hace que la toma sea mas sensible a las vibraciones). Siguiendo el criterio de obtener la mejor calidad de captura y reducir las operaciones necesarias en el postproceso, optamos por mantener una distancia de zoom fija.
+En primero es que la imagen de la página abarque la mayor área posible dentro del display de la cámara como se indica a continuación:
 
-[fig X dos imagenes de camara a igual distancia y el tipo de deformacion que produce el zoom, y otra camara a mayor distancia con la proyeccion correcta]
+![fig X](/media/img/cnba-scanner-manual/zoom.png)
+
+En segundo aspecto es ajustar la distancia focal del zoom al valor mas alto que sea posible, para reducir el efecto "ojo de pez".
+
+Con una distancia focal menor, el ángulo de visión es amplio (se podría abarcar una superficie de un tamaño de página grande) pero el efecto "ojo de pez" se acentúa.
+
+![fig X](/media/img/cnba-scanner-manual/ojopez1.png)
+
+Aumentando la distancia "d", se puede aumentar la distancia focal, reducir el angulo de visión y minimizar el efecto "ojo de pez"
+
+![fig X](/media/img/cnba-scanner-manual/ojopez2.png)
+
+tip: El efecto "ojo de pez" es una deformación poco evidente cuando se fotografian personas u objetos tridimensionales con objetivos estándar (por ej. 35mm), pero muy visible cuando se trata de objetos planos. Si bien el efecto puede corregirse digitalmente, el costo es mayor tiempo de procesamiento y complejización del postproceso de digitalización. La efectividad del OCR (reconocimiento de caracteres) aumenta en la medida que se reduzca esta aberración. Por esta razón es que se utilizarán en lo posible distancias focales mayores, para lo cual se deberá modificar la distancia "d" y no el zoom, con libros de mayor formato.
+
 
 ### Procedimiento ###
 
@@ -113,15 +126,17 @@ tip: también puede obtenerse este número utilizando la tabla X adjunta a este 
 
 ToDo: colocar una madera tope que evite que el tornillo cabeza redonda y cuello cuadrado se separe del conjunto porta-camara
 
-## 6. Ajuste de Ortogonalidad ##
+## 6. Alineación de las cámaras ##
 
 tip: el ajuste de ortogonalidad es un proceso que se llevara a cabo inicialmente, al comenzar a utilizar el escaner. Normalmente no deberá volver a repetirse mientras no se retiren las camaras del equipo. A lo sumo, cada dia deberá realizarse una verificación de ortogonalidad al comenzar una nueva sesion de digitalizacion.
 
 ¿Que es ortogonalidad? Si trazamos un eje imaginario que parta del objetivo de la camara y llege hasta el centro de la imagen hacia donde se apunta, "ortogonalidad" significa que el plano a ser fotografiado (la página del libro) se encuentre en un angulo de 90 con respecto a este eje, en cualquier plano que se tome - fig 1. La ortogonalidad anula las deformaciones provocadas por la perspectiva - fig 2. Ademas el rectangulo de la pagina debera alinearse con el rectangulo display de la camara fig 3.
 
-[fig 1: esquema de ortogonlaidad de una linea a un plano]
-[fig 2: esquema que muestra que tipo de deformacion provoca la perspectiva]
-[fig 3: display de la camara con pagina cuadriculada alineada y desalineada]
+![fig 1](/media/img/cnba-scanner-manual/ortogonalidad.png)
+
+![fig 1](/media/img/cnba-scanner-manual/deformacion-perspectiva.png)
+
+
 
 Para colocar la camara en posicion ortogonal disponemos de dos grados de movimiento en el soporte de la camara. De la perilla (1) se controla el eje A, y del tornillo de fijacion de la cámara el eje B.
 
@@ -133,7 +148,6 @@ Para colocar la camara en posicion ortogonal disponemos de dos grados de movimie
 Utilizando la escuadra N, cuyo angulo es de 140°, se deberá alinear el brazo (X) aflojando la perilla (Y). La escuadra deberá colocarse tal como se indica en la fig 3. Para alinear el brazo (X) la linea blanca trazada sobre el mismo (Z) debera alinearse con la escuadra. Una vez alineado asegurarse de ajustar bien la perilla (Y)
 
 [fig 3: vista donde se vea el brazo Y, la linea, la escuadra colocada y el eje A representado]
-[fig 4: vista desde adentro donde se vea la perilla Y]
 
 ### Ortogonalidad del Eje Z: ###
 
@@ -142,14 +156,17 @@ Utilizando la escuadra N, cuyo angulo es de 140°, se deberá alinear el brazo (
 - aflojando la perilla (N), mover el soporte hasta que la horizontal y vertical del plano cuadriculado, quede alienado con el display de la camara
 - Asegurase de dejar bien ajustada la perilla N al terminar la alineación.
 
-[fig 5: imagen que muestra la perilla N]
+![fig 5](/media/img/cnba-scanner-manual/ejes.png)
+(ojo solo debera mostrarse el eje Z)
+
+![fig 1](/media/img/cnba-scanner-manual/rotacion.png)
+
 
 ### Ortogonalidad del Eje Y: ###
 
 - Aflojar levemente el tornillo que fija la cámara y moviendola segun el eje C asegurarse de que las horizontales del plano cuadriculado se observen paralelas en el display, sin perspectiva.
 
 Para obtener mas precisión, en DALclick seleccione "vista previa". A continuacion las cámaras tomaran una imagen de prueba que se mostrara en pantalla. Podra hacer ajustes mas precisos repitiendo el proceso indicado para alinear los ejes B y C y tomando tantos test como sea necesario.
-
 
 - ajustar la altura correcta de la cama
   * colocar las camaras en la posicion de zoom determinada en la tabla
