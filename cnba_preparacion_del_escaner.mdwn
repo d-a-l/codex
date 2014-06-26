@@ -8,10 +8,17 @@ Figura 1 - Elementos del escáner
 ![fig 1](/media/img/cnba-scanner-manual/referencias.png)
 Figura 2 - Referencias: perillas de ajuste y conectores
 
-![fig 1](/media/img/cnba-scanner-manual/ojopez1.png)
 
 * * * * * 
 
+![fig 1](/media/img/cnba-scanner-manual/zoom.png)
+![fig 1](/media/img/cnba-scanner-manual/cnba-scanner-manual/ortogonalidad.png)
+![fig 1](/media/img/cnba-scanner-manual/deformacion-perspectiva.png)
+![fig 1](/media/img/cnba-scanner-manual/rotacion.png)
+![fig 1](/media/img/cnba-scanner-manual/ojopez1.png)
+![fig 1](/media/img/cnba-scanner-manual/ojopez2.png)
+
+* * * * *
 
 ## 1. Conexión de las Cámaras al equipo y a la fuente de alimentación ##
 
