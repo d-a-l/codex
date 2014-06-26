@@ -5,11 +5,12 @@ Para familiarizarse con el escáner, comience reconociendo las diferentes partes
 ![fig 1](/media/img/cnba-scanner-manual/elementos.png)
 Figura 1 - Elementos del escáner
 
-## Referencias: perillas de ajuste y conectores ##
+## Referencias ##
 
 ![fig 1](/media/img/cnba-scanner-manual/referencias.png)
-Figura 2 - Referencias: perillas de ajuste y conectores
+Figura 2 - Referencias
 
+tes para <span class="">1</span> @@2@@ $$2$$
 
 * * * * * 
 
