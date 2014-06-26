@@ -10,7 +10,7 @@ Figura 1 - Elementos del escáner
 ![fig 1](/media/img/cnba-scanner-manual/referencias.png)
 Figura 2 - Referencias
 
-tes para <span class="">1</span> @@2@@ $$2$$ ((2)) (((2))) ''2''
+tes para <span class="">1</span> @@2@@ $$2$$ ((2(( ''2''
 
 * * * * * 
 
