@@ -1,91 +1,90 @@
-## Elementos del escáner ##
+## Figura 1 - Elementos del escáner ##
 
 Para familiarizarse con el escáner, comience reconociendo las diferentes partes del aparato y su función.
 
 ![fig 1](/media/img/cnba-scanner-manual/elementos.png)
-Figura 1 - Elementos del escáner
 
-## Referencias ##
+## Figura 2 - Referencias del Escáner ##
 
 ![fig 2](/media/img/cnba-scanner-manual/referencias.png)
-Figura 2 - Referencias
 
 
-## Referencias Canon SX130 ##
+## Figura 3 - Referencias Canon SX130 ##
+
+Referencias para la Cámara Digital Canon Powershot SX130
 
 ![fig 3](/media/img/cnba-scanner-manual/referencias-sx130.png)  
-Figura 3 - Referencias Cámara Digital Canon Powershot SX130
 
 * * * * * 
 
-## 1. Conexión de las cámaras digitales ##
 
-### Verificaciones previas: ###
+# 1. Colocación de las cámaras y fuentes de alimentación ##
 
-- Verificar que las fuentes de alimentación ßßJßß se encuentren correctamente enchufadas en el panel lateral
-- Verificar que los cables USB y de alimentación se encuentren desplegados en el escaner y lleguen al área de fijación de cada cámara ßßDßß.
+La cámara se fija al escaner mediante el ajuste de un tornillo que atraviesa el soporte @@Fig. 6@@ y se enrosca en la base de la cámara, en el orificio estandar de fijación de ¼ de pulgada de la cámara Powershot SX130 ßß?ßß. 
 
-### Procedimiento ###
-
-Identificar los cables USB y de alimentación @@(Fig. 4)@@ que se encuentran próximos al punto de fijación de la cámara ßßDßß en el escáner. Abrir el panel de conexión en el costado derecho de la *Canon PowerShot SX130 IS* @@(Fig. 5)@@. Con *mucha delicadeza* enchufar ambos conectores a los puntos de conexión correspondientes.
-
-![Figura 4](/media/img/cnba-scanner-manual/usb-fuente.png)
-@@Figura 4@@ - Conector de alimentación DC  y conenctor USB
-
-![Figura 5](/media/img/cnba-scanner-manual/conexiones_camara.png)
-@@Figura 5@@ - Panel lateral de la Canon PowerShot SX130 IS
-
-[tip] Es recomendable que las cámaras queden conectadas en forma permanente. Se trata de reducir el número de operaciones de conexión/desconexión a la cámara: los puertos de conexión se encuentran anclados directamente a la placa madre de la PowerShot SX130 IS, cualquier avería implicará un cambio de la placa, que es un repuesto costoso. La ficha de la fuente de alimentación es particularmente frágil. Para desconectar las cámaras del enlace USB con el equipo se dispone de la conexión ßßAßß. Para desactivar la fuente de energía, el escaner dispone del botón de apagado del sistema eléctrico ßßNßß, y eventualmente la desconexión de la red eléctrica ßßPßß.
-
-
-## 2. Colocación de las cámaras digitales en el escáner ##
-
-La cámara se fija al escaner mediante el ajuste de un tornillo que atraviesa el soporte @@Fig. 6@@ y se enrosca en la base de la cámara, en el orificio estandar de fijación de ¼ de pulgada de la cámara Poewrshot SX130 ßß?ßß. 
+Las fuentes de alimentación (una para cada cámara) se enchufan a los tomacorrientes de talero lateral ßßGßß del escaner.
 
 ### Procedimiento ###
 
-Colocar la cámara segun lo indicado en la @@Figura 7@@ teniendo en cuenta la posición de suplementos y material antideslizante.
+**Paso 1**: Colocar la cámara segun lo indicado en la @@Figura 7@@ teniendo en cuenta la posición de suplementos y material antideslizante.
 
 ![fig](/media/img/cnba-scanner-manual/fijacion_camaras.png)
 @@Figura 6@@ - Puntos de fijación de las cámaras digitales al soporte.
 
 @@figura 7 vista de la colocacion de la camara, una mano toma la camara y la otra ajusta el tornillo y señalamiento de las partes: tornillo, tuercas, suplemento, antideslizante, etc@@
 
+**Paso 2**: Enchufar las fuentes ßßSßß a los tomacorrientes laterales en el tablero ßßGßß y extender cada cable hacia los puntos de montaje de las cámaras ßßMßß. Utilice los listones de la estructura del escáner para desplegar los cables prolijamente. 
 
-## 3. Encendido del escáner y PC ##
+**Nota**: no es necesario enchufar y desenchufar las fuentes de alimentación en cada sesión de digitalización, déjelas enchufadas, pero desconéctelas de la red eléctrica apagando el escáner desde la tecla ßßUßß o desenchufando la conexion principal ßßWßß.
+
+
+## 2. Conexión de las cámaras digitales ##
+
+Identifique los conectores USB y de alimentación @@(Fig. 4)@@ que se encuentran próximos al punto de fijación de la cámara ßßMßß en el escáner. Abrir el panel de conexión en el costado derecho de la *Canon PowerShot SX130 IS* @@(Fig. 5)@@. Con *mucha delicadeza* enchufar ambos conectores a los puntos de conexión correspondientes.
+
+![Figura 4](/media/img/cnba-scanner-manual/usb-fuente.png)
+@@Figura 4@@ - Conector de alimentación DC y conenctor USB
+
+![Figura 5](/media/img/cnba-scanner-manual/conexiones_camara.png)
+@@Figura 5@@ - Panel lateral de la Canon PowerShot SX130 IS
+
+[tip] Es recomendable que las cámaras queden conectadas en forma permanente. Se trata de reducir el número de operaciones de conexión/desconexión a la cámara: los puertos de conexión se encuentran anclados directamente a la placa madre de la PowerShot SX130 IS, cualquier avería implicará un cambio de la placa, que es un repuesto costoso. La ficha de la fuente de alimentación es particularmente frágil. Para desconectar las cámaras del enlace USB con el equipo se dispone de la conexión ßßIßß. Para desactivar la fuente de energía, el escaner dispone del botón de apagado del sistema eléctrico ßßUßß, y eventualmente la desconexión de la red eléctrica ßßWßß.
+
+
+## 3. Encendido del Escáner y PC ##
 
 ### Verificaciones previas: ###
 
-- Verificar la conexión de los enchufes de las lámparas en ßßOßß.
-- Verificar el correcto ajuste de las lámparas ßßEßß en los portalámparas (el ajuste de las lámparas es a rosca, no deben estar flojas, ajústelas si es necesario).
-- Verificar la conexion de la fuentes de alimentación al tomacorriente del escáner ßßLßß 
+- Verificar la conexión de los enchufes de las lámparas en ßßVßß.
+- Verificar el correcto ajuste de las lámparas ßßKßß en los portalámparas (el ajuste de las lámparas es a rosca, no deben estar flojas, ajústelas si es necesario).
+- Verificar la conexión de la fuentes de alimentación al tomacorriente del escáner ßßSßß 
 
 ### Procedimiento ###
 
-Paso 1: Conectar el escaner a la red eléctrica enchufando la clavija ßßPßß a un tomacorriente.
+**Paso 1**: Conectar el escaner a la red eléctrica enchufando la clavija ßßWßß a un tomacorriente de red (220V).
 
-Paso 2: Encender el escaner desde ßßNßß.
+**Paso 2**: Encender el escaner desde ßßUßß.
 
-Paso 3: Encender las lámparas desde los interruptores ßßMßß.
+**Paso 3**: Encender las lámparas desde los interruptores ßßTßß.
 
-Paso 4: Encender la PC apretando el botón de inicio al frente del gabinete, y monitor desde la tecla correspondiente.
+**Paso 4**: Encender la PC apretando el botón de inicio al frente del gabinete, y monitor desde la tecla correspondiente.
 
 
 ## 4. Encendido de cámaras ##
 
 ### Verificaciones previas: ###
 
-- El escáner y la PC deben estar encendidos, y las cámaras fijadas y conectadas a la fuente de alimentación y puerto USB, como se describe en los items anteriores.
+- El escáner debe estar conectado a la red, las luces encendidas, la PC iniciada, y las cámaras fijadas y conectadas a la fuente de alimentación y puerto USB, como se describe en los items anteriores 1,2 y 3.
 
 ### Procedimiento ###
 
-**Paso 1**: (PC) Ingresar nombre de usuario y contraseña para iniciar el sistema. 
+**Paso 1**: *Desconectar* el distribuidor USB en la parte frontal superior del escáner ßßAßß. 
 
-**Paso 2**: Desconectar el distribuidor USB en la parte frontal superior del escáner ßßAßß. 
+**Paso 2**: (Cámaras) Presionar el botón de encendido ßß3ßß ubicado en la parte superior de cada cámara Canon PowerShot SX130 IS. Verificar que se despliegue el objetivo y se muestre el logo "CHDK" en el display ßß1ßß mientras se inicia cada cámara.
 
-**Paso 3**: (PC) Una vez iniciado el escritorio, hacer doble click en el icono [imagen del icono aquí!] para iniciar el *software asistente de digitalización* (DALclick). 
+**Paso 3**: (PC) Ingresar nombre de usuario y contraseña para iniciar la sesión. 
 
-**Paso 4**: (Cámaras) Presionar el botón de encendido ßß3ßß ubicado en la parte superior de cada cámara Canon PowerShot SX130 IS. Verificar que se despliegue el objetivo y se muestre el logo "CHDK" en el display ßß1ßß mientras se inicia cada cámara.
+**Paso 4**: (PC) Una vez iniciado la sesión, hacer *doble click* en el icono [imagen del icono aquí!] para iniciar el *software asistente de digitalización* (DALclick). Cuando el programa le solicite que conecte las cámaras, hágalo desde el enlace distribuidor USB ßßAßß.
 
 
 ## 5. Posicionamiento de las cámaras según las dimensiones del libro ##
