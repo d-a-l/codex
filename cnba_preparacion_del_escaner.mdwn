@@ -18,7 +18,7 @@ Referencias para la Cámara Digital Canon Powershot SX130
 * * * * * 
 
 
-# 1. Colocación de las cámaras y fuentes de alimentación ##
+## 1. Colocación de las cámaras y fuentes de alimentación ##
 
 La cámara se fija al escaner mediante el ajuste de un tornillo que atraviesa el soporte @@Fig. 6@@ y se enrosca en la base de la cámara, en el orificio estandar de fijación de ¼ de pulgada de la cámara Powershot SX130 ßß?ßß. 
 
