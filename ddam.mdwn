@@ -1,0 +1,170 @@
+### Instalar nodejs ###
+
+(probablemnte estos paquetes ya esten instalados)
+
+    sudo apt-get update && sudo apt-get install git-core curl build-essential openssl libssl-dev
+
+clonar nodejs
+
+como root
+
+    cd /opt
+    mkdir node
+    chown dalquod:dalquod node/
+
+como usuario
+cloar repo:
+
+    cd /opt
+    git clone https://github.com/joyent/node.git
+
+obtener la version
+
+    cd node
+    git checkout v0.10.29 (julio de 2014)
+
+compilar
+
+    ./configure --openssl-libpath=/usr/lib/ssl
+    make
+
+como root
+
+    checkinstall
+
+- se debe cambiar en el campo <version> por 0.10.29
+- en caso de tener problemas con checkinstal usar `make install`
+
+verificar instalación
+
+    node -v
+    npm -v
+
+### Crear tema a partir de temas de Bootswatch ###
+
+clonar el repo
+
+instalar dependencias
+
+borrar carpetas de temas no usados
+
+modificar gruntfile
+
+
+### Crear nuevo tema ddam a partir de un bootstrap subtheme ###
+
+pre-requisitos
+
+- tener instalado nodejs
+- con npm instalar less y grunt
+
+    npm install -g less
+    npm install -g grunt
+
+Ir a la carpeta base de drupal, luego:
+
+    cd sites/all/themes/bootstrap
+    cp -rp bootstrap_subtheme ../
+    mv bootstrap_subtheme ddam
+
+# Boootstrap
+
+clonar el repositorio de bootstap
+
+    cd sites/all/themes/ddam
+    git clone https://github.com/twbs/bootstrap.git
+
+ir version de partida de las modificaciones que se haran en ddam
+
+    cd bootstrap
+    git checkout v3.2.0
+
+Instalar aplicaciones locales necesarias para la compilación
+
+    cd sites/all/themes/ddam/bootstrap
+    npm install
+
+Es importante estar en la carpeta base del repo local de bootstrap para correr `npm install` ya que leerá el archivo package.json que esta ubicado en ese directorio
+
+Compilar con grunt
+
+    grunt dist
+
+Crear archivo .info de tema
+
+    mv bootstrap_subtheme.info.starterkit.info ddam.info
+
+editar en ddam.info
+
+nombre del tema
+
+     name = DDAM
+     description = DDAM theme based on a Bootstrap Sub-theme.
+     core = 7.x
+     base theme = bootstrap
+
+css
+
+     ;;;;;;;;;;;;;;;;;;;;;
+     ;; Stylesheets
+     ;;;;;;;;;;;;;;;;;;;;;
+
+     ; stylesheets[all][] = css/style.css
+     stylesheets[all][] = bootstrap/dist/css/bootstrap.css
+     stylesheets[all][] = bootstrap/dist/css/bootstrap-theme.css
+     stylesheets[all][] = css/over.css
+
+
+javascript
+
+     ;----------------------------------
+     ; METHOD 1: Bootstrap Source Files
+     ;----------------------------------
+     
+     ;;;;;;;;;;;;;;;;;;;;;
+     ;; Scripts
+     ;;;;;;;;;;;;;;;;;;;;;
+     
+     scripts[] = 'bootstrap/dist/js/bootstrap.min.js'
+     
+     ; scripts[] = 'bootstrap/js/affix.js'
+     ; scripts[] = 'bootstrap/js/alert.js'
+     ; scripts[] = 'bootstrap/js/button.js'
+     ; scripts[] = 'bootstrap/js/carousel.js'
+     ; scripts[] = 'bootstrap/js/collapse.js'
+     ; scripts[] = 'bootstrap/js/dropdown.js'
+     ; scripts[] = 'bootstrap/js/modal.js'
+     ; scripts[] = 'bootstrap/js/tooltip.js'
+     ; scripts[] = 'bootstrap/js/popover.js'
+     ; scripts[] = 'bootstrap/js/scrollspy.js'
+     ; scripts[] = 'bootstrap/js/tab.js'
+     ; scripts[] = 'bootstrap/js/transition.js'
+
+     ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+     settings[bootstrap_cdn] = ''
+
+
+- No hace falta copiar template.php y theme-settings.php y la carpeta 'theme', los toma del "tema base"
+- En 'template' se pueden agregar los archivos de template .tpl.php que sobreescriben los de drupal y el tema base
+
+
+* * * * * * 
+
+
+Drupal Bootstrap sub-theming "how to"
+
+- https://www.drupal.org/node/1978010
+
+Sobre compilar nodejs
+
+- http://stackoverflow.com/questions/10478768/installing-node-js-on-debian-6-0
+
+Compilacion de bootstrap e instalacion de grunt
+
+- http://getbootstrap.com/getting-started/
+
+Script para buscar/reemplazar
+
+sed -i 's/bootstrap/ddam/g' theme-settings.php
+sed -i 's/bootstrap/ddam/g' template.php
+find . -type f -print0 | xargs -0 sed -i 's/bootstrap/ddam/g'
