@@ -10,15 +10,15 @@ como root
 
     cd /opt
     mkdir node
-    chown dalquod:dalquod node/
+    chown usuario_sin_privilegios:usuario_sin_privilegios node/
 
-como usuario
+como usuario_sin_privilegios
 cloar repo:
 
     cd /opt
     git clone https://github.com/joyent/node.git
 
-obtener la version
+obtener la versión
 
     cd node
     git checkout v0.10.29 (julio de 2014)
@@ -40,15 +40,56 @@ verificar instalación
     node -v
     npm -v
 
+### Instalar grunt ###
+
+Instalar con npm (commo *root*)
+
+    npm install -g grunt-cli
+
+más info: <http://gruntjs.com/getting-started>
+
 ### Crear tema a partir de temas de Bootswatch ###
 
-clonar el repo
+pre-requisitos
 
-instalar dependencias
+- tener instalado nodejs
+- con npm instalar less y grunt
 
-borrar carpetas de temas no usados
+clonar el repo de Bootswatch
 
-modificar gruntfile
+     https://github.com/thomaspark/bootswatch.git
+
+instalar dependencias (<http://bootswatch.com/help/>)
+
+     cd bootswatch
+     npm install
+
+(si falla verificar permisos ~/.npm/)
+
+- borrar carpetas de temas no usados (?)
+- Agregar o modificar alguno de los temas
+
+Si se le cambia el nombre a la carpeta o se crea una nueva, se debe modificar `gruntfile.js` agregando el nombre del tema aqui:
+
+    swatch: {
+      amelia:{}, cerulean:{}, cosmo:{}, cyborg:{}, darkly:{},
+      flatly:{}, journal:{}, lumen:{}, paper:{}, readable:{},
+      sandstone:{}, simplex:{}, slate:{}, spacelab:{}, superhero:{},
+      united:{}, yeti:{}, mitema:{} 
+    },
+
+verificar en `.gitignore` (que esté ignorada la carpeta `bower_components` y no `components`)
+
+     .idea
+     bower_components
+     node_modules
+     build
+     _site
+     *.lock
+
+Para compilar el tema
+
+     grunt swatch:<mitema>
 
 
 ### Crear nuevo tema ddam a partir de un bootstrap subtheme ###
@@ -67,7 +108,7 @@ Ir a la carpeta base de drupal, luego:
     cp -rp bootstrap_subtheme ../
     mv bootstrap_subtheme ddam
 
-# Boootstrap
+**Boootstrap**
 
 clonar el repositorio de bootstap
 
