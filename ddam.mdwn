@@ -40,9 +40,9 @@ verificar instalación
     node -v
     npm -v
 
-### Instalar grunt ###
+### Instalar grunt-cli ###
 
-Instalar con npm (commo *root*)
+Instalar con npm (como *root*)
 
     npm install -g grunt-cli
 
@@ -52,8 +52,7 @@ más info: <http://gruntjs.com/getting-started>
 
 pre-requisitos
 
-- tener instalado nodejs
-- con npm instalar less y grunt
+- tener instalados nodejs, less y grunt
 
 clonar el repo de Bootswatch
 
