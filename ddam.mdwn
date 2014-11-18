@@ -2,6 +2,7 @@
 
 *Instalación y configuración*
 
+* Drupal y modulos
 * [[FontCustom]] (ruby)
 * [[Bootswatch]] (nodejs)
 * [[nodejs]] (también less y grunt)
