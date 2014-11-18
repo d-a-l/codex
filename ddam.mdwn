@@ -3,7 +3,7 @@
 * <http://fontcustom.com/>
 * <https://github.com/FontCustom/fontcustom/>
 
-''fontcustom usa ruby1.9.3''
+*fontcustom usa ruby1.9.3*
 
 como root:
 
