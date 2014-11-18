@@ -2,9 +2,9 @@
 
 *Instalación y configuración*
 
-* [[FontCustom]] (requisitos: ruby)
-* [[Bootswatch]] (requistos: less, nodejs, grunt)
-* [[nodejs]]
+* [[FontCustom]] (ruby)
+* [[Bootswatch]] (nodejs)
+* [[nodejs]] (también less y grunt)
 
 *Tutoriales*
 
@@ -12,5 +12,3 @@
 * [[Crear un tema de íconos con FontCustom]]
 * [[Crear un nuevo tema en Bootswatch]]
 
-
-* * * * * * 
