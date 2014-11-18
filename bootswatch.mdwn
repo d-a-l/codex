@@ -15,27 +15,3 @@ instalar dependencias (<http://bootswatch.com/help/>)
 
 (si falla verificar permisos ~/.npm/)
 
-- borrar carpetas de temas no usados (?)
-- Agregar o modificar alguno de los temas
-
-Si se le cambia el nombre a la carpeta o se crea una nueva, se debe modificar `gruntfile.js` agregando el nombre del tema aqui:
-
-    swatch: {
-      amelia:{}, cerulean:{}, cosmo:{}, cyborg:{}, darkly:{},
-      flatly:{}, journal:{}, lumen:{}, paper:{}, readable:{},
-      sandstone:{}, simplex:{}, slate:{}, spacelab:{}, superhero:{},
-      united:{}, yeti:{}, mitema:{} 
-    },
-
-verificar en `.gitignore` (que esté ignorada la carpeta `bower_components` y no `components`)
-
-     .idea
-     bower_components
-     node_modules
-     build
-     _site
-     *.lock
-
-Para compilar el tema
-
-     grunt swatch:<mitema>
