@@ -1,3 +1,37 @@
+### Instalar fontcustom ###
+
+* http://fontcustom.com/
+* https://github.com/FontCustom/fontcustom/
+
+fontcustom usa ruby1.9.3
+
+como root:
+
+    apt-get install rubygems ruby1.9.3 ruby1.9.1-dev
+
+y fontforge:
+
+    apt-get intall fontforge
+
+para instalar fontcustom:
+
+    gem install fontcustom
+
+Como crear un tema de iconos:
+
+En inkscape
+
+* Crear SVG de 512x512px, baseline a 64px
+* Crear grilla con unidad de espaciado X e Y de `0.8889` (este valor genera una grilla de 576x576 unidades, un valor múltiplo de 16, 24, 36, 72, etc. es decir más práctico que 512. ToDo: probar la opción de configurar fontcustom directamente en 576x576)
+* Línea primaria en `8` (para ver cuadrícula de 72x72px) ó `24` (para ver cuadrícula de 24x24px)
+* Crear los iconos (un archivo SVG por cada ícono)
+
+colocar todos los SVG en una carpeta, luego ejecutar:
+
+     fontcustom compile ./carpeta
+
+en `.` fontcustom creará la carpeta `fontcustom` con los archivos de tipografias y css.
+
 ### Instalar nodejs ###
 
 (probablemnte estos paquetes ya esten instalados)
