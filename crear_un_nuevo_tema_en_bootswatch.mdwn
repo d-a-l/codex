@@ -1,3 +1,5 @@
+### Crear tema a partir de temas de Bootswatch ###
+
 - borrar carpetas de temas no usados (?)
 - Agregar o modificar alguno de los temas
 
@@ -10,7 +12,7 @@ Si se le cambia el nombre a la carpeta o se crea una nueva, se debe modificar `g
       united:{}, yeti:{}, mitema:{} 
     },
 
-verificar en `.gitignore` (que esté ignorada la carpeta `bower_components` y no `components`)
+verificar en `.gitignore` que esté ignorada la carpeta `bower_components` y no `components`
 
      .idea
      bower_components
