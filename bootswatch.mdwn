@@ -1,4 +1,4 @@
-### Crear tema a partir de temas de Bootswatch ###
+### Instalar Bootswatch ###
 
 pre-requisitos
 
@@ -13,5 +13,5 @@ instalar dependencias (<http://bootswatch.com/help/>)
      cd bootswatch
      npm install
 
-(si falla verificar permisos ~/.npm/)
+(si falla verificar permisos en ~/.npm/)
 
