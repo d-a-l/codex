@@ -18,23 +18,3 @@ Instalar FontCustom:
     wget http://people.mozilla.com/~jkew/woff/woff-code-latest.zip
     unzip woff-code-latest.zip -d sfnt2woff && cd sfnt2woff && make && sudo mv sfnt2woff /usr/local/bin/
     gem install fontcustom
-
-### Crear un tema de íconos ###
-
-En inkscape:
-
-- Crear SVG de 512x512px, baseline a 64px (fontcustom default)
-
-- Crear nueva grilla con unidad de espaciado (X e Y) de `0.8889`. Este valor genera una grilla de 576x576 unidades, un valor múltiplo de 16, 24, 36, 72, etc. es decir más práctico que 512. (ToDo: probar la opción de configurar fontcustom directamente en 576x576) 
-
-- Para usar una cuadrícula de 72x72px como guía ingresar un valor de "línea primaria" en `8`. Para una cuadrícula de 24x24px, un valor de `24`.
-
-- Crear los iconos (un archivo SVG por cada ícono).
-
-Colocar todos los SVG en una carpeta, luego ejecutar:
-
-     fontcustom compile ./carpeta
-
-en `./` fontcustom creará la carpeta `fontcustom` con los archivos de tipografias y css necesarios.
-
-
