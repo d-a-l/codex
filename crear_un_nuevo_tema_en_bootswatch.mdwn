@@ -1,7 +1,8 @@
 ### Crear tema a partir de temas de Bootswatch ###
 
-- borrar carpetas de temas no usados (?)
-- Agregar o modificar alguno de los temas
+- cuestión de orden: conviene borrar carpetas de temas no usados para que no ocupen lugar en el repo (?)
+
+Los temas se modifican desde los dos archivos .less en cada carpeta de sub-temas (el resto de los archivos de bootstrap se incluyen cuando se genera el tema con `grunt`).
 
 Si se le cambia el nombre a la carpeta o se crea una nueva, se debe modificar `gruntfile.js` agregando el nombre del tema aqui:
 
@@ -12,15 +13,17 @@ Si se le cambia el nombre a la carpeta o se crea una nueva, se debe modificar `g
       united:{}, yeti:{}, mitema:{} 
     },
 
-verificar en `.gitignore` que esté ignorada la carpeta `bower_components` y no `components`
+Bug: Si se desea mantener el repositorio y no incluir bootstrap y demas dependencias que se instalan automaticamente, verificar en `.gitignore` que esté ignorada la carpeta `bower_components` y no `components`.
 
      .idea
-     bower_components
+     bower_components <- ojo
      node_modules
      build
      _site
      *.lock
 
-Para compilar el tema
+Para compilar el tema:
 
      grunt swatch:<mitema>
+
+y listo (en drupal se debe modificar la ruta al archivo css de bootstrap que se encuentra en la carpeta del sub-tema en bootswatch).
