@@ -94,3 +94,28 @@ javascript
 
 - No hace falta copiar template.php y theme-settings.php y la carpeta 'theme', los toma del "tema base"
 - En 'template' se pueden agregar los archivos de template .tpl.php que sobreescriben los de drupal y el tema base
+
+
+* * * * * * 
+
+varios
+
+
+
+Drupal Bootstrap sub-theming "how to"
+
+- https://www.drupal.org/node/1978010
+
+Sobre compilar nodejs
+
+- http://stackoverflow.com/questions/10478768/installing-node-js-on-debian-6-0
+
+Compilacion de bootstrap e instalacion de grunt
+
+- http://getbootstrap.com/getting-started/
+
+Script para buscar/reemplazar (ojo no hace falta hacer esto!)
+
+     sed -i 's/bootstrap/ddam/g' theme-settings.php
+     sed -i 's/bootstrap/ddam/g' template.php
+     find . -type f -print0 | xargs -0 sed -i 's/bootstrap/ddam/g'
