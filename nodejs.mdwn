@@ -1,0 +1,49 @@
+### Instalar nodejs ###
+
+(probablemnte estos paquetes ya esten instalados)
+
+    sudo apt-get update && sudo apt-get install git-core curl build-essential openssl libssl-dev
+
+clonar nodejs
+
+como root
+
+    cd /opt
+    mkdir node
+    chown usuario_sin_privilegios:usuario_sin_privilegios node/
+
+como usuario_sin_privilegios
+cloar repo:
+
+    cd /opt
+    git clone https://github.com/joyent/node.git
+
+obtener la versión
+
+    cd node
+    git checkout v0.10.29 (julio de 2014)
+
+compilar
+
+    ./configure --openssl-libpath=/usr/lib/ssl
+    make
+
+como root
+
+    checkinstall
+
+- se debe cambiar en el campo <version> por 0.10.29
+- en caso de tener problemas con checkinstal usar `make install`
+
+verificar instalación
+
+    node -v
+    npm -v
+
+### Instalar grunt-cli ###
+
+Instalar con npm (como *root*)
+
+    npm install -g grunt-cli
+
+más info: <http://gruntjs.com/getting-started>
