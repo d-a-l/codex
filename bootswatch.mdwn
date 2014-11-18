@@ -1,49 +1,41 @@
-### Instalar nodejs ###
+### Crear tema a partir de temas de Bootswatch ###
 
-(probablemnte estos paquetes ya esten instalados)
+pre-requisitos
 
-    sudo apt-get update && sudo apt-get install git-core curl build-essential openssl libssl-dev
+- tener instalados nodejs, less y grunt
 
-clonar nodejs
+clonar el repo de Bootswatch
 
-como root
+     https://github.com/thomaspark/bootswatch.git
 
-    cd /opt
-    mkdir node
-    chown usuario_sin_privilegios:usuario_sin_privilegios node/
+instalar dependencias (<http://bootswatch.com/help/>)
 
-como usuario_sin_privilegios
-cloar repo:
+     cd bootswatch
+     npm install
 
-    cd /opt
-    git clone https://github.com/joyent/node.git
+(si falla verificar permisos ~/.npm/)
 
-obtener la versión
+- borrar carpetas de temas no usados (?)
+- Agregar o modificar alguno de los temas
 
-    cd node
-    git checkout v0.10.29 (julio de 2014)
+Si se le cambia el nombre a la carpeta o se crea una nueva, se debe modificar `gruntfile.js` agregando el nombre del tema aqui:
 
-compilar
+    swatch: {
+      amelia:{}, cerulean:{}, cosmo:{}, cyborg:{}, darkly:{},
+      flatly:{}, journal:{}, lumen:{}, paper:{}, readable:{},
+      sandstone:{}, simplex:{}, slate:{}, spacelab:{}, superhero:{},
+      united:{}, yeti:{}, mitema:{} 
+    },
 
-    ./configure --openssl-libpath=/usr/lib/ssl
-    make
+verificar en `.gitignore` (que esté ignorada la carpeta `bower_components` y no `components`)
 
-como root
+     .idea
+     bower_components
+     node_modules
+     build
+     _site
+     *.lock
 
-    checkinstall
+Para compilar el tema
 
-- se debe cambiar en el campo <version> por 0.10.29
-- en caso de tener problemas con checkinstal usar `make install`
-
-verificar instalación
-
-    node -v
-    npm -v
-
-### Instalar grunt-cli ###
-
-Instalar con npm (como *root*)
-
-    npm install -g grunt-cli
-
-más info: <http://gruntjs.com/getting-started>
+     grunt swatch:<mitema>
