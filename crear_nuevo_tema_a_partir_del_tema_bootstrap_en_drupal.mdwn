@@ -4,11 +4,6 @@ pre-requisitos
 
 - Tener instalado nodejs, less y grunt 
 
-Para instalar less y grunt con npm:
-
-    npm install -g less
-    npm install -g grunt
-
 Ir a la carpeta base de drupal, luego:
 
     cd sites/all/themes/bootstrap
