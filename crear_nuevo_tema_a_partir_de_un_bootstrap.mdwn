@@ -2,11 +2,9 @@
 
 pre-requisitos
 
-- tener instalado nodejs
+- Tener instalado nodejs, less y grunt 
 
-- con npm instalar less y grunt  
-
-
+Para instalar less y grunt con npm:
 
     npm install -g less
     npm install -g grunt
