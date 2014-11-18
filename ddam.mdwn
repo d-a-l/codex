@@ -8,9 +8,9 @@
 
 *Tutoriales*
 
-* [[Crear nuevo tema a partir de un bootstrap]]
+* [[Crear nuevo tema a partir del tema bootstrap]]
 * [[Crear un tema de íconos con FontCustom]]
-
+* [[Crear un nuevo tema en Bootswatch]]
 
 
 * * * * * * 
