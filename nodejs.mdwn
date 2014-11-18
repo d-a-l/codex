@@ -47,3 +47,10 @@ Instalar con npm (como *root*)
     npm install -g grunt-cli
 
 más info: <http://gruntjs.com/getting-started>
+
+### Instalar less y grunt ###
+
+usar `npm` como root:
+
+    npm install -g less
+    npm install -g grunt
