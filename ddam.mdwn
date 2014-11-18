@@ -6,7 +6,7 @@
 * [[Bootswatch]] (nodejs)
 * [[nodejs]] (también less y grunt)
 
-*Tutoriales*
+### Tutoriales ###
 
 * [[Crear nuevo tema a partir del tema bootstrap en Drupal]]
 * [[Crear un tema de íconos con FontCustom]]
