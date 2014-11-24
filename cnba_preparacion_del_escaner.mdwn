@@ -26,7 +26,7 @@ Las fuentes de alimentación (una para cada cámara) se enchufan a los tomacorri
 
 ### Procedimiento ###
 
-**Paso 1**: Colocar la cámara segun lo indicado en la @@Figura 7@@ teniendo en cuenta la posición de suplementos y material antideslizante.
+**Paso 1**: Colocar la cámara según lo indicado en la @@Figura 7@@ teniendo en cuenta la posición de suplementos y material antideslizante.
 
 ![fig](/media/img/cnba-scanner-manual/fijacion_camaras.png)
 @@Figura 6@@ - Puntos de fijación de las cámaras digitales al soporte.
