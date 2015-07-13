@@ -1,6 +1,8 @@
 Compilar Scan Tailor en Debian Wheezy
 -------------------------------------
 
+(y Debian Jessie)
+
 ### Pre-requisitos para la compilación
 
 Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
@@ -91,7 +93,7 @@ Instalar en el sistema (como *root*)
 
 **Nota 1**: en vez de `make install` puede utilizarse `checkinstall`, que permite desinstalar el programa facilmente desde el gestor de paquetes de Debian. Si no está instalado: `apt-get install checkinstall`
 
-**Nota 2**: También se puede ejecutarse el binario compilado en el código fuente (sin instalar). De esta forma puede instalarse Scantailor desde el repositorio de Debian y a la vez ejecutar la versión Enhanced desde otra ubicación. Entonces, para ejecutar Scantailor Enhanced podría usar:
+**Nota 2**: Puede ejecutarse el binario compilado en el código fuente sin instalar, y de esta forma evitar conflictos con la instalción realizada desde el repositorio de Debian y tenr ambas opciones disponibles. Entonces, para ejecutar Scantailor Enhanced podría usar:
 
      /opt/src/scantailor-enhanced/scantailor-cli
 
