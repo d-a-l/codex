@@ -24,7 +24,7 @@ Instalar el resto de las dependencias:
     apt-get install libjpeg8-dev libtiff5-dev libpng12-dev
     apt-get install zlib1g-dev libboost1.49-all-dev libxrender-dev 
 
-En **Jessie**
+En **Debian Jessie**
 
     apt-get install libjpeg-dev libtiff5-dev libpng12-dev
     apt-get install zlib1g-dev libboost-all-dev libxrender-dev 
@@ -34,7 +34,7 @@ En **Jessie**
 
 #### Opción 1) Descargar la última versión de Scan Tailor
 
-* Descargar la ultima versión desde el sitio de Scan Tailor en [`GitHub](https://github.com/scantailor/scantailor/releases). También están disponibles los repositorios antiguos de [`sourceforge`](http://sourceforge.net/projects/scantailor/files/latest/download) (no recomedado). Link de descarga para la versión 0.9.11.1 (julio de 2015): [`RELEASE_0_9_11_1.tar.gz`](https://github.com/scantailor/scantailor/archive/RELEASE_0_9_11_1.tar.gz).
+* Descargar la última versión desde el sitio de Scan Tailor en [`GitHub`](https://github.com/scantailor/scantailor/releases). También están disponibles los repositorios antiguos de [`sourceforge`](http://sourceforge.net/projects/scantailor/files/latest/download) (no recomedado). Link de descarga para la versión 0.9.11.1 (julio de 2015): [`RELEASE_0_9_11_1.tar.gz`](https://github.com/scantailor/scantailor/archive/RELEASE_0_9_11_1.tar.gz).
 * Copiar el archivo descargado a un directorio para compilar, por ejemplo: `/opt/src`, o `/home/<usuario>/src`
 * Descomprimir el archivo.
 
@@ -66,7 +66,7 @@ Scantailor Enhanced es un *branch* del proyecto con funciones agregadas que no e
 
      git clone -b enhanced https://github.com/scantailor/scantailor.git
 
-O descargar los archivos para compilar desde Sourceforge <http://sourceforge.net/projects/scantailor/files/scantailor-devel/enhanced/>.
+O descargar los archivos compilados o para compilar desde la antiguo repositorio del proyecto en Sourceforge <http://sourceforge.net/projects/scantailor/files/scantailor-devel/enhanced/>.
 
 El proceso de compilación para Scantailor o Scantailor Enhanced es el mismo 
 
@@ -89,9 +89,9 @@ Instalar en el sistema (como *root*)
 
     make install
 
-**Nota**: en vez de `make install` puede utilizarse `checkinstall`, que permite desinstalar el programa facilmente desde el gestor de paquetes de Debian. Si no está instalado: `apt-get install checkinstall`
+**Nota 1**: en vez de `make install` puede utilizarse `checkinstall`, que permite desinstalar el programa facilmente desde el gestor de paquetes de Debian. Si no está instalado: `apt-get install checkinstall`
 
-Puede ejecutarse el binario compilado en el código fuente (sin instalar), de esta forma puede instalarse Scantailor desde el repositorio de Debian y a la vez la version Enhanced. Entonces, para ejecutar Scantailor Enhanced podría usar:
+**Nota 2**: También se puede ejecutarse el binario compilado en el código fuente (sin instalar). De esta forma puede instalarse Scantailor desde el repositorio de Debian y a la vez ejecutar la versión Enhanced desde otra ubicación. Entonces, para ejecutar Scantailor Enhanced podría usar:
 
      /opt/src/scantailor-enhanced/scantailor-cli
 
