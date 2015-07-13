@@ -24,18 +24,24 @@ Instalar el resto de las dependencias:
     apt-get install libjpeg8-dev libtiff5-dev libpng12-dev
     apt-get install zlib1g-dev libboost1.49-all-dev libxrender-dev 
 
+En **Jessie**
+
+    apt-get install libjpeg-dev libtiff5-dev libpng12-dev
+    apt-get install zlib1g-dev libboost-all-dev libxrender-dev 
+
+
 ### Obtener el código fuente
 
 #### Opción 1) Descargar la última versión de Scan Tailor
 
-* Descargar la ultima versión desde el sitio de Scan Tailor en [`sourceforge`](http://sourceforge.net/projects/scantailor/files/latest/download). Link de descarga para la versión 0.9.11.1 (abril de 2013): [`scantailor-0.9.11.1.tar.gz`](http://sourceforge.net/projects/scantailor/files/scantailor/0.9.11.1/scantailor-0.9.11.1.tar.gz/download).
+* Descargar la ultima versión desde el sitio de Scan Tailor en [`GitHub](https://github.com/scantailor/scantailor/releases). También están disponibles los repositorios antiguos de [`sourceforge`](http://sourceforge.net/projects/scantailor/files/latest/download) (no recomedado). Link de descarga para la versión 0.9.11.1 (julio de 2015): [`RELEASE_0_9_11_1.tar.gz`](https://github.com/scantailor/scantailor/archive/RELEASE_0_9_11_1.tar.gz).
 * Copiar el archivo descargado a un directorio para compilar, por ejemplo: `/opt/src`, o `/home/<usuario>/src`
 * Descomprimir el archivo.
 
 Con la consola:
 
-    wget http://sourceforge.net/projects/scantailor/files/scantailor/0.9.11.1/scantailor-0.9.11.1.tar.gz
-    tar -xzvf scantailor-0.9.11.1.tar.gz
+    wget https://github.com/scantailor/scantailor/archive/RELEASE_0_9_11_1.tar.gz
+    tar -xzvf RELEASE_0_9_11_1.tar.gz
     cd scantailor-0.9.11.1
 
 #### Opción 2) Desde el repositorio git
@@ -44,11 +50,25 @@ La versión del repositorio contiene las últimas actualizaciones incorporadas p
 
 Clonar el repositorio en una carpeta local:
 
+     git clone https://github.com/scantailor/scantailor.git
+
+Para clonar el repositorio sin todo el historial:
+
+     git clone --depth 1 https://github.com/scantailor/scantailor.git
+
+Opción desde sourceforge:
+
      git clone git://scantailor.git.sourceforge.net/gitroot/scantailor/scantailor 
 
-O clonar el repositorio sin todo el historial:
+### Scantailor Enhanced
 
-     git clone --depth 1 git://scantailor.git.sourceforge.net/gitroot/scantailor/scantailor 
+Scantailor Enhanced es un *branch* del proyecto con funciones agregadas que no estan en la rama primcipal (julio 2015). Se puede instalar clonando el repositorio (recomendado):
+
+     git clone -b enhanced https://github.com/scantailor/scantailor.git
+
+O descargar los archivos para compilar desde Sourceforge <http://sourceforge.net/projects/scantailor/files/scantailor-devel/enhanced/>.
+
+El proceso de compilación para Scantailor o Scantailor Enhanced es el mismo 
 
 ### Compilar
 
@@ -70,3 +90,16 @@ Instalar en el sistema (como *root*)
     make install
 
 **Nota**: en vez de `make install` puede utilizarse `checkinstall`, que permite desinstalar el programa facilmente desde el gestor de paquetes de Debian. Si no está instalado: `apt-get install checkinstall`
+
+Puede ejecutarse el binario compilado en el código fuente (sin instalar), de esta forma puede instalarse Scantailor desde el repositorio de Debian y a la vez la version Enhanced. Entonces, para ejecutar Scantailor Enhanced podría usar:
+
+     /opt/src/scantailor-enhanced/scantailor-cli
+
+Para facilitar el comando puede crear un enlace simbólico en `/usr/bin`
+
+     ln -s /opt/src/scantailor-enhanced/scantailor-cli /usr/bin/scantailor-enhanced-cli
+
+O un *alias* en `~/.bashrc`
+
+     alias scantailor-enhanced-cli='/opt/src/scantailor-enhanced/scantailor-cli'
+
