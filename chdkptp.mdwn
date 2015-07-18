@@ -109,6 +109,8 @@ Compilar:
 
 ### Verificaciones previas para ejecutar chdkptp
 
+`chdkptp` no podrá conectarse con el dispositivo si se encuentra montado por el sistema. Es práctico desactivar el sistema del escritorio que monta automáticamente los dispositivos (sino hay que desmontarlo manualmente cada vez) para evitar tener que desmontarlo manualmente cada vez: 
+
      #desactivar automount
      gsettings set org.gnome.desktop.media-handling automount "false"
      gsettings set org.gnome.desktop.media-handling automount-open "false"
@@ -127,7 +129,7 @@ Compilar:
      gsettings set org.cinnamon.desktop.media-handling automount "true"
      gsettings set org.cinnamon.desktop.media-handling automount-open "true"
 
-Se explorar con `dconf-editor` (se instala con `apt-get install dconf-editor`) la ruta correcta desde la GUI.
+Nota: se puede explorar con `dconf-editor` (se instala con `apt-get install dconf-editor`) la ruta correcta desde la GUI.
 
 Desactivar en forma permanente
 
