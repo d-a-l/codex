@@ -109,13 +109,13 @@ Compilar:
 
 ### Verificaciones previas para ejecutar chdkptp
 
-`chdkptp` no podrá conectarse con el dispositivo si se encuentra montado por el sistema. Es práctico desactivar el sistema del escritorio que monta automáticamente los dispositivos (sino hay que desmontarlo manualmente cada vez) para evitar tener que desmontarlo manualmente cada vez: 
+`chdkptp` no podrá conectarse con el dispositivo si se encuentra montado por el sistema. Es práctico desactivar el sistema del escritorio que monta automáticamente los dispositivos. En caso contrario habrá que desmontarlo manualmente cada vez que se vuelva a conectar o encender la cámara. Para evitar `automount`:
 
-     #desactivar automount
+     #desactivar automount antes de ejecutar chdkptp
      gsettings set org.gnome.desktop.media-handling automount "false"
      gsettings set org.gnome.desktop.media-handling automount-open "false"
 
-     #activar automount
+     #activar automount luego de cerrar chdkptp
      gsettings set org.gnome.desktop.media-handling automount "true"
      gsettings set org.gnome.desktop.media-handling automount-open "true"
 
