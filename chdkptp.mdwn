@@ -1,7 +1,7 @@
 Compilar chdkptp en Debian Wheezy
 -------------------------------------
 
-**Y también en Debian Jessie**
+*Con notas de actualización para Debian Jessie*
 
 ### Pre-requisitos para la compilación
 
