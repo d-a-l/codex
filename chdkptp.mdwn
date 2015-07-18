@@ -19,12 +19,12 @@ Verificar las siguientes dependencias de soporte para lua, readline y cairo
 
     apt-get install lua5.1 liblua5.1-0-dev lua5.2 liblua5.2-dev libreadline-dev libreadline6-dev libcairo2-dev
 
-Instalar IUP y CD (Canvas Draw): Descargar los binarios precompilados de las librerías iup, cd (buscar los links de descarga a la ultima versión) del sitio del Instituto Tecgraf de Desenvolvimento de Software Técnico-Científico da PUC-Rio (Tecgraf/PUC-Rio) 
+Instalar IUP (Portable User Interface) y CD (Canvas Draw): Descargar los binarios precompilados de las librerías iup, cd (buscar los links de descarga a la ultima versión) del sitio del Instituto Tecgraf de Desenvolvimento de Software Técnico-Científico da PUC-Rio (Tecgraf/PUC-Rio) 
 
 * IUP -  Portable User Interface - PUC-Rio <http://www.tecgraf.puc-rio.br/iup/>
 * CD - Canvas Draw <http://www.tecgraf.puc-rio.br/cd/>
 
-Si bien la siguiente libreria, IM (Image Representation, Storage, Capture and Processing), no es necesaria para chdkptp, existe la posibilidad que sea utilizada en versiones futuras de dalclick
+Si bien la siguiente libreria, IM (Image Representation, Storage, Capture and Processing), no es necesaria para chdkptp, existe la posibilidad que sea utilizada en versiones futuras de `dalclick`:
 
 * IM - Image Representation, Storage, Capture and Processing <http://www.tecgraf.puc-rio.br/im/>
 
@@ -34,7 +34,7 @@ Los archivos tar.gz descargados se descomprimen en ./ así que previamente crear
    mkdir /opt/src/cd-<ver>_Linux32_lib
    ...
 
-Nota: tener presente si el sistema donde se realiza la instalación es de 32 o 64 bits (puede usarse `uname -m` para averiguarlo) y seleccionar la versión correspondiente. La los nombres de los paquetes precompilados  para 32 o 64 son las siguientes:
+**Nota:** tener presente si el sistema donde se realiza la instalación es de 32 o 64 bits (puede usarse `uname -m` para averiguarlo) y seleccionar la versión correspondiente. Los nombres de los paquetes precompilados para 32 o 64 bits son los siguientes:
 
     iup-<ver>_Linux32_64_lib.tar.gz
     cd-<ver>_Linux32_64_lib.tar.gz
@@ -49,13 +49,13 @@ Para instalar, ingresar a cada carpeta y ejecutar como *root* los scripts de ins
 
 Nota: el primer comando configura la instalación para Lua 5.2. Por defecto los scripts estan preconfigurados para Lua 5.1 (2015)
 
-Para desinstalar:
+Para desinstalar (como *root*):
 
     bash uninstall
 
 ### Obtener el código fuente de chdkptp
 
-descargar el repositorio oficial
+Descargar el repositorio oficial
 
      svn co http://subversion.assembla.com/svn/chdkptp/trunk chdkptp
 
@@ -79,10 +79,31 @@ Editar el archivo y agregar los links a las librerias:
     CD_LIB_DIR=/opt/src/cd-<ver>_Linux32_lib
     CD_INCLUDE_DIR=/opt/src/cd-<ver>_Linux32_lib/include
 
+**Actualización 2015** (chdkptp changeset 659, tecgraf precomp. libs: IUP ver 3.15 32/64 y CD ver 5.8.2 32/64)
+
+    USE_LUA_52=1
+
+    IUP_SUPPORT=1
+    CD_SUPPORT=1
+    CD_USE_PLUS=cairo
+    PTPIP_SUPPORT=0
+
+    READLINE_SUPPORT=1
+
+    LUA_INCLUDE_DIR=/usr/include/lua5.2
+    LUA_LIB=lua5.2
+
+    #IUP_LIB_DIR=/opt/src/iup-<ver>_Linux32_64_lib
+    IUP_INCLUDE_DIR=/opt/src/iup-<ver>_Linux32_64_lib/include
+    #CD_LIB_DIR=/opt/src/cd-<ver>_Linux32_64_lib
+    CD_INCLUDE_DIR=/opt/src/cd-<ver>_Linux32_64_lib/include
+
+
 Compilar:
 
     make
 
+**Nota:** si se vuelve a compilar no olvidar hacer `make clean` antes del nuevo `make`
 
 ### Verificaciones previas para ejecutar chdkptp
 
