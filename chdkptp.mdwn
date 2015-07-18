@@ -11,15 +11,22 @@ Actualizar la lista de paquetes de Debian:
 
     apt-get update
 
-Instalar dependencias
+Instalar dependencias para usb
 
     apt-get install libusb-1.0-0 libusb-dev liblua5.1-0-dev liblua5.1-0 libusb-1.0-0-dev
 
-Instalar IUP, CD, IM: Descargar los binarios precompilados de las librerías iup, cd, im (buscar los links de descarga a la ultima versión) del sitio del Instituto Tecgraf de Desenvolvimento de Software Técnico-Científico da PUC-Rio (Tecgraf/PUC-Rio) 
+Verificar las siguientes dependencias de soporte para lua, readline y cairo
 
-* http://www.tecgraf.puc-rio.br/iup/
-* http://www.tecgraf.puc-rio.br/cd/
-* http://www.tecgraf.puc-rio.br/im/
+    apt-get install lua5.1 liblua5.1-0-dev lua5.2 liblua5.2-dev libreadline-dev libreadline6-dev libcairo2-dev
+
+Instalar IUP y CD (Canvas Draw): Descargar los binarios precompilados de las librerías iup, cd (buscar los links de descarga a la ultima versión) del sitio del Instituto Tecgraf de Desenvolvimento de Software Técnico-Científico da PUC-Rio (Tecgraf/PUC-Rio) 
+
+* IUP -  Portable User Interface - PUC-Rio <http://www.tecgraf.puc-rio.br/iup/>
+* CD - Canvas Draw <http://www.tecgraf.puc-rio.br/cd/>
+
+Si bien la siguiente libreria, IM (Image Representation, Storage, Capture and Processing), no es necesaria para chdkptp, existe la posibilidad que sea utilizada en versiones futuras de dalclick
+
+* IM - Image Representation, Storage, Capture and Processing <http://www.tecgraf.puc-rio.br/im/>
 
 Los archivos tar.gz descargados se descomprimen en ./ así que previamente crear carpetas contenedoras donde descomprimir, por ejemplo en 
 
@@ -27,11 +34,24 @@ Los archivos tar.gz descargados se descomprimen en ./ así que previamente crear
    mkdir /opt/src/cd-<ver>_Linux32_lib
    ...
 
-para instalar, ingresar a cada carpeta y ejecutar los scripts de instalación (en cada carpeta el archivo LINSTALL incluye mas info sobre la instalación)
+Nota: tener presente si el sistema donde se realiza la instalación es de 32 o 64 bits (puede usarse `uname -m` para averiguarlo) y seleccionar la versión correspondiente. La los nombres de los paquetes precompilados  para 32 o 64 son las siguientes:
 
-    install
-    install_dev
-    config_lua_module
+    iup-<ver>_Linux32_64_lib.tar.gz
+    cd-<ver>_Linux32_64_lib.tar.gz
+    im-<ver>_Linux32_64_lib.tar.gz
+
+Para instalar, ingresar a cada carpeta y ejecutar como *root* los scripts de instalación (en cada carpeta el archivo LINSTALL incluye más info sobre la instalación)
+
+    export USE_LUA52=Yes 
+    bash install
+    bash install_dev
+    bash config_lua_module
+
+Nota: el primer comando configura la instalación para Lua 5.2. Por defecto los scripts estan preconfigurados para Lua 5.1 (2015)
+
+Para desinstalar:
+
+    bash uninstall
 
 ### Obtener el código fuente de chdkptp
 
