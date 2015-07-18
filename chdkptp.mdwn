@@ -1,6 +1,8 @@
 Compilar chdkptp en Debian Wheezy
 -------------------------------------
 
+**Y también en Debian Jessie**
+
 ### Pre-requisitos para la compilación
 
 Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
