@@ -107,17 +107,27 @@ Compilar:
 
 ### Verificaciones previas para ejecutar chdkptp
 
-Desactivar automount
-
+     #desactivar automount
      gsettings set org.gnome.desktop.media-handling automount "false"
      gsettings set org.gnome.desktop.media-handling automount-open "false"
 
-y para activar
-
+     #activar automount
      gsettings set org.gnome.desktop.media-handling automount "true"
      gsettings set org.gnome.desktop.media-handling automount-open "true"
 
-en forma permanente
+**Actualización 2015 Debian Jessie** Si no funciona en Gnome 3 probar:
+
+     #desactivar 
+     gsettings set org.cinnamon.desktop.media-handling automount "false"
+     gsettings set org.cinnamon.desktop.media-handling automount-open "false"
+
+     #activar
+     gsettings set org.cinnamon.desktop.media-handling automount "true"
+     gsettings set org.cinnamon.desktop.media-handling automount-open "true"
+
+Se explorar con `dconf-editor` (se instala con `apt-get install dconf-editor`) la ruta correcta desde la GUI.
+
+Desactivar en forma permanente
 
      sudo apt-get remove --purge gvfs-backends
 
