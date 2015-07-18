@@ -30,11 +30,11 @@ Si bien la siguiente libreria, IM (Image Representation, Storage, Capture and Pr
 
 * IM - Image Representation, Storage, Capture and Processing <http://www.tecgraf.puc-rio.br/im/>
 
-Los archivos tar.gz descargados se descomprimen en ./ así que previamente crear carpetas contenedoras donde descomprimir, por ejemplo en 
+Los archivos tar.gz descargados se descomprimen en ./ así que previamente crear carpetas contenedoras donde descomprimir, por ejemplo en:
 
-   mkdir /opt/src/iup-<ver>_Linux32_lib
-   mkdir /opt/src/cd-<ver>_Linux32_lib
-   ...
+     mkdir /opt/src/iup-<ver>_Linux32_64_lib
+     mkdir /opt/src/cd-<ver>_Linux32_64_lib
+     #etc.
 
 **Nota:** tener presente si el sistema donde se realiza la instalación es de 32 o 64 bits (puede usarse `uname -m` para averiguarlo) y seleccionar la versión correspondiente. Los nombres de los paquetes precompilados para 32 o 64 bits son los siguientes:
 
