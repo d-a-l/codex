@@ -87,4 +87,7 @@ Simplemente ejecutar (como root)
 
      gem install pdfbeads
 
+en caso de problemas con imagemagick ("No package 'MagickCore' found"):
+
+     apt-get install libmagickwand-dev imagemagick
 
