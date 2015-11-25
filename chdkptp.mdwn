@@ -21,6 +21,10 @@ Verificar las siguientes dependencias de soporte para lua, readline y cairo
 
     apt-get install lua5.1 liblua5.1-0-dev lua5.2 liblua5.2-dev libreadline-dev libreadline6-dev libcairo2-dev
 
+Y verificar también:
+
+    apt-get install subversion git
+
 Instalar IUP (Portable User Interface) y CD (Canvas Draw): Descargar los binarios precompilados de las librerías iup, cd (buscar los links de descarga a la ultima versión) del sitio del Instituto Tecgraf de Desenvolvimento de Software Técnico-Científico da PUC-Rio (Tecgraf/PUC-Rio) 
 
 * IUP -  Portable User Interface - PUC-Rio <http://www.tecgraf.puc-rio.br/iup/>
@@ -60,6 +64,19 @@ Para desinstalar (como *root*):
 Descargar el repositorio oficial
 
      svn co http://subversion.assembla.com/svn/chdkptp/trunk chdkptp
+
+Nota: versiones probadas
+
+Versión segura de chdkptp
+
+     svn up -r461
+
+Versiones seguras de cd, iup, im
+
+     iup-3.8_Linux32_lib
+     cd-5.6.1_Linux32_lib
+     im-3.8.2_Linux32_lib
+
 
 ### Configurar y compilar
 
