@@ -5,16 +5,16 @@ Instalación de CHDK en cámaras Canon PowerShot  SX160 IS
 
 2) Seleccionar la opcion *"Formatear"* del menu de opciones de la cámara (tercera pestaña). Seleccionar la opción *"formatear a bajo nivel"* y dar *"OK"*.
 
-3) Apagar la cámara, retirar la tarjeta SD y colocarla en el dispositivo de lectura SD de la PC. Verificar con *GParted* que la tarjeta fue formateada como FAT32.
+3) Apagar la cámara, retirar la tarjeta SD y colocarla en el dispositivo de lectura SD de la PC. Verificar con *GParted* o similar que la tarjeta haya sido formateada como FAT32.
 
-4) Descargar y descomprimir el *firmware* de CHDK opción para la cámara `Canon PowerShot SX160IS` desde [[http://mighty-hoernsche.de|mighty-hoernsche.de]] (existe un solo tipo de firmware para esta cámara actualmente [ene/2016]). Copiar los archivos descomprimidos a la tarjeta SD (respetando el arbol de directorios).
+4) Descargar y descomprimir el *firmware* de CHDK opción para la cámara `Canon PowerShot SX160IS` desde [[mighty-hoernsche.de|http://mighty-hoernsche.de]] (existe un solo tipo de firmware para esta cámara actualmente [ene/2016]). Copiar los archivos descomprimidos a la tarjeta SD (respetando el arbol de directorios).
 
 5) Retirar la tarjeta SD del dispositivo de la PC e introducirla nuevamente en la cámara Canon. La tarjeta debe mantenerse en la opcion desbloqueada.
 
 6) Encender la cámara presionando el boton "PLAY". Presionar la tecla "MENU" y seleccionar la opción "Firm update ..." (es la última opción de la lista). Dar *"OK"*, a continuación se cargará CHDK.
 
-7) Presionar el botón "PLAY" para pasar al modo <ALT> de CHDK. Ir al menu de CHDK presionando "MENU". Seleccionar el item *"Miscellaneous Stuff"* y dentro *"SD Card"*. Elegir la opción "Make Card Booteable". Dar *OK* y apagar.
+7) Presionar el botón "PLAY" para pasar al modo <ALT> de CHDK. Ir al menu de CHDK presionando "MENU". Seleccionar el item *"Miscellaneous Stuff"* y dentro *"SD Card"*. Elegir la opción *"Make Card Booteable"*. Dar *OK* y apagar.
 
-8) Retirar la tarjeta SD y colocar en bloqueo (Posición del pestillo en "Block"). Intrucir la tarjeta nuevamente.
+8) Retirar la tarjeta SD y colocar en bloqueo (Posición del pestillo de la tarjeta SD en "Block"). Introducir la tarjeta nuevamente en la cámara.
 
-9) La cámara inicializará con CHDK.
+9) Al encender, la cámara inicializará con CHDK.
