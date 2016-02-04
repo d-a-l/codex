@@ -35,8 +35,7 @@
 ### Software Libre para Cámaras Digitales
 
 * Cannon
- - [[CHDK]] - Canon Hackers Development Kit [[Instalación de CHDK en cámaras Canon PowerShot SX160 IS]]
-
+ - [[CHDK]] - Canon Hackers Development Kit
 ----
 
 [[La Pila]] - [[instalaciones-mayo-2014]] - [[ddam]]
