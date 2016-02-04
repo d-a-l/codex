@@ -36,6 +36,7 @@
 
 * Cannon
  - [[CHDK]] - Canon Hackers Development Kit
+
 ----
 
 [[La Pila]] - [[instalaciones-mayo-2014]] - [[ddam]]
