@@ -1,2 +1,4 @@
-[[Instalación de CHDK en cámaras Canon PowerShot SX130 IS]]
-[[Instalación de CHDK en cámaras Canon PowerShot SX160 IS]]
+
+[[cnba chdk canonsx130]]
+
+[[cnba chdk canonsx160]]
