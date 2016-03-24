@@ -11,6 +11,7 @@
  - [[Scan Tailor|scan_tailor]]
  - [[Spreads]] (<http://spreads.readthedocs.org/en/latest/>)
  - [[dalclick]] (<https://github.com/d-a-l/dalclick>)
+ - pi-scan -> [[https://github.com/Tenrec-Builders/pi-scan|Pi Scan is a simple, robust capture appliance for book scanners. It runs on a Raspberry Pi 2.]]
 * OCR
  - [[tesseract-ocr]]
  - [[cuneiform]]
