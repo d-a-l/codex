@@ -1,0 +1,29 @@
+Procedimiento para determinar la versión de firmware de una cámara Canon
+------------------------------------------------------------------------
+
+1) Montar la tarjeta SD desbloqueada en un slot de una PC o notebook (o dispositivo adapatador USB).
+
+2) Crear en la carpeta raíz de la tarjeta dos archivos vacíos con el siguiente nombre:
+
+     ver.req
+     vers.req
+
+3) Desmontar la tarjeta SD del sistema, extraerla de la PC o dispositivo e introducirla en la cámara (que debe continuar desbloqueada).
+
+4) Encender la cámara en modo "PLAY", es decir utilizando la tecla `[>]` para encenderla.
+
+5) Esperar que la cámara se inicie y localizar las teclas `FUNC SET` y `DISP`.
+
+6) Mantener presionado `FUNC SET` (sin soltar), mientras se hace un clic en `DISP`. Por cada clic en `DISP` (sin soltar `FUNC SET`!) el display mostrará información del sistema. Por ejemplo, en la SX150, en el primer clic obtenemos la versión del firmware, entre otros datos:
+
+    Canon PowerShot SX130 IS
+    P-ID:3211 PAL D
+
+    Firmware GM1.01F (1.0.1.0) <- esta es la versión del firmware: "F"
+    Adj Ver.009.002
+
+7) Ahora puede descargar la versión correcta del *firmware* para su cámara desde <http://mighty-hoernsche.de/>
+
+**Nota 1**: En algunas cámaras la combinación de teclas puede variar. Para más detalles consultar: [[http://chdk.wikia.com/wiki/CHDK_for_Dummies|CHDK for Dummies]] en el wiki de CHDK.
+
+**Nota 2**: Algunos modelos de cámaras sólo tienen una sola versión de *firmware* por lo cual este proceso es innecesario.
