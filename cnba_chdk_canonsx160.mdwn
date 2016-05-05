@@ -1,5 +1,5 @@
 Instalación de CHDK en cámaras Canon PowerShot SX150 IS y SX160 IS
---------------------------------------------
+------------------------------------------------------------------
 
 1) Insertar la tarjeta SD (desbloqueada) en la cámara y encenderla.
 
