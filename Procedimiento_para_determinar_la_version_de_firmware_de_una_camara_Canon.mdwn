@@ -14,7 +14,7 @@ Procedimiento para determinar la versión de firmware de una cámara Canon
 
 5) Esperar que la cámara se inicie y localizar las teclas `FUNC SET` y `DISP`.
 
-6) Mantener presionado `FUNC SET` (sin soltar), mientras se hace un clic en `DISP`. Por cada clic en `DISP` (sin soltar `FUNC SET`!) el display mostrará información del sistema. Por ejemplo, en la SX150, en el primer clic obtenemos la versión del firmware, entre otros datos:
+6) Mantener presionado `FUNC SET` (sin soltar), mientras se hace un clic en `DISP`. Por cada clic en `DISP` (sin soltar `FUNC SET`!) el display mostrará información del sistema. Por ejemplo, en la Canon SX130, en el primer clic obtenemos la versión del firmware, entre otros datos:
 
     Canon PowerShot SX130 IS
     P-ID:3211 PAL D
