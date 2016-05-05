@@ -19,7 +19,7 @@ Procedimiento para determinar la versión de firmware de una cámara Canon
     Canon PowerShot SX130 IS
     P-ID:3211 PAL D
 
-    Firmware GM1.01F (1.0.1.0) <- esta es la versión del firmware: "F"
+    Firmware GM1.01F (1.0.1.0) <----- esta es la versión del firmware: "F"
     Adj Ver.009.002
 
 7) Ahora puede descargar la versión correcta del *firmware* para su cámara desde <http://mighty-hoernsche.de/>
