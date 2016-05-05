@@ -1,20 +1,22 @@
-Instalación de CHDK en cámaras Canon PowerShot  SX160 IS
+Instalación de CHDK en cámaras Canon PowerShot SX150 IS y SX160 IS
 --------------------------------------------
 
-1) Insertar la tarjeta SD (desbloqueada) en la cámara `Canon PowerShot SX160IS` y encenderla.
+1) Insertar la tarjeta SD (desbloqueada) en la cámara y encenderla.
 
 2) Seleccionar la opcion `Formatear` del menu de opciones de la cámara (tercera pestaña). Seleccionar la opción `formatear a bajo nivel` y dar `OK`.
 
 3) Apagar la cámara, retirar la tarjeta SD y colocarla en el dispositivo de lectura SD de la PC. Verificar con *GParted* u otro *software* similar que la tarjeta haya sido formateada como FAT32.
 
-4) Descargar y descomprimir el *firmware* de CHDK opción para la cámara `Canon PowerShot SX160IS` desde [[mighty-hoernsche.de|http://mighty-hoernsche.de]] (existe un solo tipo de firmware para esta cámara actualmente [ene/2016]). Copiar los archivos descomprimidos a la tarjeta SD (respetando el arbol de directorios).
+4) Descargar el *firmware* de CHDK según corresponda para la cámara `Canon PowerShot SX150IS` ó `Canon PowerShot SX160IS` desde el repositorio estable de CHDK: [[mighty-hoernsche.de|http://mighty-hoernsche.de]]. Nota: actualmente existe una sola versión de *firmware* para estos modelos cámara [ene/2016], por lo cual no es necesario [[el procedimiento para determinarla|Procedimiento para determinar la version de firmware de una cámara Canon]].
 
-5) Retirar la tarjeta SD del dispositivo de la PC e introducirla nuevamente en la cámara Canon. La tarjeta debe mantenerse en la opción desbloqueada.
+5) Descomprimir el archivo `.zip` en una carpeta vacía de su elección. Abrir dicha carpeta, comprobar que los archivos se han descomprimido correctamente y copiarlos a la tarjeta SD respetando el arbol de directorios. Nótese que no debe copiarse la carpeta creada para la descompresion con su contenido, sino sólo los archivos y directorios que contiene, directamente en el directorio raiz de la Tarjeta SD.
 
-6) Encender la cámara presionando el boton "PLAY". Presionar la tecla "MENU" y seleccionar la opción `Firm update ...` (es la última opción de la lista). Dar `OK`, a continuación se cargará CHDK.
+6) Retirar la tarjeta SD del dispositivo de la PC e introducirla nuevamente en la cámara Canon. La tarjeta debe mantenerse en la opción desbloqueada.
 
-7) Presionar el botón "PLAY" para pasar al modo "<ALT>" de CHDK. Ir al menu de CHDK presionando "MENU". Seleccionar el item `Miscellaneous Stuff` y dentro la opción `SD Card`. Elegir `Make Card Booteable`. Dar `OK` y luego apagar.
+7) Encender la cámara presionando el boton "PLAY". Presionar la tecla "MENU" y seleccionar la opción `Firm update ...` (es la última opción de la lista). Dar `OK`, a continuación se cargará CHDK.
 
-8) Retirar la tarjeta SD y colocar en bloqueo (Posición del pestillo de la tarjeta SD en "Block"). Introducir la tarjeta nuevamente en la cámara.
+8) Presionar el botón "PLAY" para pasar al modo "<ALT>" de CHDK. Ir al menu de CHDK presionando "MENU". Seleccionar el item `Miscellaneous Stuff` (el último de la lista) y dentro la opción `SD Card`. Elegir `Make Card Booteable`. Dar `OK` y luego apagar.
 
-9) Al encender, la cámara inicializará con CHDK.
+9) Retirar la tarjeta SD y colocar en bloqueo (Posición del pestillo de la tarjeta SD en "Block"). Introducir la tarjeta nuevamente en la cámara.
+
+10) Al encender, la cámara inicializará con CHDK.
