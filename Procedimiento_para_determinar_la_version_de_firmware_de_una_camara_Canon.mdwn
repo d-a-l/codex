@@ -26,4 +26,4 @@ Procedimiento para determinar la versión de firmware de una cámara Canon
 
 **Nota 1**: En algunas cámaras la combinación de teclas puede variar. Para más detalles consultar: [[CHDK for Dummies|http://chdk.wikia.com/wiki/CHDK_for_Dummies]] en el wiki de CHDK.
 
-**Nota 2**: Algunos modelos de cámaras sólo tienen una sola versión de *firmware* por lo cual este proceso es innecesario.
+**Nota 2**: Algunos modelos de cámaras tienen una sola versión de *firmware* por lo cual este proceso es innecesario.
