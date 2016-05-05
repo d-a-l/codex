@@ -24,6 +24,6 @@ Procedimiento para determinar la versión de firmware de una cámara Canon
 
 7) Ahora puede descargar la versión correcta del *firmware* para su cámara desde <http://mighty-hoernsche.de/>
 
-**Nota 1**: En algunas cámaras la combinación de teclas puede variar. Para más detalles consultar: [[http://chdk.wikia.com/wiki/CHDK_for_Dummies|CHDK for Dummies]] en el wiki de CHDK.
+**Nota 1**: En algunas cámaras la combinación de teclas puede variar. Para más detalles consultar: [[CHDK for Dummies|http://chdk.wikia.com/wiki/CHDK_for_Dummies]] en el wiki de CHDK.
 
 **Nota 2**: Algunos modelos de cámaras sólo tienen una sola versión de *firmware* por lo cual este proceso es innecesario.
