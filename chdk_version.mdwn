@@ -3,4 +3,4 @@ Averiguar cuál es la versión correcta de CHDK para una cámara digital Canon
 
 [[How can I get the original firmware version number of my camera?|http://chdk.wikia.com/wiki/Ver.req#Q._How_can_I_get_the_original_firmware_version_number_of_my_camera.3F]] (traducirlo!)
 
-**Actualización**: Las instrucciones en español pueden encontrarse aqui: [[Procedimiento para determinar la versión de firmware de una cámara Canon]]
+**Actualización**: Las instrucciones en español pueden encontrarse aqui: [[Procedimiento para determinar la versión de firmware de una cámara Canon|Procedimiento para determinar la version de firmware de una camara Canon]]
