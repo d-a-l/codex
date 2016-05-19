@@ -51,9 +51,18 @@ Para instalar, ingresar a cada carpeta y ejecutar como *root* los scripts de ins
     export USE_LUA52=Yes 
     bash install
     bash install_dev
-    bash config_lua_module
+    bash 
 
-Nota: el primer comando configura la instalación para Lua 5.2. Por defecto los scripts estan preconfigurados para Lua 5.1 (2015)
+Nota1: el primer comando configura la instalación para Lua 5.2. Por defecto los scripts estan preconfigurados para Lua 5.1 (2015)
+
+Nota2: **importante** en versiones más recientes de precompilados de `iup`, `im`, y `cd` (~2015 en adelante) los módulos para `Lua` estan disponibles por separado, ej, para Lua 5.1: 
+
+    Precompilado:                   Módulo para Lua 5.1:
+    cd-5.9_Linux32_lib.tar.gz ----> cd-5.9-Lua51_Linux32_lib.tar.gz
+    iup-3.18_Linux32_lib.tar.gz --> iup-3.18-Lua51_Linux32_lib.tar.gz
+    im-3.10_Linux32_lib.tar.gz ---> im-3.10-Lua51_Linux32_lib.tar.gz
+
+Debe correrse `install` en ambos directorios (opcionamente `install_dev` para desarrollo) y el script `config_lua_module` (que crea los accesos directos desde `/usr/lib/lua/5.1` a los *.so en `/usr/lib`) sólo debería ejecutarse desde la carpeta del módulo Lua seleccionado.
 
 Para desinstalar (como *root*):
 
