@@ -62,7 +62,7 @@ Nota2: **importante** en versiones más recientes de precompilados de `iup`, `im
     iup-3.18_Linux32_lib.tar.gz --> iup-3.18-Lua51_Linux32_lib.tar.gz
     im-3.10_Linux32_lib.tar.gz ---> im-3.10-Lua51_Linux32_lib.tar.gz
 
-Debe correrse `install` en ambos directorios (opcionamente `install_dev` para desarrollo) y el script `config_lua_module` (que crea los accesos directos desde `/usr/lib/lua/5.1` a los *.so en `/usr/lib`) sólo debería ejecutarse desde la carpeta del módulo Lua seleccionado.
+Debe correrse `install` en ambos directorios (opcionamente `install_dev` para desarrollo) y el script `config_lua_module` (que crea los accesos directos desde `/usr/lib/lua/5.x` a los archivos `*.so` en `/usr/lib`) sólo debería ejecutarse desde la carpeta del módulo Lua seleccionado.
 
 Para desinstalar (como *root*):
 
