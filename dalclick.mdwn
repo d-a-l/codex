@@ -1,3 +1,5 @@
 Dalclick
 
 <http://codex.bibliohack.tk/media/files/dalclick_fa.tar.gz>
+
+     tar -xzvf dalclick_fa.tar.gz
