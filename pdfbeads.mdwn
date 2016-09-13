@@ -55,6 +55,10 @@ Otras dependencias de desarrollo necesarias `libjpeg`, `libtiff`, `libpng`, y `z
 
     apt-get install libjpeg8-dev libtiff5-dev libpng12-dev zlib1g-dev
 
+en Debian "Jessie" o si el paquete `libjpeg8-dev`  no existe
+
+    apt-get install libjpeg62-turbo-dev libtiff5-dev libpng12-dev zlib1g-dev
+
 Obtener el código fuente de `jbig2enc` desde el GitHub [descargando el ZIP](https://github.com/agl/jbig2enc/archive/master.zip) y descomprimiendo el archivo en la carpeta elegida para realizar la compilación (recomendado), o clonando el repositorio con el comando `git clone https://github.com/agl/jbig2enc.git`.
 
 Luego, ingresar al directorio que contiene el código fuente:
@@ -77,7 +81,8 @@ Si `make` responde que no existen reglas para construir "checkinstall" significa
 
 En caso de usar `checkinstall` asegurarse que exista el directorio `/usr/local/share/doc` en el sistema. Puede creárselo con el comando (como root) `mkdir /usr/local/share/doc`. Además debe ingresarse un número de versión correcto (puede obtenerse [desde este archivo](https://github.com/agl/jbig2enc/blob/master/ChangeLog)) en el ítem 3 de la lista devuelta por `checkinstall` antes de iniciar el proceso de construcción del paquete deb (por defecto `checkinstall` colocará "master" y provocará un error).
 
-##### Instalación de Ruby 1.9.1 en Debian Wheezy
+
+##### Instalación de Ruby 1.9.1 en Debian 7 "Wheezy"
 
 Instalar [RubyGems](http://rubygems.org/), el gestor de paquetes para el lenguaje de programación [Ruby](http://es.wikipedia.org/wiki/Ruby):
 
@@ -90,21 +95,21 @@ Instalar los siguientes paquetes de Ruby que pueden instalarse desde el gestor d
     apt-get install ruby-rmagick ruby-hpricot
 
 
-##### instalación de Ruby 1.9.3 en Debian Jessie
+##### instalación de Ruby 1.9.3 en Debian 8 "Jessie"
 
-En caso de haber instalado una versión de `ruby` con el sistema de paquetes de Debian, se recomieda desintalarlo:
+En caso de haber instalado una versión de Ruby con el sistema de paquetes de Debian, se recomieda desintalarlo (como *root*):
 
      apt-get autoremove ruby ruby-rmagick ruby-hpricot rubygems
 
 luego como *root*
 
-    gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-    curl -sSL https://get.rvm.io | bash -s stable
-    usermod -a -G rvm <usuario>
+     gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+     curl -sSL https://get.rvm.io | bash -s stable
+     usermod -a -G rvm <usuario>
 
 donde `<usuario>` es el usuario (o los usuarios) sin privilegios que utilizarán `pdfbeads`.
 
-Como el entorno de RVM se carga desde `/etc/profile.d/rvm.sh`, hay que loguearse nuevamente para que se cargue (por lo tanto para loguearse como *root* no basta con `su -`, se debe utilizar una consola desde `Ctrl + Alt + Fx` (en una máquina virtual esto se consigue con HOST + Fx, donde HOST generalmente la tecla `Ctrl` derecha. Para volver a la intefase gráfica: `Ctrl + Alt + f7`)
+Como el entorno de RVM se carga desde `/etc/profile.d/rvm.sh`, hay que loguearse nuevamente para que se cargue desde una *login shell* (por lo tanto para loguearse como *root* no basta con `su -` en una emulador de terminal, se debe utilizar una consola con *login* desde `Ctrl + Alt + Fx` (en una máquina virtual esto se consigue con HOST + Fx, donde HOST generalmente la tecla `Ctrl` derecha. Para volver a la intefase gráfica usar `Ctrl + Alt + F7`. Generalmente se usa `Ctrl + Alt + F1` para abrir una consola)
 
 Logueado como *root* instalar Ruby
 
@@ -114,6 +119,12 @@ y luego
 
      rvm use 1.9.3
 
+Importante: si se usa un emulador de terminal (*"non-login shell"*) en vez de una terminal virtual (*login shell* a las que se accede con `Ctrl + Alt + Fx`) asegurarse de que la opción "Run command as login shell" o "Ejecutar el comando como un intérprete de conexión" este seleccionada, si no la función `rvm` no estará disponible. Esta opción se encuentra en la pestaña "Title and Command" en "Profile Preferences" ó "Título y comandos" en el menú Editar -> "Preferencias del perfil" de la consola.
+
+Más info en:
+
+* [wiki de Debian](https://wiki.debian.org/Ruby#Available_interpreters_in_Debian_8_.28jessie.29)
+* [documentación de RVM](https://rvm.io/rvm/install)
 
 ##### instalación de PDFbeads
 
@@ -130,3 +141,54 @@ Luego, `pdfbeads` no necesitará privilegios para ejecutarse:
 Para comprobar el buen funcionamiento de `pdfbeads` ejecutar 
 
      pdfbeads -h
+
+y debe devolver el manual de ayuda
+
+     Usage: pdfbeads [options] [files to process] > out.pdf
+     
+     PDF file properties:
+       -C, --toc TOCFILE        Build PDF outline dictionary from a text file
+       -L, --labels LSPEC       Specify page labels for user-friendly page numbering
+       -M, --meta METAFILE      Take metadata for the PDF file from a text file
+       -P, --pagelayout LAYOUT  Specify the default page layout for PDF viewer, where
+                                LAYOUT is `SinglePage', `OneColumn', `TwoColumnLeft'
+                                `TwoColumnRight', `TwoPageLeft', or `TwoPageRight'
+     
+     Image encoding and compression options:
+       -f, --force-update       Always write subsidiary image files even if a file
+                                with the same name is already found on the disk
+       -m FORMAT,               Compression method for foreground text mask in PDF
+           --mask-compression   pages (JBIG2 or G4). JBIG2 is used by default, unless
+                                the encoder is not available
+       -p, --pages-per-dict NUM Generate one shared JBIG2 dictionary per NUM pages.
+                                This option is only applied when JBIG2 compression
+                                is used. Default value is 15
+       -r DPI,                  Set resolution for foreground mask images to the
+           --force-resolution   specified value (in pixels per inch). Note that the
+                                image is not actually resampled.
+       -t, --threshold VAL      Set binarization threshold for mixed images. Valid
+                                values are between 1 and 255. 1 is used by default,
+                                as the input files are assumed to be preprocessed
+                                with ScanTailor (http://scantailor.sourceforge.net)
+       -x, --max-colors NUM     If pdfbeads finds an indexed file with NUM or
+                                less colors, then it will attempt to split it into
+                                several bitonal images and encode them all into the
+                                PDF page mask. Otherwise the file is treated just
+                                like a normal greyscale or color image. Default
+                                value is 4
+     
+     The following options are only applied when pdfbeads attempts to split
+     a mixed source image into text mask and background layer:
+       -b FORMAT,               Compression method for background images. Acceptable
+           --bg-compression     values are JP2|JPX|JPEG2000, JPG|JPEG or PNG|LOSSLESS.
+                                JP2 is used by default, unless this format is not
+                                supported by the available version of ImageMagick
+       -B, --bg-resolution DPI  Set resolution for background images (300dpi default)
+       -g, --grayscale          When separating text from background, always convert
+                                background images to grayscale
+     
+     General options:
+       -d, --delete             Delete intermediate image files used to create PDF
+       -o, --output FILE        Print output to a file instead of STDERR
+       -h, --help               Show this message
+     
