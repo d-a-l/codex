@@ -102,21 +102,17 @@ luego como *root*
     curl -sSL https://get.rvm.io | bash -s stable
     usermod -a -G rvm <usuario>
 
-donde <usuario> es el usuario (o los usuarios) sin privilegios que utilizarán `pdfbeads`.
+donde `<usuario>` es el usuario (o los usuarios) sin privilegios que utilizarán `pdfbeads`.
 
-Como el entorno de RVM se carga desde `/etc/profile.d/rvm.sh`, hay que loguearse nuevamente para que se cargue (por lo tanto para loguearse como *root* no basta con `su -`, se debe utilizar una consola desde `Ctrl + Alt + Fx` (en una máquina virtual esto se consigue con HOST + Fx, donde HOST generalmente la tecla Ctrl derecha). Para volver a la intefase visual: `Ctrl + Alt + f7`
+Como el entorno de RVM se carga desde `/etc/profile.d/rvm.sh`, hay que loguearse nuevamente para que se cargue (por lo tanto para loguearse como *root* no basta con `su -`, se debe utilizar una consola desde `Ctrl + Alt + Fx` (en una máquina virtual esto se consigue con HOST + Fx, donde HOST generalmente la tecla `Ctrl` derecha. Para volver a la intefase gráfica: `Ctrl + Alt + f7`)
 
-logueado como *root* instalar ruby
+Logueado como *root* instalar Ruby
 
      rvm install 1.9.3
 
 y luego 
 
      rvm use 1.9.3
-
-Luego, `pdfbeads` no necesita ejecutarse con privilegios,
-
-Para comprobar el buen funcionamiento de `pdfbeads` ejecutar -> `pdfbeads -h`
 
 
 ##### instalación de PDFbeads
@@ -129,3 +125,8 @@ en caso de problemas con imagemagick ("No package 'MagickCore' found"):
 
      apt-get install libmagickwand-dev imagemagick
 
+Luego, `pdfbeads` no necesitará privilegios para ejecutarse:
+
+Para comprobar el buen funcionamiento de `pdfbeads` ejecutar 
+
+     pdfbeads -h
