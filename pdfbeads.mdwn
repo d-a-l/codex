@@ -42,7 +42,7 @@ Actualizar la lista de paquetes de Debian:
 
 #### Compilación de la librería ['jbig2enc'](https://github.com/agl/jbig2enc)
 
-[JBIG2](http://en.wikipedia.org/wiki/JBIG2) es un algoritmo estandarizado de compresión que genera imágenes de menor tamaño. `jbig2enc` es una implementación libre en python.
+Un requisito previo a la instalación de PDFbeads es la compilación de JBIG2. [JBIG2](http://en.wikipedia.org/wiki/JBIG2) es un algoritmo estandarizado de compresión que genera imágenes de menor tamaño. `jbig2enc` es una implementación libre en python.
 
 El proceso de compilación utiliza el set de herramientas de "GNU build system", que deben estar instaladas en el sistema:
 
