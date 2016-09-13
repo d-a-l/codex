@@ -34,9 +34,10 @@ Actualizar la lista de paquetes de Debian:
 
 
 
-- - - - 
+Incompatibilidad con nuevas versiones de Ruby
+- - - - - - - - - - - - - - - - - - - - - - -
 
-Nota (2016): `pdfbeads 1.1.1` no es compatible con versiones de `ruby` superiores a `1.9.3`. Debian Wheezy tiene disponibles las versiones `1.8.7` y `1.9.3`, pero Jessie sólo dispone de la versión `2.1.5` (incompatible) y `1.5.6` (no probada), por lo tanto se recomienda instalar la versión `1.9.3` utilizando un método por fuera del sistema de paquetes Debian, como RVM (Ruby Version Manager).
+`pdfbeads 1.1.1` no es compatible con versiones de Ruby superiores a `1.9.3`. Debian Wheezy tiene disponibles las versiones `1.8.7` y `1.9.3`, pero Jessie sólo dispone de la versión `2.1.5` (incompatible) y `1.5.6` (no probada), por lo tanto se recomienda instalar la versión `1.9.3` utilizando un método por fuera del sistema de paquetes Debian, como RVM (Ruby Version Manager). (nota de 2016)
 
 - - - - -
 
