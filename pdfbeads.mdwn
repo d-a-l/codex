@@ -22,8 +22,6 @@ Sobre PDFBeads
 Instalar PDFBeads en Debian Wheezy
 ----------------------------------
 
-Nota (2016): `pdfbeads 1.1.1` no es compatible con versiones de `ruby` superiores a 1.9.3. Debian Wheezy tiene disponibles las versiones 1.8.7 y 1.9.3, pero Jessie sólo dispone de la versión 2.1.5 (incompatible) y 1.5.6 (no probada), por lo tanto se recomienda instalar la versión 1.9.3 utilizando un método por fuera del sistema de paquetes Debian, como RVM (Ruby Version Manager). En este último caso ignore los pasos siguientes y vaya directamente a "Instalar PDFBeads en Debian Jessie"
-
 ### Pre-requisitos para la compilación
 
 Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
@@ -34,17 +32,9 @@ Actualizar la lista de paquetes de Debian:
 
     apt-get update
 
-Instalar [RubyGems](http://rubygems.org/), el gestor de paquetes para el lenguaje de programación [Ruby](http://es.wikipedia.org/wiki/Ruby):
+Nota (2016): `pdfbeads 1.1.1` no es compatible con versiones de `ruby` superiores a `1.9.3`. Debian Wheezy tiene disponibles las versiones `1.8.7` y `1.9.3`, pero Jessie sólo dispone de la versión `2.1.5` (incompatible) y `1.5.6` (no probada), por lo tanto se recomienda instalar la versión `1.9.3` utilizando un método por fuera del sistema de paquetes Debian, como RVM (Ruby Version Manager). En este último caso ignore los pre-requisitos siguientes y vaya directamente a "Instalar PDFBeads en Debian Jessie"
 
-    apt-get install ruby-full ruby-dev rubygems
-
-nota: en mayo de 2014 `apt-get install ruby1.9.1-full ruby1.9.1-dev rubygems1.9.1`
-
-Instalar los siguientes paquetes de Ruby que pueden instalarse desde el gestor de paquetes Debian:
-
-    apt-get install ruby-rmagick ruby-hpricot
-
-#### Previamente se debe compilar la librería ['jbig2enc'](https://github.com/agl/jbig2enc)
+#### Compilación de la librería ['jbig2enc'](https://github.com/agl/jbig2enc)
 
 [JBIG2](http://en.wikipedia.org/wiki/JBIG2) es un algoritmo estandarizado de compresión que genera imágenes de menor tamaño. `jbig2enc` es una implementación libre en python.
 
@@ -82,7 +72,20 @@ Si `make` responde que no existen reglas para construir "checkinstall" significa
 
 En caso de usar `checkinstall` asegurarse que exista el directorio `/usr/local/share/doc` en el sistema. Puede creárselo con el comando (como root) `mkdir /usr/local/share/doc`. Además debe ingresarse un número de versión correcto (puede obtenerse [desde este archivo](https://github.com/agl/jbig2enc/blob/master/ChangeLog)) en el ítem 3 de la lista devuelta por `checkinstall` antes de iniciar el proceso de construcción del paquete deb (por defecto `checkinstall` colocará "master" y provocará un error).
 
-##### instalación de PDFbeads con Ruby 1.9.3 en Debian Jessie
+##### Instalación de Ruby 1.9.1 en Debian Wheezy
+
+Instalar [RubyGems](http://rubygems.org/), el gestor de paquetes para el lenguaje de programación [Ruby](http://es.wikipedia.org/wiki/Ruby):
+
+    apt-get install ruby-full ruby-dev rubygems
+
+nota: en mayo de 2014 `apt-get install ruby1.9.1-full ruby1.9.1-dev rubygems1.9.1`
+
+Instalar los siguientes paquetes de Ruby que pueden instalarse desde el gestor de paquetes Debian:
+
+    apt-get install ruby-rmagick ruby-hpricot
+
+
+##### instalación de Ruby 1.9.3 en Debian Jessie
 
 En caso de haber instalado una versión de `ruby` con el sistema de paquetes de Debian, se recomieda desintalarlo:
 
@@ -108,7 +111,8 @@ y luego
 
 Luego, `pdfbeads` no necesita ejecutarse con privilegios,
 
-Para comprobar el buen funcionamiento de `pdfbeads` ejecutar `pdfbeads -h`
+Para comprobar el buen funcionamiento de `pdfbeads` ejecutar -> `pdfbeads -h`
+
 
 ##### instalación de PDFbeads
 
