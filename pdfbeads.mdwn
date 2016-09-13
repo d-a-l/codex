@@ -33,13 +33,6 @@ Actualizar la lista de paquetes de Debian:
     apt-get update
 
 
-
-### Incompatibilidad con nuevas versiones de Ruby
-
-`pdfbeads 1.1.1` no es compatible con versiones de Ruby superiores a `1.9.3`. Debian Wheezy tiene disponibles las versiones `1.8.7` y `1.9.3`, pero Jessie sólo dispone de la versión `2.1.5` (incompatible) y `1.5.6` (no probada), por lo tanto se recomienda instalar la versión `1.9.3` utilizando un método por fuera del sistema de paquetes Debian, como RVM (Ruby Version Manager). (nota de 2016)
-
-- - - - -
-
 #### Compilación de la librería ['jbig2enc'](https://github.com/agl/jbig2enc)
 
 Un requisito previo a la instalación de PDFbeads es la compilación de JBIG2. [JBIG2](http://en.wikipedia.org/wiki/JBIG2) es un algoritmo estandarizado de compresión que genera imágenes de menor tamaño. `jbig2enc` es una implementación libre en python.
@@ -82,6 +75,9 @@ Si `make` responde que no existen reglas para construir "checkinstall" significa
 
 En caso de usar `checkinstall` asegurarse que exista el directorio `/usr/local/share/doc` en el sistema. Puede creárselo con el comando (como root) `mkdir /usr/local/share/doc`. Además debe ingresarse un número de versión correcto (puede obtenerse [desde este archivo](https://github.com/agl/jbig2enc/blob/master/ChangeLog)) en el ítem 3 de la lista devuelta por `checkinstall` antes de iniciar el proceso de construcción del paquete deb (por defecto `checkinstall` colocará "master" y provocará un error).
 
+### Incompatibilidad con nuevas versiones de Ruby
+
+`pdfbeads 1.1.1` no es compatible con versiones de Ruby superiores a `1.9.3`. Debian Wheezy tiene disponibles las versiones `1.8.7` y `1.9.3`, pero Jessie sólo dispone de la versión `2.1.5` (incompatible) y `1.5.6` (no probada), por lo tanto se recomienda instalar la versión `1.9.3` utilizando un método por fuera del sistema de paquetes Debian, como RVM (Ruby Version Manager). (nota de 2016)
 
 ##### Instalación de Ruby 1.9.1 en Debian 7 "Wheezy"
 
@@ -102,7 +98,7 @@ En caso de haber instalado una versión de Ruby con el sistema de paquetes de De
 
      apt-get autoremove ruby ruby-rmagick ruby-hpricot rubygems
 
-luego como *root*
+luego como *root* instalar RVM
 
      gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
      curl -sSL https://get.rvm.io | bash -s stable
