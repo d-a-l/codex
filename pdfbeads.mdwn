@@ -19,8 +19,8 @@ Sobre PDFBeads
  -  [Repositorio en Github](https://github.com/ifad/pdfbeads)
 
 
-Instalar PDFBeads en Debian Wheezy
-----------------------------------
+Instalar PDFBeads en Debian Wheezy y Jessie
+-------------------------------------------
 
 ### Pre-requisitos para la compilación
 
