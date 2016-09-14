@@ -55,14 +55,26 @@ Para instalar, ingresar a cada carpeta y ejecutar como *root* los scripts de ins
 
 Nota1: el primer comando configura la instalación para Lua 5.2. Por defecto los scripts estan preconfigurados para Lua 5.1 (2015)
 
-Nota2: **importante** en versiones más recientes de precompilados de `iup`, `im`, y `cd` (~2015 en adelante) los módulos para `Lua` estan disponibles por separado, ej, para Lua 5.1: 
+### Cambios en las versiones mas recientes de iup, im y cd
+
+**importante** en versiones más recientes de precompilados de `iup`, `im`, y `cd` (~2015 en adelante) los módulos para `Lua` estan disponibles por separado, ej, para Lua 5.1: 
 
     Precompilado:                   Módulo para Lua 5.1:
     cd-5.9_Linux32_lib.tar.gz ----> cd-5.9-Lua51_Linux32_lib.tar.gz
     iup-3.18_Linux32_lib.tar.gz --> iup-3.18-Lua51_Linux32_lib.tar.gz
     im-3.10_Linux32_lib.tar.gz ---> im-3.10-Lua51_Linux32_lib.tar.gz
 
-Debe correrse `install` en ambos directorios (opcionamente `install_dev` para desarrollo) y el script `config_lua_module` (que crea los accesos directos desde `/usr/lib/lua/5.x` a los archivos `*.so` en `/usr/lib`) sólo debería ejecutarse desde la carpeta del módulo Lua seleccionado.
+Debe correrse `install` en ambos directorios (opcionamente `install_dev` para desarrollo) y el script `config_lua_module` (que crea los accesos directos desde `/usr/lib/lua/5.x` a los archivos `*.so` en `/usr/lib`) sólo debería ejecutarse desde la carpeta del módulo Lua seleccionado y no en el precompilado. Por ejemplo
+
+     cd /ruta/a/libs/tecgraf/iup-3.19.1_Linux32_64_lib
+     bash install && bash install_dev
+
+     cd ../iup-3.19.1-Lua51_Linux32_64_lib
+     bash install && bash install_dev && config_lua_module
+
+     export USE_LUA52=Yes 
+     cd ../iup-3.19.1-Lua52_Linux32_64_lib
+     bash install && bash install_dev && config_lua_module
 
 Para desinstalar (como *root*):
 
