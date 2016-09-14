@@ -30,15 +30,11 @@ Instalar IUP (Portable User Interface) y CD (Canvas Draw): Descargar los binario
 * IUP -  Portable User Interface - PUC-Rio <http://www.tecgraf.puc-rio.br/iup/>
 * CD - Canvas Draw <http://www.tecgraf.puc-rio.br/cd/>
 
-Si bien la siguiente librería, IM (Image Representation, Storage, Capture and Processing), no es necesaria para chdkptp, existe la posibilidad que sea utilizada en versiones futuras de `dalclick`:
+Si bien la siguiente librería, IM (Image Representation, Storage, Capture and Processing), no es necesaria para chdkptp, debe instalarla si desea usar DALclick:
 
 * IM - Image Representation, Storage, Capture and Processing <http://www.tecgraf.puc-rio.br/im/>
 
-Excepto para las últimas versiones es posible que los archivos tar.gz descargados se descompriman en `./` (no se crea un subdirectorio). Realice un test previo descomprimiendo en una carpeta temporal, si no se crea una carpeta contenedora deberá crearlas, por ejemplo:
-
-     mkdir /opt/src/iup-<ver>_Linux32_64_lib
-     mkdir /opt/src/cd-<ver>_Linux32_64_lib
-     #etc.
+Excepto para las últimas versiones es posible que los archivos tar.gz descargados se descompriman en `./` (es decir, no se crea un subdirectorio). Realice un test previo descomprimiendo en una carpeta temporal, si no se crea una carpeta contenedora deberá crearla manualmente y mover el archivo tar.gz.
 
 **Nota:** Para averiguar si nuestro sistema es de 32 o 64 bits puede usarse `uname -m`. Hay paquetes pre-compilados tanto para 32 como para 64 bits:
 
@@ -57,7 +53,7 @@ Nota1: el primer comando configura la instalación para Lua 5.2. Por defecto los
 
 ### Cambios en las versiones mas recientes de iup, im y cd
 
-**importante** en versiones más recientes de precompilados de `iup`, `im`, y `cd` (~2015 en adelante) los módulos para `Lua` estan disponibles por separado, ej, para Lua 5.1: 
+En versiones más recientes de precompilados de `iup`, `im`, y `cd` (~2015 en adelante) los módulos para `Lua` estan disponibles por separado, ej, para Lua 5.1: 
 
     Precompilado:                   Módulo para Lua 5.1:
     cd-5.9_Linux32_lib.tar.gz ----> cd-5.9-Lua51_Linux32_lib.tar.gz
@@ -122,7 +118,7 @@ Crear archivo de configuración a partir del ejemplo
 
      mv config-sample-linux.mk config.mk
 
-#### Configurar para compatibilidad con DALclick
+#### Configurar para compatibilidad con DALclick (r461)
 
 Editar el archivo `config.mk` con los siguientes parámetros y agregar los links a las librerias:
 
@@ -143,7 +139,7 @@ Editar el archivo `config.mk` con los siguientes parámetros y agregar los links
 
 #### Configurar para versiones más recientes (2016)
 
-chdkptp changeset 659, tecgraf precomp. libs: IUP ver 3.15 32/64 y CD ver 5.8.2 32/64 
+ejemplo de config.mk para chdkptp changeset 659, tecgraf precomp. libs: IUP ver 3.15 32/64 y CD ver 5.8.2 32/64 
 
     USE_LUA_52=1
 
@@ -157,9 +153,9 @@ chdkptp changeset 659, tecgraf precomp. libs: IUP ver 3.15 32/64 y CD ver 5.8.2 
     LUA_INCLUDE_DIR=/usr/include/lua5.2
     LUA_LIB=lua5.2
 
-    #IUP_LIB_DIR=/opt/src/iup-<ver>_Linux32_64_lib
+    IUP_LIB_DIR=/opt/src/iup-<ver>_Linux32_64_lib
     IUP_INCLUDE_DIR=/opt/src/iup-<ver>_Linux32_64_lib/include
-    #CD_LIB_DIR=/opt/src/cd-<ver>_Linux32_64_lib
+    CD_LIB_DIR=/opt/src/cd-<ver>_Linux32_64_lib
     CD_INCLUDE_DIR=/opt/src/cd-<ver>_Linux32_64_lib/include
 
 
