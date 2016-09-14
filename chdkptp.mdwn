@@ -34,7 +34,7 @@ Si bien la siguiente librería, IM (Image Representation, Storage, Capture and P
 
 * IM - Image Representation, Storage, Capture and Processing <http://www.tecgraf.puc-rio.br/im/>
 
-Los archivos tar.gz descargados se descomprimen en `./` (no se crea un subdirectorio) así que previamente crear carpetas contenedoras donde descomprimir, por ejemplo en:
+Excepto para las últimas versiones es posible que los archivos tar.gz descargados se descompriman en `./` (no se crea un subdirectorio). Realice un test previo descomprimiendo en una carpeta temporal, si no se crea una carpeta contenedora deberá crearlas, por ejemplo:
 
      mkdir /opt/src/iup-<ver>_Linux32_64_lib
      mkdir /opt/src/cd-<ver>_Linux32_64_lib
@@ -64,17 +64,28 @@ Nota1: el primer comando configura la instalación para Lua 5.2. Por defecto los
     iup-3.18_Linux32_lib.tar.gz --> iup-3.18-Lua51_Linux32_lib.tar.gz
     im-3.10_Linux32_lib.tar.gz ---> im-3.10-Lua51_Linux32_lib.tar.gz
 
-Debe correrse `install` en ambos directorios (opcionamente `install_dev` para desarrollo) y el script `config_lua_module` (que crea los accesos directos desde `/usr/lib/lua/5.x` a los archivos `*.so` en `/usr/lib`) sólo debería ejecutarse desde la carpeta del módulo Lua seleccionado y no en el precompilado. Por ejemplo
+Debe ejecutarse `install` en ambos directorios (opcionamente `install_dev` para desarrollo) y el script `config_lua_module` (que crea los accesos directos desde `/usr/lib/lua/5.x` a los archivos `*.so` en `/usr/lib`) **sólo debe ejecutarse desde la carpeta del módulo Lua seleccionado y no en el precompilado**. 
 
+Por ejemplo para IUP:
+
+     #instalar precompilado de IUP
      cd /ruta/a/libs/tecgraf/iup-3.19.1_Linux32_64_lib
-     bash install && bash install_dev
+     bash install
+     bash install_dev
 
+     #instalar modulo para Lua 5.1
+     export USE_LUA52=""
      cd ../iup-3.19.1-Lua51_Linux32_64_lib
-     bash install && bash install_dev && config_lua_module
+     bash install
+     bash install_dev
+     config_lua_module
 
-     export USE_LUA52=Yes 
+     #instalar modulo para Lua 5.2
+     export USE_LUA52=Yes
      cd ../iup-3.19.1-Lua52_Linux32_64_lib
-     bash install && bash install_dev && config_lua_module
+     bash install
+     bash install_dev
+     config_lua_module
 
 Para desinstalar (como *root*):
 
@@ -86,40 +97,53 @@ Descargar el repositorio oficial
 
      svn co http://subversion.assembla.com/svn/chdkptp/trunk chdkptp
 
-Nota: versiones probadas
+### Compatibilidad con DALclick
 
-Versión segura de chdkptp
+En el caso de instalar chdkptp para usarlo con DALclick, para obtener el código de la versión compatible de chdkptp use:
 
+     cd chdkptp
      svn up -r461
 
-Versiones seguras de cd, iup, im
+Versiones seguras de cd, iup, im para DALclick (probadas en Debian Wheezy 32 bits)
 
      iup-3.8_Linux32_lib
      cd-5.6.1_Linux32_lib
      im-3.8.2_Linux32_lib
 
+**actualizacion 2016** Versiones seguras para DALclick (probadas en Debian Jessie 64 bits)
 
-### Configurar y compilar
+     iup-3.19.1_Linux32_64_lib
+     cd-5.10_Linux32_64_lib
+     im-3.11_Linux32_64_lib
+
+### Configurar chdkptp
 
 Crear archivo de configuración a partir del ejemplo
 
      mv config-sample-linux.mk config.mk
 
-Editar el archivo y agregar los links a las librerias:
+#### Configurar para compatibilidad con DALclick
+
+Editar el archivo `config.mk` con los siguientes parámetros y agregar los links a las librerias:
 
     IUP_SUPPORT=1
     CD_SUPPORT=1
     CD_USE_PLUS=cairo
+    PTPIP_SUPPORT=0
 
     LUA_INCLUDE_DIR=/usr/include/lua5.1
     LUA_LIB=lua5.1
+
+    DEBUG=1
 
     IUP_LIB_DIR=/opt/src/iup-<ver>_Linux32_lib
     IUP_INCLUDE_DIR=/opt/src/iup-<ver>_Linux32_lib/include
     CD_LIB_DIR=/opt/src/cd-<ver>_Linux32_lib
     CD_INCLUDE_DIR=/opt/src/cd-<ver>_Linux32_lib/include
 
-**Actualización 2015** (chdkptp changeset 659, tecgraf precomp. libs: IUP ver 3.15 32/64 y CD ver 5.8.2 32/64)
+#### Configurar para versiones más recientes (2016)
+
+chdkptp changeset 659, tecgraf precomp. libs: IUP ver 3.15 32/64 y CD ver 5.8.2 32/64 
 
     USE_LUA_52=1
 
@@ -139,7 +163,9 @@ Editar el archivo y agregar los links a las librerias:
     CD_INCLUDE_DIR=/opt/src/cd-<ver>_Linux32_64_lib/include
 
 
-Compilar:
+#### Compilar
+
+Dentro la carpeta chdkptp ejecutar
 
     make
 
@@ -157,7 +183,7 @@ Compilar:
      gsettings set org.gnome.desktop.media-handling automount "true"
      gsettings set org.gnome.desktop.media-handling automount-open "true"
 
-**Actualización 2015 Debian Jessie** Si no funciona en Gnome 3 probar:
+**Actualización 2015 Debian Jessie** Si lo anterior no funciona en Gnome 3 probar:
 
      #desactivar 
      gsettings set org.cinnamon.desktop.media-handling automount "false"
@@ -169,7 +195,7 @@ Compilar:
 
 Nota: se puede explorar con `dconf-editor` (se instala con `apt-get install dconf-editor`) la ruta correcta desde la GUI.
 
-Desactivar en forma permanente
+Desactivar en forma permanente. ATENCION: tenga en cuenta que ya no se montarán automaticamente las cámaras al conectarlas a la PC (iniciando gphoto2 por ejemplo) si remueve estos paquetes
 
      sudo apt-get remove --purge gvfs-backends
 
