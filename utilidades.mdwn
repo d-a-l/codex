@@ -1,0 +1,7 @@
+== Subir archivos con rsync
+
+comando:
+
+     rsync -azvv --progress --partial --rsh='ssh -p<puerto>' /ruta/local/archivo_gigante.7z <usuario>@<dominio>:/ruta/a/carpeta/remota/
+
+Los parámetros `--progress` y `--partial` permiten resumir transferencias rotas y tener un estimado del tiempo restante. Se puede interrumpir la transferencia usando `Ctrl+C`
