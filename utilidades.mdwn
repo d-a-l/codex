@@ -5,3 +5,23 @@ comando:
      rsync -azvv --progress --partial --rsh='ssh -p<puerto>' /ruta/local/archivo_gigante.7z <usuario>@<dominio>:/ruta/a/carpeta/remota/
 
 Los parámetros `--progress` y `--partial` permiten resumir transferencias rotas y tener un estimado del tiempo restante. Se puede interrumpir la transferencia usando `Ctrl+C`
+
+### Comprimir y descomprimir con 7zip ###
+
+comprimir:
+
+     7za -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on a /ruta/a/archivo/comprimido.ext.7z /ruta/a/archivo/sin_comprimir.ext 
+
+descomprimir
+
+     7z e comprimido.ext.7z
+
+descomprimir (con rutas completas):
+
+     7z x comprimido.ext.7z
+
+instalar p7zip
+
+     apt-get install p7zip-full
+
+
