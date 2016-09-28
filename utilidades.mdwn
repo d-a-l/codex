@@ -8,11 +8,19 @@ Los parámetros `--progress` y `--partial` permiten resumir transferencias rotas
 
 ### Comprimir y descomprimir con 7zip ###
 
-comprimir:
+instalar p7zip
+
+     apt-get install p7zip-full
+
+comprimir un archivo (usando "ultra settings"):
 
      7za -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on a /ruta/a/archivo/comprimido.ext.7z /ruta/a/archivo/sin_comprimir.ext 
 
-descomprimir
+comprimir directorio directamente con 7z (usando "ultra settings") (ojo! no guarda grupo/usuario)
+
+    7za a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on archivo.7z /ruta/a/carpeta
+
+descomprimir:
 
      7z e comprimido.ext.7z
 
@@ -20,8 +28,10 @@ descomprimir (con rutas completas):
 
      7z x comprimido.ext.7z
 
-instalar p7zip
+crear un tar.7z
 
-     apt-get install p7zip-full
+     tar cf - <carpeta> | 7z a -si archivos.tar.7z
 
+descomprimir un tar.7z
 
+     7za x -so archivos.tar.7z | tar xf -
