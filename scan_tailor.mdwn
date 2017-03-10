@@ -5,7 +5,7 @@ en Debian 7.0 "Wheezy", Debian 8.0 "Jessie" y Ubuntu 16.04 LTS "Xenial Xerus"
 
 ### Pre-requisitos para la compilación
 
-Nota para usuarios de Ubuntu: use `sudo -i` para hacerse usuario 'root', o deberá anteponer `sudo` a todos los comando indicados para 'root'
+Nota para usuarios de Ubuntu: use `sudo -i` para hacerse usuario *root*, o deberá anteponer `sudo` a todos los comando indicados para *root*
 
 Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
 
@@ -90,7 +90,7 @@ Abrir una consola en directorio que contiene el código fuente de Scan Tailor y 
 
     cmake .
 
-'Nota': Observe que debe escribir un punto "." luego del comando cmake para indicarle que esta trabajando en el directorio actual.
+*Nota*: Observe que debe escribir un punto "." luego del comando cmake para indicarle que esta trabajando en el directorio actual.
 
 Al finalizar el proceso debe leerse:
 
