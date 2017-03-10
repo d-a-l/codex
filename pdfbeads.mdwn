@@ -19,16 +19,20 @@ Sobre PDFBeads
  -  [Repositorio en Github](https://github.com/ifad/pdfbeads)
 
 
-Instalar PDFBeads en Debian Wheezy y Jessie
--------------------------------------------
+Instalar PDFBeads en Debian Wheezy, Jessie y Ubuntu 16.04
+---------------------------------------------------------
 
 ### Pre-requisitos para la compilación
 
-Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian en `/etc/apt/sources.list`. Si no, editar el archivo (como *root*) y agregar o descomentar esta línea:
+Asegurarse que el repositorio de código fuente esté habilitado en la lista de fuentes de Debian o Ubuntu en `/etc/apt/sources.list`. Si no, editar el archivo (como superusuario) y agregar o descomentar esta línea:
 
     deb-src http://ftp.us.debian.org/debian wheezy main
 
-Actualizar la lista de paquetes de Debian:
+en Ubuntu 
+
+    deb-src http://ar.archive.ubuntu.com/ubuntu/ xenial main
+
+Actualizar la lista de paquetes:
 
     apt-get update
 
@@ -77,7 +81,7 @@ En caso de usar `checkinstall` asegurarse que exista el directorio `/usr/local/s
 
 ### Incompatibilidad con nuevas versiones de Ruby
 
-`pdfbeads 1.1.1` no es compatible con versiones de Ruby superiores a `1.9.3`. Debian Wheezy tiene disponibles las versiones `1.8.7` y `1.9.3`, pero Jessie sólo dispone de la versión `2.1.5` (incompatible) y `1.5.6` (no probada), por lo tanto se recomienda instalar la versión `1.9.3` utilizando un método por fuera del sistema de paquetes Debian, como RVM (Ruby Version Manager). (nota de 2016)
+`pdfbeads 1.1.1` no es compatible con versiones de Ruby superiores a `1.9.3`. Debian Wheezy tiene disponibles las versiones `1.8.7` y `1.9.3`, pero Jessie sólo dispone de la versión `2.1.5` (incompatible) y `1.5.6` (no probada) y Ubuntu 16.04 la version 2.3, por lo tanto se recomienda instalar la versión `1.9.3` utilizando un método por fuera del sistema de paquetes Debian, como RVM (Ruby Version Manager). (nota de 2016)
 
 ##### Instalación de Ruby 1.9.1 en Debian 7 "Wheezy"
 
@@ -92,13 +96,17 @@ Instalar los siguientes paquetes de Ruby que pueden instalarse desde el gestor d
     apt-get install ruby-rmagick ruby-hpricot
 
 
-##### instalación de Ruby 1.9.3 en Debian 8 "Jessie"
+##### instalación de Ruby 1.9.3 en Debian 8 "Jessie" o Ubuntu 16.04
 
 En caso de haber instalado una versión de Ruby con el sistema de paquetes de Debian, se recomieda desintalarlo (como *root*):
 
      apt-get autoremove ruby ruby-rmagick ruby-hpricot rubygems
 
-luego como *root* instalar RVM
+en Ubuntu
+
+     sudo apt-get autoremove ruby ruby-rmagick ruby-hpricot rubygems
+
+en Debian, como *root* instalar RVM (use `sudo -i` en Ubuntu para obtener el usuario root)
 
      gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
      curl -sSL https://get.rvm.io | bash -s stable
@@ -106,7 +114,11 @@ luego como *root* instalar RVM
 
 donde `<usuario>` es el usuario (o los usuarios) sin privilegios que utilizarán `pdfbeads`.
 
+(Puede seguir el siguiente tutorial para realizar la instalación sin usar el usuario *root*: [How To Install Ruby on Rails with RVM on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rvm-on-ubuntu-16-04))
+
 Como el entorno de RVM se carga desde `/etc/profile.d/rvm.sh`, hay que loguearse nuevamente para que se cargue desde una *login shell* (por lo tanto para loguearse como *root* no basta con `su -` en una emulador de terminal, se debe utilizar una consola con *login* desde `Ctrl + Alt + Fx` (en una máquina virtual esto se consigue con HOST + Fx, donde HOST generalmente la tecla `Ctrl` derecha. Para volver a la intefase gráfica usar `Ctrl + Alt + F7`. Generalmente se usa `Ctrl + Alt + F1` para abrir una consola)
+
+Si se usa un emulador de terminal (*"non-login shell"*) en vez de una terminal virtual (*login shell* a las que se accede con `Ctrl + Alt + Fx`) asegurarse de que la opción "Run command as login shell" o "Ejecutar el comando como un intérprete de conexión" este seleccionada, si no la función `rvm` no estará disponible. Esta opción se encuentra en la pestaña "Title and Command" en "Profile Preferences" ó "Título y comandos" en el menú Editar -> "Preferencias del perfil" de la consola.
 
 Logueado como *root* instalar Ruby
 
@@ -116,8 +128,6 @@ y luego
 
      rvm use 1.9.3
 
-Importante: si se usa un emulador de terminal (*"non-login shell"*) en vez de una terminal virtual (*login shell* a las que se accede con `Ctrl + Alt + Fx`) asegurarse de que la opción "Run command as login shell" o "Ejecutar el comando como un intérprete de conexión" este seleccionada, si no la función `rvm` no estará disponible. Esta opción se encuentra en la pestaña "Title and Command" en "Profile Preferences" ó "Título y comandos" en el menú Editar -> "Preferencias del perfil" de la consola.
-
 Más info en:
 
 * [wiki de Debian](https://wiki.debian.org/Ruby#Available_interpreters_in_Debian_8_.28jessie.29)
@@ -125,8 +135,10 @@ Más info en:
 
 ##### instalación de PDFbeads
 
-Simplemente ejecutar (como root)
+Simplemente (como root)
 
+     gem install ttfunk -v 1.4.0
+     gem install nokogiri -v 1.6.8.1
      gem install pdfbeads
 
 en caso de problemas con imagemagick ("No package 'MagickCore' found"):
