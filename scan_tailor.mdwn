@@ -90,6 +90,8 @@ Abrir una consola en directorio que contiene el código fuente de Scan Tailor y 
 
     cmake .
 
+'Nota': Observe que debe escribir un punto "." luego del comando cmake para indicarle que esta trabajando en el directorio actual.
+
 Al finalizar el proceso debe leerse:
 
     - Configuring done 
