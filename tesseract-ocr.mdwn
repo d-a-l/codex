@@ -1,7 +1,7 @@
-Instalar tesseract-ocr en Debian y Ubuntu
+Instalar tesseract-ocr en Debian o Ubuntu
 -----------------------------------------
 
-Para ''Debian'':
+Para **Debian**:
 
      apt-get install tesseract-ocr tesseract-ocr-spa
 
@@ -13,7 +13,7 @@ la lista completa de paquetes de idiomas [puede consultarse aquí](https://githu
 
 Con el paquete `tesseract-ocr-all` puede instalar todos los paquetes de idiomas de Tesseract (requiere más de 1GB de espacio adicional en su disco rígido)
 
-Para ''Ubuntu'' utilice `sudo -i` para hacerse *root* o anteponga `sudo` a los comandos `apt-get`, por ejemplo
+Para **Ubuntu** utilice `sudo -i` para hacerse *root* o anteponga `sudo` a los comandos `apt-get`, por ejemplo
 
      sudo apt-get install tesseract-ocr tesseract-ocr-spa
 
