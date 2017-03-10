@@ -82,7 +82,11 @@ Scantailor Enhanced es un *branch* del proyecto con funciones agregadas que no e
 
 O descargar los archivos compilados o para compilar desde la antiguo repositorio del proyecto en Sourceforge <http://sourceforge.net/projects/scantailor/files/scantailor-devel/enhanced/>.
 
-El proceso de compilación para Scantailor o Scantailor Enhanced es el mismo 
+**Para Ubuntu 16.04**: use el siguiente repositorio que corrige un error de compilación por problemas entre las nuevas versiones del libboost y QT (ver [commit con corrección](qt4-parsing-error-on-libboost), [explicación en stackoverflow](http://stackoverflow.com/questions/15455178/qt4-cgal-parse-error-at-boost-join))
+
+     git clone -b enhanced https://github.com/d-a-l/scantailor.git scantailor-enhanced
+
+**El proceso de compilación para Scantailor o Scantailor Enhanced es el mismo**
 
 ### Compilar
 
