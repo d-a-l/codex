@@ -11,7 +11,7 @@ Asegurarse que el repositorio de código fuente esté habilitado en la lista de 
 
     deb-src http://ftp.us.debian.org/debian wheezy main
 
-en Ubuntu agregar la línea `deb-src http://ar.archive.ubuntu.com/ubuntu/ xenial main`
+en Ubuntu 16.04 agregar la línea `deb-src http://ar.archive.ubuntu.com/ubuntu/ xenial main`
 
 Actualizar la lista de paquetes de Debian:
 
