@@ -1,7 +1,7 @@
 Compilar chdkptp en Debian Wheezy
 -------------------------------------
 
-*Con notas de actualización para Debian Jessie*
+*Con notas de actualización para Debian Jessie y Ubuntu 16.04*
 
 ### Pre-requisitos para la compilación
 
@@ -9,7 +9,9 @@ Asegurarse que el repositorio de código fuente esté habilitado en la lista de 
 
     deb-src http://ftp.us.debian.org/debian wheezy main
 
-Actualizar la lista de paquetes de Debian:
+en Ubuntu 16.04 agregar la línea `deb-src http://ar.archive.ubuntu.com/ubuntu/ xenial main`
+
+Actualizar la lista de paquetes (use `sudo` en Ubuntu o usuario *root* en Debian):
 
     apt-get update
 
@@ -42,7 +44,7 @@ Excepto para las últimas versiones es posible que los archivos tar.gz descargad
     cd-<ver>_Linux32_64_lib.tar.gz
     im-<ver>_Linux32_64_lib.tar.gz
 
-Para instalar, ingresar a cada carpeta y ejecutar como *root* los scripts de instalación (en cada carpeta el archivo LINSTALL incluye más info sobre la instalación)
+Para instalar, ingresar a cada carpeta y ejecutar como *root* (o usando `sudo`) los scripts de instalación (en cada carpeta el archivo LINSTALL incluye más info sobre la instalación)
 
     export USE_LUA52=Yes 
     bash install
