@@ -1,5 +1,5 @@
-Instalar tesseract-ocr
-----------------------
+Instalar tesseract-ocr en Debian y Ubuntu
+-----------------------------------------
 
 Para ''Debian'':
 
