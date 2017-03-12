@@ -191,6 +191,16 @@ Dentro la carpeta chdkptp ejecutar
      gsettings set org.cinnamon.desktop.media-handling automount "true"
      gsettings set org.cinnamon.desktop.media-handling automount-open "true"
 
+**Para escritorio "Mate" en Debian Jessie**
+
+     #desactivar automount antes de ejecutar chdkptp
+     gsettings set org.mate.desktop.media-handling automount "false"
+     gsettings set org.mate.desktop.media-handling automount-open "false"
+
+     #activar automount luego de cerrar chdkptp
+     gsettings set org.mate.desktop.media-handling automount "true"
+     gsettings set org.mate.desktop.media-handling automount-open "true"
+
 Nota: se puede explorar con `dconf-editor` (se instala con `apt-get install dconf-editor`) la ruta correcta desde la GUI.
 
 Desactivar en forma permanente. ATENCION: tenga en cuenta que ya no se montarán automaticamente las cámaras al conectarlas a la PC (iniciando gphoto2 por ejemplo) si remueve estos paquetes
