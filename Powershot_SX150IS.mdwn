@@ -1,0 +1,125 @@
+Configuración del menu de la cámara en modo REC:
+===============================================
+
+(poner en modo "P" para ver todas las opciones)
+
+== icono "camara" ==
+
+    Recuadro AF: Centro
+    Tam. Cuadro AF: Normal
+    Zoom Digital: Off
+    Zoom punto AF: Off
+    AF Servo: Off
+    AF Continuo: Off
+    Luz ayuda AF: On
+    Zoom punto MF: Off
+    MF seguridad: Off
+    Ajustes Flash...
+       Ojos rojos: Off
+       Luz activada: Off
+    i-Contrast: Off
+    Filtro Viento: Off
+    Revisar: Off (importante! si no se cuelga)
+    Detec. parpadeo: Off
+    Cubierta info.: Off
+    Ajustes IS...
+       Modo IS: Off
+    Fecha: Off
+
+== icono "herramientas" ==
+
+    <Mute: Off
+    Volumen ...
+       --
+    Ociones de sonido
+       <todo en '1'>
+    Trucos/consejos: On
+    Luminosidad LCD: --
+    Imagen de inicio: --
+    Formatear ... NO
+    Num. archivo: Continuo
+    Crear carpeta: Mensual
+    Obj. retraido: 1 min.
+    Ahorro energía ...
+        Autodesconexion: Off
+        Display Off: 3 min.
+    Zona horaria: --
+    Fecha/Hora: --
+Unid Distancia: m/cm
+Sistema de Video: NTSC
+Idioma: Español
+
+== Func Set button == (en modo "P")
+
+Ícono modo luz: fluorescente
+Ícono perfil de color: modo color desc (off)
+Ícono modo disparo: Foto a foto, disparo unico estandar
+Ícono flash: potencia "0" (punto medio)
+Ícono exposición: Evaluativa
+Ícono resolución: "L" 14MB 4320x3240
+Ícono calidad: fina
+Ícono res. video: "1280"
+
+== Rueda ==
+
+arriba: "ISO Auto"
+izquierda: tipo de foto "Normal"
+derecha: flash "off"
+abajo: autodisparo off
+
+== otros ==
+
+DISP: off
+
+== modo ==
+
+"P"
+
+Menu en modo "play"
+==================
+
+(Encender la maquina con la tecla "play" en vez del boton de encendido)
+
+Vista despl.: Off
+Rotación Auto: Off
+Volver a: Ult. imagen
+Transición: Off
+
+== Menu CHDK ==
+
+Enhanced Photo Operations:
+   Disable Overrides: Yes
+   ...
+Video Parameters...
+   ...
+RAW (digital negative)
+   Save Raw: []
+   ...
+...
+Edge Overlay:
+   Enabe edge overlay: []
+   ...
+Histogram
+   ...
+Zebra (show over &...)
+   ...
+Script (program your camera):
+   ...
+   Autostart Off
+   Restart Lua on error [*]
+   ...
+CHDK Settings
+   ...
+   Menu Settings:
+      User Menu Enable [ Off]
+   ...
+   Remote Parameters
+      Enable Remote [*]
+      Enable Half-Press Shortcut Keys []
+   ...
+   Disable LCD Off [Always]
+   ...
+Miscelaneous Stuff
+   ...
+   Enable Lua Native Calls? [*]
+   ...
