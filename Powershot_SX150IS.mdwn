@@ -14,12 +14,14 @@ Funcionamiento comprobado para:
 * CPU model name: AMD A4-3300 APU with Radeon(tm) HD Graphics
 * USB controller: Advanced Micro Devices [AMD] FCH USB OHCI Controller (rev 11)
 
-1) en modo REC (poner en modo "P" para ver todas las opciones)
+1) en modo REC 
+===============
 
-Botón 'Menu'
-===========
+*Encender la cámara desde el botón encendido y apretar el disparador sin disparar (shoot half), luego se abrirá el objetivo. Poner en modo "P" la perilla superior para ver todas las opciones del menú*
 
-**Icono "cámara"**
+**Botón 'Menu'**
+
+    Icono "cámara"
 
     Recuadro AF: Centro
     Tam. Cuadro AF: Normal
@@ -42,12 +44,12 @@ Botón 'Menu'
        Modo IS: Off
     Fecha: Off
 
-**Ícono "herramientas"**
+    Ícono 'Herramientas'
 
     <Mute: Off
     Volumen ...
        --
-    Ociones de sonido
+    Opciones de sonido
        <todo en '1'>
     Trucos/consejos: On
     Luminosidad LCD: --
@@ -65,8 +67,7 @@ Botón 'Menu'
     Sistema de Video: NTSC
     Idioma: Español
 
-Botón 'Func Set'
-================
+**Botón 'Func Set'**
 
     Ícono modo luz: fluorescente
     Ícono perfil de color: modo color desc (off)
@@ -77,28 +78,28 @@ Botón 'Func Set'
     Ícono calidad: fina
     Ícono res. video: "1280"
 
-Rueda
-=====
+**Rueda**
 
     Arriba: "ISO Auto"
     Izquierda: tipo de foto "Normal"
     Derecha: flash "off"
     Abajo: autodisparo off
 
-Boton 'DISP'
-===========
+**Botón 'DISP'**
 
     Modo: off
 
-Perilla Modo
-============
+**Perilla Modo**
 
     Modo: "P"
 
-2) en modo PLAY (Encender la cámara con la tecla "PLAY" en vez del botón de encendido)
+2) en modo PLAY
+===============
 
-Botón Menu
------------
+*Encender la cámara con la tecla "PLAY" en vez del botón de encendido*
+
+**Botón Menu**
+
     ...
     Vista despl.: Off
     Rotación Auto: Off
@@ -106,9 +107,11 @@ Botón Menu
     Transición: Off
 
 3) En modo CHDK
+===============
 
-Botón 'Menu'
-------------
+*Pasar a modo CHDK usando el botón PLAY*
+
+**Botón 'Menu'**
 
     Enhanced Photo Operations:
        Disable Overrides: Yes
