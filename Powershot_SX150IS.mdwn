@@ -15,10 +15,10 @@ Funcionamiento comprobado para:
 
 Configuración de la cámara Canon Powershot SX150IS. Nota: no debe estar conectada al equipo con el cable USB para hacer estas configuraciones.
 
-1) En modo REC 
-===============
+1) En modo 'REC' 
+----------------
 
-*Para ir a modo REC: Encender la cámara desde el botón encendido y apretar el disparador sin disparar (shoot half), luego se abrirá el objetivo. Poner en modo "P" la perilla superior para ver todas las opciones del menú.*
+*Para ir a modo 'REC': Encender la cámara desde el botón encendido y apretar el disparador sin disparar (shoot half), luego se abrirá el objetivo. Poner en modo "P" la perilla superior para ver todas las opciones del menú.*
 
 **Botón 'Menu'**
 
@@ -101,10 +101,10 @@ Configuración de la cámara Canon Powershot SX150IS. Nota: no debe estar conect
     Modo: "P"
 
 
-2) En modo PLAY
-===============
+2) En modo 'PLAY'
+-----------------
 
-*Para ir al modo PLAY: Encender la cámara con la tecla "PLAY" en vez del botón de encendido.*
+*Para ir al modo 'PLAY': Encender la cámara con la tecla 'PLAY' en vez del botón de encendido.*
 
 **Botón Menu**
 
@@ -115,10 +115,10 @@ Configuración de la cámara Canon Powershot SX150IS. Nota: no debe estar conect
     Transición: Off
 
 
-3) En modo CHDK
-===============
+3) En modo 'CHDK'
+-----------------
 
-*Para ir al modo CHDK apretar el botón PLAY*
+*Para ir al modo 'CHDK' apretar el botón 'PLAY' habiendo iniciado con CHDK activado*
 
 **Botón 'Menu'**
 
