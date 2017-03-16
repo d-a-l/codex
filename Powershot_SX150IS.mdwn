@@ -13,14 +13,17 @@ Funcionamiento comprobado para:
 * CPU model name: AMD A4-3300 APU with Radeon(tm) HD Graphics
 * USB controller: Advanced Micro Devices [AMD] FCH USB OHCI Controller (rev 11)
 
-1) en modo REC 
+Configuración de la cámara Canon Powershot SX150IS. Nota: no debe estar conectada al equipo con el cable USB para hacer estas configuraciones.
+
+1) En modo REC 
 ===============
 
-*Encender la cámara desde el botón encendido y apretar el disparador sin disparar (shoot half), luego se abrirá el objetivo. Poner en modo "P" la perilla superior para ver todas las opciones del menú*
+*Para ir a modo REC: Encender la cámara desde el botón encendido y apretar el disparador sin disparar (shoot half), luego se abrirá el objetivo. Poner en modo "P" la perilla superior para ver todas las opciones del menú.*
 
 **Botón 'Menu'**
 
     Icono "cámara"
+    --------------
 
     Recuadro AF: Centro
     Tam. Cuadro AF: Normal
@@ -44,6 +47,7 @@ Funcionamiento comprobado para:
     Fecha: Off
 
     Ícono 'Herramientas'
+    --------------------
 
     <Mute: Off
     Volumen ...
@@ -66,6 +70,7 @@ Funcionamiento comprobado para:
     Sistema de Video: NTSC
     Idioma: Español
 
+
 **Botón 'Func Set'**
 
     Ícono modo luz: fluorescente
@@ -77,6 +82,7 @@ Funcionamiento comprobado para:
     Ícono calidad: fina
     Ícono res. video: "1280"
 
+
 **Rueda**
 
     Arriba: "ISO Auto"
@@ -84,18 +90,21 @@ Funcionamiento comprobado para:
     Derecha: flash "off"
     Abajo: autodisparo off
 
+
 **Botón 'DISP'**
 
     Modo: off
+
 
 **Perilla Modo**
 
     Modo: "P"
 
-2) en modo PLAY
+
+2) En modo PLAY
 ===============
 
-*Encender la cámara con la tecla "PLAY" en vez del botón de encendido*
+*Para ir al modo PLAY: Encender la cámara con la tecla "PLAY" en vez del botón de encendido.*
 
 **Botón Menu**
 
@@ -105,10 +114,11 @@ Funcionamiento comprobado para:
     Volver a: Ult. imagen
     Transición: Off
 
+
 3) En modo CHDK
 ===============
 
-*Pasar a modo CHDK usando el botón PLAY*
+*Para ir al modo CHDK apretar el botón PLAY*
 
 **Botón 'Menu'**
 
