@@ -1,7 +1,20 @@
-Configuración del menu de la cámara en modo REC:
-------------------------------------------------
+Configuración SX150IS
+---------------------
 
-(poner en modo "P" para ver todas las opciones)
+Funcionamiento comprobado para:
+
+* Modelo Powershot SX150IS
+* Versión de CHDK 1.4.1 - 1599 (Apr 2016)
+* Versión chdkptp r461
+* Versiones Tecgraf: iup 3.8 - cd 5.6.1 -im 3.8.2 (linux 32)
+* Sistema operativo: Debian GNU/Linux 7 (wheezy)
+* Kernel release: 3.2.0-4-686-pae
+* Kernel version: #1 SMP Debian 3.2.86-1 
+* equipo
+* CPU model name: AMD A4-3300 APU with Radeon(tm) HD Graphics
+* USB controller: Advanced Micro Devices [AMD] FCH USB OHCI Controller (rev 11)
+
+1) menu de la cámara en modo REC (poner en modo "P" para ver todas las opciones)
 
 icono "camara"
 ==============
@@ -27,7 +40,8 @@ icono "camara"
        Modo IS: Off
     Fecha: Off
 
-== icono "herramientas" ==
+icono "herramientas"
+====================
 
     <Mute: Off
     Volumen ...
@@ -46,81 +60,86 @@ icono "camara"
         Display Off: 3 min.
     Zona horaria: --
     Fecha/Hora: --
-Unid Distancia: m/cm
-Sistema de Video: NTSC
-Idioma: Español
+    Unid Distancia: m/cm
+    Sistema de Video: NTSC
+    Idioma: Español
 
-== Func Set button == (en modo "P")
+Func Set button
+===============
 
-Ícono modo luz: fluorescente
-Ícono perfil de color: modo color desc (off)
-Ícono modo disparo: Foto a foto, disparo unico estandar
-Ícono flash: potencia "0" (punto medio)
-Ícono exposición: Evaluativa
-Ícono resolución: "L" 14MB 4320x3240
-Ícono calidad: fina
-Ícono res. video: "1280"
+(en modo "P")
 
-== Rueda ==
+    Ícono modo luz: fluorescente
+    Ícono perfil de color: modo color desc (off)
+    Ícono modo disparo: Foto a foto, disparo unico estandar
+    Ícono flash: potencia "0" (punto medio)
+    Ícono exposición: Evaluativa
+    Ícono resolución: "L" 14MB 4320x3240
+    Ícono calidad: fina
+    Ícono res. video: "1280"
 
-arriba: "ISO Auto"
-izquierda: tipo de foto "Normal"
-derecha: flash "off"
-abajo: autodisparo off
+Rueda
+=====
 
-== otros ==
+    Arriba: "ISO Auto"
+    Izquierda: tipo de foto "Normal"
+    Derecha: flash "off"
+    Abajo: autodisparo off
 
-DISP: off
+otros
+=====
 
-== modo ==
+    Tecla DISP: off
 
-"P"
+Perilla Modo
+============
 
-Menu en modo "play"
-==================
+    Modo "P"
 
-(Encender la maquina con la tecla "play" en vez del boton de encendido)
+2) menu de la cámara en modo PLAY (Encender la maquina con la tecla "play" en vez del boton de encendido)
 
-Vista despl.: Off
-Rotación Auto: Off
-Volver a: Ult. imagen
-Transición: Off
+    ...
+    Vista despl.: Off
+    Rotación Auto: Off
+    Volver a: Ult. imagen
+    Transición: Off
 
-== Menu CHDK ==
+Menu CHDK
+---------
 
-Enhanced Photo Operations:
-   Disable Overrides: Yes
-   ...
-Video Parameters...
-   ...
-RAW (digital negative)
-   Save Raw: []
-   ...
-...
-Edge Overlay:
-   Enabe edge overlay: []
-   ...
-Histogram
-   ...
-Zebra (show over &...)
-   ...
-Script (program your camera):
-   ...
-   Autostart Off
-   Restart Lua on error [*]
-   ...
-CHDK Settings
-   ...
-   Menu Settings:
-      User Menu Enable [ Off]
-   ...
-   Remote Parameters
-      Enable Remote [*]
-      Enable Half-Press Shortcut Keys []
-   ...
-   Disable LCD Off [Always]
-   ...
-Miscelaneous Stuff
-   ...
-   Enable Lua Native Calls? [*]
-   ...
+    Enhanced Photo Operations:
+       Disable Overrides: Yes
+       ...
+    Video Parameters...
+       ...
+    RAW (digital negative)
+       Save Raw: []
+       ...
+    ...
+    Edge Overlay:
+       Enabe edge overlay: []
+       ...
+    Histogram
+       ...
+    Zebra (show over &...)
+       ...
+    Script (program your camera):
+       ...
+       Autostart Off
+       Restart Lua on error [*]
+       ...
+    CHDK Settings
+       ...
+       Menu Settings:
+          User Menu Enable [ Off]
+       ...
+       Remote Parameters
+          Enable Remote [*]
+          Enable Half-Press Shortcut Keys []
+       ...
+       Disable LCD Off [Always]
+       ...
+    Miscelaneous Stuff
+       ...
+       Enable Lua Native Calls? [*]
+       ...
