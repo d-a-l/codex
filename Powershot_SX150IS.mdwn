@@ -6,7 +6,7 @@ Funcionamiento comprobado para:
 * Modelo de cámara **Canon Powershot SX150IS**
 * Versión de CHDK 1.4.1 - 1599 (Apr 2016)
 * Versión chdkptp r461
-* Versiones Tecgraf: precompilados linux 32 de iup 3.8, cd 5.6.1, im 3.8.2
+* Versiones Tecgraf precompilados linux 32: de iup 3.8 - cd 5.6.1 - im 3.8.2
 * Sistema operativo: Debian GNU/Linux 7 (wheezy)
 * Kernel release: 3.2.0-4-686-pae
 * Kernel version: #1 SMP Debian 3.2.86-1 
