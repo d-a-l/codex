@@ -3,7 +3,7 @@ Configuración SX150IS
 
 Funcionamiento comprobado para:
 
-* Modelo Powershot SX150IS
+* Modelo de cámara **Canon Powershot SX150IS**
 * Versión de CHDK 1.4.1 - 1599 (Apr 2016)
 * Versión chdkptp r461
 * Versiones Tecgraf: iup 3.8 - cd 5.6.1 -im 3.8.2 (linux 32)
@@ -14,10 +14,12 @@ Funcionamiento comprobado para:
 * CPU model name: AMD A4-3300 APU with Radeon(tm) HD Graphics
 * USB controller: Advanced Micro Devices [AMD] FCH USB OHCI Controller (rev 11)
 
-1) menu de la cámara en modo REC (poner en modo "P" para ver todas las opciones)
+1) en modo REC (poner en modo "P" para ver todas las opciones)
 
-icono "camara"
-==============
+Botón 'Menu'
+===========
+
+**Icono "cámara"**
 
     Recuadro AF: Centro
     Tam. Cuadro AF: Normal
@@ -40,8 +42,7 @@ icono "camara"
        Modo IS: Off
     Fecha: Off
 
-icono "herramientas"
-====================
+**Ícono "herramientas"**
 
     <Mute: Off
     Volumen ...
@@ -64,10 +65,8 @@ icono "herramientas"
     Sistema de Video: NTSC
     Idioma: Español
 
-Func Set button
-===============
-
-(en modo "P")
+Botón 'Func Set'
+================
 
     Ícono modo luz: fluorescente
     Ícono perfil de color: modo color desc (off)
@@ -86,26 +85,30 @@ Rueda
     Derecha: flash "off"
     Abajo: autodisparo off
 
-otros
-=====
+Boton 'DISP'
+===========
 
-    Tecla DISP: off
+    Modo: off
 
 Perilla Modo
 ============
 
-    Modo "P"
+    Modo: "P"
 
-2) menu de la cámara en modo PLAY (Encender la maquina con la tecla "play" en vez del boton de encendido)
+2) en modo PLAY (Encender la cámara con la tecla "PLAY" en vez del botón de encendido)
 
+Botón Menu
+-----------
     ...
     Vista despl.: Off
     Rotación Auto: Off
     Volver a: Ult. imagen
     Transición: Off
 
-Menu CHDK
----------
+3) En modo CHDK
+
+Botón 'Menu'
+------------
 
     Enhanced Photo Operations:
        Disable Overrides: Yes
