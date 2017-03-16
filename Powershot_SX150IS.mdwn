@@ -10,7 +10,6 @@ Funcionamiento comprobado para:
 * Sistema operativo: Debian GNU/Linux 7 (wheezy)
 * Kernel release: 3.2.0-4-686-pae
 * Kernel version: #1 SMP Debian 3.2.86-1 
-* equipo
 * CPU model name: AMD A4-3300 APU with Radeon(tm) HD Graphics
 * USB controller: Advanced Micro Devices [AMD] FCH USB OHCI Controller (rev 11)
 
