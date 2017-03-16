@@ -1,10 +1,10 @@
 Configuración del menu de la cámara en modo REC:
-===============================================
+------------------------------------------------
 
 (poner en modo "P" para ver todas las opciones)
 
 icono "camara"
---------------
+==============
 
     Recuadro AF: Centro
     Tam. Cuadro AF: Normal
