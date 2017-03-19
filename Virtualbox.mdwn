@@ -47,7 +47,7 @@ por
 
 En el sistema anfitrión agregar nombre y ruta de una carpeta para compartir desde *configuración/carpetas compartidas*. Se puede seleccionar 'automount' para facilitar el proceso.
 
-Para montar en el sistema invitado usar el menu contextual sobre la unidad compartida en el explorador de archivos, o desde la consola:
+Para montar la carpeta compartida en el sistema invitado usar el menu contextual sobre la unidad compartida que aparecerá en el explorador de archivos, o desde la consola:
 
      mkdir <punto de montaje>
      mount -t vboxsf <nombre carpeta anfitriona> <punto de montaje>
