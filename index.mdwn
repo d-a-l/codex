@@ -43,7 +43,8 @@
 [[La Pila]] - [[instalaciones-mayo-2014]] - [[ddam]] 
 
 Utilidades
-* [[Utilidades]]
+
+* [[Utilidades]] - (ayuda rsync y 7zip)
 * [[Virtualbox]]
 
 GNU/Linux:
