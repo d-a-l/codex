@@ -13,7 +13,7 @@ Version de CD de Guest Additions para bibliohack:
 Agregar Guest Additions en bibliohack
 -------------------------------------
 
-Si no funciona la opción del menu del sistema anfitrión se puede usar la iso de Guest Additions que se puede descargar desde el sitio de Oracle Virtualbox y luego:
+Si no funciona la opción del menu del sistema anfitrión se puede usar la iso de Guest Additions que se descarga desde el sitio de Oracle Virtualbox. Luego:
 
 - Cargar el iso desde el menu de virtualbox como un nuevo cd en la unidad virtual, y luego en el sistema invitado, desde una consola (como *root*)
 
