@@ -130,6 +130,7 @@ Audio
       Controlador de audio (ICH AC97)
 
 USB
+
       (x) Habilitar controlador USB
       (*) Controlador USB 1.1 (OHCI)
 
