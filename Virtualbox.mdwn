@@ -61,3 +61,75 @@ En el sistema anfitrión agregar al grupo de usuarios de Virtualbox los usuarios
      sudo usermod -a -G vboxusers <usuario>
 
 Luego: cerrar Virtualbox, salir de la sesión de usuario de linux, volver a loguearse, iniciar Virtualbox. Si funciona correctamente, deben aparecer en el ícono "agregar nuevo filtro USB", en la seccion *configuración usb*, una lista con los dispositivos conectados al anfitrión. Seleccionando el dispositivo este queda habilitado en el sistema operativo invitado.
+
+
+Configuración máquina virtual bibliohack
+----------------------------------------
+
+(en un equipo AMD 64/Ubuntu 16.04)
+
+General
+
+     <nombre>
+     Tipo: Linux
+     Debian (32-bit)
+
+Sistema
+
+     Placa base
+     ----------
+
+     ...
+     Chipset: PIIX3
+     Dispositivo apuntador: raton PS/2
+     Caracteristicas extendidas: 
+          (x) Habilitar I/O APIC
+          ( ) Habilitar EFI (sólo SO especiales)
+          (x) Reloj de hardware en tiempo UTC
+
+     Procesador
+     ----------
+
+     ...
+     ( ) Habilitar PAE/NX
+
+     Aceleración
+
+     Interfaz de paravirtualización: (Predeterminada)
+     hardware de virtualización:
+          (x) Habilitar VT-x/AMD-V
+          (x) Habilitar pàginación anidada
+
+Pantalla
+
+      Pantalla
+      --------
+     
+      ...
+      ( ) Habilitar aceleración 3D
+      ( ) Habilitar aceleración de video 2D
+
+
+Almacenamiento
+
+      Controlador IDE - atributos:
+           nombre: IDE
+           Tipo: (PIIX4)
+           (x) Usar cache de I/O de anfitrión
+
+      Controlador SATA - atributos:
+           nombre: SATA
+           Tipo: (AHCI)
+           Cantidad de puertos: (1)
+           ( ) Usar cache de I/O de anfitrión
+
+Audio
+
+      (x) Habilitar audio
+      Controlador de audio anfitrión (PulseAudio)
+      Controlador de audio (ICH AC97)
+
+USB
+      (x) Habilitar controlador USB
+      (*) Controlador USB 1.1 (OHCI)
+
