@@ -1,5 +1,5 @@
-bibliohack vdi
---------------
+Bibliohack en máquina virtual
+----------------------------
 
 Version de VirtualBox en el SO anfitrion
 
