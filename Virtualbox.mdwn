@@ -94,6 +94,7 @@ Sistema
      ( ) Habilitar PAE/NX
 
      Aceleración
+     -----------
 
      Interfaz de paravirtualización: (Predeterminada)
      hardware de virtualización:
