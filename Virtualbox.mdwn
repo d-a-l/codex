@@ -1,0 +1,63 @@
+bibliohack vdi
+--------------
+
+Version de VirtualBox en el SO anfitrion
+
+     Versión 5.1.16 r113841 (Qt5.5.1)
+
+Version de CD de Guest Additions para bibliohack:
+
+     VBoxGuestAdditions_5.1.16.iso
+
+
+Agregar Guest Additions en bibliohack
+-------------------------------------
+
+Si no funciona la opción del menu del sistema anfitrión se puede usar la iso de Guest Additions que se puede descargar desde el sitio de Oracle Virtualbox y luego:
+
+- Cargar el iso desde el menu de virtualbox como un nuevo cd en la unidad virtual, y luego en el sistema invitado, desde una consola (como *root*)
+
+    bash /media/cdrom0/autorun.sh
+
+
+Agregar VirtualBox Extension Pack
+-------------------------
+
+Para mejor soporte USB descargar del sitio de Virtualbox "Oracle VM VirtualBox Extension Pack" para la versión de Virtualbox que se este utilizando en el sistema.
+
+- Version 5.1.16 enlace de descarga -> <http://download.virtualbox.org/virtualbox/5.1.16/Oracle_VM_VirtualBox_Extension_Pack-5.1.16-113841.vbox-extpack>
+
+Abrir el archivo descargado con Virtualbox para realizar la instalación
+
+
+Montar carpeta compartida
+-------------------------
+
+**Importante**: dar permisos a los usuarios en la maquina invitada, editando como *root*
+
+     nano /etc/group
+
+y cambiando la linea 
+
+     vboxsf:x:999: 
+
+por
+
+     vboxsf:x:999:bibliohack,root
+
+En el sistema anfitrión agregar nombre y ruta de una carpeta para compartir desde *configuración/carpetas compartidas*. Se puede seleccionar 'automount' para facilitar el proceso.
+
+Para montar en el sistema invitado usar el menu contextual sobre la unidad compartida en el explorador de archivos, o desde la consola:
+
+     mkdir <punto de montaje>
+     mount -t vboxsf <nombre carpeta anfitriona> <punto de montaje>
+
+
+USB
+---
+
+En el sistema anfitrión agregar al grupo de usuarios de Virtualbox los usuarios necesarios con el comando
+
+     sudo usermod -a -G vboxusers <usuario>
+
+Luego: cerrar Virtualbox, salir de la sesión de usuario de linux, volver a loguearse, iniciar Virtualbox. Si funciona correctamente, deben aparecer en el ícono "agregar nuevo filtro USB", en la seccion *configuración usb*, una lista con los dispositivos conectados al anfitrión. Seleccionando el dispositivo este queda habilitado en el sistema operativo invitado.
