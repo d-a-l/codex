@@ -13,4 +13,8 @@ luego ejecutar:
 
     update-grub2
 
+tip:
+
+`linux (loop)/linux` y `initrd (loop)/initrd.gz` varian segun cada distribución, para acceder al iso usar `mount -o loop /ruta/al/file.iso /mnt/punto-de-montaje` y tomar nota de la ubicación y nombre de los archivos de arranque
+
      
