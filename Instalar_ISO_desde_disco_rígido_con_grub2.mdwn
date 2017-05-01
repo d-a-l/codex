@@ -1,0 +1,11 @@
+menuentry para grub2:
+
+menuentry "mini ISO" {
+
+        set isofile="/ruta/mini.iso"
+        loopback loop (hdX,N)$isofile
+        linux (loop)/linux iso-scan/filename=$isofile noprompt noeject toram
+        initrd (loop)/initrd.gz
+}
+
+`hdX,N` es por ejemplo `hd0,6` para acceder a `/dev/hda6`
