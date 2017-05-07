@@ -2,10 +2,20 @@ ToDo!!!
 
 Dalclick
 
-<http://codex.bibliohack.org/media/files/dalclick_fa.tar.gz>
-
-tar -xzvf dalclick_fa.tar.gz
+git clone https://github.com/d-a-l/dalclick /opt/src/dalclick
+git clone https://github.com/d-a-l/fcen-tesis /opt/src/fcen-tesis
 
 algunas depencias
 
-     apt-get install bc exactimage
+debian:
+
+     apt-get install bc exactimage tesseract-ocr tesseract-ocr-spa
+
+chdkptp: ver <http://codex.bibliohack.org/chdkptp/>
+
+pdfbeads: <http://codex.bibliohack.org/pdfbeads/>
+
+scantailor-enhanced: <http://codex.bibliohack.org/scan_tailor/>
+
+IM: [Image Representation, Storage, Capture and Processing](http://www.tecgraf.puc-rio.br/im/) no lo usa chdkptp pero si dalclick!
+
