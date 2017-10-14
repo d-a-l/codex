@@ -51,6 +51,6 @@ Usando `sudo` el comando es:
 
 12) Copiar a ambas particiones (FAT16 y FAT32) el firmware CHDK descargado para la camara en el paso 1, incluyendo la carpeta 'CHDK' (y respetando el árbol de directorios) (queda por determinar realmente qué archivos deben copiarse en cada particion!)
 
-13) Retirar la tarjeta SD de la PC y colocar en bloqueo (Posición del pestillo de la tarjeta SD en "Block"). 
+13) Desmontar las particiones de la tarjeta SD y extraerla de la PC. Colocar el pestillo de la tarjeta en modo bloqueo (Posición del pestillo de la tarjeta SD en "Block"). 
 
 14) Introducir la tarjeta en la cámara. Al encender, la cámara inicializará con CHDK.
