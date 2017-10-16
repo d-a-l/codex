@@ -284,7 +284,7 @@ https://chdk.setepontos.com/index.php?topic=6254.500
 
 is now in /etc/udev/rules.d/40-libgphoto2-6.rules
 
-ACTION!="add", GOTO="libgphoto2_rules_end"
+     ACTION!="add", GOTO="libgphoto2_rules_end"
      SUBSYSTEM!="usb", GOTO="libgphoto2_usb_end"
      ENV{ID_USB_INTERFACES}=="", IMPORT{builtin}="usb_id"
      ENV{ID_USB_INTERFACES}=="*:060101:*", ATTR{idVendor}=="04a9", MODE="0664", GROUP="plugdev", GOTO="libgphoto2_rules_end"
