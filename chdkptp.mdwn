@@ -276,6 +276,13 @@ no CHDK
 
 ## Apuntes varios
 
+chdkptp as library
+
+ * https://gist.github.com/adongy/55b232cfb759df4920bd
+ * https://github.com/tudelft/chdkptp
+
+----
+
 https://askubuntu.com/questions/673259/restricting-mtp-devices-from-being-mounted-by-a-user-group (!)
 
 udev monitor
