@@ -271,7 +271,7 @@ no CHDK
 * PSRemote http://www.breezesys.com/PSRemote/features.htm 
 * capture http://capture.sourceforge.net/
 
-## varios
+## Apuntes varios
 
 https://askubuntu.com/questions/673259/restricting-mtp-devices-from-being-mounted-by-a-user-group (!)
 
@@ -283,6 +283,19 @@ Reload the rules
 
      udevadm control -R
 
+Blocking MTP and PTP
+
+     cd /usr/lib/gvfs
+
+Remove the execute permission for
+
+     gvfsd-mtp
+
+     gvfs-mtp-volume-monitor(for safer side)
+
+     gvfsd-gphoto2
+
+     gvfs-gphoto2-volume-monitor(for safer side)
 
 ----
 
