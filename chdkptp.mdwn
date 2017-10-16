@@ -273,6 +273,19 @@ no CHDK
 
 ## varios
 
+https://askubuntu.com/questions/673259/restricting-mtp-devices-from-being-mounted-by-a-user-group (!)
+
+udev monitor
+
+     udevadm monitor -u
+
+Reload the rules
+
+     udevadm control -R
+
+
+----
+
 https://github.com/markvdb/diybookscanner/wiki/Software-triggering-on-Debian-GNU-Linux#avoiding-competition-for-our-cameras
 
 ----
