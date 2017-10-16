@@ -318,7 +318,7 @@ gvfs-gphoto2-volume-monitor
      # killall  gvfs-gphoto2-volume-monitor
 
 
----
+----
 
 https://chdk.setepontos.com/index.php?topic=6254.500
 
