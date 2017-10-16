@@ -273,6 +273,32 @@ no CHDK
 
 ## varios
 
+https://chdk.setepontos.com/index.php?topic=6254.500
+
+     ACTION!="add", GOTO="libgphoto2_rules_end"
+     SUBSYSTEM!="usb", GOTO="libgphoto2_usb_end"
+     ENV{ID_USB_INTERFACES}=="", IMPORT{builtin}="usb_id"
+     ENV{ID_USB_INTERFACES}=="*:060101:*", ENV{ID_GPHOTO2}="1", ENV{GPHOTO2_DRIVER}="PTP", MODE="0664", GROUP="plugdev"
+
+     LABEL="libgphoto2_rules_end"
+
+is now in /etc/udev/rules.d/40-libgphoto2-6.rules
+
+ACTION!="add", GOTO="libgphoto2_rules_end"
+     SUBSYSTEM!="usb", GOTO="libgphoto2_usb_end"
+     ENV{ID_USB_INTERFACES}=="", IMPORT{builtin}="usb_id"
+     ENV{ID_USB_INTERFACES}=="*:060101:*", ATTR{idVendor}=="04a9", MODE="0664", GROUP="plugdev", GOTO="libgphoto2_rules_end"
+     ENV{ID_USB_INTERFACES}=="*:060101:*", ENV{ID_GPHOTO2}="1", ENV{GPHOTO2_DRIVER}="PTP", MODE="0664", GROUP="plugdev"
+
+     LABEL="libgphoto2_rules_end"
+
+mas en
+ * ! https://forum.diybookscanner.org/viewtopic.php?t=3146
+ * ! http://chdk.setepontos.com/index.php?topic=10664.msg115401#msg115401
+ * ! http://chdk.setepontos.com/index.php?topic=6231.msg100671#msg100671
+ * http://chdk.wikia.com/wiki/Getting_CHDKPTP_on_BeagleBone_Black_to_work
+----
+
 http://articulo.mercadolibre.com.ar/MLA-481116439-camara-digital-canon-powershot-a2200-hd-muy-poco-uso-_JM
 
 http://chdk.setepontos.com/index.php?topic=6231.msg83548#msg83548
