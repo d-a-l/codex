@@ -275,6 +275,23 @@ no CHDK
 
 https://github.com/markvdb/diybookscanner/wiki/Software-triggering-on-Debian-GNU-Linux#avoiding-competition-for-our-cameras
 
+----
+
+gvfs-gphoto2-volume-monitor
+
+     # ps -Al | grep gvfs
+     0 S  1000  2547     1  0  80   0 - 75972 -      ?        00:00:00 gvfs-udisks2-vo
+     0 S  1000  2570     1  0  80   0 - 109493 -     ?        00:00:00 gvfsd-trash
+     0 S  1000  2582     1  0  80   0 - 51681 -      ?        00:00:00 gvfs-mtp-volume
+     0 S  1000  2586     1  0  80   0 - 50692 -      ?        00:00:00 gvfs-goa-volume
+     0 S  1000  2590     1  0  80   0 - 57404 -      ?        00:00:00 gvfs-gphoto2-vo
+     0 S  1000  2595     1  0  80   0 - 75076 -      ?        00:00:00 gvfs-afc-volume
+     0 S  1000  2673     1  0  80   0 - 32728 -      ?        00:00:00 gvfsd-metadata
+     0 S  1000  3196     1  0  80   0 - 52546 -      ?        00:00:00 gvfsd
+
+     # killall  gvfs-gphoto2-volume-monitor
+
+
 ---
 
 https://chdk.setepontos.com/index.php?topic=6254.500
