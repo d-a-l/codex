@@ -273,6 +273,10 @@ no CHDK
 
 ## varios
 
+https://github.com/markvdb/diybookscanner/wiki/Software-triggering-on-Debian-GNU-Linux#avoiding-competition-for-our-cameras
+
+---
+
 https://chdk.setepontos.com/index.php?topic=6254.500
 
      ACTION!="add", GOTO="libgphoto2_rules_end"
