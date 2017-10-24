@@ -278,8 +278,21 @@ no CHDK
 
 chdkptp as library
 
- * https://gist.github.com/adongy/55b232cfb759df4920bd
+ * https://chdk.setepontos.com/index.php?topic=6231.660
  * https://github.com/tudelft/chdkptp
+
+patch
+ * https://gist.github.com/adongy/55b232cfb759df4920bd
+ * https://github.com/jbaiter/chdkptp.py/blob/master/chdkptp_module.diff
+
+test lua include 
+ * https://gist.github.com/adongy/e203e9025379b1b3c90d
+ * https://gist.github.com/adongy/5985b6b4611edf5858bc
+ * http://codegist.net/code/how-to-run-chdkptp/
+
+sobre fpic error
+ * https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#Code-Gen-Options
+ * https://stackoverflow.com/questions/19364969/compilation-fails-with-relocation-r-x86-64-32-against-rodata-str1-8-can-not
 
 ----
 
