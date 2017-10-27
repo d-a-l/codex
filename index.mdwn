@@ -35,7 +35,7 @@
 
 ### Software Libre para Cámaras Digitales
 
-* Cannon
+* Canon
   - [[CHDK]] - Canon Hackers Development Kit
 
 ----
