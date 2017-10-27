@@ -387,6 +387,7 @@ mas en
  * ! http://chdk.setepontos.com/index.php?topic=10664.msg115401#msg115401
  * ! http://chdk.setepontos.com/index.php?topic=6231.msg100671#msg100671
  * http://chdk.wikia.com/wiki/Getting_CHDKPTP_on_BeagleBone_Black_to_work
+
 ----
 
 http://articulo.mercadolibre.com.ar/MLA-481116439-camara-digital-canon-powershot-a2200-hd-muy-poco-uso-_JM
