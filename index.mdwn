@@ -53,4 +53,3 @@ GNU/Linux:
 * Instalación: [[Instalar ISO desde disco rígido con grub2]]
 * Tips [[Escritorios]]
 
-test github
