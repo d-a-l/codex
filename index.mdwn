@@ -1,9 +1,19 @@
-### DaL scanners
+### DaL scanners / estativos
 
-* [[Modelos anteriores|modelos anteriores]]
-* [[Escáner CNBA|escaner_cnba]] (Biblioteca del Colegio Nacional Buenos Aires)
-* [[Escáner "roji-azul"|escaner_rojiazul]] (prototipo)
+Modelos construidos con herramientas básicas de carpintería
 
+* [[DaL]] modificaciones sobre el modelo estandar de diybookscanner
+* [[CNBA|escaner_cnba]] (Biblioteca del Colegio Nacional Buenos Aires)
+* [["roji-azul"|escaner_rojiazul]] (prototipo)
+* [[TFABA]] (estativo formato tabloide con iluminación lateral y mas economico de materiales)
+* [[Secrit]] (idem TFABA, mas fácil de construir)
+
+Modelos construidos con corte laser 2D
+
+* [[MAMBA Modelo P 01]] (Estativo plano para el MAMBA)
+* [[MAMBA Modelo P 02]]
+* [[MAMBA Modelo P mini]]
+* [[MAMBA Modelo V]]
 
 ### Software Libre para digitalización
 
