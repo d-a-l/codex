@@ -1,0 +1,23 @@
+### Tips
+
+Clonar repositorio remoto
+
+    git clone http://github.com/<user>/<repo>.git
+
+ó
+
+    git clone http://github.com/<user>/<repo>.git <carpeta_local>
+
+Listar ramas remotas
+
+    git branch -r
+
+Listar ramas locales
+
+    git branch -l
+
+Traer una rama remota
+
+    git fetch
+    git checkout <rama>
+
