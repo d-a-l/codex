@@ -2,3 +2,10 @@ Escáner DaL
 -----------
 
 Escáneres de Proyecto DAL - construídos y desarrollados por Juan Suárez para proyecto.derechoaleer.org durante 2011/2012 <https://www.flickr.com/photos/derechoaleer/ahttps://www.flickr.com/photos/derechoaleer/albums/72157647768825905lbums/72157647768825905>
+
+Variantes de este modelo se instalaron en:
+
+* Facultad de Filosofia y Letras, centro de digitalizacion para el "Proyecto Memoria" (3 dispositivos)
+* SeDiCI (Servicio de Difusión de la Creación Intelectual) de la Universidad Nacional de La Plata.
+* Biblioteca "Profesor Guillermo Obiols" de la Facultad de Humanidades y Ciencias de la Educación (BIBHUMA) de la Universidad Nacional de La Plata, por medio de un Convenio con Wikimedia Argentina.
+* Biblioteca Feminaria del Centro Cultural Tierra Violeta
