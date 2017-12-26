@@ -5,7 +5,7 @@ Modelos construidos con herramientas básicas de carpintería
 * [[DaL]] modificaciones sobre el modelo estandar de diybookscanner
 * [[CNBA|escaner_cnba]] (Biblioteca del Colegio Nacional Buenos Aires)
 * [["roji-azul"|escaner_rojiazul]] (prototipo)
-* [[TFABA]] (estativo formato tabloide con iluminación lateral y mas economico de materiales)
+* [[TFABA]] (estativo formato tabloide con iluminación lateral y con materiales más económicos)
 * [[Secrit]] (idem TFABA, mas fácil de construir)
 
 Modelos construidos con corte laser 2D
