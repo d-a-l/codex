@@ -1,6 +1,8 @@
 Escaner "TFABA"
 --------------
 
+Escaner para libros hasta formato tabloide, con iluminación lateral. El objetivo de este diseño fue racionalizar el uso de materiales y simplificar su construcción.
+
 Fotos: <https://www.flickr.com/photos/derechoaleer/albums/72157668215622523>
 
 Instalado en:
