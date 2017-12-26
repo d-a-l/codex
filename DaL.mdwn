@@ -3,7 +3,7 @@ Escáner DaL
 
 Escáneres de "Proyecto DAL" (ver [Nuestro Do It Yourself Book Scanner](http://derechoaleer.org/blog/2011/08/nuestro-do-it-yourself-book-scanner.html) en <http://derechoaleer.org>), construídos y desarrollados por Juan Suárez durante 2011/2012. El diseño está basado en el ["modelo estándar"](https://forum.diybookscanner.org/viewtopic.php?f=1&t=333) publicado en el foro <http://diybookscanner.org>
 
-Fotos: <https://www.flickr.com/photos/derechoaleer/albums/72157647768825905lbums/72157647768825905>
+Fotos: <https://www.flickr.com/photos/derechoaleer/albums/72157647768825905>
 
 Variantes de este modelo se instalaron en:
 
