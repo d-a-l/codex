@@ -133,15 +133,15 @@ Más info en:
 
 ##### instalación de PDFbeads
 
-como *root*
+instalar dependencias (como *root*):
 
-     gem install ttfunk -v 1.4.0
-     gem install nokogiri -v 1.6.8.1
-     gem install pdfbeads
+    apt-get install libmagickwand-dev imagemagick
 
-en caso de problemas con imagemagick ("No package 'MagickCore' found"):
+instalar las gemas (como *root*):
 
-     apt-get install libmagickwand-dev imagemagick
+    gem install ttfunk -v 1.4.0
+    gem install nokogiri -v 1.6.8.1
+    gem install pdfbeads
 
 Luego, `pdfbeads` no necesitará privilegios para ejecutarse:
 
