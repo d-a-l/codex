@@ -1,0 +1,59 @@
+## Estructura de directorios
+
+    test/
+      └─ .preview/
+    etc/
+      ├─ uneven-illumination-patterns
+      ├─ color-correction-charts
+      └─ dewarping-grid
+    raw/
+      └─ .preview/ 
+    pre/
+      └─ .preview/ 
+    post/
+      ├─ <profile name>/
+      │    ├─ <software o filter name 1> ej: scantailor/
+      │    ├─ <software o filter name 2> ej: tesseract-ocr/
+      │    ├─ <software o filter name 2> ej: pdfbeads/
+      │    ├─ <...>
+      │    └─ done/
+      ├─ <profile name>/
+      │    ├─ (...)
+      │    └─  done/
+      └─ (...)
+
+**test:** directorio para realizar test transitorios de capturas
+
+**etc:** directorio que guarda patrones o muestras útilies para el pre o posprocesamiento, como patrones para mejorar uniformidad de iluminación, la correccion de colores o la deformacion optica de las lentes.
+
+**raw:** en este directorio se guardan las imagenes *crudas o sin procesar*, y sus metadatos, obtenidos del dispositivo. Entiéndase "sin procesar", como "sin procesos realizados en dalclick". El archivo puede tener el pre-procesamiento realizado por el dispositivo, aunque siempre debe seguirse el criterio de mínimo procesado razonable para conservar la máxima información del registro del sensor. Los dispositivos pueden incluir filtros de software o hardware por ejemplo para eliminar *unreliable* pixels, o mejorar equilibrio tonal segun el tipo de iluminación. Estos procesos pueden ser mas confiables que otras alternativas de software, en la medida que están optimizadas exclusivamente para las caracteristicas del dispositivo. Entonces puede haber imagenes de diverso formato: `.raw` (crudas del sensor), `tif` (con filtros del dispositivo) o `jpg` (con filtros y compresión del dispositivo).
+
+**pre:** aqui se guardan las imágenes que han recibido un pre-procesamiento por parte de los filtros de dalclick. *Pre-procesamiento* se diferentcia de *post-procesamiento* porque son operaciones que se realizan en el momento de la captura, cuando el operador puede ver el resultado inmediatamente y compararlo con el documento original, y aplicar opciones según lo observado (volver a realizar la captura, determinar un parámetro de forma manual, agregar información de metadatos, etc).
+
+**post:** guarda los archivos producto de un post-procesado, un procedimiento posterior e independiente de la captura. Los archivos se gurdan en subdirectorios cuyo nombre identifica un perfil de postproceso. Pueden existir diferentes postprocesos para una misma fuente de archivos en un proyecto, por ejemplo en baja resolucion para publicar en la web, o en alta para acceso en sala, por ejemplo `pdf_web`, `pdf_high_res`, `images`, etc. 
+
+## Nombre de archivos
+
+Estructura para `raw`
+
+    0023.odd.jpg
+     |    |   |
+     \    \   \_ Formato de archivo `jpg`
+      \    \____ Dispositivo de captura `odd`
+       \________ Captura `0023`
+
+**Captura:** uno o varios registros unidos en el concepto *captura*. En general un registro simultaneo en varios dispositivos es una *captura*, pero también varios registros sucesivos sobre un mismo documento (por ejempo un mapa) con un solo dispositivo, o varios, tambien se puede considerar una *captura*, donde el objeto otorga la pertenencia de todas esas operaciones a un solo objeto.
+
+**Dispositivo:** identifica el dispositivo origen de ese registro perteneciente a una captura. Los dispositivos se nombran según el tipo de estativo: `odd`y `even` son los dispositivos de un *estativo en "V"*, `single` de un *estativo plano simple*, y `left` y `right` para un *estativo plano multiple* con dos dispositivos de captura* (esta lista se puede seguir extendiendo siguiendo este criterio).
+
+**Formato:** Identifica el formato de archivo. Otras opciones son `.raw` para registros crudos del lector, `.tif` para un formato sin perdida,`.jpg` para un formato comprimido con perdida o `.meta` para un archivo de trexto plano de metadatos de ese registro
+
+Estructura para `pre`
+
+    0476.01.jpg
+     |    |   |
+     \    \   \_ Formato de archivo `jpg`
+      \    \____ Objeto preprocesado `01`
+       \________ Captura `0476`
+
+**Objeto preprocesado:** es un objeto, en general una imagen, que se obtiene a partir de uno o varios registros de la captura `raw`. No tiene por qué existir coincidencia de un registro con otro, por ejemplo que `odd` en raw se convierta en `01` en pre: puede existir una captura realizada con dos dispositivos que se combinen en un solo objeto o imagen en la etapa pre (digitalizar en fragmentos) por ejemplo: `0005.left.jpg`, `0005.right.jpg` => `0005.01.jpg`, o al contrario, que se extraigan varios objeto de una sola captura `0342.single.jpg` => `0342.01.jpg`, `0342.02.jpg`, `0342.03.jpg`
