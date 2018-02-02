@@ -1,3 +1,5 @@
+*notas de desarrollo para futuras versiones de dalclick*
+
 ## Estructura de directorios
 
     test/
