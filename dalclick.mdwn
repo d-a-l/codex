@@ -1,5 +1,7 @@
 ToDo!!!
 
+[Notas de Desarrollo]
+
 Dalclick
 
      git clone https://github.com/d-a-l/dalclick /opt/src/dalclick
