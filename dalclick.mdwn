@@ -1,19 +1,19 @@
 ToDo!!!
 
-[Notas de Desarrollo]
+[[Notas de Desarrollo]]
 
 Dalclick
 
      git clone https://github.com/d-a-l/dalclick /opt/src/dalclick
      git clone https://github.com/d-a-l/fcen-tesis /opt/src/fcen-tesis
 
-para ir al branch de la última versión:
+Para ir al branch de la última versión:
 
      git fetch
      git checkout singlecam
 
 
-algunas depencias
+Algunas dependencias
 
 debian:
 
