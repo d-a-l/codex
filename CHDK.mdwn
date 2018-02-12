@@ -1,5 +1,6 @@
 * [[Instalación de CHDK en Canon sx130 IS|cnba chdk canonsx130]]
 * [[Instalación de CHDK en Canon sx150 IS y sx160 IS|cnba chdk canonsx160]]
+* [[Instalación de CHDK en Canon a3100|chdk canon a3100]]
 * 
 [[Procedimiento para determinar la versión de firmware de una cámara Canon|Procedimiento para determinar la version de firmware de una camara Canon]]
 * [[Configuración de CHDK para dalclick]] (configuración de la cámara y las opciones de CHDK)
