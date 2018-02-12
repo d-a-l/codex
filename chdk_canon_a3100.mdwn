@@ -1,0 +1,4 @@
+
+1) Descargar y descomprimir el *firmware* de CHDK para la cámara `Canon PowerShot A3100` desde [[http://mighty-hoernsche.de|http://mighty-hoernsche.de/]] (para averiguar cuál es la opción correcta de *firmware* (1.00A,1.00B o 1.00C) seguir [[este tutorial|chdk_version]])
+
+Luego, seguir los pasos descriptos para la instalación de CHDK en la [Canon SX130|cnba chdk canonsx130], a partir del paso 2)
