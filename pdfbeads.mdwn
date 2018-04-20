@@ -131,6 +131,12 @@ Más info en:
 * [wiki de Debian](https://wiki.debian.org/Ruby#Available_interpreters_in_Debian_8_.28jessie.29)
 * [documentación de RVM](https://rvm.io/rvm/install)
 
+**nota**: otra opcion para Ubuntu 16.04:
+
+    sudo gem install iconv -v 1.0.3
+
+Esto soluciona el problema del error *'require': cannot load such file -- iconv (LoadError)* (a partir de la version 2.2 de ruby iconv ya no esta incluido en la libreria estandar, pero no esta agregada en las dependencias de pdfbeads) 
+
 ##### instalación de PDFbeads
 
 instalar dependencias (como *root*):
