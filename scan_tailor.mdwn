@@ -123,3 +123,8 @@ O un *alias* en `~/.bashrc`
 
      alias scantailor-enhanced-cli='/opt/src/scantailor-enhanced/scantailor-cli'
 
+-----
+
+Varios:
+
+* <https://twitter.com/atomotic/status/1036772234914934784> the original author now mantains <https://github.com/Tulon/scantailor/> but the most actively developed is <https://github.com/4lex4/scantailor-advanced> and the diybookscanner forum is a mine of tips <https://forum.diybookscanner.org/viewforum.php?f=21>
