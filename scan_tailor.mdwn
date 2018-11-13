@@ -133,6 +133,8 @@ Varios:
 
 * Scantailor-advanced -> https://github.com/4lex4/scantailor-advanced
 
+Instalar:
+
     cd /opt/src
     git clone https://github.com/4lex4/scantailor-advanced.git scantailor-advanced
     cd scantailor-advanced
@@ -140,6 +142,8 @@ Varios:
     make
     make install # o checkinstall
 
+
+#### Cmake
 
 `scantailor-advanced` requiere una version de `cmake` que no está en `Ubuntu 16.04`, para compilar instalar una version mas reciente:
 
@@ -163,7 +167,7 @@ para saber si se instalo correctamente:
 
 mas info en [How do I install the latest version of cmake from the command line?](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line)
 
-## libboost
+#### Libboost
 
 Remover version del sistema:
 
