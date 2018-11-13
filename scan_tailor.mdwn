@@ -180,10 +180,10 @@ Descargar la version necesaria desde http://www.boost.org/, luego:
     ./bootstrap.sh
     ./b2
 
-ver mas en: [Install Boost 1.64 in Ubuntu 16.04](https://tnonline.wordpress.com/2017/07/12/install-boost-1-63-in-ubuntu-16-04/)
+ver mas en: [Install Boost 1.64 in Ubuntu 16.04](https://tnonline.wordpress.com/2017/07/12/install-boost-1-63-in-ubuntu-16-04/), [Find correct Boost version installed and how to remove the old version](https://stackoverflow.com/questions/47627874/find-correct-boost-version-installed-and-how-to-remove-the-old-version) [ Installing Boost 1.64 on Ubuntu 16.04 won't install Boost above 1.58](https://ubuntuforums.org/showthread.php?t=2363177)
 
 para instalar:
 
-    sudo./b2 install
+    sudo ./b2 install
     # o bien 
     sudo checkinstall ./b2 install 
