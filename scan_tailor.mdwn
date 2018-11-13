@@ -162,3 +162,18 @@ para saber si se instalo correctamente:
     cmake --version
 
 mas info en [How do I install the latest version of cmake from the command line?](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line)
+
+## libboost
+
+Remover version del sistema:
+
+    sudo apt-get --purge remove libboost-dev && sudo apt-get --purge remove libboost-all-dev && sudo apt-get --purge autoremove libboost-all-dev
+
+Descargar la version necesaria desde http://www.boost.org/, luego: 
+
+    tar -xzvf boost_1_XX_X.tar.gz
+    cd boost_1_XX_X
+    ./bootstrap.sh
+    ./b2
+
+ver mas en: [Install Boost 1.64 in Ubuntu 16.04](https://tnonline.wordpress.com/2017/07/12/install-boost-1-63-in-ubuntu-16-04/)
