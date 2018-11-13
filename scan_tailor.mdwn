@@ -129,4 +129,36 @@ Varios:
 
 * <https://twitter.com/atomotic/status/1036772234914934784> the original author now mantains <https://github.com/Tulon/scantailor/> but the most actively developed is <https://github.com/4lex4/scantailor-advanced> and the diybookscanner forum is a mine of tips <https://forum.diybookscanner.org/viewforum.php?f=21>
 
-* Scantailor-advanced https://github.com/4lex4/scantailor-advanced
+## Scantailor Advanced
+
+* Scantailor-advanced -> https://github.com/4lex4/scantailor-advanced
+
+    cd /opt/src
+    git clone https://github.com/4lex4/scantailor-advanced.git scantailor-advanced
+    cd scantailor-advanced
+    cmake .
+    make
+    make install # o checkinstall
+
+
+`scantailor-advanced` requiere una version de `cmake` que no está en `Ubuntu 16.04`, para compilar instalar una version mas reciente:
+
+Descargar la última version estable desde <https://cmake.org/download/>, ejemplo:
+
+   cd /opt/src
+   wget https://cmake.org/files/v3.12/cmake-3.12.4.tar.gz
+   tar xzvf cmake-3.12.4.tar.gz
+   cd cmake-3.12.4
+    
+luego compilar:
+
+    ./bootstrap
+    make -j4
+    sudo make install
+
+(en vez de `make install` puede utilizarse `checkinstall`)    
+para saber si se instalo correctamente:
+    
+    cmake --version
+
+mas info en [How do I install the latest version of cmake from the command line?](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line)
