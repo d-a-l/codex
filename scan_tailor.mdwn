@@ -187,3 +187,5 @@ para instalar:
     sudo ./b2 install
     # o bien 
     sudo checkinstall ./b2 install 
+
+* <https://scaron.info/blog/cmake-can-use-a-local-boost.html>
