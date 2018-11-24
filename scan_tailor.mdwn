@@ -149,10 +149,11 @@ Instalar:
 
 Descargar la última version estable desde <https://cmake.org/download/>, ejemplo:
 
-   cd /opt/src
-   wget https://cmake.org/files/v3.12/cmake-3.12.4.tar.gz
-   tar xzvf cmake-3.12.4.tar.gz
-   cd cmake-3.12.4
+
+    cd /opt/src
+    wget https://cmake.org/files/v3.12/cmake-3.12.4.tar.gz
+    tar xzvf cmake-3.12.4.tar.gz
+    cd cmake-3.12.4
     
 luego compilar:
 
