@@ -129,18 +129,27 @@ Varios:
 
 * <https://twitter.com/atomotic/status/1036772234914934784> the original author now mantains <https://github.com/Tulon/scantailor/> but the most actively developed is <https://github.com/4lex4/scantailor-advanced> and the diybookscanner forum is a mine of tips <https://forum.diybookscanner.org/viewforum.php?f=21>
 
-## Scantailor Advanced
+## Scantailor Advanced (Ubuntu 18.04)
 
-* Scantailor-advanced -> https://github.com/4lex4/scantailor-advanced
+* Repositorio: -> <https://github.com/4lex4/scantailor-advanced>
+
+Dependencias para Ubuntu Bionic 18.04
+
+    sudo apt-get install libboost-all-dev build-essential gcc-7 g++-7 libjpeg-dev libpng-dev libtiff5-dev libboost-test1.65-dev libboost-test1.65.1 qtbase5-dev qttools5-dev qttools5-dev-tools libqt5opengl5-dev libpthread-stubs0-dev
+
+(verificar si estas estan instaladas)
+
+    sudo apt-get install libc6 libgcc1 libjpeg8 libqt4-xml libqtcore4 libqtgui4 libstdc++6 libtiff5 libxrender1
 
 Instalar:
 
     cd /opt/src
     git clone https://github.com/4lex4/scantailor-advanced.git scantailor-advanced
     cd scantailor-advanced
-    cmake .
-    make
-    make install # o checkinstall
+    mkdir build && cd build
+    cmake -G "Unix Makefiles" --build ..
+    make -j `nproc`
+    # sudo make install # o sudo checkinstall --install=no
 
 
 #### Cmake
@@ -148,7 +157,6 @@ Instalar:
 `scantailor-advanced` requiere una version de `cmake` que no está en `Ubuntu 16.04`, para compilar instalar una version mas reciente:
 
 Descargar la última version estable desde <https://cmake.org/download/>, ejemplo:
-
 
     cd /opt/src
     wget https://cmake.org/files/v3.12/cmake-3.12.4.tar.gz
@@ -161,32 +169,21 @@ luego compilar:
     make -j4
     sudo make install
 
-(en vez de `make install` puede utilizarse `checkinstall`)    
-para saber si se instalo correctamente:
+(en vez de `sudo make install` puede utilizarse `sudo checkinstall`)    
+para saber si se instaló correctamente:
     
     cmake --version
 
 mas info en [How do I install the latest version of cmake from the command line?](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line)
 
-#### Libboost
+## Scantailor Universal (Ubuntu 18.04)
 
-Remover version del sistema:
+* Repositorio: <https://github.com/trufanov-nok/scantailor>
 
-    sudo apt-get --purge remove libboost-dev && sudo apt-get --purge remove libboost-all-dev && sudo apt-get --purge autoremove libboost-all-dev
+(Iguales requerimientos que Scantailor Advanced)
 
-Descargar la version necesaria desde http://www.boost.org/, luego: 
+## otros repositorios de interes: 
 
-    tar -xzvf boost_1_XX_X.tar.gz
-    cd boost_1_XX_X
-    ./bootstrap.sh
-    ./b2
-
-ver mas en: [Install Boost 1.64 in Ubuntu 16.04](https://tnonline.wordpress.com/2017/07/12/install-boost-1-63-in-ubuntu-16-04/), [Find correct Boost version installed and how to remove the old version](https://stackoverflow.com/questions/47627874/find-correct-boost-version-installed-and-how-to-remove-the-old-version) [ Installing Boost 1.64 on Ubuntu 16.04 won't install Boost above 1.58](https://ubuntuforums.org/showthread.php?t=2363177)
-
-para instalar:
-
-    sudo ./b2 install
-    # o bien 
-    sudo checkinstall ./b2 install 
-
-* <https://scaron.info/blog/cmake-can-use-a-local-boost.html>
+* Respositorio de Tulon (el autor original de Scantailor) -> <https://github.com/Tulon/scantailor>
+* Respositorio de U235a https://github.com/U235a/scantailor (ramas [patch-1](https://github.com/U235a/scantailor/tree/patch-1) y [patch-2](https://github.com/U235a/scantailor/tree/patch-2) se originan en scantailor-enhanced)
+* <https://notesalexp.org/html/> repositorio no oficial de paquetes para Debian y Ubuntu, con compilados de Scantailor Advanced y Scantailor Universal.
