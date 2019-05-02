@@ -101,14 +101,14 @@ En gnome flashback: haciendo `Alt` + `click derecho` sobre el panel del escritor
 
 Para Dalclick:
 
-- Tipo: *"Aplicación en Terminal"*
-- Nombre: *"Dalclick"*
+- Tipo: *Aplicación en Terminal*
+- Nombre: *Dalclick*
 - Comando: `/opt/bibliohack/dalclick/dalclick`
 - En el Icono, hacer click y buscar una cámara
 
 Para Dalproc o Gestor de postproceso:
 
-- Tipo: *"Aplicación en Terminal"*
-- Nombre: *"Gestor de Posproceso"*
+- Tipo: *Aplicación en Terminal*
+- Nombre: *Gestor de Posproceso*
 - Comando: `/opt/bibliohack/dalclick/ppm/ppm_daemon.sh`
 - En el Icono, hacer click y buscar un engranaje
