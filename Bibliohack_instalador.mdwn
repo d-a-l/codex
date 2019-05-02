@@ -93,11 +93,11 @@ iniciar el instalador:
 
 ### Escritorio Bibliohack
 
-Los paquetes que hay que instalar son 'lightdm' y 'gnome-session-flashback'. El nuevo escritorio aparece como una opción para el usuario al iniciar sesión, que toma el escritorio por defecto al ultimo seleccionado.
+Los paquetes que hay que instalar son `lightdm` y `gnome-session-flashback`. El nuevo escritorio aparece como una opción para el usuario al iniciar sesión, que toma el escritorio por defecto al ultimo seleccionado.
 
 ### Iconos
 
-En gnome flashback: haciendo <Alt> + <click derecho> sobre el panel del escritorio aparece la opcion "Añadir al panel", y añadimos un "Lanzador de aplicaciones personalizado", donde hay que seleccionar:
+En gnome flashback: haciendo `Alt` + `click derecho` sobre el panel del escritorio aparece la opcion *"Añadir al panel"*, y añadimos un *"Lanzador de aplicaciones personalizado"*, donde hay que seleccionar:
 
 Para Dalclick:
 
