@@ -1,0 +1,93 @@
+## Hacer espacio para el nuevo sistema 
+
+Para instalar GParted:
+
+    sudo apt-get install gparted
+
+Redimensionar con GParted:
+
+Abrir GParted, seleccionar la partición a redimensionar y apretar el boton derecho del mouse eligiendo "Redimensionar/mover", luego cambiar el tamaño de la particion hasta liberar 10 o 15GB y luego seleccionar "ejecutar las acciones seleccionadas".
+
+nota: para cambiar el tamaño de una particion, esta debe estar desmonatada o no deben haber particiones montadas adyacentes.
+
+Luego en el espacio libre generado se puede crear una nueva particion Ext4 con GParted, haciendo click con el boton derecho sobre el espacio vacío. Luego de crearla anotar el nombre de sistema la partición (el /dev/sd5)
+
+## Descargar el ISO de ubuntu 18.04
+
+   wget http://releases.ubuntu.com/18.04/ubuntu-18.04.2-desktop-amd64.iso
+
+## Crear el pendrive booteable:
+
+usar "Creador de discos de arranque" o "Startup Disk Creator" (en "Herramientas de Sistema" -> "Administración"), seleccionar el ISO descargado, el pendrive y elegir "Crear Disco de Arranque"
+
+## Instalar Ubuntu 18.04 sin Grub 
+
+nota: algunas veces falla la instalación de Grub de este ISO, ademas grub pone como sistema por defecto el nuevo sistema y esto no es siempre lo deseable!
+
+Desconectar el cable de internet (hace mas rápida la instalación)
+
+Bootear desde el pendrive (lograr esto a veces requiere modificar el BIOS en la seccion orden de arranque)
+
+Luego de iniciar, el instalador ofrece "Instalar Ubuntu" o "Probar Ubuntu", seleccionar "Probar Ubuntu"
+
+Una vez abierto el escritorio del sistema, abrir una terminal y ejecutar el programa de instalación pero sin el instalador de Grub, para esto usar:
+
+     ubiquity -b
+
+Se iniciará el instalador, entonces seleccionar las opciones iniciales de idioma y teclado.
+
+En las siguientes opciones de instalación seleccionar:
+ - instalacion minima SI
+ - instalar programas de terceros SI
+
+Un popup preguntara si deseamos desmontar las particiones, responder que NO
+
+Cuando aparezcan las opciones de instalación en el disco, seleccionar "otras opciones"
+
+Se desplegará la lista de particiones, seleccionar la partición creada para alojar esta instalación y darle doble click
+
+En el dialogo que aparece seleccionar:
+"utilizar como" -> "Sistema de ficheros ext4 transaccional"
+"Punto de montaje" -> "/"
+"formatear la particion" SI
+
+(Al popup que generalmente aparece con una advertencia de redimensionamiento, responder "Volver")
+
+Luego apretar "Instalar ahora" y verificar que la lista de particiones que se muestra a continuación sea correcta (se agregarán automaticamante las areas de intercambio en esta lista)
+
+A continuacion indicar el nombre de usuario y sistema. Lo canonico es:
+
+nombre y nombre de usuario: bibliohack
+nombre del equipo: bibliohack-ubuntu1804
+contraseña: bibliohack
+
+A continuación se realiza la instalación, y al terminar, reiniciar sacando previamente el pendrive para que inicie del disco.
+
+Como elegimos no instalar grub se iniciará el sistema previamente instalado, para que grub reconozca el nuevo sistema ejecutar:
+
+    update-grub2
+
+luego de reconfigurado (puede tardar unos minutos), reiniciar y elegir en Grub el nuevo Ubuntu 18.04
+
+cuando se desee colocar el nuevo sistema para inciar por defecto en Grub, iniciar en el nuevo sistema, abrir una terminal y ejecutar `update-grub2`
+
+## instalar bibliohack
+
+Loguearse como bibliohack en el ubuntu 18.04, abrir una terminal y descargar el instalador:
+
+    cd ~
+    wget http://bibliohack.org/files/bibliohack_install.tar.gz
+
+descomprimir:
+
+    tar xzvf bibliohack_install.tar.gz
+
+ir a la carpeta:
+
+    cd bibliohack_install
+
+iniciar el instalador:
+
+    sudo bash install
+
+el instalador instalará todas las apicaciones de bibliohack automaticamente!
