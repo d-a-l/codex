@@ -1,4 +1,5 @@
-# Instalador de paquete de software de Bibliohack sobre Ubuntu 18.04 "Bionic Beaver"
+Instalador de Bibliohack para Ubuntu 18.04 "Bionic Beaver"
+=================================================================================
 
 ## Hacer espacio para el nuevo sistema 
 
