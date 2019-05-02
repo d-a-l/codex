@@ -6,8 +6,8 @@ Para instalar GParted:
 
 Redimensionar con GParted:
 
-- Abrir GParted, seleccionar la partición a redimensionar y apretar el boton derecho del mouse eligiendo "Redimensionar/mover", luego cambiar el tamaño de la particion hasta liberar 10 o 15GB y luego seleccionar "ejecutar las acciones seleccionadas". Nota: para cambiar el tamaño de una particion, esta debe estar desmonatada o no deben haber particiones montadas adyacentes.
-- Luego en el espacio libre generado se puede crear una nueva particion Ext4 con GParted, haciendo click con el boton derecho sobre el espacio vacío. Luego de crearla anotar el nombre de sistema la partición (el /dev/sd5)
+- Abrir `GParted`, seleccionar la partición a redimensionar y apretar el boton derecho del mouse eligiendo *"Redimensionar/mover"*, luego cambiar el tamaño de la particion hasta liberar 10 o 15GB y luego seleccionar *"Ejecutar las acciones seleccionadas"*. **Nota**: para cambiar el tamaño de una partición, esta debe estar **desmonatada** o no deben haber montadas particiones adyacentes.
+- Luego en el espacio libre generado se puede crear una nueva partición `Ext4` con `GParted`, haciendo click con el boton derecho sobre el espacio vacío. Luego de crearla anotar el nombre de sistema la partición (ej `/dev/sd5`)
 
 ## Descargar el ISO de ubuntu 18.04
 
@@ -15,43 +15,44 @@ Redimensionar con GParted:
 
 ## Crear el pendrive booteable:
 
-usar "Creador de discos de arranque" o "Startup Disk Creator" (en "Herramientas de Sistema" -> "Administración"), seleccionar el ISO descargado, el pendrive y elegir "Crear Disco de Arranque"
+usar *"Creador de discos de arranque"* o *"Startup Disk Creator"* (en *"Herramientas de Sistema"* -> *"Administración"*), seleccionar el ISO descargado, el pendrive y elegir *"Crear Disco de Arranque"*.
 
 ## Instalar Ubuntu 18.04 sin Grub 
 
-nota: algunas veces falla la instalación de Grub de este ISO, ademas grub pone como sistema por defecto el nuevo sistema y esto no es siempre lo deseable!
+**nota:** algunas veces falla la instalación de Grub de este ISO, ademas grub pone como sistema por defecto el nuevo sistema y esto no es siempre lo deseable!
 
-- Desconectar el cable de internet (hace mas rápida la instalación)
-- Bootear desde el pendrive (lograr esto a veces requiere modificar el BIOS en la seccion orden de arranque)
-- Luego de iniciar, el instalador ofrece "Instalar Ubuntu" o "Probar Ubuntu", seleccionar "Probar Ubuntu"
+- Desconectar el cable de internet (hace mas rápida la instalación al no descargar paquetes de la red)
+- Bootear desde el pendrive (lograr esto a veces requiere modificar el BIOS en la sección orden de arranque)
+- Luego de iniciar, el instalador ofrece *"Instalar Ubuntu"* o *"Probar Ubuntu"*, seleccionar *"Probar Ubuntu"*
 
-Una vez abierto el escritorio del sistema, abrir una terminal y ejecutar el programa de instalación pero sin el instalador de Grub, para esto usar:
+Una vez abierta la sesión, abrir una terminal y ejecutar el programa de instalación pero sin el instalador de Grub, para esto usar:
 
      ubiquity -b
 
 Se iniciará el instalador, entonces seleccionar las opciones iniciales de idioma y teclado.
 
 En las siguientes opciones de instalación seleccionar:
- - "Instalacion mínima" SI
- - "Instalar programas de terceros" SI
+
+- *"Instalacion mínima"* SI
+- *"Instalar programas de terceros"* SI
 
 (Un popup preguntará si deseamos desmontar las particiones, responder que NO)
 
-Cuando aparezcan las opciones de instalación en el disco, seleccionar "otras opciones"
+Cuando aparezcan las opciones de instalación en el disco, seleccionar *"otras opciones"*
 
 Se desplegará la lista de particiones, seleccionar la partición creada para alojar esta instalación y darle doble click
 
 En el dialogo que aparece seleccionar:
 
-- "utilizar como" -> "Sistema de ficheros ext4 transaccional"
-- "Punto de montaje" -> "/"
-- "formatear la particion" SI
+- utilizar como: *Sistema de ficheros ext4 transaccional*
+- Punto de montaje: /
+- formatear la particion: *SI*
 
 (Al popup que generalmente aparece con una advertencia de redimensionamiento, responder "Volver")
 
-Luego apretar "Instalar ahora" y verificar que la lista de particiones que se muestra a continuación sea correcta (se agregarán automaticamante las areas de intercambio en esta lista)
+Luego apretar *"Instalar ahora"* y verificar que la lista de particiones que se muestra a continuación sea correcta (se agregarán automaticamante las areas de intercambio en esta lista)
 
-A continuacion indicar el nombre de usuario y sistema. Lo canonico es:
+A continuación indicar el nombre de usuario y sistema. Lo canonico es:
 
 - nombre y nombre de usuario: bibliohack
 - nombre del equipo: bibliohack-ubuntu1804
