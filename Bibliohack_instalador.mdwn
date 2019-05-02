@@ -6,11 +6,8 @@ Para instalar GParted:
 
 Redimensionar con GParted:
 
-Abrir GParted, seleccionar la partición a redimensionar y apretar el boton derecho del mouse eligiendo "Redimensionar/mover", luego cambiar el tamaño de la particion hasta liberar 10 o 15GB y luego seleccionar "ejecutar las acciones seleccionadas".
-
-nota: para cambiar el tamaño de una particion, esta debe estar desmonatada o no deben haber particiones montadas adyacentes.
-
-Luego en el espacio libre generado se puede crear una nueva particion Ext4 con GParted, haciendo click con el boton derecho sobre el espacio vacío. Luego de crearla anotar el nombre de sistema la partición (el /dev/sd5)
+- Abrir GParted, seleccionar la partición a redimensionar y apretar el boton derecho del mouse eligiendo "Redimensionar/mover", luego cambiar el tamaño de la particion hasta liberar 10 o 15GB y luego seleccionar "ejecutar las acciones seleccionadas". Nota: para cambiar el tamaño de una particion, esta debe estar desmonatada o no deben haber particiones montadas adyacentes.
+- Luego en el espacio libre generado se puede crear una nueva particion Ext4 con GParted, haciendo click con el boton derecho sobre el espacio vacío. Luego de crearla anotar el nombre de sistema la partición (el /dev/sd5)
 
 ## Descargar el ISO de ubuntu 18.04
 
@@ -24,11 +21,9 @@ usar "Creador de discos de arranque" o "Startup Disk Creator" (en "Herramientas 
 
 nota: algunas veces falla la instalación de Grub de este ISO, ademas grub pone como sistema por defecto el nuevo sistema y esto no es siempre lo deseable!
 
-Desconectar el cable de internet (hace mas rápida la instalación)
-
-Bootear desde el pendrive (lograr esto a veces requiere modificar el BIOS en la seccion orden de arranque)
-
-Luego de iniciar, el instalador ofrece "Instalar Ubuntu" o "Probar Ubuntu", seleccionar "Probar Ubuntu"
+- Desconectar el cable de internet (hace mas rápida la instalación)
+- Bootear desde el pendrive (lograr esto a veces requiere modificar el BIOS en la seccion orden de arranque)
+- Luego de iniciar, el instalador ofrece "Instalar Ubuntu" o "Probar Ubuntu", seleccionar "Probar Ubuntu"
 
 Una vez abierto el escritorio del sistema, abrir una terminal y ejecutar el programa de instalación pero sin el instalador de Grub, para esto usar:
 
@@ -37,19 +32,20 @@ Una vez abierto el escritorio del sistema, abrir una terminal y ejecutar el prog
 Se iniciará el instalador, entonces seleccionar las opciones iniciales de idioma y teclado.
 
 En las siguientes opciones de instalación seleccionar:
- - instalacion minima SI
- - instalar programas de terceros SI
+ - "Instalacion mínima" SI
+ - "Instalar programas de terceros" SI
 
-Un popup preguntara si deseamos desmontar las particiones, responder que NO
+(Un popup preguntará si deseamos desmontar las particiones, responder que NO)
 
 Cuando aparezcan las opciones de instalación en el disco, seleccionar "otras opciones"
 
 Se desplegará la lista de particiones, seleccionar la partición creada para alojar esta instalación y darle doble click
 
 En el dialogo que aparece seleccionar:
-"utilizar como" -> "Sistema de ficheros ext4 transaccional"
-"Punto de montaje" -> "/"
-"formatear la particion" SI
+
+- "utilizar como" -> "Sistema de ficheros ext4 transaccional"
+- "Punto de montaje" -> "/"
+- "formatear la particion" SI
 
 (Al popup que generalmente aparece con una advertencia de redimensionamiento, responder "Volver")
 
@@ -57,9 +53,9 @@ Luego apretar "Instalar ahora" y verificar que la lista de particiones que se mu
 
 A continuacion indicar el nombre de usuario y sistema. Lo canonico es:
 
-nombre y nombre de usuario: bibliohack
-nombre del equipo: bibliohack-ubuntu1804
-contraseña: bibliohack
+- nombre y nombre de usuario: bibliohack
+- nombre del equipo: bibliohack-ubuntu1804
+- contraseña: bibliohack
 
 A continuación se realiza la instalación, y al terminar, reiniciar sacando previamente el pendrive para que inicie del disco.
 
@@ -69,11 +65,11 @@ Como elegimos no instalar grub se iniciará el sistema previamente instalado, pa
 
 luego de reconfigurado (puede tardar unos minutos), reiniciar y elegir en Grub el nuevo Ubuntu 18.04
 
-cuando se desee colocar el nuevo sistema para inciar por defecto en Grub, iniciar en el nuevo sistema, abrir una terminal y ejecutar `update-grub2`
+Cuando se desee colocar el nuevo sistema para inciar por defecto en Grub, iniciar en el nuevo sistema, abrir una terminal y ejecutar `update-grub2`, que pone como sistema por defecto el sistema desde donde se lo ejecute.
 
-## instalar bibliohack
+## Instalar bibliohack
 
-Loguearse como bibliohack en el ubuntu 18.04, abrir una terminal y descargar el instalador:
+Loguearse como bibliohack en el ubuntu 18.04, abrir una terminal y descargar el instalador (ATENCION: por ahora sólo funciona en Ubuntu 18.04, y NO en 18.10):
 
     cd ~
     wget http://bibliohack.org/files/bibliohack_install.tar.gz
@@ -90,4 +86,26 @@ iniciar el instalador:
 
     sudo bash install
 
-el instalador instalará todas las apicaciones de bibliohack automaticamente!
+**el instalador instalará todas las apicaciones de bibliohack automaticamente!**
+
+## Escritorio Bibliohack
+
+Los paquetes que hay que instalar son 'lightdm' y 'gnome-session-flashback'. El nuevo escritorio aparece como una opción para el usuario al iniciar sesión, que toma el escritorio por defecto al ultimo seleccionado.
+
+## Iconos
+
+En gnome flashback: haciendo <Alt> + <click derecho> sobre el panel del escritorio aparece la opcion "Añadir al panel", y añadimos un "Lanzador de aplicaciones personalizado", donde hay que seleccionar:
+
+Para Dalclick:
+
+- Tipo: "Aplicacion en Terminal"
+- Nombre: "Dalclick"
+- Comando: /opt/bibliohack/dalclick/dalclick
+- En el Icono, hacer click y buscar una cámara
+
+Para Dalproc o Gestor de postproceso:
+
+- Tipo: "Aplicacion en Terminal"
+- Nombre: "Gestor de Posproceso"
+- Comando: /opt/bibliohack/dalclick/ppm/ppm_daemon.sh
+- En el Icono, hacer click y buscar un engranaje
