@@ -68,6 +68,7 @@ Utilidades
 
 GNU/Linux:
 
+* [[Bibliohack instalador]]
 * [[Comparativa de distribuciones Linux]]
 * Instalación: [[Instalar ISO desde disco rígido con grub2]]
 * Tips [[Escritorios]]
