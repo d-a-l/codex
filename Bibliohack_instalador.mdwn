@@ -2,7 +2,7 @@
 
 ### Hacer espacio para el nuevo sistema 
 
-Para instalar GParted:
+Instalar GParted:
 
     sudo apt-get install gparted
 
