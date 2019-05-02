@@ -14,7 +14,7 @@ Luego en el espacio libre generado se puede crear una nueva particion Ext4 con G
 
 ## Descargar el ISO de ubuntu 18.04
 
-   wget http://releases.ubuntu.com/18.04/ubuntu-18.04.2-desktop-amd64.iso
+    wget http://releases.ubuntu.com/18.04/ubuntu-18.04.2-desktop-amd64.iso
 
 ## Crear el pendrive booteable:
 
