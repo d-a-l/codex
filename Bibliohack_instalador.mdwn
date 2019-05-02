@@ -1,7 +1,7 @@
 Instalador de Bibliohack para Ubuntu 18.04 "Bionic Beaver"
 =================================================================================
 
-## Hacer espacio para el nuevo sistema 
+### Hacer espacio para el nuevo sistema 
 
 Para instalar GParted:
 
