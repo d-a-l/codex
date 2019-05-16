@@ -85,9 +85,9 @@ ir a la carpeta:
 
     cd bibliohack_install
 
-iniciar el instalador:
+iniciar el instalador (atención, sin usar `sudo`):
 
-    sudo bash install
+    bash install
 
 **el instalador instalará todas las apicaciones de bibliohack automaticamente!**
 
