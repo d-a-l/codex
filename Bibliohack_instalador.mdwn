@@ -114,3 +114,7 @@ Para Dalproc o Gestor de postproceso:
 - Nombre: *Gestor de Posproceso*
 - Comando: `/opt/bibliohack/dalclick/ppm/ppm_daemon.sh`
 - En el Icono, hacer click y buscar un engranaje
+
+### Varios
+
+Enlace de nuevo usuario a foro bibliohack: <http://foro.bibliohack.org/ucp.php?mode=register>
