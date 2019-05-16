@@ -21,13 +21,15 @@ usar *"Creador de discos de arranque"* o *"Startup Disk Creator"* (en *"Herramie
 
 ### Instalar Ubuntu 18.04 sin Grub 
 
-**Nota:** algunas veces falla la instalación de Grub de este ISO cuando hay otro sistema instalado. Ademas el escenario para esta instalación es dejar la instalación previa de ubuntu o debian sin alterar (Grub pone como sistema por defecto el nuevo sistema y esto no es lo deseable).
+**Nota:** algunas veces falla la instalación de Grub de este ISO cuando hay otro sistema instalado. Ademas el escenario para esta instalación **es una actualización** al entorno bibliohack instalado en Debian Wheezy o ubuntu 16.04 y por lo tanto es **muy importante** dejar la instalación previa funcional de bibliohack sin alterar, y poder volver a la misma en caso de problemas en el funcionamiento del software actualizado (si se instala Grub y falla, es posible que ya no pueda ingresar al sistema).
+
+Para instalar sin Grub siga los siguientes pasos
 
 - Desconectar el cable de internet (hace mas rápida la instalación al no descargar paquetes de la red)
 - Bootear desde el pendrive (lograr esto a veces requiere modificar el BIOS en la sección orden de arranque)
 - Luego de iniciar, el instalador ofrece *"Instalar Ubuntu"* o *"Probar Ubuntu"*, seleccionar *"Probar Ubuntu"*
 
-Una vez abierta la sesión, abrir una terminal y ejecutar el programa de instalación pero sin el instalador de Grub, para esto usar:
+Una vez abierta la sesión, abrir una terminal y ejecutar el programa de instalación pero el instalador de Grub, para esto usar:
 
      ubiquity -b
 
