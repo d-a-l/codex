@@ -13,76 +13,7 @@ Consideraciones previas sobre el material: lado "quemado", eliminar sobrantes, e
 Your browser does not support the video tag.
 </video> 
 
-
-Armado de la estructura incial:
-
-<video width="320" height="568" controls>
-  <source src="/media/video/opencon-latam-2019/video1.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video> 
-
-<hr>
-
-Colocación de la base:
-
-<video width="320" height="568" controls>
-  <source src="/media/video/opencon-latam-2019/video2.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video> 
-
-<hr>
-
-Colocación del sosten para el acrilico:
-
-<video width="320" height="568" controls>
-  <source src="/media/video/opencon-latam-2019/video3.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video> 
-
-<hr>
-
-Armado espalda:
-
-<video width="320" height="568" controls>
-  <source src="/media/video/opencon-latam-2019/video4.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video> 
-
-<hr>
-
-Colocación de tornillos:
-
-<video width="320" height="568" controls>
-  <source src="/media/video/opencon-latam-2019/video6.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video> 
-
-<hr>
-
-Portaguía superior:
-
-<video width="320" height="568" controls>
-  <source src="/media/video/opencon-latam-2019/video7.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video> 
-
-<hr>
-
-Colocación de tornillos de portaguía superior:
-
-<video width="320" height="568" controls>
-  <source src="/media/video/opencon-latam-2019/video8.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video> 
-
-<hr>
-
-Colocación del tope del portaguía superior:
-
-<video width="320" height="568" controls>
-  <source src="/media/video/opencon-latam-2019/video9.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video> 
+Videos aqui: [[Opencon - Armado estructura]]
 
 ### 2) Armado de porta-reflectores
 
