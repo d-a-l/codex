@@ -1,5 +1,30 @@
 ### Materiales:
 
+Reflectores LED de 20W
+
+![Tornillo 3/16](/media/img/opencon-latam-2019/reflector.jpg)
+
+Tornillos (bulones) de 3/16 pulgadas (para orificios de 5mm, aprox.), de dos largos: 1 pulgada (aprox 25mm) y 1 ½ pulgada (aprox 38mm)
+
+![Tornillo 3/16](/media/img/opencon-latam-2019/tornillo1.jpg)
+
+![Tornillo 3/16](/media/img/opencon-latam-2019/tornillo2.jpg)
+
+Cinta de enmascarar
+
+Cola de carpintero
+
+Pintura esmalte sintetico negro mate o semi-mate
+
+
+### Herramientas
+
+Destronillador "Philips" o "punta cruz"
+
+![Tornillo 3/16](/media/img/opencon-latam-2019/dest_philips.jpg)
+
+Pincel
+
 ### Armado:
 
 Consideraciones previas sobre el material: lado "quemado", eliminar sobrantes, etc.
