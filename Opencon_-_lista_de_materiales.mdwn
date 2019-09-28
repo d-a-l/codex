@@ -1,4 +1,4 @@
-## Herramientas
+# Herramientas
 
 Destornillador "philips" o "punta cruz" mediano
 
@@ -31,7 +31,7 @@ Papel de lija grano medio (100) para madera
 <br>
 <br>
 
-## Materiales
+# Materiales
 
 ### Tornillos y bulones
 
@@ -58,8 +58,6 @@ Tornillo (bulón) de 1/4 pulgadas (para sujetar la cámara), cabeza hexagonal, j
  * 1 pulgada (aprox 25mm) (cantidad 1)
 
 ![Tornillo 1/4](/media/img/opencon-latam-2019/tornillo1-4.jpg)
-
-<hr>
 
 <br>
 <br>
