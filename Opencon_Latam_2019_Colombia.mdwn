@@ -87,3 +87,9 @@ Your browser does not support the video tag.
 ### 2) Armado de porta-reflectores
 
 Videos aqui: [[Opencon - Armado reflectores]]
+
+
+### 3) Armado de porta-cámaras
+
+Videos aqui: [[Opencon - Armado porta-camaras]]
+
