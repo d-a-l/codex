@@ -1,8 +1,10 @@
-### Materiales:
+## Materiales:
 
 Ver [[Opencon - lista de materiales]]
 
-### Instrucciones de armado:
+## Instrucciones de armado:
+
+### 1) Armado de la estructura
 
 Consideraciones previas sobre el material: lado "quemado", eliminar sobrantes, etc.
 
@@ -82,4 +84,6 @@ Colocación del tope del portaguía superior:
 Your browser does not support the video tag.
 </video> 
 
-[[Opencon - Armado reflectores]]
+### 2) Armado de la estructura
+
+Videos aqui: [[Opencon - Armado reflectores]]
