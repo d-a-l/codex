@@ -36,19 +36,19 @@ Cable negro tipo "taller" con cable a tierra (3x1.5 mm), ó bipolar negro
 
 ![cable](/media/img/opencon-latam-2019/cable.jpg)
 
-<br>
+<hr>
 
 Tira de bornera divisible
 
 ![bornera](/media/img/opencon-latam-2019/bornera.jpg)
 
-<br>
+<hr>
 
 Cinta aisladora
 
 ![cinta aisladora](/media/img/opencon-latam-2019/aisladora.jpg)
 
-<br>
+<hr>
 
 Cola de carpintero (adhesico vinilico, o pegamento de encolar)
 
