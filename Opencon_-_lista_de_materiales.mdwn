@@ -1,4 +1,4 @@
-# Herramientas
+## Herramientas
 
 Destornillador "philips" o "punta cruz" mediano
 
@@ -87,7 +87,7 @@ Cinta aisladora
 <br>
 <br>
 
-### Elementos carpintería
+### Materiales de carpintería
 
 Cola de carpintero (adhesico vinilico, o pegamento de encolar)
 
@@ -97,7 +97,7 @@ Cola de carpintero (adhesico vinilico, o pegamento de encolar)
 <br>
 
 
-### Pintura
+### Materiales para pintura
 
 Pintura esmalte sintetico negro mate o semi-mate
 
