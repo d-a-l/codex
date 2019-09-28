@@ -31,4 +31,6 @@ Videos aqui: [[Opencon - Armado porta-camaras]]
 
 ### 4) Explicacion de posiciones de iluminacion, camaras y superficie de digitalización
 
+![porta-camaras](/media/img/opencon-latam-2019/conjunto.jpg)
+
 Videos aqui: [[Opencon - Opciones de colocacion de luces y camara]]
