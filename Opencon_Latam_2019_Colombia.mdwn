@@ -13,14 +13,19 @@ Consideraciones previas sobre el material: lado "quemado", eliminar sobrantes, e
 Your browser does not support the video tag.
 </video> 
 
+![foto estructura](/media/img/opencon-latam-2019/estructura.jpg)
+
 Videos aqui: [[Opencon - Armado estructura]]
 
 ### 2) Armado de porta-reflectores
 
+![foto porta-reflectores](/media/img/opencon-latam-2019/porta-reflectores.jpg)
+
 Videos aqui: [[Opencon - Armado reflectores]]
 
+### 3) Armado de porta-cámara
 
-### 3) Armado de porta-cámaras
+![foto porta-camaras](/media/img/opencon-latam-2019/porta-camaras.jpg)
 
 Videos aqui: [[Opencon - Armado porta-camaras]]
 
