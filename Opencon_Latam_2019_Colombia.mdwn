@@ -84,6 +84,6 @@ Colocación del tope del portaguía superior:
 Your browser does not support the video tag.
 </video> 
 
-### 2) Armado de la estructura
+### 2) Armado de porta-reflectores
 
 Videos aqui: [[Opencon - Armado reflectores]]
