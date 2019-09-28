@@ -1,3 +1,9 @@
+# Ensamble de estativo para escaner DIY en Argentina/Colombia durante la Opencon Latam Bogota 2019
+
+![estativo](/media/img/opencon-latam-2019/armado_arg.jpg)
+
+(estativo armado)
+
 ## Materiales:
 
 Ver [[Opencon - lista de materiales]]
