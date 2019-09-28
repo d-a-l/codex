@@ -28,7 +28,7 @@ Tornillo (bulón) de 1/4 pulgadas (para sujetar la cámara), cabeza hexagonal, j
 
  * 1 pulgada (aprox 25mm) (cantidad 1)
 
-![Tornillo 3/16](/media/img/opencon-latam-2019/tornillo2.jpg)
+![Tornillo 1/4](/media/img/opencon-latam-2019/tornillo1-4.jpg)
 
 <hr>
 
@@ -56,10 +56,12 @@ Papel de lija grano medio (100) para madera
 
 </hr>
 
+<br>
+<br>
 
 ### Herramientas
 
-Destronillador "Philips" o "punta cruz"
+Destornillador "philips" o "punta cruz" mediano
 
 ![Destronillador](/media/img/opencon-latam-2019/dest_philips.jpg)
 
@@ -67,7 +69,7 @@ Destronillador "Philips" o "punta cruz"
 
 Pincel Nº10
 
-![v](/media/img/opencon-latam-2019/pincel.png)
+![pincel](/media/img/opencon-latam-2019/pincel.jpg)
 
 ### Armado:
 
