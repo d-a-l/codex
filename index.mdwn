@@ -61,6 +61,8 @@ Prototipos construidos con corte laser 2D
 
 [[La Pila]] - [[instalaciones-mayo-2014]] - [[ddam]] - [Ikiwiki tips](http://dalwiki.derechoaleer.org/instalarikiwiki/)
 
+[[Opencon Latam 2019 Colombia]]
+
 Utilidades
 
 * [[Utilidades]] - (ayuda rsync y 7zip)
