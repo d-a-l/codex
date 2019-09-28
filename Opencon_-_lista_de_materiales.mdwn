@@ -31,7 +31,7 @@ Papel de lija grano medio (100) para madera
 <br>
 <br>
 
-# Materiales
+## Materiales
 
 ### Tornillos y bulones
 
@@ -53,9 +53,7 @@ Tornillo (bulón) de 5/16 pulgadas (para orificios de 8mm, aprox.), cabeza hexag
 
 <hr>
 
-Tornillo (bulón) de 1/4 pulgadas (para sujetar la cámara), cabeza hexagonal, junto con tuerca y **4 arandelas**, de dos largos:
-
- * 1 pulgada (aprox 25mm) (cantidad 1)
+Tornillo (bulón) de 1/4 pulgadas (para sujetar la cámara), cabeza hexagonal, junto con tuerca y **4 arandelas** de largo: 1 pulgada (aprox 25mm) (cantidad 1)
 
 ![Tornillo 1/4](/media/img/opencon-latam-2019/tornillo1-4.jpg)
 
