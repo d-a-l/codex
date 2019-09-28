@@ -1,3 +1,22 @@
-
 ## 3) Armado de porta-cámaras
 
+Materiales para el porta-camaras
+
+<video width="320" height="568" controls>
+  <source src="/media/video/opencon-latam-2019/sosten_camaras1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+Armado porta-camaras 1
+
+<video width="320" height="568" controls>
+  <source src="/media/video/opencon-latam-2019/sosten_camaras3.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+Armado porta-camaras 2
+
+<video width="320" height="568" controls>
+  <source src="/media/video/opencon-latam-2019/sosten_camaras3.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
