@@ -19,12 +19,16 @@ Armado de la estructura incial:
 Your browser does not support the video tag.
 </video> 
 
+<hr>
+
 Colocación de la base:
 
 <video width="320" height="568" controls>
   <source src="/media/video/opencon-latam-2019/video2.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
+
+<hr>
 
 Colocación del sosten para el acrilico:
 
@@ -33,12 +37,16 @@ Colocación del sosten para el acrilico:
 Your browser does not support the video tag.
 </video> 
 
+<hr>
+
 Armado espalda:
 
 <video width="320" height="568" controls>
   <source src="/media/video/opencon-latam-2019/video4.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
+
+<hr>
 
 Colocación de tornillos:
 
@@ -47,6 +55,8 @@ Colocación de tornillos:
 Your browser does not support the video tag.
 </video> 
 
+<hr>
+
 Portaguía superior:
 
 <video width="320" height="568" controls>
@@ -54,12 +64,16 @@ Portaguía superior:
 Your browser does not support the video tag.
 </video> 
 
+<hr>
+
 Colocación de tornillos de portaguía superior:
 
 <video width="320" height="568" controls>
   <source src="/media/video/opencon-latam-2019/video8.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
+
+<hr>
 
 Colocación del tope del portaguía superior:
 
