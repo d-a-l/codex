@@ -40,7 +40,7 @@ Cinta de enmascarar
 
 Cola de carpintero (adhesico vinilico, o pegamento de encolar)
 
-![Adhesivo vinilico](/media/img/opencon-latam-2019/cola-carpintero.jpg)
+![Adhesivo vinilico](/media/img/opencon-latam-2019/cola_carpintero.jpg)
 
 <hr>
 
@@ -59,7 +59,9 @@ Destronillador "Philips" o "punta cruz"
 
 <hr>
 
-Pincel
+Pincel Nº10
+
+![v](/media/img/opencon-latam-2019/pincel.png)
 
 ### Armado:
 
