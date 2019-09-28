@@ -1,0 +1,31 @@
+## 4) Opciones de distintas configuraciones de luces y cámaras
+
+Diferentes posiciones de las luces:
+
+<video width="320" height="568" controls>
+  <source src="/media/video/opencon-latam-2019/explicacion-posiciones-iluminacion.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+Diferentes posiciones de la cámara:
+
+<video width="320" height="568" controls>
+  <source src="/media/video/opencon-latam-2019/explicacion-posicion-camaras.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+Superficie de digitalizacion: colocación del acrílico:
+
+<video width="320" height="568" controls>
+  <source src="/media/video/opencon-latam-2019/explicacion-agarres-acrilico.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+Explicaciones sobre la superficie de digitalización
+
+<video width="320" height="568" controls>
+  <source src="/media/video/opencon-latam-2019/explicacion-superficie-digitalizacion.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+
