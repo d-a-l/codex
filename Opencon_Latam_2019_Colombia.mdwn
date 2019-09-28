@@ -6,13 +6,20 @@ Reflectores LED de 20W
 
 Tornillos (bulones) de 3/16 pulgadas (para orificios de 5mm, aprox.), cabeza de tanque (philips), de dos largos: 1 pulgada (aprox 25mm) y 1 ½ pulgada (aprox 38mm)
 
+<hr>
+
 ![Tornillo 3/16](/media/img/opencon-latam-2019/tornillo1.jpg)
 
 Tornillos (bulones) de 5/16 pulgadas (para orificios de 8mm, aprox.), cabeza hexagonal, de dos largos: 1 pulgada (aprox 25mm) y 1 ½ pulgada (aprox 38mm)
 
+<hr>
+
 ![Tornillo 3/16](/media/img/opencon-latam-2019/tornillo2.jpg)
 
+<hr>
+
 Cinta de enmascarar
+
 
 Cola de carpintero
 
@@ -24,6 +31,8 @@ Pintura esmalte sintetico negro mate o semi-mate
 Destronillador "Philips" o "punta cruz"
 
 ![Tornillo 3/16](/media/img/opencon-latam-2019/dest_philips.jpg)
+
+<hr>
 
 Pincel
 
