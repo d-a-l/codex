@@ -1,11 +1,5 @@
 ### Materiales:
 
-Reflectores LED de 20W (4)
-
-![Tornillo 3/16](/media/img/opencon-latam-2019/reflector.jpg)
-
-<hr>
-
 Tornillo (bulón) de 3/16 pulgadas (para orificios de 5mm, aprox.), cabeza de tanque (philips), junto con tuerca y arandela, de dos largos:
 
  * 1 pulgada (aprox 25mm) (cantidad 60)
@@ -32,11 +26,29 @@ Tornillo (bulón) de 1/4 pulgadas (para sujetar la cámara), cabeza hexagonal, j
 
 <hr>
 
-Cinta de enmascarar
+Reflectores LED de 20W (4)
 
-![Cinta](/media/img/opencon-latam-2019/cinta.jpg)
+![Tornillo 3/16](/media/img/opencon-latam-2019/reflector.jpg)
 
 <hr>
+
+Cable negro tipo "taller" con cable a tierra (3x1.5 mm), ó bipolar negro
+
+![cable](/media/img/opencon-latam-2019/cable.jpg)
+
+<br>
+
+Tira de bornera divisible
+
+![bornera](/media/img/opencon-latam-2019/bornera.jpg)
+
+<br>
+
+Cinta aisladora
+
+![cinta aisladora](/media/img/opencon-latam-2019/aisladora.jpg)
+
+<br>
 
 Cola de carpintero (adhesico vinilico, o pegamento de encolar)
 
@@ -49,6 +61,12 @@ Pintura esmalte sintetico negro mate o semi-mate
 ![Pintura](/media/img/opencon-latam-2019/pintura.jpg)
 
 </hr>
+
+Cinta de enmascarar
+
+![Cinta](/media/img/opencon-latam-2019/cinta.jpg)
+
+<hr>
 
 Papel de diario
 
@@ -65,9 +83,22 @@ Destornillador "philips" o "punta cruz" mediano
 
 <hr>
 
+Destornillador plano pequeño (para electricidad, enchufes, etc)
+
+![Destronillador plano](/media/img/opencon-latam-2019/destornillador_plano.jpg)
+
+<hr>
+
+
 Pincel Nº10
 
 ![pincel](/media/img/opencon-latam-2019/pincel.jpg)
+
+<hr>
+
+Cutter plástico de libreria
+
+![cutter](/media/img/opencon-latam-2019/cutter.jpg)
 
 <hr>
 
