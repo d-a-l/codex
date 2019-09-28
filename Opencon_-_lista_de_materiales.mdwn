@@ -28,8 +28,6 @@ Papel de lija grano medio (100) para madera
 
 ![Papel de lija](/media/img/opencon-latam-2019/lija.jpg)
 
-</hr>
-
 <br>
 <br>
 
@@ -64,6 +62,7 @@ Tornillo (bulón) de 1/4 pulgadas (para sujetar la cámara), cabeza hexagonal, j
 <hr>
 
 <br>
+<br>
 
 ### Iluminación y electricidad
 
@@ -89,11 +88,18 @@ Cinta aisladora
 
 ![cinta aisladora](/media/img/opencon-latam-2019/aisladora.jpg)
 
+<br>
+<br>
+
 ### Elementos carpintería
 
 Cola de carpintero (adhesico vinilico, o pegamento de encolar)
 
 ![Adhesivo vinilico](/media/img/opencon-latam-2019/cola_carpintero.jpg)
+
+<br>
+<br>
+
 
 ### Pintura
 
@@ -113,4 +119,4 @@ Papel de diario
 
 ![Papel de diario](/media/img/opencon-latam-2019/papel.jpg)
 
-<br>
+
