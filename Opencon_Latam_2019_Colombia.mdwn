@@ -50,11 +50,9 @@ Pintura esmalte sintetico negro mate o semi-mate
 
 </hr>
 
-Papel de lija grano medio (100) para madera
+Papel de diario
 
-![Papel de lija](/media/img/opencon-latam-2019/lija.jpg)
-
-</hr>
+![Papel de diario](/media/img/opencon-latam-2019/papel.jpg)
 
 <br>
 <br>
@@ -70,6 +68,17 @@ Destornillador "philips" o "punta cruz" mediano
 Pincel Nº10
 
 ![pincel](/media/img/opencon-latam-2019/pincel.jpg)
+
+<hr>
+
+Papel de lija grano medio (100) para madera
+
+![Papel de lija](/media/img/opencon-latam-2019/lija.jpg)
+
+</hr>
+
+<br>
+<br>
 
 ### Armado:
 
