@@ -52,7 +52,7 @@ Pintura esmalte sintetico negro mate o semi-mate
 
 </div>
 
-<div style="border: 1px; padding: 5px;">
+<div style="border: 1px; padding: 5px;" markdown="1">
 
 Papel de lija grano medio (100)
 
