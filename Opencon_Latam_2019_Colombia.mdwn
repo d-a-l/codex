@@ -6,17 +6,30 @@ Reflectores LED de 20W
 
 <hr>
 
-Tornillos (bulones) de 3/16 pulgadas (para orificios de 5mm, aprox.), cabeza de tanque (philips), de dos largos: 1 pulgada (aprox 25mm) y 1 ½ pulgada (aprox 38mm)
+Tornillo (bulón) de 3/16 pulgadas (para orificios de 5mm, aprox.), cabeza de tanque (philips), junto con tuerca y arandela, de dos largos:
+
+ * 1 pulgada (aprox 25mm) (cantidad 60)
+ * 1 ½ pulgada (aprox 38mm) (cantidad 30)
 
 ![Tornillo 3/16](/media/img/opencon-latam-2019/tornillo1.jpg)
 
 <hr>
 
-Tornillos (bulones) de 5/16 pulgadas (para orificios de 8mm, aprox.), cabeza hexagonal, de dos largos: 1 pulgada (aprox 25mm) y 1 ½ pulgada (aprox 38mm)
+Tornillo (bulón) de 5/16 pulgadas (para orificios de 8mm, aprox.), cabeza hexagonal, junto con tuerca y arandela, de dos largos:
+
+ * 1 pulgada (aprox 25mm) (cantidad 18)
+ * 1 ½ pulgada (aprox 38mm) (cantidad 2)
 
 ![Tornillo 3/16](/media/img/opencon-latam-2019/tornillo2.jpg)
 
 <hr>
+
+Tornillo (bulón) de 1/4 pulgadas (para orificios de 6mm, aprox.), cabeza hexagonal, junto con tuerca y arandela, de dos largos:
+
+ * 1 pulgada (aprox 25mm) (cantidad 1)
+
+![Tornillo 3/16](/media/img/opencon-latam-2019/tornillo2.jpg)
+
 
 Cinta de enmascarar
 
