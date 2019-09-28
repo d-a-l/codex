@@ -44,21 +44,17 @@ Cola de carpintero (adhesico vinilico, o pegamento de encolar)
 
 <hr>
 
-<div style="border: 1px; padding 5px;">
-
 Pintura esmalte sintetico negro mate o semi-mate
 
 ![Pintura](/media/img/opencon-latam-2019/pintura.jpg)
 
-</div>
-
-<div style="border: 1px; padding: 5px;" markdown="1">
+</hr>
 
 Papel de lija grano medio (100) para madera
 
 ![Papel de lija](/media/img/opencon-latam-2019/lija.jpg)
 
-</div>
+</hr>
 
 
 ### Herramientas
