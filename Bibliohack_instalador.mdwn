@@ -1,6 +1,6 @@
 ## Instalador de Bibliohack para Ubuntu 18.04 "Bionic Beaver"
 
-**Este tutorial indica como preparar las herramientas de instalacion en una computadora con conexion a internet, para instalar el sistema operativo y todo el software necesario en una PC sin conexión (PC-objetivo)** 
+*Este tutorial indica como preparar las herramientas de instalacion en una computadora con conexion a internet, para instalar el sistema operativo y todo el software necesario en una PC sin conexión (PC-objetivo)*
 
 @@En una PC con conexión a internet (con Ubuntu o Debian)@@
 
