@@ -75,7 +75,7 @@ iniciar el instalador (**atención, sin usar `sudo`**):
 
 **Nota: si eligió instalar las dependencias desde Apt no hay problema, el instalador ignorará las dependencias que trae el paquete offline y dejará las mas actuales que ya fueron instalados vía apt desde internet**
 
-### Escritorio liviano para  Bibliohack
+### Escritorio liviano
 
 Los paquetes que hay que instalar son `lightdm` y `gnome-session-flashback`. El nuevo escritorio aparece como una opción para el usuario al iniciar sesión, que toma el escritorio por defecto al ultimo seleccionado.
 
