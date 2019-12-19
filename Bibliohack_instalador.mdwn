@@ -1,40 +1,87 @@
 ## Instalador de Bibliohack para Ubuntu 18.04 "Bionic Beaver"
 
-[[Instalar Ubuntu 18.04 en una particion del disco]]
+** Este tutorial indica como preparar las herramientas de instalacion en una computadora con conexion a internet, para instalar el sistema operativo y todo el software necesario en una PC sin conexión (PC-objetivo)** 
+
+@@En una PC con conexión a internet (con Ubuntu o Debian)@@
 
 ### Descargar el ISO de ubuntu 18.04.1
 
     wget http://old-releases.ubuntu.com/releases/18.04.1/ubuntu-18.04-desktop-amd64.iso
 
+### Descargar el paquete de software de Bibliohack
+
+    wget http://bibliohack.org/files/bibliohack_install.tar.gz
+
 ### Crear el pendrive booteable:
 
 usar *"Creador de discos de arranque"* o *"Startup Disk Creator"* (en *"Herramientas de Sistema"* -> *"Administración"*), seleccionar el ISO descargado, el pendrive y elegir *"Crear Disco de Arranque"*.
 
+Tambien copiar el archivo bibliohack_install.tar.gz al Pendrive, y en caso de no ser posible copiarlo a otro Pendrive.
+
+@@En una PC-objetivo sin conexión@@
+
+**Atención: todos los datos del disco de la PC-objetivo se borraran!**. Si desea instalar el sistema operativo en una particion del disco sin modificar el resto ir a "[[Instalar Ubuntu 18.04 en una particion del disco]]"
+
+### Instalar Ubuntu 18.04
+
+Si la PC objetivo tiene una conexión a internet muy deficiente se recomienda **desconectar el cable de internet** (hace mas rápida la instalación al no intentar infructuosamente descargar paquetes de la red)
+
+Bootear desde el pendrive (lograr esto a veces requiere modificar el BIOS en la sección orden de arranque)
+
+Luego de iniciar, el instalador ofrece *"Instalar Ubuntu"* o *"Probar Ubuntu"*, seleccionar *"Instalar Ubuntu"* y seguir las indicaciones:
+
+- seleccionar las opciones iniciales de idioma y teclado y uso horario.
+
+En las siguientes opciones de instalación seleccionar:
+
+- *"Instalacion mínima"* SI
+- *"Instalar programas de terceros"* SI
+
+(Un popup preguntará si deseamos desmontar las particiones, responder que NO)
+
+Cuando se solicite la definicion de nombre de usuario y sistema, los nombres canonicos de Bibliohack son:
+
+- nombre y nombre de usuario: `bibliohack`
+- nombre del equipo: `bibliohack-ubuntu1804`
+- contraseña temporal: `bibliohack`
+
+Luego se realiza la instalación que tarda 15 o 20 minutos. Al terminar, reiniciar sacando previamente el pendrive para que inicie del disco.
 
 ### Instalar Bibliohack
 
-Iniciar sesion en Ubuntu 18.04, abrir una terminal y descargar el instalador (ATENCION: por ahora sólo funciona en Ubuntu 18.04, y NO en 18.10):
+Si existe conectividad en la PC-objetivo puede probar [[instalar dependencias de bibliohack usando apt]] 
 
-    cd ~
-    wget http://bibliohack.org/files/bibliohack_install.tar.gz
+Iniciar sesion en Ubuntu 18.04, abrir una terminal y copiar el instalador `bibliohack_install.tar.gz` desde el pendrive. Para descargarlo se puede usar `wget http://bibliohack.org/files/bibliohack_install.tar.gz`
 
-descomprimir:
+Abrir una terminal en la carpeta donde haya copiado el instaladr y descomprimir el archivo:
 
     tar xzvf bibliohack_install.tar.gz
 
-ir a la carpeta:
+ir a la carpeta generada:
 
     cd bibliohack_install
 
-iniciar el instalador (atención, sin usar `sudo`):
+iniciar el instalador (**atención, sin usar `sudo`**):
 
     bash install
 
-**el instalador instalará todas las apicaciones de bibliohack automaticamente!**
+**el instalador instalará todas las apicaciones de bibliohack automaticamente sin necesidad de conexion a internet!**
+
+**Nota: si eligió instalar las dependencias desde apt, el instalador ignorará los paquetes del instalador y dejará los mas actuales que ya fueron instalados con apt**
 
 ### Escritorio Bibliohack
 
 Los paquetes que hay que instalar son `lightdm` y `gnome-session-flashback`. El nuevo escritorio aparece como una opción para el usuario al iniciar sesión, que toma el escritorio por defecto al ultimo seleccionado.
+
+**Miscelaneas:**
+
+Para deshabilitar el molesto popup de actualizaciones de software:
+
+    gsettings set com.ubuntu.update-notifier no-show-notifications true
+
+desinstalar `unattended-upgrades`
+
+    sudo apt-get remove unattended-upgrades
 
 ### Iconos
 
