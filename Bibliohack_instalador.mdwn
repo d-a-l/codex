@@ -24,15 +24,17 @@ Tambien copiar el archivo bibliohack_install.tar.gz al Pendrive, y en caso de no
 
 ### Instalar Ubuntu 18.04
 
-**Atención: todos los datos del disco de la PC-objetivo se borraran!**. Si desea instalar el sistema operativo en una particion del disco sin modificar el resto ir a "[[Instalar Ubuntu 18.04 en una particion del disco]]"
+**Atencion: todos los datos del disco de la PC-objetivo se borraran!**. Si desea instalar el sistema operativo en una particion del disco sin modificar el resto ir a "[[Instalar Ubuntu 18.04 en una particion del disco]]"
 
-Si la PC objetivo tiene una conexión a internet muy deficiente se recomienda **desconectar el cable de internet** (hace mas rápida la instalación al no intentar infructuosamente descargar paquetes de la red)
+Si la PC objetivo tiene una conexión a internet muy deficiente se recomienda **desconectar el cable de internet** de la PC (hace mas rápida la instalación al no intentar infructuosamente descargar paquetes de la red)
+
+Comenzar:
 
 Bootear desde el pendrive (lograr esto a veces requiere modificar el BIOS en la sección orden de arranque)
 
 Luego de iniciar, el instalador ofrece *"Instalar Ubuntu"* o *"Probar Ubuntu"*, seleccionar *"Instalar Ubuntu"* y seguir las indicaciones:
 
-- seleccionar las opciones iniciales de idioma y teclado y uso horario.
+- Seleccionar las opciones iniciales de idioma y teclado y uso horario.
 
 En las siguientes opciones de instalación seleccionar:
 
