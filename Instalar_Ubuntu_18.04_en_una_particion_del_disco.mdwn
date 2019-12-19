@@ -1,0 +1,10 @@
+### Hacer espacio para el nuevo sistema 
+
+Instalar GParted:
+
+    sudo apt-get install gparted
+
+Redimensionar con GParted:
+
+- Abrir `GParted`, seleccionar la partición a redimensionar y apretar el boton derecho del mouse eligiendo *"Redimensionar/mover"*, luego cambiar el tamaño de la particion hasta liberar 10 o 15GB y luego seleccionar *"Ejecutar las acciones seleccionadas"*. **Nota**: para cambiar el tamaño de una partición, esta debe estar **desmonatada** o no deben haber montadas particiones adyacentes.
+- Luego en el espacio libre generado se puede crear una nueva partición `Ext4` con `GParted`, haciendo click con el boton derecho sobre el espacio vacío. Luego de crearla anotar el nombre de sistema la partición (ej `/dev/sd5`)
