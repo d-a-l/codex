@@ -2,7 +2,7 @@
 
 *Este tutorial indica como preparar las herramientas de instalacion en una computadora con conexion a internet, para instalar el sistema operativo y todo el software necesario en una PC sin conexión (PC-objetivo)*
 
-@@En una PC con conexión a internet (con Ubuntu o Debian)@@
+**En una PC con conexión a internet (con Ubuntu o Debian)**
 
 ### Descargar el ISO de ubuntu 18.04.1
 
@@ -18,7 +18,7 @@ usar *"Creador de discos de arranque"* o *"Startup Disk Creator"* (en *"Herramie
 
 Tambien copiar el archivo bibliohack_install.tar.gz al Pendrive, y en caso de no ser posible copiarlo a otro Pendrive.
 
-@@En una PC-objetivo sin conexión@@
+**En una PC-objetivo sin conexión**
 
 **Atención: todos los datos del disco de la PC-objetivo se borraran!**. Si desea instalar el sistema operativo en una particion del disco sin modificar el resto ir a "[[Instalar Ubuntu 18.04 en una particion del disco]]"
 
