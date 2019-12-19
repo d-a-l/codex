@@ -30,11 +30,13 @@ Si la PC objetivo tiene una conexión a internet muy deficiente se recomienda **
 
 Comenzar:
 
-Bootear desde el pendrive (lograr esto a veces requiere modificar el BIOS en la sección orden de arranque)
+1) Bootear desde el pendrive (lograr esto a veces requiere modificar el BIOS en la sección orden de arranque)
 
-Luego de iniciar, el instalador ofrece *"Instalar Ubuntu"* o *"Probar Ubuntu"*, seleccionar *"Instalar Ubuntu"* y seguir las indicaciones:
+2) Esperar que se incie Ubuntu
 
-- Seleccionar las opciones iniciales de idioma y teclado y uso horario.
+3) El instalador de Ubuntu ofrecerá *"Instalar Ubuntu"* o *"Probar Ubuntu"*, seleccionar *"Instalar Ubuntu"* y seguir las indicaciones:
+
+- Seleccionar las opciones iniciales de idioma y teclado y uso horario para su país.
 
 En las siguientes opciones de instalación seleccionar:
 
@@ -49,15 +51,15 @@ Cuando se solicite la definicion de nombre de usuario y sistema, los nombres can
 - nombre del equipo: `bibliohack-ubuntu1804`
 - contraseña temporal: `bibliohack`
 
-Luego se realiza la instalación que tarda 15 o 20 minutos. Al terminar, reiniciar sacando previamente el pendrive para que inicie del disco.
+Luego se realiza la instalación del sistema que tarda 15 o 20 minutos. Al terminar, reiniciar sacando previamente el pendrive para que inicie del disco.
 
 ### Instalar Bibliohack
 
-Si existe conectividad en la PC-objetivo puede probar [[instalar dependencias de bibliohack usando apt]] 
+**Si existe conectividad en la PC-objetivo puede probar [[instalar dependencias de bibliohack usando apt]]**
 
-Iniciar sesion en Ubuntu 18.04, abrir una terminal y copiar el instalador `bibliohack_install.tar.gz` desde el pendrive. Para descargarlo se puede usar `wget http://bibliohack.org/files/bibliohack_install.tar.gz`
+Iniciar sesion en Ubuntu 18.04 utilizando el usuario y contraseña definidas en la instalación. Abrir el explorador de archivos copiar el instalador `bibliohack_install.tar.gz` desde el pendrive a la Carpeta personal del usuario. (Para descargarlo se puede usar `wget http://bibliohack.org/files/bibliohack_install.tar.gz`)
 
-Abrir una terminal en la carpeta donde haya copiado el instaladr y descomprimir el archivo:
+Abrir una terminal (en *"Herramientas de Sistema"* -> *"Terminal*). Ir a la carpeta donde haya copiado el instalador (si es la Carpeta personal la terminal se iniciara alli por defecto) y descomprimir el archivo:
 
     tar xzvf bibliohack_install.tar.gz
 
