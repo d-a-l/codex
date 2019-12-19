@@ -55,7 +55,7 @@ Luego se realiza la instalación del sistema que tarda 15 o 20 minutos. Al termi
 
 ### Instalar Bibliohack
 
-**Si existe conectividad en la PC-objetivo puede probar [[instalar dependencias de bibliohack usando apt]]**
+El paquete de software de Bibliohack descargado incluye el software y todas las dependencias necesarias, sin embargo **si existe conectividad en la PC-objetivo puede probar [[instalar dependencias de bibliohack usando apt]]**
 
 Iniciar sesion en Ubuntu 18.04 utilizando el usuario y contraseña definidas en la instalación. Abrir el explorador de archivos copiar el instalador `bibliohack_install.tar.gz` desde el pendrive a la Carpeta personal del usuario. (Para descargarlo se puede usar `wget http://bibliohack.org/files/bibliohack_install.tar.gz`)
 
@@ -73,9 +73,9 @@ iniciar el instalador (**atención, sin usar `sudo`**):
 
 **el instalador instalará todas las apicaciones de bibliohack automaticamente sin necesidad de conexion a internet!**
 
-**Nota: si eligió instalar las dependencias desde apt, el instalador ignorará los paquetes del instalador y dejará los mas actuales que ya fueron instalados con apt**
+**Nota: si eligió instalar las dependencias desde Apt no hay problema, el instalador ignorará las dependencias que trae el paquete offline y dejará las mas actuales que ya fueron instalados vía apt desde internet**
 
-### Escritorio Bibliohack
+### Escritorio liviano para  Bibliohack
 
 Los paquetes que hay que instalar son `lightdm` y `gnome-session-flashback`. El nuevo escritorio aparece como una opción para el usuario al iniciar sesión, que toma el escritorio por defecto al ultimo seleccionado.
 
