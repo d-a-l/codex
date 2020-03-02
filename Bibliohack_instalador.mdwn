@@ -110,3 +110,40 @@ Para Dalproc o Gestor de postproceso:
 ### Varios
 
 Enlace de nuevo usuario a foro bibliohack: <http://foro.bibliohack.org/ucp.php?mode=register>
+
+**Problemas con las resolución de la pantalla**
+
+    cvt <resX> <resY> <Khz>
+
+debe responder con un "modeline"
+
+   "rexXxresY_Hz" <valores> <valores> ...
+
+luego:
+
+    xrandr --newmode "rexXxresY_Hz" <valores> <valores> ...
+    xrandr --addmode <puerto> "rexXxresY_Hz"
+    xrandr --output <puerto> --mode rexXxresY_Hz
+
+para saber cual es el puerto (VGA-1 por ejemplo), usar
+
+    xrandr
+
+devuelve
+
+    Screen 0: minimum XXXxYYY, current XXXxYYY, etc
+    <puerto> connected 
+
+para hacer permanente, agregar las lineas xrandr a `~/.profile` ó `~/.profile`o sino
+
+    Section "Monitor"
+        Identifier "puerto"
+        Modeline "rexXxresY_Hz" <valores> <valores> ...
+    EndSection  
+
+
+
+ver:
+
+- <http://ubuntuhandbook.org/index.php/2017/04/custom-screen-resolution-ubuntu-desktop/>
+- <https://askubuntu.com/questions/754231/how-do-i-save-my-new-resolution-setting-with-xrandr>
