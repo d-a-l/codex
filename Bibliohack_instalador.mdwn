@@ -132,7 +132,7 @@ para saber cual es el puerto (VGA-1 por ejemplo), usar
 devuelve
 
     Screen 0: minimum XXXxYYY, current XXXxYYY, etc
-    <puerto> connected 
+    <puerto> connected primary etc
 
 para hacer permanente, agregar las lineas xrandr a `~/.profile` ó `~/.profile`o sino
 
