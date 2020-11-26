@@ -61,6 +61,11 @@ Mensaje cuando falla una o las dos cámaras
 
 </div>
 
+<video width="784" height="688" controls>
+  <source src="/media/img/bibliohack-stack/dalclick-cab.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
 ## Dalproc/fcen-tesis
 
 Es un script en bash que procesa un 'job' de postproceso generado por dalclick, utilizando los recursos de postproceso de "fcen-tesis" <https://github.com/Bibliohack/fcen-tesis>. 
@@ -74,24 +79,24 @@ El script principal de fcen-tesis es [`fcen-postprocessing`](https://github.com/
 
 Dalproc da la posibilidad de correr un script al finalizar el proceso que permite, por ejemplo, mover o copiar el pdf obtenido a otra ubicación.
 
-Dalclick da varias opciones de posproceso que Dalproc lleva adelante, en este caso describimos el proceso mas estandarizado que es transformar las capturas en un pdf con OCR y apto para distribuiirse via web, pero en otros casos el resultado final puede ser de otro tipo
+Dalclick da varias opciones de posproceso que Dalproc lleva adelante, en este caso describimos el proceso mas estandarizado que es transformar las capturas de un libro en un archivo pdf con layer OCR y apto para distribuiirse via web, pero en otros casos el resultado final puede ser diferente.
 
 ## CHDKPTP, LUA y TECGRAF
 
-Este entorno de trabajo fue elegido principalemte por estar ya implementado en CHDKPTP. Lua, asi como las bibliotecas IUP, IM, y CD fueron desarrollados por Grupo de Tecnología en Computación Gráfica (Tecgraf) en la Pontificia Universidad Católica de Río de Janeiro.
+Este entorno de trabajo fue elegido por estar implementado en CHDKPTP, que es el "entorno" sobre el cual corre Dalclick. Lua, asi como las bibliotecas IUP, IM, y CD fueron desarrollados por Grupo de Tecnología en Computación Gráfica (Tecgraf) en la Pontificia Universidad Católica de Río de Janeiro.
 
-## Scantailor
+## Scantailor y Scantailor-cli
 
-Scantailor es un software de procesado de imagenes escrito en C++, desarrollado por Joseph Artsimovich, especialmente diseñado para optimizar las imagenes obtenidas de un dispositivo de digitalización de libros que use cámaras digitales y un estativo "en V", conocidos como *diybookscanners*.
+Scantailor es un software de procesado de imágenes escrito en C++, desarrollado inicialmente por Joseph Artsimovich en 2007. Fue especialmente diseñado para optimizar las capturas provenietes de un dispositivo de digitalización de libros que use cámaras digitales y un estativo "en V", conocidos como *diybookscanners*.
 
-Scantailor tiene una interfaz gráfica que le permite al usuario intervenir en cada uno de los 6 pasos o filtros que aplica a cada captura:
+Scantailor tiene una interfaz gráfica que le permite al usuario intervenir en cada uno de los 6 pasos o filtros que aplica a cada imagen:
 
 - **Orientación**. Permite girar la imagen en pasos de 90º (esta operación ya la realiza Dalclick en el preprocesado)
-- **Particion de pagina**. Da tres opciones para extraer páginas de las capturas: 1) toma el borde de la imagen como el borde de la pagina (1 pagina por captura), 2) recorta la págiona que esté completa y descarta lo demas (1y1/2 pagina por captura, el caso de los digitalizadores de libros) o 3) busca dos páginas por imagen (2 páginas por captura).
-- **Enderezado** (deskew). Endereza la pagina colocando las lineas de texto exactamente horizontales.
-- **Selección de contenido**. Detecta los bordes de todo el contenido de la página (que incluye los parrafos, imagenes, paginado etc). Tambien puede tomar el borde de pagina como el limite de contenido
-- **Márgenes**. Aplica márgenes en blanco alrededor del contenido detectado en el paso anterior. Normalmente los amplios márgenes de las publicaciones en papel son un inconveniente en la version para pantallas, este filtro permite aplicar márgenes pequeños.
-- **Salida**. Este ultimo operación realiza una operación final de Umbral o *Threshold* que reduce la profundidad de color de la captura llevándola a blanco y negro. Aunque incluye más opciones, como realizar un filtro de contraste en vez de Umbral, o detectar imágenes presentes en la captura, seleccionar el área con un canal alfa y llevarlas a escala de grises, entre otras.
+- **Partición de página**. Da tres opciones para extraer páginas de las capturas: 1) toma el borde de la imagen como el borde de la página (1 página por captura), 2) recorta la página que esté completa y descarta lo demás (1y1/2 página por captura, el caso de los digitalizadores de libros) o 3) busca dos páginas por imagen (2 páginas por captura).
+- **Enderezado** (deskew). Endereza la página colocando las lineas de texto exactamente horizontales.
+- **Selección de contenido**. Detecta los bordes de todo el contenido de la página (que incluye los párrafos, fotos, ilustraciones, paginado etc). También puede tomar el borde de página como el límite de contenido.
+- **Márgenes**. Aplica márgenes en blanco alrededor del contenido detectado en el paso anterior. Normalmente los amplios márgenes de las publicaciones en papel son un inconveniente en la versión para pantallas, este filtro permite aplicar márgenes pequeños.
+- **Salida**. Esta última operación realiza una filtro de Umbral o *Threshold* que reduce la profundidad de color de la captura llevándola a blanco y negro. Aunque incluye más opciones, como realizar un filtro de contraste en vez de Umbral, o detectar imágenes presentes en la captura, seleccionar el área con un canal alfa y llevarlas a escala de grises, entre otras.
 
 ver más en <https://github.com/scantailor/scantailor/wiki/User-Guide>
 
