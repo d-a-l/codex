@@ -25,39 +25,39 @@ Un proyecto dalclick es básicamente un árbol de directorios donde dalclick va 
 
 ![inicio](/media/img/bibliohack-stack/dalclick-inicio.png)
 
-opciones al inicio, normalmente se presiona \\<enter\\> y se continua con el último proyecto abierto
+Opciones al inicio, normalmente se presiona ENTER y se continua con el último proyecto abierto
 
 ![inicio](/media/img/bibliohack-stack/dalclick-creacion-proyecto.png)
 
-creacion de un nuevo proyecto
+Creación de un nuevo proyecto
 
 ![inicio](/media/img/bibliohack-stack/dalclick-0-menu-captura.png)
 
-opciones de la pantalla de captura
+Opciones de la pantalla de captura
 
 ![inicio](/media/img/bibliohack-stack/dalclick-1-opciones-avanzadas.png)
 
-opciones avanzadas
+Opciones avanzadas
 
 ![inicio](/media/img/bibliohack-stack/dalclick-scantailor.png)
 
-opciones para scantailor
+Opciones para scantailor
 
 ![inicio](/media/img/bibliohack-stack/dalclick-explorador.png)
 
-explorador GUI
+Explorador GUI
 
 ![inicio](/media/img/bibliohack-stack/dalclick-3-postproceso.png)
 
-opciones de post-proceso
+Opciones de post-proceso
 
 ![inicio](/media/img/bibliohack-stack/dalclick-acciones-en-lote.png)
 
-opciones para acciones en lote sobre varios proyectos
+Opciones para acciones en lote sobre varios proyectos
 
 ![inicio](/media/img/bibliohack-stack/dalclick-opciones-fallo-camara.png)
 
-mensaje cuando falla una o las dos cámaras
+Mensaje cuando falla una o las dos cámaras
 
 
 </div>
