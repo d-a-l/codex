@@ -4,7 +4,7 @@ Referencia de los componentes:
 
 ## Dalclick
 
-Dalclcik es un software escrito en LUA y bash que debe ser cargado por CHDKPTP <https://app.assembla.com/wiki/show/chdkptp>
+**Dalclcik** es un software escrito en **Lua** y **Bash** que debe ser cargado por **CHDKPTP** <https://app.assembla.com/wiki/show/chdkptp>
 
 Dalclick abre una consola que le permite al usuario:
 
@@ -66,6 +66,10 @@ Mensaje cuando falla una o las dos cámaras
 Your browser does not support the video tag.
 </video> 
 
+## CHDKPTP
+
+CHDKPTP es una extensión PTP para CHDK, es decir, le permite a un dispositivo como una PC, comunicarse con una cámara digital que esté conectada mediante un enlace USB usando un protocolo PTP (Picture Transfer Protocol). <https://app.assembla.com/wiki/show/chdkptp> 
+
 ## Dalproc/fcen-tesis
 
 Es un script en bash que procesa un 'job' de postproceso generado por dalclick, utilizando los recursos de postproceso de "fcen-tesis" <https://github.com/Bibliohack/fcen-tesis>. 
@@ -83,7 +87,7 @@ Dalclick da varias opciones de posproceso que Dalproc lleva adelante, en este ca
 
 ## CHDKPTP, LUA y TECGRAF
 
-Este entorno de trabajo fue elegido por estar implementado en CHDKPTP, que es el "entorno" sobre el cual corre Dalclick. Lua, asi como las bibliotecas IUP, IM, y CD fueron desarrollados por Grupo de Tecnología en Computación Gráfica (Tecgraf) en la Pontificia Universidad Católica de Río de Janeiro.
+Este entorno de trabajo fue elegido por estar implementado en **CHDKPTP**, que es el "entorno" sobre el cual corre **Dalclick**. Lua, asi como las bibliotecas **IUP**, **IM**, y **CD** fueron desarrollados por el [Grupo de Tecnología en Computación Gráfica (Tecgraf) en la Pontificia Universidad Católica de Río de Janeiro](https://www.tecgraf.puc-rio.br/).
 
 ## Scantailor y Scantailor-cli
 
@@ -102,7 +106,11 @@ ver más en <https://github.com/scantailor/scantailor/wiki/User-Guide>
 
 ## Tesseract
 
-Tesseract es un motor de OCR actualmente desarrollado por Google, que permite reconocer texto presente en una imagen. Su desempeño es muy similar al software (no libre) lider en el mercado ABBYY.
+**Tesseract** es [un motor de OCR actualmente desarrollado por Google](https://es.wikipedia.org/wiki/Tesseract_OCR), escrito en C++, que permite reconocer texto presente en una imagen. Su desempeño es muy similar al software (no libre) lider en el mercado ABBYY. Su principal implementación es a traves de linea de comando.
+
+<https://github.com/tesseract-ocr/tesseract>
+
+Tesseract *bindings* para diferentes lenguajes de programación : <https://tesseract-ocr.github.io/tessdoc/AddOns.html#tesseract-wrappers>
 
 ## Pdfbeads
 
