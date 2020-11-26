@@ -21,7 +21,7 @@ Dalclick maneja la mayoría de las funciones desde una interfaz de línea de com
 
 Un proyecto dalclick es básicamente un árbol de directorios donde dalclick va guardando las imagenes correspondientes a los diferentes pasos del proceso de captura, y ciertos archivos de configuración en modo texto.
 
-<div classe="gallery" markdown="1">
+<div class="gallery" markdown="1">
 
 ![imagen 1](/media/img/bibliohack-stack/dalclick-inicio.png)
 
