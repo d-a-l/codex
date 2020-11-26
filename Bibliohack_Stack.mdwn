@@ -1,0 +1,33 @@
+# Bibliohack Stack
+
+Referencia de los componentes:
+
+## Dalclick
+
+Dalclcik es un software escrito en LUA y bash que debe ser cargado por CHDKPTP <https://app.assembla.com/wiki/show/chdkptp>
+
+Dalclick abre una consola que le permite al usuario:
+
+- generar un proyecto de digitalización
+- activar y configurar cámaras Canon que tengan instalado CHDK
+- descargar capturas desde las cámaras
+- aplicar ciertos filtros básicos a las imagenes (resample, rotate, etc)
+- mostrar en pantalla las imágenes capturadas
+- sobreescribir capturas anteriores
+- generar un proyecto scantailor
+- generar un "job" de postproceso para su posterior ejecución
+
+Dalclick maneja la mayoría de las funciones desde una interfaz de línea de comandos, pero incluye un módulo con una interfaz gráfica para facilitar el proceso de captura. La interfaz grafica usa las librerias Tecgraf IUP (Portable User Interface) <https://www.tecgraf.puc-rio.br/iup/>, CD (Canvas Draw) <https://www.tecgraf.puc-rio.br/cd/> e IM (toolkit for Digital Imaging) <https://www.tecgraf.puc-rio.br/im/>
+
+Un proyecto dalclick es básicamente un árbol de directorios donde dalclick va guardando las imagenes correspondientes a los diferentes pasos del proceso de captura, y ciertos archivos de configuración en modo texto.
+
+## Dalproc/fcen-tesis
+
+Es un script en bash que procesa un 'job' de postproceso generado por dalclick, utilizando los recursos de postproceso de "fcen-tesis" <https://github.com/Bibliohack/fcen-tesis>. 
+
+El script principal de fcen-tesis es <https://github.com/Bibliohack/fcen-tesis/blob/master/fcen-postprocessing/scripts/fcen-postprocessing>, que aplica a los archivos cuatro instancias de postproceso a partir de una extensa lista de parametros:
+
+- un filtro previo (un script en bash de la carpeta <https://github.com/Bibliohack/fcen-tesis/tree/master/fcen-postprocessing/scripts/filters>)
+- scantailor-cli (scantailor via linea de comandos, sin interfaz grafica)
+- tesseract ocr
+- pdfbeads: genera un pdf a partir de los archivos de scantailor (incluyendo los archivos layers con canales alfa) y agrega los archivos hocr generados por tesseract
