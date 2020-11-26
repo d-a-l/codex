@@ -6,7 +6,7 @@ Referencia de los componentes:
 
 **Dalclcik** es un software escrito en **Lua** y **Bash** que debe ser cargado por **CHDKPTP** <https://app.assembla.com/wiki/show/chdkptp>
 
-Dalclick abre una consola que le permite al usuario:
+**Dalclick** abre una consola que le permite al usuario:
 
 - generar un proyecto de digitalización
 - activar y configurar cámaras Canon que tengan instalado CHDK
@@ -17,9 +17,9 @@ Dalclick abre una consola que le permite al usuario:
 - generar un proyecto scantailor
 - generar un "job" de postproceso para su posterior ejecución
 
-Dalclick maneja la mayoría de las funciones desde una interfaz de línea de comandos, pero incluye un módulo con una interfaz gráfica para facilitar el proceso de captura. La interfaz grafica usa las librerias Tecgraf IUP (Portable User Interface) <https://www.tecgraf.puc-rio.br/iup/>, CD (Canvas Draw) <https://www.tecgraf.puc-rio.br/cd/> e IM (toolkit for Digital Imaging) <https://www.tecgraf.puc-rio.br/im/>
+**Dalclick** maneja la mayoría de las funciones desde una interfaz de línea de comandos, pero incluye un módulo con una interfaz gráfica para facilitar el proceso de captura. La interfaz grafica usa las librerias **Tecgraf IUP** (Portable User Interface) <https://www.tecgraf.puc-rio.br/iup/>, **CD** (Canvas Draw) <https://www.tecgraf.puc-rio.br/cd/> e **IM** (toolkit for Digital Imaging) <https://www.tecgraf.puc-rio.br/im/>
 
-Un proyecto dalclick es básicamente un árbol de directorios donde dalclick va guardando las imagenes correspondientes a los diferentes pasos del proceso de captura, y ciertos archivos de configuración en modo texto.
+Un **proyecto dalclick** es básicamente un árbol de directorios donde dalclick y demas componentes van guardando las imágenes correspondientes a los diferentes pasos del proceso de captura y post-proceso, y ciertos archivos de configuración en modo texto.
 
 <div class="gallery" markdown="1">
 
@@ -72,26 +72,26 @@ CHDKPTP es una extensión PTP para CHDK, es decir, le permite a un dispositivo c
 
 ## Dalproc/fcen-tesis
 
-Es un script en bash que procesa un 'job' de postproceso generado por dalclick, utilizando los recursos de postproceso de "fcen-tesis" <https://github.com/Bibliohack/fcen-tesis>. 
+Es una colección de scripts en **Bash** que procesa un 'job' de post-proceso generado por **Dalclick**, utilizando los recursos de post-procesado de "*fcen-tesis*" <https://github.com/Bibliohack/fcen-tesis>. 
 
-El script principal de fcen-tesis es [`fcen-postprocessing`](https://github.com/Bibliohack/fcen-tesis/blob/master/fcen-postprocessing/scripts/fcen-postprocessing), que aplica a los archivos cuatro instancias de postproceso a partir de una extensa lista de parametros, utilizando diferentes librerías y aplicaciones:
+El script principal de **fcen-tesis** es [`fcen-postprocessing`](https://github.com/Bibliohack/fcen-tesis/blob/master/fcen-postprocessing/scripts/fcen-postprocessing), que aplica a los archivos cuatro instancias de postproceso a partir de una extensa lista de parámetros, utilizando diferentes librerías y aplicaciones:
 
 - 1) filtro previo: corre un script en bash de la carpeta [`/scripts/filters`](https://github.com/Bibliohack/fcen-tesis/tree/master/fcen-postprocessing/scripts/filters) que aplica imagen por imagen.
-- scantailor-cli: utilizando la interfaz de linea de comandos de scantailor genera un proyecto y aplica el set de filtros de scantailor (en general) hasta conseguir una imagen TIFF apta para embeber en un pdf y realizar OCR (reconocimiento optico de caracteres).
-- tesseract ocr: al resultado de scantailor-cli se le realiza un reconocimiento optico de caracteres  utilizando Tesserac. El resultado es un archivo [`.hOCR`](https://en.wikipedia.org/wiki/HOCR), que contiene el texto obtenido y coordenadas de ubicacion en la pagina, en un formato estandar XML.
-- pdfbeads: genera un pdf a partir de los archivos generados por scantailor-cli (incluyendo los archivos con canales alfa que permiten combinar imágenes con distinta profundidad de color) y agrega el layer de texto "selecionable" al PDF a partir de los hOCR generados por tesseract)
+- 2) **scantailor-cli:** utilizando la interfaz de linea de comandos de scantailor genera un proyecto y aplica el set de filtros de scantailor (en general) hasta conseguir una imagen TIFF apta para embeber en un pdf y realizar OCR (reconocimiento optico de caracteres).
+- 3) **tesseract ocr**: al resultado de **scantailor-cli** se le realiza un reconocimiento optico de caracteres con **tesserac ocr**. El resultado es un archivo [`.hOCR`](https://en.wikipedia.org/wiki/HOCR), que contiene el texto reconocido y sus coordenadas de ubicacion en la página. **hOCR** es un formato estandar XML.
+- 4) **pdfbeads**: genera un **PDF** a partir de los archivos generados por **scantailor-cli** (incluyendo los archivos con canales alfa que permiten combinar imágenes con distinta profundidad de color) y agrega el layer de texto "selecionable" al **PDF** a partir de los **hOCR** generados por tesseract)
 
-Dalproc da la posibilidad de correr un script al finalizar el proceso que permite, por ejemplo, mover o copiar el pdf obtenido a otra ubicación.
+**Dalproc** da la posibilidad de correr un script al finalizar el proceso que permite, por ejemplo, mover o copiar el pdf obtenido a otra ubicación.
 
-Dalclick da varias opciones de posproceso que Dalproc lleva adelante, en este caso describimos el proceso mas estandarizado que es transformar las capturas de un libro en un archivo pdf con layer OCR y apto para distribuiirse via web, pero en otros casos el resultado final puede ser diferente.
+**Dalclick** da varias opciones de posproceso que **Dalproc** lleva adelante, en este caso describimos el proceso mas estandarizado que es *transformar las capturas de un libro en un archivo pdf con layer OCR y apto para distribuiirse vía web*, pero en otros casos el resultado final puede o podría ser muy diferente.
 
 ## CHDKPTP, LUA y TECGRAF
 
-Este entorno de trabajo fue elegido por estar implementado en **CHDKPTP**, que es el "entorno" sobre el cual corre **Dalclick**. Lua, asi como las bibliotecas **IUP**, **IM**, y **CD** fueron desarrollados por el [Grupo de Tecnología en Computación Gráfica (Tecgraf) en la Pontificia Universidad Católica de Río de Janeiro](https://www.tecgraf.puc-rio.br/).
+Este entorno de trabajo fue elegido por estar implementado en **CHDKPTP**, que es el "entorno" sobre el cual corre **Dalclick**. **Lua**, asi como las bibliotecas **IUP**, **IM**, y **CD** fueron desarrollados por el [Grupo de Tecnología en Computación Gráfica (Tecgraf) en la Pontificia Universidad Católica de Río de Janeiro](https://www.tecgraf.puc-rio.br/).
 
 ## Scantailor y Scantailor-cli
 
-Scantailor es un software de procesado de imágenes escrito en C++, desarrollado inicialmente por Joseph Artsimovich en 2007. Fue especialmente diseñado para optimizar las capturas provenietes de un dispositivo de digitalización de libros que use cámaras digitales y un estativo "en V", conocidos como *diybookscanners*.
+**Scantailor** es un software de procesado de imágenes escrito en C++, desarrollado inicialmente por Joseph Artsimovich en 2007. Fue especialmente diseñado para optimizar las capturas provenientes de un dispositivo de digitalización de libros que use cámaras digitales y un estativo "en V", conocidos como *diybookscanners*.
 
 Scantailor tiene una interfaz gráfica que le permite al usuario intervenir en cada uno de los 6 pasos o filtros que aplica a cada imagen:
 
@@ -103,6 +103,8 @@ Scantailor tiene una interfaz gráfica que le permite al usuario intervenir en c
 - **Salida**. Esta última operación realiza una filtro de Umbral o *Threshold* que reduce la profundidad de color de la captura llevándola a blanco y negro. Aunque incluye más opciones, como realizar un filtro de contraste en vez de Umbral, o detectar imágenes presentes en la captura, seleccionar el área con un canal alfa y llevarlas a escala de grises, entre otras.
 
 ver más en <https://github.com/scantailor/scantailor/wiki/User-Guide>
+
+**scantailor-cli** es la version en linea de comandos de Scantailor, que permite implementar casi la titalidad de funciones disponibles en la interfaz gráfica, utlizando parámetros. Dalclick puede generar un proyecto *.scantailor* y abrirlo en scantailor, o utilizar **scantailor-cli** para procesar un proyecto sin intervención del usuario.
 
 ## Tesseract
 
