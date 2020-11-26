@@ -25,7 +25,7 @@ Un proyecto dalclick es básicamente un árbol de directorios donde dalclick va 
 
 ![inicio](/media/img/bibliohack-stack/dalclick-inicio.png)
 
-opciones al inicio, normalmente se presiona <enter> y se continua con el último proyecto abierto
+opciones al inicio, normalmente se presiona \<enter\> y se continua con el último proyecto abierto
 
 ![inicio](/media/img/bibliohack-stack/dalclick-creacion-proyecto.png)
 
