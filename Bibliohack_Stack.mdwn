@@ -78,7 +78,7 @@ El script principal de **fcen-tesis** es [`fcen-postprocessing`](https://github.
 
 - 1) filtro previo: corre un script en bash de la carpeta [`/scripts/filters`](https://github.com/Bibliohack/fcen-tesis/tree/master/fcen-postprocessing/scripts/filters) que aplica imagen por imagen.
 - 2) **scantailor-cli:** utilizando la interfaz de linea de comandos de scantailor genera un proyecto y aplica el set de filtros de scantailor (en general) hasta conseguir una imagen TIFF apta para embeber en un pdf y realizar OCR (reconocimiento optico de caracteres).
-- 3) **tesseract ocr**: al resultado de **scantailor-cli** se le realiza un reconocimiento optico de caracteres con **tesserac ocr**. El resultado es un archivo [`.hOCR`](https://en.wikipedia.org/wiki/HOCR), que contiene el texto reconocido y sus coordenadas de ubicacion en la página. **hOCR** es un formato estandar XML.
+- 3) **tesseract ocr**: al resultado de **scantailor-cli** se le realiza un reconocimiento optico de caracteres con **tesserac ocr**. El resultado es un archivo [`.hOCR`](https://en.wikipedia.org/wiki/HOCR), por cada imagen que contiene el texto reconocido y sus coordenadas de ubicación en la página. **hOCR** es un formato estandar XML.
 - 4) **pdfbeads**: genera un **PDF** a partir de los archivos generados por **scantailor-cli** (incluyendo los archivos con canales alfa que permiten combinar imágenes con distinta profundidad de color) y agrega el layer de texto "selecionable" al **PDF** a partir de los **hOCR** generados por tesseract)
 
 **Dalproc** da la posibilidad de correr un script al finalizar el proceso que permite, por ejemplo, mover o copiar el pdf obtenido a otra ubicación.
