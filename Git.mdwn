@@ -21,3 +21,48 @@ Traer una rama remota
     git fetch
     git checkout <rama>
 
+### Reinicar un repositorio (borrar historial)
+
+<https://gist.github.com/stephenhardy/5470814>
+
+**opción 1**, borrando el repositorio:
+
+borrar repo
+
+    rm -rf .git
+
+reiniciar
+
+    git init
+    git add .
+    git commit -m "Initial commit"
+
+push en github asegurandose de sobreescribir el historial
+
+    git remote add origin git@github.com:<YOUR ACCOUNT>/<YOUR REPOS>.git
+    git push -u --force origin master
+
+
+**opcion 2)**, creando una nueva rama
+
+crear nuevo branch (rama)
+
+    git checkout --orphan newBranch
+
+añadirle los archivos actuales
+
+    git add -A
+    git commit
+
+borrar la rama principal (donde esta el hisotrial que queremos borrar)
+
+    git branch -D master
+
+renombrar la nueva rama a principal
+
+    git branch -m master
+
+pushear a github
+
+    git push -f origin master
+    git gc --aggressive --prune=all
