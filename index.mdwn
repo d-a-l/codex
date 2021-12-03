@@ -1,7 +1,7 @@
 ### DaL scanners / estativos
 
 
-| img    | id     | N | diseñado en  | instalado en | planos | cad    | caracteristicas |
+| img    | id     | n | año  | instalado en | src | cad    | caracteristicas |
 | ------ | ------ | ---------- | ------ | ------------ | ------ | ------ | --------------- |
 |        | enve   | 1 | 2018   | `P` Facultad de Filosofia y Letras (UBA) | si     | no     | corte laser / platina con soporte posterior |
 |        | M      | 1 | 2018   | `?` Academia Nacional de la Historia | ?      | no     | corte laser / platina con soporte lateral / luces LFC  |
