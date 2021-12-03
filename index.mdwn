@@ -1,5 +1,15 @@
 ### DaL scanners / estativos
 
+
+| img    | id     | fecha  | instalado en | planos | cad    | caracteristicas |
+| ------ | ------ | ------ | ------------ | ------ | ------ | --------------- |
+|        | enve   | 2016   | Facultad de Filosofia y Letras (UBA) [P] | si     | no     | corte laser / platina con soporte posterior |
+|        | M      | 2016   | Academia Nacional de la Historia  [?] | ?      | no     | corte laser / platina con soporte lateral   |
+|        | N      | 2016   | FFyL, sede 25 de Mayo [P] | ?      | no     | corte laser / platina con soporte lateral   |
+|        | O      | 2016   | Biblioteca AYSA [P]       | ?      | no     | corte laser / platina con soporte lateral   |
+|        | M      | 2016   | Archivo del Agua, Mendoza [P]<br>Universidad de Rosario [I] | si | no | corte laser / platina con soporte lateral   |
+|        | M2     | 2016   | UCA Rosario [P]<br>CCC [I] | si | no | corte laser / platina con soporte lateral / soporte para carpa |
+
 Prototipos construidos con herramientas básicas de carpintería
 
 * [[DaL]] modificaciones sobre el "modelo estandar" publicado en el foro diybookscanner
