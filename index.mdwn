@@ -1,14 +1,14 @@
 ### DaL scanners / estativos
 
 
-| img    | id     | cantidad | diseñado en  | instalado en | planos | cad    | caracteristicas |
+| img    | id     | N | diseñado en  | instalado en | planos | cad    | caracteristicas |
 | ------ | ------ | ---------- | ------ | ------------ | ------ | ------ | --------------- |
 |        | enve   | 1 | 2018   | `P` Facultad de Filosofia y Letras (UBA) | si     | no     | corte laser / platina con soporte posterior |
 |        | M      | 1 | 2018   | `?` Academia Nacional de la Historia | ?      | no     | corte laser / platina con soporte lateral / luces LFC  |
 |        | N      | 1 | 2018   | `O` FFyL, sede 25 de Mayo | ?      | no     | corte laser / platina con soporte lateral   |
 |        | O      | 1 | 2018   | `P` Biblioteca AYSA       | ?      | no     | corte laser / platina con soporte lateral / Luces LFC  |
 |        | M      | 1 | 2018   | `P` Archivo del Agua, Mendoza | si | no | corte laser / platina con soporte lateral   |
-|        | M2     | 3 | 2019   | `P` UCA, Rosario (2019)<br>`I` UNR, Rosario (2019)<br> `I` CCC<br> `E` Bibliohack (2021)<br> `E` UCONN, Connecticut (2021) | si | no | corte laser / platina con soporte lateral / soporte para carpa / luces LED |
+|        | M2     | 5 | 2019   | `P` UCA, Rosario (2019)<br>`I` UNR, Rosario (2019)<br> `I` CCC<br> `E` Bibliohack (2021)<br> `E` UCONN, Connecticut (2021) | si | no | corte laser / platina con soporte lateral / soporte para carpa / luces LED |
 
 Referencias:
 
