@@ -3,12 +3,12 @@
 
 | img    | id     | n | año  | instalado en | src | cad    | caracteristicas |
 | ------ | ------ | ---------- | ------ | ------------ | ------ | ------ | --------------- |
-|        | enve   | 1 | 2018   | `P` FFyL-UBA, sede Puan | si     | no     | corte laser / platina con soporte posterior |
-|        | M      | 1 | 2018   | `?` Academia Nac. de la Historia | ?      | no     | corte laser / platina con soporte lateral / luces LFC  |
-|        | N      | 1 | 2018   | `O` FFyL-UBA, sede 25 de Mayo | ?      | no     | corte laser / platina con soporte lateral   |
-|        | O      | 1 | 2018   | `P` Biblioteca AYSA       | ?      | no     | corte laser / platina con soporte lateral / Luces LFC  |
-|        | M      | 1 | 2018   | `P` Archivo del Agua, Mendoza | si | no | corte laser / platina con soporte lateral   |
-|        | M2     | 5 | 2019   | `P` UCA, Rosario (2019)<br>`I` UNR, Rosario (2019)<br> `I` CCC<br> `E` Bibliohack (2021)<br> `E` UCONN, Connecticut (2021) | si | no | corte laser / platina con soporte lateral / soporte para carpa / luces LED |
+|        | enve   | 1 | 2018   | <p>`P` FFyL-UBA, sede Puan | si     | no     | corte laser / platina con soporte posterior |
+|        | M      | 1 | 2018   | <p>`?` Academia Nac. de la Historia | ?      | no     | corte laser / platina con soporte lateral / luces LFC  |
+|        | N      | 1 | 2018   | <p>`O` FFyL-UBA, sede 25 de Mayo | ?      | no     | corte laser / platina con soporte lateral   |
+|        | O      | 1 | 2018   | <p>`P` Biblioteca AYSA       | ?      | no     | corte laser / platina con soporte lateral / Luces LFC  |
+|        | M      | 1 | 2018   | <p>`P` Archivo del Agua, Mendoza | si | no | corte laser / platina con soporte lateral   |
+|        | M2     | 5 | 2019   | <p>`P` UCA, Rosario (2019) <p>`I` UNR, Rosario (2019) <p> `I` CCC <p> `E` Bibliohack (2021) <p>`E` UCONN, Connecticut (2021) | si | no | corte laser / platina con soporte lateral / soporte para carpa / luces LED |
 
 Referencias:
 
