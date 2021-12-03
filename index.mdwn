@@ -12,14 +12,18 @@
 
 Referencias:
 
-- `E` en Ensamble: en proceso de ensamblado en el lugar
-- `I` Instalado: instalado pero no operativo
-- `O` Operativo: cámaras y sistema operativo, listo para digitalizar
-- `P` en Producción: digitalizando en producción
-- `D` en Deposito: en desudo o deposito en la institucion
-- `X` sin eXistencia: destruido, desensamblado o descartado
-- `A` Archivado: en deposito en bibliohack, puede haber piezas faltantes
-- `?` Sin información
+<div style="font-family: sans-serif; font-size: 12px;" markdown="1">
+
+- `E` - en Ensamble: en proceso de ensamblado en el lugar
+- `I` - Instalado: instalado pero no operativo
+- `O` - Operativo: cámaras y sistema operativo, listo para digitalizar
+- `P` - en Producción: digitalizando en producción
+- `D` - en Deposito: en desudo o deposito en la institucion
+- `X` - sin eXistencia: destruido, desensamblado o descartado
+- `A` - Archivado: en deposito en bibliohack, puede haber piezas faltantes
+- `?` - Sin información
+
+</div>
 
 
 
