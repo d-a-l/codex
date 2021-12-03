@@ -3,12 +3,12 @@
 
 | img    | id     | fecha  | instalado en | planos | cad    | caracteristicas |
 | ------ | ------ | ------ | ------------ | ------ | ------ | --------------- |
-|        | enve   | 2016   | `[O]` Facultad de Filosofia y Letras (UBA) | si     | no     | corte laser / platina con soporte posterior |
-|        | M      | 2016   | `[?]` Academia Nacional de la Historia | ?      | no     | corte laser / platina con soporte lateral   |
-|        | N      | 2016   | `[O]` FFyL, sede 25 de Mayo | ?      | no     | corte laser / platina con soporte lateral   |
-|        | O      | 2016   | `[P]` Biblioteca AYSA       | ?      | no     | corte laser / platina con soporte lateral   |
-|        | M      | 2016   | `[O]` Archivo del Agua, Mendoza<br> - `[I]` Universidad de Rosario | si | no | corte laser / platina con soporte lateral   |
-|        | M2     | 2016   | `[O]` UCA Rosario<br> - `[I]` CCC | si | no | corte laser / platina con soporte lateral / soporte para carpa |
+|        | enve   | 2016   | `OP` Facultad de Filosofia y Letras (UBA) | si     | no     | corte laser / platina con soporte posterior |
+|        | M      | 2016   | `??` Academia Nacional de la Historia | ?      | no     | corte laser / platina con soporte lateral   |
+|        | N      | 2016   | `OP` FFyL, sede 25 de Mayo | ?      | no     | corte laser / platina con soporte lateral   |
+|        | O      | 2016   | `OP` Biblioteca AYSA       | ?      | no     | corte laser / platina con soporte lateral   |
+|        | M      | 2016   | `OP` Archivo del Agua, Mendoza<br> - `IN` Universidad de Rosario | si | no | corte laser / platina con soporte lateral   |
+|        | M2     | 2016   | `OP` UCA Rosario<br> `IN` CCC | si | no | corte laser / platina con soporte lateral / soporte para carpa |
 
 Prototipos construidos con herramientas básicas de carpintería
 
