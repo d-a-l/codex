@@ -12,4 +12,4 @@ Variantes de este modelo se instalaron en:
 * Biblioteca "Profesor Guillermo Obiols" de la Facultad de Humanidades y Ciencias de la Educación (BIBHUMA) de la Universidad Nacional de La Plata, por medio de un Convenio con Wikimedia Argentina.
 * Biblioteca Feminaria del Centro Cultural Tierra Violeta
 
-![test](/uploads/DaL/20190704_100741.jpg){ width: 200px; }
+![test](/uploads/DaL/20190704_100741.jpg){ width=50% }
