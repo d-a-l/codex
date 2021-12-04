@@ -64,8 +64,6 @@
 </tr>
 
 <tr>
-<td></td>
-<td></td>
 <td> nov/2018 </td>
 <td>🎁</td>
 <td> Universidad Nacional de Rosario                               </td>
