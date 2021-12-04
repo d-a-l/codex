@@ -71,7 +71,7 @@
 </tr>
 
 <tr>
-<td rowspan="5"><img src="/uploads/models/uca.jpg" style="max-width:100px;"></td>
+<td rowspan="5"><img src="/uploads/models/coop.jpg" style="max-width:100px;"></td>
 <td rowspan="5">"uca"</td>
 <td> 2019 </td>
 <td>😀</td>
