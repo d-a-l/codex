@@ -20,7 +20,7 @@
 
 <tr>
 <td>"enve" </td>
-<td><img src="/uploads/models/filo.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
 <td>jun/2018 </td>
 <td>😀</td>
 <td> Biblioteca Central, Facultad de Filosofía y Letras, UBA       </td>
@@ -47,7 +47,7 @@
 
 <tr>
 <td> "o"  </td>
-<td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/25m.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>💡</td>
 <td> Facultad de Filosofía y Letras, UBA, sede 25 de Mayo          </td>
@@ -81,7 +81,7 @@
 </tr>
 
 <tr>
-<td></td>
+<td><img src="/uploads/models/coop.jpg" style="max-width:100px;"></td>
 <td> mar/2020 </td>
 <td>🎁</td>
 <td> Polo de Digitalización en IdelCoop                            </td>
