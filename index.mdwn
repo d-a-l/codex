@@ -28,7 +28,7 @@
 </tr>
 
 <tr>
-<td></td>
+<td><img src="/uploads/models/aysa.jpg" style="max-width:100px;"></td>
 <td>"m"  </td>
 <td> jun/2018 </td>
 <td>😀</td>
@@ -37,7 +37,7 @@
 </tr>
 
 <tr>
-<td></td>
+<td><img src="/uploads/models/anh.jpg" style="max-width:100px;"></td>
 <td>"n"  </td>
 <td> jun/2018 </td>
 <td>❔</td>
@@ -46,7 +46,7 @@
 </tr>
 
 <tr>
-<td></td>
+<td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
 <td> "o"  </td>
 <td> jun/2018 </td>
 <td>💡</td>
@@ -55,7 +55,7 @@
 </tr>
 
 <tr>
-<td></td>
+<td rowspan="2"><img src="/uploads/models/mdz.jpg" style="max-width:100px;"></td>
 <td rowspan="2">"mdz"</td>
 <td> sep/2018 </td>
 <td>😀</td>
@@ -73,8 +73,8 @@
 </tr>
 
 <tr>
-<td></td>
-<td rowspan="2">"uca"</td>
+<td rowspan="5"><img src="/uploads/models/uca.jpg" style="max-width:100px;"></td>
+<td rowspan="5">"uca"</td>
 <td> 2019 </td>
 <td>😀</td>
 <td> Biblioteca Central Rosario, UCA                               </td>
