@@ -1,10 +1,10 @@
 ### Lista de Dispositivos de digitalización
 
 
-| img    | model  | año  | stat | institucion                                               | ciudad |
+| img    | model  | año  | stat | institución comitente                                     | ciudad |
 | ------ | ------ | ---- | -- | ----------------------------------------------------------- | ------ |
 |        | cnba   | 2013 |💡| Colegio Nacional Buenos Aires                                 | cnba |
-|        | ccgsm  | 2014 |🗄️|                                  | CABA |
+|        | ccgsm  | 2014 |🗄️| -                                                             | CABA |
 |        |        | 2015 |❔| Tribunal Fiscal de Apelaciones de Buenos Aires                | La Plata |
 |        |        | 2017 |❔| Archivo del Centro de Estudios Históricos de la Fuerza Aérea  | CABA |
 |        | cecrit | 2017 |💡| Museo Casa de Ricardo Rojas y IIBICRIT/Conicet                | CABA |
@@ -18,7 +18,7 @@
 |        |        | 2020 |🎁| Polo de Digitalización en IdelCoop                            | CABA |
 |        |        | 2020 |🔧| Colegio Nacional Buenos Aires                                 | CABA |
 |        |        | 2021 |🔧| Bibliohack                                                    | CABA |
-|        |        | 2021 |🔧| Universidad de Connecticut                                     | Connecticut |
+|        |        | 2021 |🔧| Universidad de Connecticut                                    | Connecticut |
 
 Referencias:
 
