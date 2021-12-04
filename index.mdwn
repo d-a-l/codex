@@ -66,7 +66,7 @@
 <tr>
 <td><img src="/uploads/models/unr.jpg" style="max-width:100px;"></td>
 <td> nov/2018 </td>
-<td>🎁</td>
+<td>💡</td>
 <td> Universidad Nacional de Rosario                               </td>
 <td> Rosario </td>
 </tr>
