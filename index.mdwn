@@ -4,7 +4,7 @@
 | img    | id     | n | año  | instalado en | src | cad    | caracteristicas |
 | ------ | ------ | ---------- | ------ | ------------ | ------ | ------ | --------------- |
 |        | enve   | 1 | 2018   | <p>❔ Tribunal Fiscal de Apelaciones de Buenos Aires La Plata (2016) | si     | no     | listones de madera  |
-|        <td rowspan="2">3</td> | |  | <p>❔ Archivo del Centro de Estudios Históricos de la Fuerza Aérea (2017) | si     | no     | listones de madera  |
+|        <td rowspan="2">3</td> |  | <p>❔ Archivo del Centro de Estudios Históricos de la Fuerza Aérea (2017) | si     | no     | listones de madera  |
 |        | enve   | 1 | 2018   | <p>😀 Biblioteca Central, Facultad de Filosofía y Letras, UBA | si     | no     | corte laser / platina con soporte posterior |
 |        | M      | 1 | 2018   | <p>❔ Biblioteca de la Academia Nacional de la Historia | ?      | no     | corte laser / platina con soporte lateral / luces LFC  |
 |        | N      | 1 | 2018   | <p>💡 Facultad de Filosofía y Letras, UBA, sede 25 de Mayo | ?      | no     | corte laser / platina con soporte lateral   |
