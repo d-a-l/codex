@@ -19,8 +19,8 @@
 </tr>
 
 <tr>
-<td></td>
 <td>"enve" </td>
+<td><img src="/uploads/models/filo.jpg" style="max-width:100px;"></td>
 <td>jun/2018 </td>
 <td>😀</td>
 <td> Biblioteca Central, Facultad de Filosofía y Letras, UBA       </td>
@@ -28,8 +28,8 @@
 </tr>
 
 <tr>
-<td><img src="/uploads/models/aysa.jpg" style="max-width:100px;"></td>
 <td>"m"  </td>
+<td><img src="/uploads/models/aysa.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>😀</td>
 <td> Biblioteca Ing. Agustín González, AySA                        </td>
@@ -37,8 +37,8 @@
 </tr>
 
 <tr>
-<td><img src="/uploads/models/anh.jpg" style="max-width:100px;"></td>
 <td>"n"  </td>
+<td><img src="/uploads/models/anh.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>❔</td>
 <td> Biblioteca de la Academia Nacional de la Historia             </td>
@@ -46,8 +46,8 @@
 </tr>
 
 <tr>
-<td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
 <td> "o"  </td>
+<td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>💡</td>
 <td> Facultad de Filosofía y Letras, UBA, sede 25 de Mayo          </td>
@@ -55,8 +55,8 @@
 </tr>
 
 <tr>
-<td rowspan="2"><img src="/uploads/models/mdz.jpg" style="max-width:100px;"></td>
 <td rowspan="2">"mdz"</td>
+<td><img src="/uploads/models/mdz.jpg" style="max-width:100px;"></td>
 <td> sep/2018 </td>
 <td>😀</td>
 <td> Archivo del Agua, Departamento General de Irrigación          </td>
@@ -64,6 +64,7 @@
 </tr>
 
 <tr>
+<td><img src="/uploads/models/unr.jpg" style="max-width:100px;"></td>
 <td> nov/2018 </td>
 <td>🎁</td>
 <td> Universidad Nacional de Rosario                               </td>
@@ -71,8 +72,8 @@
 </tr>
 
 <tr>
-<td rowspan="5"><img src="/uploads/models/coop.jpg" style="max-width:100px;"></td>
 <td rowspan="5">"uca"</td>
+<td><img src="/uploads/models/uca.jpg" style="max-width:100px;"></td>
 <td> 2019 </td>
 <td>😀</td>
 <td> Biblioteca Central Rosario, UCA                               </td>
@@ -80,20 +81,23 @@
 </tr>
 
 <tr>
-<td> 2020 </td>
+<td></td>
+<td> mar/2020 </td>
 <td>🎁</td>
 <td> Polo de Digitalización en IdelCoop                            </td>
 <td> CABA </td>
 </tr>
 
 <tr>
-<td> 2020 </td>
+<td></td>
+<td> ene/2020 </td>
 <td>🔧</td>
 <td> Colegio Nacional Buenos Aires                                 </td>
 <td> CABA </td>
 </tr>
 
 <tr>
+<td></td>
 <td> 2021 </td>
 <td>🔧</td>
 <td> Bibliohack                                                    </td>
@@ -101,6 +105,7 @@
 </tr>
 
 <tr>
+<td></td>
 <td> 2021 </td>
 <td>🔧</td>
 <td> Universidad de Connecticut                                    </td>
