@@ -1,4 +1,4 @@
-### DaL scanners / estativos
+### Lista de Dispositivos de digitalización
 
 
 | img    | id     | n | año  | instalado en | src | cad    | caracteristicas |
