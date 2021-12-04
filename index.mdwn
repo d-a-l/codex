@@ -1,24 +1,100 @@
 ### Lista de Dispositivos de digitalización
 
 
-| img    | model  | año  | stat | institución comitente                                     | ciudad
-| ------ | ------ | ---- | -- | ----------------------------------------------------------- | ------
-|        | "cnba"   | 2013 |💡| Colegio Nacional Buenos Aires                                 | cnba 
-|        | "portable"| 2014 |🗄️| -                                                             | CABA 
-|         <td rowspan="2">"tfaba"|  2015 |❔| Tribunal Fiscal de Apelaciones de Buenos Aires                | La Plata 
-|        | 2017 |❔| Archivo del Centro de Estudios Históricos de la Fuerza Aérea  | CABA 
-|        | "cecrit" | 2017 |💡| Museo Casa de Ricardo Rojas y IIBICRIT/Conicet                | CABA 
-|        | "enve"   | jun/2018 |😀| Biblioteca Central, Facultad de Filosofía y Letras, UBA       | CABA 
-|        | "m"  | jun/2018 |😀| Biblioteca Ing. Agustín González, AySA                        | CABA 
-|        | "n"  | jun/2018 |❔| Biblioteca de la Academia Nacional de la Historia             | CABA 
-|        | "o"  | jun/2018 |💡| Facultad de Filosofía y Letras, UBA, sede 25 de Mayo          | CABA 
-| <img src="/uploads/models/mdz.jpg" style="max-width:100px"> |"mdz"| sep/2018 |😀| Archivo del Agua, Departamento General de Irrigación          | Mendoza 
-|        |   ^   | nov/2018 |🎁| Universidad Nacional de Rosario                               | Rosario 
-|        | "uca"| 2019 |😀| Biblioteca Central Rosario, UCA                               | Rosario  
-|        |    ^   | 2020 |🎁| Polo de Digitalización en IdelCoop                            | CABA 
-|        |    ^   | 2020 |🔧| Colegio Nacional Buenos Aires                                 | CABA 
-|        |    ^   | 2021 |🔧| Bibliohack                                                    | CABA 
-|        |    ^   | 2021 |🔧| Universidad de Connecticut                                    | Connecticut 
+<table>
+<thead>
+  <tr>
+    <td>img<td/><td>model<td/><td>año<td/><td>stat<td/><td>institución comitente<td/><td>ciudad</td>
+  </tr>
+</thead>
+<tbody>
+
+<td><td/>
+<td>"cnba"<td/>
+<td>2013<td/>
+<td>💡<td/>
+<td>Colegio Nacional Buenos Aires<td/>
+<td>CABA</td>
+
+<td></td>
+<td>"enve" </td>
+<td>jun/2018 </td>
+<td>😀</td>
+<td> Biblioteca Central, Facultad de Filosofía y Letras, UBA       </td>
+<td> CABA </td>
+
+<td></td>
+<td>"m"  </td>
+<td> jun/2018 </td>
+<td>😀</td>
+<td> Biblioteca Ing. Agustín González, AySA                        </td>
+<td> CABA </td>
+
+<td></td>
+<td>"n"  </td>
+<td> jun/2018 </td>
+<td>❔</td>
+<td> Biblioteca de la Academia Nacional de la Historia             </td>
+<td> CABA </td>
+
+<td></td>
+<td> "o"  </td>
+<td> jun/2018 </td>
+<td>💡</td>
+<td> Facultad de Filosofía y Letras, UBA, sede 25 de Mayo          </td>
+<td> CABA </td>
+
+<td></td>
+<td>"mdz"</td>
+<td> sep/2018 </td>
+<td>😀</td>
+<td> Archivo del Agua, Departamento General de Irrigación          </td>
+<td> Mendoza </td>
+
+<td></td>
+<td></td>
+<td> nov/2018 </td>
+<td>🎁</td>
+<td> Universidad Nacional de Rosario                               </td>
+<td> Rosario </td>
+
+<td></td>
+<td>"uca"</td>
+<td> 2019 </td>
+<td>😀</td>
+<td> Biblioteca Central Rosario, UCA                               </td>
+<td> Rosario </td>  
+
+<td></td>
+<td></td>
+<td> 2020 </td>
+<td>🎁</td>
+<td> Polo de Digitalización en IdelCoop                            </td>
+<td> CABA </td>
+
+<td></td>
+<td></td>
+<td> 2020 </td>
+<td>🔧</td>
+<td> Colegio Nacional Buenos Aires                                 </td>
+<td> CABA </td>
+
+<td></td>
+<td></td>
+<td> 2021 </td>
+<td>🔧</td>
+<td> Bibliohack                                                    </td>
+<td> CABA </td>
+
+<td></td>
+<td></td>
+<td> 2021 </td>
+<td>🔧</td>
+<td> Universidad de Connecticut                                    </td>
+<td> Connecticut </td>
+
+</tbody>
+</table>
 
 Referencias:
 
