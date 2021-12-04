@@ -4,24 +4,24 @@
 | img    | id     | n | año  | instalado en | src | cad    | caracteristicas |
 | ------ | ------ | ---------- | ------ | ------------ | ------ | ------ | --------------- |
 |        | enve   | 1 | 2018   | <p>😀 FFyL-UBA, sede Puan | si     | no     | corte laser / platina con soporte posterior |
-|        | M      | 1 | 2018   | <p>`?` Academia Nac. de la Historia | ?      | no     | corte laser / platina con soporte lateral / luces LFC  |
+|        | M      | 1 | 2018   | <p>❔ Academia Nac. de la Historia | ?      | no     | corte laser / platina con soporte lateral / luces LFC  |
 |        | N      | 1 | 2018   | <p>💡 FFyL-UBA, sede 25 de Mayo | ?      | no     | corte laser / platina con soporte lateral   |
 |        | O      | 1 | 2018   | <p>😀 Biblioteca AYSA       | ?      | no     | corte laser / platina con soporte lateral / Luces LFC  |
 |        | M      | 1 | 2018   | <p>😀 Archivo del Agua, Mendoza | si | no | corte laser / platina con soporte lateral   |
-|        | M2     | 5 | 2019   | <p>😀 UCA, Rosario (2019) <p>📦 UNR, Rosario (2019) <p>📦 CCC <p>🔧 Bibliohack (2021) <p>🔧 UCONN, Connecticut (2021) | si | no | corte laser / platina con soporte lateral / soporte para carpa / luces LED |
+|        | M2     | 5 | 2019   | <p>😀 UCA, Rosario (2019) <p>🎁 UNR, Rosario (2019) <p>🎁 CCC <p>🔧 Bibliohack (2021) <p>🔧 UCONN, Connecticut (2021) | si | no | corte laser / platina con soporte lateral / soporte para carpa / luces LED |
 
 Referencias:
 
 <div style="font-family: sans-serif; font-size: 12px;" markdown="1">
 
-- `E`: *en Ensamble*, en proceso de ensamblado en el lugar
-- `I`: *Instalado*, instalado pero no operativo
-- `O`: *Operativo*, cámaras y sistema operativo, listo para digitalizar
-- `P`: *en Producción*, el dispositivo está digitalizando en producción
-- `D`: *en Depósito*, dispositivo en desuso o depósito en la institución
-- `X`: *sin eXistencia*, el estativo fue destruido, desensamblado o descartado
-- `A`: *Archivado*, guardado en depósito en Bibliohack, puede haber piezas faltantes o estar parcialmente desarmado
-- `?`: *Sin información*
+- 🔧: *en ensamble*, en proceso de ensamblado en el lugar
+- 🎁: *instalado*, instalado pero no operativo
+- 💡: *operativo*, cámaras y sistema operativo, listo para digitalizar
+- 😀: *en producción*, el dispositivo está digitalizando en producción
+- 📦: *en depósito*, dispositivo en desuso o depósito en la institución
+- ❌: *sin existencia*, el estativo fue destruido, desensamblado o descartado
+- 🗄️: *archivado*, guardado en depósito en Bibliohack, puede haber piezas faltantes o estar parcialmente desarmado
+- ❔: *Sin información*
 
 </div>
 
