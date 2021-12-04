@@ -3,18 +3,22 @@
 
 | img    | model  | año  | stat | institucion                                               | ciudad |
 | ------ | ------ | ---- | -- | ----------------------------------------------------------- | ------ |
-|        |  enve  | 2016 |❔| Tribunal Fiscal de Apelaciones de Buenos Aires                | La Plata |
+|        | cnba   | 2013 |💡| Colegio Nacional Buenos Aires                                 | cnba |
+|        | ccgsm  | 2014 |🗄️|                                  | CABA |
+|        |        | 2015 |❔| Tribunal Fiscal de Apelaciones de Buenos Aires                | La Plata |
 |        |        | 2017 |❔| Archivo del Centro de Estudios Históricos de la Fuerza Aérea  | CABA |
-|        |  enve  | 2018 |😀| Biblioteca Central, Facultad de Filosofía y Letras, UBA       | CABA |
+|        | cecrit | 2017 |💡| Museo Casa de Ricardo Rojas y IIBICRIT/Conicet                | CABA |
+|        | enve   | 2018 |😀| Biblioteca Central, Facultad de Filosofía y Letras, UBA       | CABA |
 |        | M      | 2018 |❔| Biblioteca de la Academia Nacional de la Historia             | CABA  |
 |        | N      | 2018 |💡| Facultad de Filosofía y Letras, UBA, sede 25 de Mayo          | CABA |
 |        | O      | 2018 |😀| Biblioteca Ing. Agustín González, AySA                        | CABA |
 |        | M      | 2018 |😀| Archivo del Agua, Departamento General de Irrigación          | Mendoza |
 |        | M2     | 2019 |😀| Biblioteca Central Rosario, UCA                               | Rosario | 
-|        |   ^    | 2019 |🎁| Universidad Nacional de Rosario                               | Rosario |
+|        |        | 2019 |🎁| Universidad Nacional de Rosario                               | Rosario |
 |        |        | 2020 |🎁| Polo de Digitalización en IdelCoop                            | CABA |
+|        |        | 2020 |🔧| Colegio Nacional Buenos Aires                                 | CABA |
 |        |        | 2021 |🔧| Bibliohack                                                    | CABA |
-|        |        | 2021 |🔧|Universidad de Connecticut                                     | Connecticut |
+|        |        | 2021 |🔧| Universidad de Connecticut                                     | Connecticut |
 
 Referencias:
 
