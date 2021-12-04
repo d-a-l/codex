@@ -9,89 +9,113 @@
 </thead>
 <tbody>
 
+<tr>
 <td></td>
 <td>"cnba"</td>
 <td>2013</td>
 <td>💡</td>
 <td>Colegio Nacional Buenos Aires</td>
 <td>CABA</td>
+</tr>
 
+<tr>
 <td></td>
 <td>"enve" </td>
 <td>jun/2018 </td>
 <td>😀</td>
 <td> Biblioteca Central, Facultad de Filosofía y Letras, UBA       </td>
 <td> CABA </td>
+</tr>
 
+<tr>
 <td></td>
 <td>"m"  </td>
 <td> jun/2018 </td>
 <td>😀</td>
 <td> Biblioteca Ing. Agustín González, AySA                        </td>
 <td> CABA </td>
+</tr>
 
+<tr>
 <td></td>
 <td>"n"  </td>
 <td> jun/2018 </td>
 <td>❔</td>
 <td> Biblioteca de la Academia Nacional de la Historia             </td>
 <td> CABA </td>
+</tr>
 
+<tr>
 <td></td>
 <td> "o"  </td>
 <td> jun/2018 </td>
 <td>💡</td>
 <td> Facultad de Filosofía y Letras, UBA, sede 25 de Mayo          </td>
 <td> CABA </td>
+</tr>
 
+<tr>
 <td></td>
 <td>"mdz"</td>
 <td> sep/2018 </td>
 <td>😀</td>
 <td> Archivo del Agua, Departamento General de Irrigación          </td>
 <td> Mendoza </td>
+</tr>
 
+<tr>
 <td></td>
 <td></td>
 <td> nov/2018 </td>
 <td>🎁</td>
 <td> Universidad Nacional de Rosario                               </td>
 <td> Rosario </td>
+</tr>
 
+<tr>
 <td></td>
 <td>"uca"</td>
 <td> 2019 </td>
 <td>😀</td>
 <td> Biblioteca Central Rosario, UCA                               </td>
 <td> Rosario </td>  
+</tr>
 
+<tr>
 <td></td>
 <td></td>
 <td> 2020 </td>
 <td>🎁</td>
 <td> Polo de Digitalización en IdelCoop                            </td>
 <td> CABA </td>
+</tr>
 
+<tr>
 <td></td>
 <td></td>
 <td> 2020 </td>
 <td>🔧</td>
 <td> Colegio Nacional Buenos Aires                                 </td>
 <td> CABA </td>
+</tr>
 
+<tr>
 <td></td>
 <td></td>
 <td> 2021 </td>
 <td>🔧</td>
 <td> Bibliohack                                                    </td>
 <td> CABA </td>
+</tr>
 
+<tr>
 <td></td>
 <td></td>
 <td> 2021 </td>
 <td>🔧</td>
 <td> Universidad de Connecticut                                    </td>
 <td> Connecticut </td>
+</tr>
 
 </tbody>
 </table>
