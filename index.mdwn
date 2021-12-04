@@ -12,7 +12,7 @@
 |        | "m"  | jun/2018 |😀| Biblioteca Ing. Agustín González, AySA                        | CABA 
 |        | "n"  | jun/2018 |❔| Biblioteca de la Academia Nacional de la Historia             | CABA 
 |        | "o"  | jun/2018 |💡| Facultad de Filosofía y Letras, UBA, sede 25 de Mayo          | CABA 
-<td rowspan="2"><img src="/uploads/models/mdz.jpg" style="max-width:100px"></td> |"mdz"| sep/2018 |😀| Archivo del Agua, Departamento General de Irrigación          | Mendoza 
+| <img src="/uploads/models/mdz.jpg" style="max-width:100px"> |"mdz"| sep/2018 |😀| Archivo del Agua, Departamento General de Irrigación          | Mendoza 
 |        |   ^   | nov/2018 |🎁| Universidad Nacional de Rosario                               | Rosario 
 |        | "uca"| 2019 |😀| Biblioteca Central Rosario, UCA                               | Rosario  
 |        |    ^   | 2020 |🎁| Polo de Digitalización en IdelCoop                            | CABA 
