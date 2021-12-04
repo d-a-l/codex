@@ -11,9 +11,9 @@
 |        | O      | 2018 |😀| Biblioteca Ing. Agustín González, AySA                        | CABA |
 |        | M      | 2018 |😀| Archivo del Agua, Departamento General de Irrigación          | Mendoza |
 |        | M2     | 2019 |😀| Biblioteca Central Rosario, UCA                               | Rosario | 
-|        |        | 2019 |🎁| Universidad Nacional de Rosario                               | Rosario |
+|        |   ^    | 2019 |🎁| Universidad Nacional de Rosario                               | Rosario |
 |        |        | 2020 |🎁| Polo de Digitalización en IdelCoop                            | CABA |
-|        |        | 2021 |🔧| Bibliohack
+|        |        | 2021 |🔧| Bibliohack                                                    | CABA |
 |        |        | 2021 |🔧|Universidad de Connecticut                                     | Connecticut |
 
 Referencias:
