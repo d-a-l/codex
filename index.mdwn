@@ -4,7 +4,7 @@
 <table>
 <thead>
   <tr>
-    <td>img</td><td>model</td><td>año</td><td>stat</td><td>institución comitente</td><td>ciudad</td>
+    <td>model</td><td>imagen</td><td>año</td><td>stat</td><td>institución comitente</td><td>ciudad</td>
   </tr>
 </thead>
 <tbody>
