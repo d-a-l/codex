@@ -80,8 +80,6 @@
 </tr>
 
 <tr>
-<td></td>
-<td></td>
 <td> 2020 </td>
 <td>🎁</td>
 <td> Polo de Digitalización en IdelCoop                            </td>
@@ -89,8 +87,6 @@
 </tr>
 
 <tr>
-<td></td>
-<td></td>
 <td> 2020 </td>
 <td>🔧</td>
 <td> Colegio Nacional Buenos Aires                                 </td>
@@ -98,8 +94,6 @@
 </tr>
 
 <tr>
-<td></td>
-<td></td>
 <td> 2021 </td>
 <td>🔧</td>
 <td> Bibliohack                                                    </td>
@@ -107,8 +101,6 @@
 </tr>
 
 <tr>
-<td></td>
-<td></td>
 <td> 2021 </td>
 <td>🔧</td>
 <td> Universidad de Connecticut                                    </td>
