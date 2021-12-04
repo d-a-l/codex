@@ -4,16 +4,16 @@
 <table>
 <thead>
   <tr>
-    <td>img<td/><td>model<td/><td>año<td/><td>stat<td/><td>institución comitente<td/><td>ciudad</td>
+    <td>img</td><td>model</td><td>año</td><td>stat</td><td>institución comitente</td><td>ciudad</td>
   </tr>
 </thead>
 <tbody>
 
-<td><td/>
-<td>"cnba"<td/>
-<td>2013<td/>
-<td>💡<td/>
-<td>Colegio Nacional Buenos Aires<td/>
+<td></td>
+<td>"cnba"</td>
+<td>2013</td>
+<td>💡</td>
+<td>Colegio Nacional Buenos Aires</td>
 <td>CABA</td>
 
 <td></td>
