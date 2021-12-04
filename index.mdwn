@@ -4,8 +4,8 @@
 | img    | model  | año  | stat | institución comitente                                     | ciudad
 | ------ | ------ | ---- | -- | ----------------------------------------------------------- | ------
 |        | "cnba"   | 2013 |💡| Colegio Nacional Buenos Aires                                 | cnba 
-|<td rowspan="2">"portable"</td>    | 2014 |🗄️| -                                                             | CABA 
-|        | "tfaba" | 2015 |❔| Tribunal Fiscal de Apelaciones de Buenos Aires                | La Plata 
+|        | "portable"| 2014 |🗄️| -                                                             | CABA 
+|        | <td rowspan="2">"tfaba"</td> | 2015 |❔| Tribunal Fiscal de Apelaciones de Buenos Aires                | La Plata 
 |        |   ^    | 2017 |❔| Archivo del Centro de Estudios Históricos de la Fuerza Aérea  | CABA 
 |        | "cecrit" | 2017 |💡| Museo Casa de Ricardo Rojas y IIBICRIT/Conicet                | CABA 
 |        | "enve"   | jun/2018 |😀| Biblioteca Central, Facultad de Filosofía y Letras, UBA       | CABA 
