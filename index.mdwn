@@ -56,7 +56,7 @@
 
 <tr>
 <td></td>
-<td>"mdz"</td>
+<td rowspan="2">"mdz"</td>
 <td> sep/2018 </td>
 <td>😀</td>
 <td> Archivo del Agua, Departamento General de Irrigación          </td>
@@ -74,7 +74,7 @@
 
 <tr>
 <td></td>
-<td>"uca"</td>
+<td rowspan="2">"uca"</td>
 <td> 2019 </td>
 <td>😀</td>
 <td> Biblioteca Central Rosario, UCA                               </td>
