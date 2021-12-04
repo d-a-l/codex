@@ -1,16 +1,20 @@
 ### Lista de Dispositivos de digitalización
 
 
-| img    | id     | n | año  | instalado en | src | cad    | caracteristicas |
-| ------ | ------ | ---------- | ------ | ------------ | ------ | ------ | --------------- |
-|        <td rowspan="2">enve</td> | 1 | 2018   | <p>❔ Tribunal Fiscal de Apelaciones de Buenos Aires La Plata (2016) | si     | no     | listones de madera  |
-|         |       | | <p>❔ Archivo del Centro de Estudios Históricos de la Fuerza Aérea (2017) | si     | no     | listones de madera  |
-|        | enve   | 1 | 2018   | <p>😀 Biblioteca Central, Facultad de Filosofía y Letras, UBA | si     | no     | corte laser / platina con soporte posterior |
-|        | M      | 1 | 2018   | <p>❔ Biblioteca de la Academia Nacional de la Historia | ?      | no     | corte laser / platina con soporte lateral / luces LFC  |
-|        | N      | 1 | 2018   | <p>💡 Facultad de Filosofía y Letras, UBA, sede 25 de Mayo | ?      | no     | corte laser / platina con soporte lateral   |
-|        | O      | 1 | 2018   | <p>😀 Biblioteca Ing. Agustín González, AySA       | ?      | no     | corte laser / platina con soporte lateral / Luces LFC  |
-|        | M      | 1 | 2018   | <p>😀 Archivo del Agua, Departamento General de Irrigación, Mendoza | si | no | corte laser / platina con soporte lateral   |
-|        | M2     | 5 | 2019   | <p>😀 Biblioteca Central Rosario, UCA, Rosario (2019) <p>🎁 Universidad Nacional de Rosario, Rosario (2019) <p>🎁 Polo de Digitalización en IdelCoop, Fundación de Educación Cooperativa (2020)<p>🔧 Bibliohack (2021) <p>🔧 Universidad de Connecticut (2021) | si | no | corte laser / platina con soporte lateral / soporte para carpa / luces LED |
+| img    | model  | año  | stat | institucion                                               | ciudad |
+| ------ | ------ | ---- | -- | ----------------------------------------------------------- | ------ |
+|        |  enve  | 2016 |❔| Tribunal Fiscal de Apelaciones de Buenos Aires                | La Plata |
+|        |        | 2017 |❔| Archivo del Centro de Estudios Históricos de la Fuerza Aérea  | CABA |
+|        |  enve  | 2018 |😀| Biblioteca Central, Facultad de Filosofía y Letras, UBA       | CABA |
+|        | M      | 2018 |❔| Biblioteca de la Academia Nacional de la Historia             | CABA  |
+|        | N      | 2018 |💡| Facultad de Filosofía y Letras, UBA, sede 25 de Mayo          | CABA |
+|        | O      | 2018 |😀| Biblioteca Ing. Agustín González, AySA                        | CABA |
+|        | M      | 2018 |😀| Archivo del Agua, Departamento General de Irrigación          | Mendoza |
+|        | M2     | 2019 |😀| Biblioteca Central Rosario, UCA                               | Rosario | 
+|        |        | 2019 |🎁| Universidad Nacional de Rosario                               | Rosario |
+|        |        | 2020 |🎁| Polo de Digitalización en IdelCoop                            | CABA |
+|        |        | 2021 |🔧| Bibliohack
+|        |        | 2021 |🔧|Universidad de Connecticut                                     | Connecticut |
 
 Referencias:
 
