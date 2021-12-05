@@ -207,7 +207,7 @@
 </tr>
 
 <tr>
-<td><img src="/uploads/models/gg.jpg" style="max-width:100px;"></td>
+<td></td>
 <td>dic/2021</td>
 <td>🔧</td>
 <td>Instituto de Investigaciones Gino Germani</td>
