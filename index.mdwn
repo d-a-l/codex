@@ -14,7 +14,7 @@
 <td><img src="/uploads/models/cnba.jpg" style="max-width:100px;"></td>
 <td>abr/2013</td>
 <td>💡</td>
-<td>Colegio Nacional Buenos Aires</td>
+<td>Colegio Nacional Buenos Aires, UBA.</td>
 <td>CABA</td>
 </tr>
 
@@ -23,7 +23,7 @@
 <td><img src="/uploads/models/tfaba.jpg" style="max-width:100px;"></td>
 <td>nov/2015</td>
 <td>❔</td>
-<td>Tribunal Fiscal de Apelaciones de Buenos Aires</td>
+<td>Tribunal Fiscal de Apelaciones de Buenos Aires.</td>
 <td>La Plata</td>
 </tr>
 
@@ -31,7 +31,7 @@
 <td><img src="/uploads/models/ffaa.jpg" style="max-width:100px;"></td>
 <td>mar/2016</td>
 <td>❔</td>
-<td>Archivo del Centro de Estudios Históricos de la Fuerza Aérea.</td>
+<td>Archivo del Centro de Estudios Históricos de la Fuerza Aérea Argentina.</td>
 <td>CABA</td>
 </tr>
 
@@ -40,7 +40,7 @@
 <td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
 <td>jun/2018 </td>
 <td>😀</td>
-<td> Biblioteca Central, Facultad de Filosofía y Letras, UBA       </td>
+<td> Biblioteca Central, Facultad de Filosofía y Letras, UBA.</td>
 <td> CABA </td>
 </tr>
 
@@ -49,7 +49,7 @@
 <td><img src="/uploads/models/aysa.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>😀</td>
-<td> Biblioteca Ing. Agustín González, AySA                        </td>
+<td> Biblioteca Ing. Agustín González, AySA.</td>
 <td> CABA </td>
 </tr>
 
@@ -58,7 +58,7 @@
 <td><img src="/uploads/models/anh.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>💡</td>
-<td> Biblioteca de la Academia Nacional de la Historia             </td>
+<td> Biblioteca de la Academia Nacional de la Historia.</td>
 <td> CABA </td>
 </tr>
 
@@ -67,7 +67,7 @@
 <td><img src="/uploads/models/25m.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>💡</td>
-<td> Facultad de Filosofía y Letras, UBA, sede 25 de Mayo          </td>
+<td> Facultad de Filosofía y Letras, UBA, (laboratorio de digitalización en la sede 25 de Mayo).</td>
 <td> CABA </td>
 </tr>
 
@@ -76,7 +76,7 @@
 <td><img src="/uploads/models/mdz.jpg" style="max-width:100px;"></td>
 <td> sep/2018 </td>
 <td>😀</td>
-<td> Archivo del Agua, Departamento General de Irrigación          </td>
+<td> Archivo del Agua, Departamento General de Irrigación.</td>
 <td> Mendoza </td>
 </tr>
 
@@ -84,7 +84,7 @@
 <td><img src="/uploads/models/unr.jpg" style="max-width:100px;"></td>
 <td> nov/2018 </td>
 <td>🎁</td>
-<td> Universidad Nacional de Rosario                               </td>
+<td> Universidad Nacional de Rosario.</td>
 <td> Rosario </td>
 </tr>
 
@@ -93,7 +93,7 @@
 <td><img src="/uploads/models/uca.jpg" style="max-width:100px;"></td>
 <td> 2019 </td>
 <td>😀</td>
-<td> Biblioteca Central Rosario, UCA                               </td>
+<td> Biblioteca Central Rosario, UCA.</td>
 <td> Rosario </td>  
 </tr>
 
@@ -101,7 +101,7 @@
 <td><img src="/uploads/models/coop.jpg" style="max-width:100px;"></td>
 <td> mar/2020 </td>
 <td>💡</td>
-<td> Polo de Digitalización en IdelCoop                            </td>
+<td> Polo de Digitalización en IdelCoop (Idelcoop, Biblioteca Utopía del Centro Cultural de la Cooperación, Instituto Universitario de la Cooperación y Archivo Histórico del Cooperativismo Argentino)</td>
 <td> CABA </td>
 </tr>
 
@@ -109,7 +109,7 @@
 <td><img src="/uploads/models/cnba2.jpg" style="max-width:100px;"></td>
 <td> dic/2019 </td>
 <td>🔧</td>
-<td> Colegio Nacional Buenos Aires                                 </td>
+<td> Colegio Nacional Buenos Aires, UBA.</td>
 <td> CABA </td>
 </tr>
 
@@ -125,7 +125,7 @@
 <td><img src="/uploads/models/uconn.jpg" style="max-width:100px;"></td>
 <td>2021</td>
 <td>🔧</td>
-<td>Universidad de Connecticut</td>
+<td>Universidad de Connecticut.</td>
 <td>Connecticut</td>
 </tr>
 
