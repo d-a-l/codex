@@ -173,9 +173,9 @@
 <tr>
 <td>mamba</td>
 <td><img src="/uploads/models/mamba.jpg" style="max-width:100px;"></td>
-<td>2019</td>
+<td>sept/2017</td>
 <td>💡</td>
-<td>Museo de Arte Moderno de buenos Aires.</td>
+<td>Museo de Arte Moderno de Buenos Aires.</td>
 <td>CABA</td>
 </tr>
 
@@ -194,7 +194,7 @@
 <td>dic/2019</td>
 <td>💡</td>
 <td>Academia Nacional de la Historia.</td>
-<td>Bogotá</td>
+<td>CABA</td>
 </tr>
 
 <tr>
