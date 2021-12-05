@@ -47,6 +47,15 @@
 </tr>
 
 <tr>
+<td>[["secrit"|Secrit]]</td>
+<td><img src="/uploads/models/secrit.jpg" style="max-width:100px;"></td>
+<td>mar/2017</td>
+<td>💡</td>
+<td>Casa Museo Rojas / Instituto de Investigaciones Bibliográficas y Crítica Textual (SECRIT/IIBICRIT), Conicet.</td>
+<td>CABA</td>
+</tr>
+
+<tr>
 <td>"enve" </td>
 <td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
 <td>jun/2018 </td>
