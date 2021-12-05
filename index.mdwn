@@ -92,7 +92,7 @@
 </tr>
 
 <tr>
-<td rowspan="2">"mdz"</td>
+<td rowspan="2">"mendoza"</td>
 <td><img src="/uploads/models/mdz.jpg" style="max-width:100px;"></td>
 <td> sep/2018 </td>
 <td>😀</td>
@@ -180,7 +180,7 @@
 </tr>
 
 <tr>
-<td>mamba</td>
+<td>"mamba"</td>
 <td><img src="/uploads/models/mamba.jpg" style="max-width:100px;"></td>
 <td>sept/2017</td>
 <td>💡</td>
