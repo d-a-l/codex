@@ -19,6 +19,23 @@
 </tr>
 
 <tr>
+<td rowspan="2">"tfaba"</td>
+<td><img src="/uploads/models/tfaba.jpg" style="max-width:100px;"></td>
+<td>nov/2015</td>
+<td>❔</td>
+<td>Tribunal Fiscal de Apelaciones de Buenos Aires</td>
+<td>La Plata</td>
+</tr>
+
+<tr>
+<td><img src="/uploads/models/ffaa.jpg" style="max-width:100px;"></td>
+<td>mar/2016</td>
+<td>❔</td>
+<td>Archivo del Centro de Estudios Históricos de la Fuerza Aérea.</td>
+<td>CABA</td>
+</tr>
+
+<tr>
 <td>"enve" </td>
 <td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
 <td>jun/2018 </td>
