@@ -1,6 +1,8 @@
 ### Lista de Dispositivos de digitalización
 
 
+#### Pátina en «V»
+
 <table>
 <thead>
   <tr>
@@ -132,18 +134,92 @@
 </tbody>
 </table>
 
+#### Cenital (*copy stand*)
+
+<table>
+<thead>
+  <tr>
+    <td>model</td><td>imagen</td><td>año</td><td>stat</td><td>institución comitente</td><td>ciudad</td>
+  </tr>
+</thead>
+<tbody>
+
+<tr>
+<td rowspan="2">"cabildo"</td>
+<td><img src="/uploads/models/cabildo.jpg" style="max-width:100px;"></td>
+<td>2017</td>
+<td>❔</td>
+<td>Biblioteca del Museo de Arte Moderno de Buenos Aires.</td>
+<td>CABA</td>
+</tr>
+
+<tr>
+<td><img src="/uploads/models/cabildo2.jpg" style="max-width:100px;"></td>
+<td>2017</td>
+<td>🗄️</td>
+<td>Bibliohack.</td>
+<td>CABA</td>
+</tr>
+
+<tr>
+<td>mamba</td>
+<td><img src="/uploads/models/mamba.jpg" style="max-width:100px;"></td>
+<td>2019</td>
+<td>💡</td>
+<td>Museo de Arte Moderno de buenos Aires.</td>
+<td>CABA</td>
+</tr>
+
+
+<tr>
+<td rowspan="2">"la escaner"</td>
+<td><img src="/uploads/models/bibliored.jpg" style="max-width:100px;"></td>
+<td>nov/2019</td>
+<td>😀</td>
+<td>Bibliored, Biblioteca Pública Gabriel García Márquez.</td>
+<td>Bogotá</td>
+</tr>
+
+<tr>
+<td><img src="/uploads/models/anh2.jpg" style="max-width:100px;"></td>
+<td>dic/2019</td>
+<td>💡</td>
+<td>Academia Nacional de la Historia.</td>
+<td>Bogotá</td>
+</tr>
+
+<tr>
+<td rowspan="2">"cenital"</td>
+<td><img src="/uploads/models/ma.jpg" style="max-width:100px;"></td>
+<td>may/2021</td>
+<td>😀</td>
+<td>Memoria Abierta, en el Espacio Memoria y Derechos Humanos (Ex Esma).</td>
+<td>CABA</td>
+</tr>
+
+<tr>
+<td><img src="/uploads/models/gg.jpg" style="max-width:100px;"></td>
+<td>dic/2021</td>
+<td>🔧</td>
+<td>Instituto de Investigaciones Gino Germani</td>
+<td>CABA</td>
+</tr>
+
+</tbody>
+</table>
+
 
 <div style="font-family: sans-serif; font-size: 12px;" markdown="1">
 
 Referencias:
 
-- 🔧: *ensamble*, en proceso de ensamblado en el lugar
-- 🎁: *ensamblado*, ensamblado, pero no operativo o sin lugar de emplazamiento 
-- 💡: *operativo*, cámaras y software operativo, listo para digitalizar en su emplazamiento de producción
-- 😀: *digitalizando*, el dispositivo está digitalizando en producción
-- 📦: *depositado*, está en desuso o en algun lugar de depósito de la institución
-- ❌: *sin existencia*, el estativo fue destruido, desensamblado o descartado
-- 🗄️: *archivado*, guardado en depósito en Bibliohack, puede haber piezas faltantes o estar parcialmente desarmado
+- 🔧: *ensamble*, en proceso de ensamblado en el lugar.
+- 🎁: *ensamblado*, ensamblado, pero no operativo o sin lugar de emplazamiento.
+- 💡: *operativo*, cámaras y software operativo, listo para digitalizar en su emplazamiento de producción.
+- 😀: *digitalizando*, el dispositivo está digitalizando en producción.
+- 📦: *depositado*, está en desuso o en algun lugar de depósito de la institución.
+- ❌: *sin existencia*, el estativo fue destruido, desensamblado o descartado.
+- 🗄️: *archivado*, guardado en depósito en Bibliohack, puede haber piezas faltantes o estar parcialmente desarmado.
 - ❔: *Sin información*
 
 </div>
