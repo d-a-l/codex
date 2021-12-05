@@ -12,7 +12,7 @@
 <tbody>
 
 <tr>
-<td>"cnba"</td>
+<td>[["cnba"|escaner_cnba]]</td>
 <td><img src="/uploads/models/cnba.jpg" style="max-width:100px;"></td>
 <td>abr/2013</td>
 <td>💡</td>
@@ -30,7 +30,7 @@
 </tr>
 
 <tr>
-<td rowspan="2">"tfaba"</td>
+<td rowspan="2">[["tfaba"|TFABA]]</td>
 <td><img src="/uploads/models/tfaba.jpg" style="max-width:100px;"></td>
 <td>nov/2015</td>
 <td>❔</td>
