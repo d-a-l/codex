@@ -106,8 +106,8 @@
 </tr>
 
 <tr>
-<td></td>
-<td> ene/2020 </td>
+<td><img src="/uploads/models/cnba2.jpg" style="max-width:100px;"></td>
+<td> dic/2019 </td>
 <td>🔧</td>
 <td> Colegio Nacional Buenos Aires                                 </td>
 <td> CABA </td>
@@ -137,11 +137,11 @@
 
 Referencias:
 
-- 🔧: *en ensamble*, en proceso de ensamblado en el lugar
-- 🎁: *instalado*, instalado pero no operativo
-- 💡: *operativo*, cámaras y sistema operativo, listo para digitalizar
-- 😀: *en producción*, el dispositivo está digitalizando en producción
-- 📦: *en depósito*, dispositivo en desuso o depósito en la institución
+- 🔧: *ensamble*, en proceso de ensamblado en el lugar
+- 🎁: *instalado*, instalado pero aun no operativo
+- 💡: *operativo*, cámaras y sistema operativo instalado, listo para digitalizar
+- 😀: *digitalizando*, el dispositivo está digitalizando en producción
+- 📦: *depositado*, está en desuso o en algun lugar de depósito de la institución
 - ❌: *sin existencia*, el estativo fue destruido, desensamblado o descartado
 - 🗄️: *archivado*, guardado en depósito en Bibliohack, puede haber piezas faltantes o estar parcialmente desarmado
 - ❔: *Sin información*
