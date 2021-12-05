@@ -132,9 +132,12 @@
 </tbody>
 </table>
 
+
 Referencias:
 
+
 <div style="font-family: sans-serif; font-size: 12px;" markdown="1">
+
 
 - 🔧: *en ensamble*, en proceso de ensamblado en el lugar
 - 🎁: *instalado*, instalado pero no operativo
