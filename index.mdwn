@@ -57,7 +57,7 @@
 <td>"n"  </td>
 <td><img src="/uploads/models/anh.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
-<td>❔</td>
+<td>💡</td>
 <td> Biblioteca de la Academia Nacional de la Historia             </td>
 <td> CABA </td>
 </tr>
