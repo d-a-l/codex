@@ -23,9 +23,9 @@
 <tr>
 <td>"portatil"</td>
 <td><img src="/uploads/models/portatil.jpg" style="max-width:100px;"></td>
-<td>abr/2015</td>
+<td>2016</td>
 <td>🗄️</td>
-<td>Bibiohack.</td>
+<td>Bibiohack, utilizado entre 2016 y 2017 para demostraciones y eventos.</td>
 <td>CABA</td>
 </tr>
 
