@@ -115,18 +115,18 @@
 
 <tr>
 <td></td>
-<td> 2021 </td>
+<td>2021</td>
 <td>🔧</td>
-<td> Bibliohack                                                    </td>
-<td> CABA </td>
+<td>Bibliohack</td>
+<td>CABA</td>
 </tr>
 
 <tr>
-<td></td>
-<td> 2021 </td>
+<td><img src="/uploads/models/uconn.jpg" style="max-width:100px;"></td>
+<td>2021</td>
 <td>🔧</td>
-<td> Universidad de Connecticut                                    </td>
-<td> Connecticut </td>
+<td>Universidad de Connecticut</td>
+<td>Connecticut</td>
 </tr>
 
 </tbody>
