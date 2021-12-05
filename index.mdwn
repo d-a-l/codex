@@ -157,16 +157,16 @@
 <td rowspan="2">"cabildo"</td>
 <td><img src="/uploads/models/cabildo.jpg" style="max-width:100px;"></td>
 <td>2017</td>
-<td>❔</td>
-<td>Biblioteca del Museo de Arte Moderno de Buenos Aires.</td>
+<td>📦</td>
+<td>Bibliohack.</td>
 <td>CABA</td>
 </tr>
 
 <tr>
-<td><img src="/uploads/models/cabildo2.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/bib_mamba.jpg" style="max-width:100px;"></td>
 <td>2017</td>
 <td>🗄️</td>
-<td>Bibliohack.</td>
+<td>Biblioteca del Museo de Arte Moderno de Buenos Aires.</td>
 <td>CABA</td>
 </tr>
 
