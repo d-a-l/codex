@@ -166,7 +166,7 @@
 <td rowspan="2">"cabildo"</td>
 <td><img src="/uploads/models/cabildo.jpg" style="max-width:100px;"></td>
 <td>2017</td>
-<td>📦</td>
+<td>🗄️</td>
 <td>Bibliohack.</td>
 <td>CABA</td>
 </tr>
@@ -174,7 +174,7 @@
 <tr>
 <td><img src="/uploads/models/bib_mamba.jpg" style="max-width:100px;"></td>
 <td>2017</td>
-<td>🗄️</td>
+<td>📦</td>
 <td>Biblioteca del Museo de Arte Moderno de Buenos Aires.</td>
 <td>CABA</td>
 </tr>
@@ -231,11 +231,11 @@
 
 Referencias:
 
-- 🔧: *ensamble*, en proceso de ensamblado en el lugar.
-- 🎁: *ensamblado*, ensamblado, pero no operativo o sin lugar de emplazamiento.
-- 💡: *operativo*, cámaras y software operativo, listo para digitalizar en su emplazamiento de producción.
+- 🔧: *en ensamble*, en proceso de ensamblado.
+- 🎁: *ensamblado*, armado pero no operativo o sin lugar de emplazamiento.
+- 💡: *operativo*, cámaras y software operativo, listo para digitalizar en su emplazamiento definitivo.
 - 😀: *digitalizando*, el dispositivo está digitalizando en producción.
-- 📦: *depositado*, está en desuso o en algun lugar de depósito de la institución.
+- 📦: *depositado*, en desuso o en depósito dentro de la institución comitente.
 - ❌: *sin existencia*, el estativo fue destruido, desensamblado o descartado.
 - 🗄️: *archivado*, guardado en depósito en Bibliohack, puede haber piezas faltantes o estar parcialmente desarmado.
 - ❔: *Sin información*
