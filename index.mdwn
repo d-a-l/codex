@@ -21,15 +21,6 @@
 </tr>
 
 <tr>
-<td>"portatil"</td>
-<td><img src="/uploads/models/portatil.jpg" style="max-width:100px;"></td>
-<td>2016</td>
-<td>🗄️</td>
-<td>Bibiohack, utilizado entre 2016 y 2017 para demostraciones y eventos.</td>
-<td>CABA</td>
-</tr>
-
-<tr>
 <td rowspan="2">[["tfaba"|TFABA]]</td>
 <td><img src="/uploads/models/tfaba.jpg" style="max-width:100px;"></td>
 <td>nov/2015</td>
@@ -43,6 +34,15 @@
 <td>mar/2016</td>
 <td>❔</td>
 <td>Archivo del Centro de Estudios Históricos de la Fuerza Aérea Argentina.</td>
+<td>CABA</td>
+</tr>
+
+<tr>
+<td>"portatil"</td>
+<td><img src="/uploads/models/portatil.jpg" style="max-width:100px;"></td>
+<td>2016</td>
+<td>🗄️</td>
+<td>Bibiohack, utilizado entre 2016 y 2017 para demostraciones y eventos.</td>
 <td>CABA</td>
 </tr>
 
