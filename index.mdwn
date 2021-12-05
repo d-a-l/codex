@@ -6,7 +6,7 @@
 <table>
 <thead>
   <tr>
-    <td>model</td><td>imagen</td><td>año</td><td>stat</td><td>institución comitente</td><td>ciudad</td>
+    <td>modelo</td><td>imagen</td><td>año</td><td>stat</td><td>institución comitente</td><td>ciudad</td>
   </tr>
 </thead>
 <tbody>
@@ -157,7 +157,7 @@
 <table>
 <thead>
   <tr>
-    <td>model</td><td>imagen</td><td>año</td><td>stat</td><td>institución comitente</td><td>ciudad</td>
+    <td>modelo</td><td>imagen</td><td>año</td><td>stat</td><td>institución comitente</td><td>ciudad</td>
   </tr>
 </thead>
 <tbody>
