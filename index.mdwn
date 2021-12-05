@@ -1,7 +1,7 @@
 ### Lista de Dispositivos de digitalización
 
 
-#### Pátina en «V»
+#### Plátina en «V»
 
 <table>
 <thead>
@@ -17,6 +17,15 @@
 <td>abr/2013</td>
 <td>💡</td>
 <td>Colegio Nacional Buenos Aires, UBA.</td>
+<td>CABA</td>
+</tr>
+
+<tr>
+<td>"portatil"</td>
+<td><img src="/uploads/models/portatil.jpg" style="max-width:100px;"></td>
+<td>abr/2015</td>
+<td>🗄️</td>
+<td>Bibiohack.</td>
 <td>CABA</td>
 </tr>
 
