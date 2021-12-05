@@ -12,7 +12,7 @@
 <tr>
 <td>"cnba"</td>
 <td><img src="/uploads/models/cnba.jpg" style="max-width:100px;"></td>
-<td>2013</td>
+<td>abr/2013</td>
 <td>💡</td>
 <td>Colegio Nacional Buenos Aires</td>
 <td>CABA</td>
