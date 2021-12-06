@@ -17,7 +17,7 @@
 <td>abr/2013</td>
 <td>💡</td>
 <td><b>Colegio Nacional Buenos Aires, UBA.</b><br>
-Objetivo: Digitalización de colecciones especiales que incluyen publicaciones periódicas del siglo XIX, fotografías antiguas, documentación sobre la historia del colegio y revistas estudiantiles; para acceso y visibilización a través de una biblioteca digital.</td>
+Objetivo: Digitalización de colecciones especiales que incluyen publicaciones periódicas del siglo XIX, fotografías antiguas, documentación sobre la historia del colegio y revistas estudiantiles; para acceso y visibilización a través de una biblioteca digital. mas info: <a href="https://bibliohack.org/tags/cnba/">aqui</a>.</td>
 <td>CABA</td>
 </tr>
 
