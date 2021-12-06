@@ -1,0 +1,27 @@
+### Info (desactualizada) sobre software libre para digitalización
+
+* Software específico para post-procesamiento de DIYBookScanners
+  - [[Scan Tailor|scan_tailor]]
+  - [[Spreads]] (<http://spreads.readthedocs.org/en/latest/>)
+  - [[dalclick]] (<https://github.com/d-a-l/dalclick>)
+  - pi-scan -> [Pi Scan is a simple, robust capture appliance for book scanners. It runs on a Raspberry Pi 2.](https://github.com/Tenrec-Builders/pi-scan)
+* OCR
+  - [[tesseract-ocr]]
+  - [[cuneiform]]
+  - [[ocropus]] [sitio web](https://code.google.com/p/ocropus/)
+* Preproceso para OCR
+  - [[textcleaner]] http://www.fmwconcepts.com/imagemagick/textcleaner/index.php ([via](http://vbridge.co.uk/2012/11/05/how-we-tuned-tesseract-to-perform-as-well-as-a-commercial-ocr-package/))
+* Generadores de formatos finales para libros electrónicos
+  - [[djvubind]] - Generador de archivos en formato [djvu](http://es.wikipedia.org/djvu)
+  - [[pdfbeads]] - Generador de archivos en formato PDF
+  - [[gscan2pdf]] - Generador de archivos en formato PDF y djvu
+* Procesadores de imágenes genéricos
+  - [[ImageMagick]]
+  - [[Python Imaging Library (PIL)|PIL]] - Librería de procesamiento de imágenes de Python
+* Control y conexión con cámaras
+  - [[Gphoto]] - La librería genérica para conectar cámaras digitales a PCs en GNU/Linux
+  - [[Ptpcam]] - Cliente para controlar las funciones PTP de CHDK
+  - [[chdkptp]] - Idem
+* Visores de imágenes / renombrado / rotado / acciones en lote
+  - [[Geeqie]] - Visor y organizador de imágenes
+  - [[Phatch]] - Acciones en lote sobre imágenes (obsoleto)
