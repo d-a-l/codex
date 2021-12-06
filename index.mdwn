@@ -265,40 +265,25 @@ Otros prototipos construidos antes de 2013 (DAL)
 * [[DaL]] modificaciones sobre el "modelo estandar" publicado en el foro diybookscanner
 
 
-### Software Libre para digitalización
+### Stack de software libre para digitalización utilizado por Bibliohack
 
-* Software específico para post-procesamiento de DIYBookScanners
-  - [[Scan Tailor|scan_tailor]]
-  - [[Spreads]] (<http://spreads.readthedocs.org/en/latest/>)
-  - [[dalclick]] (<https://github.com/d-a-l/dalclick>)
-  - pi-scan -> [Pi Scan is a simple, robust capture appliance for book scanners. It runs on a Raspberry Pi 2.](https://github.com/Tenrec-Builders/pi-scan)
-* OCR
-  - [[tesseract-ocr]]
-  - [[cuneiform]]
-  - [[ocropus]] [sitio web](https://code.google.com/p/ocropus/)
-* Preproceso para OCR
-  - [[textcleaner]] http://www.fmwconcepts.com/imagemagick/textcleaner/index.php ([via](http://vbridge.co.uk/2012/11/05/how-we-tuned-tesseract-to-perform-as-well-as-a-commercial-ocr-package/))
-* Generadores de formatos finales para libros electrónicos
-  - [[djvubind]] - Generador de archivos en formato [djvu](http://es.wikipedia.org/djvu)
-  - [[pdfbeads]] - Generador de archivos en formato PDF
-  - [[gscan2pdf]] - Generador de archivos en formato PDF y djvu
-* Procesadores de imágenes genéricos
-  - [[ImageMagick]]
-  - [[Python Imaging Library (PIL)|PIL]] - Librería de procesamiento de imágenes de Python
-* Control y conexión con cámaras
-  - [[Gphoto]] - La librería genérica para conectar cámaras digitales a PCs en GNU/Linux
-  - [[Ptpcam]] - Cliente para controlar las funciones PTP de CHDK
-  - [[chdkptp]] - Idem
-* Visores de imágenes / renombrado / rotado / acciones en lote
-  - [[Geeqie]] - Visor y organizador de imágenes
-  - [[Phatch]] - Acciones en lote sobre imágenes (obsoleto)
+#### Bibliohack Stack
 
-### Software Libre para Cámaras Digitales
+ - [Instalador del stack de software de Bibliohack](https://github.com/Bibliohack/bibliohack_stack) en github (sólo para Ubuntu 18.04).
+ - [[Bibliohack_Stack]]: pagina de referencia sobre cada componente. 
+ - [[Bibliohack_instalador]]: instrucciones paso a paso de cómo realizar la instalación del paquete de software y del sistema operativo.
 
-* Canon
-  - [[CHDK]] - Canon Hackers Development Kit
+#### Instalación manual de cada componente
+
+ - [[scan_tailor]] (en todas sus versiones).
+ - [[Tesseract OCR|tesseract-ocr]]
+ - [[PDFbeads|pdfbeads]] y [pdfbeads-kopi](https://github.com/Bibliohack/pdfbeads-kopi). (pdfbeads-kopi es un fork de pdfbeads que se instala en las ultimas versiones de Ubuntu/Debian).
+ - [[chdkptp]] (extensión Picture Transfer Protocol para Canon Hack Development Kit <https://app.assembla.com/wiki/show/chdkptp>).
+ - [[CHDK]] recursos para la instalación de CHDK.
 
 ----
+
+[[software libre para digitalización]]
 
 [[La Pila]] - [[instalaciones-mayo-2014]] - [[ddam]] - [Ikiwiki tips](http://dalwiki.derechoaleer.org/instalarikiwiki/) - [[Freecad-y-git]]
 
