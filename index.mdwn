@@ -37,7 +37,7 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 </tr>
 
 <tr>
-<td rowspan="2">[["tfaba"|TFABA]]<br>tabloide</td>
+<td rowspan="2"><code>[["tfaba"|TFABA]]</code><br>tabloide</td>
 <td><img src="/uploads/models/tfaba.jpg" style="max-width:100px;"></td>
 <td>nov/2015</td>
 <td>❔</td>
