@@ -45,7 +45,7 @@ Objetivo: Puesta en valor el material de archivo de la Fuerza. Digitalizar el ma
 <td><img src="/uploads/models/portatil.jpg" style="max-width:100px;"></td>
 <td>2016</td>
 <td>🗄️</td>
-<td>Bibiohack, utilizado entre 2016 y 2017 para demostraciones y eventos. El dispositivo puede desarmarse y plegarse fácilmente hasta adquirir el tamaño de una valija de mano.</td>
+<td>Utilizado entre 2016 y 2017 para demostraciones y eventos. El dispositivo puede desarmarse y plegarse fácilmente hasta adquirir el tamaño de una valija de mano.</td>
 <td>CABA</td>
 </tr>
 
@@ -178,7 +178,7 @@ Objetivo: Documentación y desarrollo de un kit de digitalización en el marco d
 <td><img src="/uploads/models/cabildo.jpg" style="max-width:100px;"></td>
 <td>2017</td>
 <td>🗄️</td>
-<td>Bibliohack.</td>
+<td>Utilizado en 2017 para demostraciones y eventos en Buenos Aires, Rosario y Mar del Plata.</td>
 <td>CABA</td>
 </tr>
 
