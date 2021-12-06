@@ -27,7 +27,7 @@ Referencias:
 <tbody>
 
 <tr>
-<td><code>[[cnba|escaner_cnba]]</code><hr>A3<hr><a href="/cnba_preparacion_del_escaner">[esquemas]</a></td>
+<td class="model"><code>[[cnba|escaner_cnba]]</code><hr>A3<hr><a href="/cnba_preparacion_del_escaner">[esquemas]</a></td>
 <td><img src="/uploads/models/cnba.jpg" style="max-width:100px;"></td>
 <td>abr/2013</td>
 <td>💡</td>
@@ -37,7 +37,7 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 </tr>
 
 <tr>
-<td rowspan="2"><code>[[tfaba|TFABA]]</code><hr>tabloide</td>
+<td class="model" rowspan="2"><code>[[tfaba|TFABA]]</code><hr>tabloide</td>
 <td><img src="/uploads/models/tfaba.jpg" style="max-width:100px;"></td>
 <td>nov/2015</td>
 <td>❔</td>
@@ -56,7 +56,7 @@ Objetivo: Puesta en valor el material de archivo de la Fuerza. Digitalizar el ma
 </tr>
 
 <tr>
-<td><code>[[portatil|portatil_mdq]]</code><hr>oficio</td>
+<td class="model"><code>[[portatil|portatil_mdq]]</code><hr>oficio</td>
 <td><img src="/uploads/models/portatil.jpg" style="max-width:100px;"></td>
 <td>2016</td>
 <td>🗄️</td>
@@ -65,7 +65,7 @@ Objetivo: Puesta en valor el material de archivo de la Fuerza. Digitalizar el ma
 </tr>
 
 <tr>
-<td><code>[[secrit|Secrit]]</code><hr>tabloide</td>
+<td class="model"><code>[[secrit|Secrit]]</code><hr>tabloide</td>
 <td><img src="/uploads/models/secrit.jpg" style="max-width:100px;"></td>
 <td>mar/2017</td>
 <td>💡</td>
@@ -75,7 +75,7 @@ Objetivo: En el Secrit, la <a href="https://bibliohack.org/posts/Estativo_en_V_i
 </tr>
 
 <tr>
-<td><code>enve</code><hr>tabloide</td>
+<td class="model"><code>enve</code><hr>tabloide</td>
 <td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
 <td>jun/2018 </td>
 <td>😀</td>
@@ -85,7 +85,7 @@ Objetivo: Utilizar el dispositivo en el marco del programa de digitalización de
 </tr>
 
 <tr>
-<td><code>m</code><hr>tabloide</td>
+<td class="model"><code>m</code><hr>tabloide</td>
 <td><img src="/uploads/models/aysa.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>😀</td>
@@ -95,7 +95,7 @@ Objetivo: Digitalización de los fondos de la biblioteca para acceso y preservac
 </tr>
 
 <tr>
-<td><code>n</code><hr>tabloide</td>
+<td class="model"><code>n</code><hr>tabloide</td>
 <td><img src="/uploads/models/anh.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>💡</td>
@@ -105,7 +105,7 @@ Objetivo: digitalización de acervos documentales históricos para acceso abiert
 </tr>
 
 <tr>
-<td><code>o</code><hr>tabloide</td>
+<td class="model"><code>o</code><hr>tabloide</td>
 <td><img src="/uploads/models/25m.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>💡</td>
@@ -115,7 +115,7 @@ Objetivo: Poner a disposicion el equipo para ser utilizado por los institutos de
 </tr>
 
 <tr>
-<td rowspan="2"><code>mendoza</code><hr>tabloide<hr><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/mendoza">[corte&nbsp;láser]</td>
+<td class="model" rowspan="2"><code>mendoza</code><hr>tabloide<hr><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/mendoza">[corte&nbsp;láser]</td>
 <td><img src="/uploads/models/mdz.jpg" style="max-width:100px;"></td>
 <td> sep/2018 </td>
 <td>😀</td>
@@ -133,7 +133,7 @@ Objetivo: Digitalización de documentos históricos del archivo para puesta en v
 </tr>
 
 <tr>
-<td rowspan="5"><code>uca</code><hr>tabloide<hr><a target="_blank" title="Curvas en svg y pdf para corte laser"  href="https://github.com/d-a-l/estativos-desarrollo/tree/master/uca">[corte&nbsp;láser]</a></td>
+<td class="model" rowspan="5"><code>uca</code><hr>tabloide<hr><a target="_blank" title="Curvas en svg y pdf para corte laser"  href="https://github.com/d-a-l/estativos-desarrollo/tree/master/uca">[corte&nbsp;láser]</a></td>
 <td><img src="/uploads/models/uca.jpg" style="max-width:100px;"></td>
 <td> 2019 </td>
 <td>😀</td>
@@ -190,7 +190,7 @@ Objetivo: Documentación y desarrollo de un kit de digitalización en el marco d
 <tbody>
 
 <tr>
-<td rowspan="2"><code>cabildo</code><hr>A3</td>
+<td class="model" rowspan="2"><code>cabildo</code><hr>A3</td>
 <td><img src="/uploads/models/cabildo.jpg" style="max-width:100px;"></td>
 <td>2017</td>
 <td>🗄️</td>
@@ -208,7 +208,7 @@ Objetivo: poner en valor fondos documentales sobre la historia del arte moderno.
 </tr>
 
 <tr>
-<td><code>[[mamba|mamba]]</code><hr><a href="https://bibliohack.org/posts/Tecnolog%C3%ADa_Abierta_y_Documentos_de_Arte_Moderno/#desarrolloamedida">[esquemas]</a></td>
+<td class="model"><code>[[mamba|mamba]]</code><hr><a href="https://bibliohack.org/posts/Tecnolog%C3%ADa_Abierta_y_Documentos_de_Arte_Moderno/#desarrolloamedida">[esquemas]</a></td>
 <td><img src="/uploads/models/mamba.jpg" style="max-width:100px;"></td>
 <td>sept/2017</td>
 <td>💡</td>
@@ -219,7 +219,7 @@ Objetivo: Relevar la viabilidad del dispositivo y digitalizar material del archi
 
 
 <tr>
-<td rowspan="2"><code>[[la&nbsp;escáner|la_escaner]]</code><hr><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/colombia/1000x700">[corte&nbsp;láser]<br><a title="videos con instrucciones de ensamblado" href="Opencon_Latam_2019_Colombia">[manual]</a></td>
+<td class="model" rowspan="2"><code>[[la&nbsp;escáner|la_escaner]]</code><hr><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/colombia/1000x700">[corte&nbsp;láser]<br><a title="videos con instrucciones de ensamblado" href="Opencon_Latam_2019_Colombia">[manual]</a></td>
 <td><img src="/uploads/models/bibliored.jpg" style="max-width:100px;"></td>
 <td>nov/2019</td>
 <td>😀</td>
@@ -237,7 +237,7 @@ Objetivo: Relevar la viabilidad de la construcción remota del dispositivo y des
 </tr>
 
 <tr>
-<td rowspan="2"><code>[[cenital|cenita]]</code><hr><a title="Proyecto FreeCAD" target="_blank" href="https://github.com/Bibliohack/Cenital">[FreeCAD]</a><br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/Bibliohack/Cenital/tree/GG-model/_laser_cut/1250x900mm">[corte&nbsp;láser]</a></td>
+<td class="model" rowspan="2"><code>[[cenital|cenita]]</code><hr><a title="Proyecto FreeCAD" target="_blank" href="https://github.com/Bibliohack/Cenital">[FreeCAD]</a><br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/Bibliohack/Cenital/tree/GG-model/_laser_cut/1250x900mm">[corte&nbsp;láser]</a></td>
 <td><img src="/uploads/models/ma.jpg" style="max-width:100px;"></td>
 <td>may/2021</td>
 <td>😀</td>
@@ -261,7 +261,7 @@ Objetivo: Digitalización del fondo documental Gino Germani <a href="https://www
 
 **Proyecto DaL**
 
-El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la construcción de estativos del ["modelo estandar"](https://forum.diybookscanner.org/viewtopic.php?f=1&t=333) publicado en el foro diybookscanner con variaciones y agregados.
+El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la construcción de estativos del ["modelo estandar"](https://forum.diybookscanner.org/viewtopic.php?f=1&t=333) publicado en el foro diybookscanner, con variaciones y agregados.
 
 <table>
 <thead>
@@ -272,7 +272,7 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 <tbody>
 
 <tr>
-<td rowspan="2"><code>dal</code><hr>A4</td>
+<td class="model" rowspan="2"><code>dal</code><hr>A4</td>
 <td><img src="/uploads/models/dal.jpg" style="max-width:100px;"></td>
 <td>2011</td>
 <td>🗄️</td>
@@ -289,7 +289,7 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 </tr>
 
 <tr>
-<td rowspan="3"><code>dal&nbsp;v2</code><hr>A4</td>
+<td class="model" rowspan="3"><code>dal&nbsp;v2</code><hr>A4</td>
 <td><img src="/uploads/models/dalv2.jpg" style="max-width:100px;"></td>
 <td>2012</td>
 <td>🗄️</td>
