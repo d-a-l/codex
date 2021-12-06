@@ -259,10 +259,65 @@ Objetivo: Digitalización del fondo documental Gino Germani <a href="https://www
 </tbody>
 </table>
 
-Otros prototipos construidos antes de 2013 (DAL)
+**Proyecto DaL**
 
-* [[DaL]] modificaciones sobre el "modelo estandar" publicado en el foro diybookscanner
+El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la construcción de estativos del ["modelo estandar"](https://forum.diybookscanner.org/viewtopic.php?f=1&t=333) publicado en el foro diybookscanner con variaciones y agregados.
 
+<table>
+<thead>
+  <tr>
+    <td>modelo</td><td>imagen</td><td>año</td><td>stat</td><td>institución comitente</td><td>ciudad</td>
+  </tr>
+</thead>
+<tbody>
+
+<tr>
+<td>"dal"<br>A4</td>
+<td><img src="/uploads/models/dal1.jpg" style="max-width:100px;"></td>
+<td>2011</td>
+<td>💡</td>
+<td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
+<td>CABA</td>
+</tr>
+
+<tr>
+<td>"dal"<br>A4</td>
+<td><img src="/uploads/models/dal2.jpg" style="max-width:100px;"></td>
+<td>2012</td>
+<td>💡</td>
+<td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
+<td>CABA</td>
+</tr>
+
+<tr>
+<td>"dal v2"<br>A4</td>
+<td><img src="/uploads/models/dalv2.jpg" style="max-width:100px;"></td>
+<td>2012</td>
+<td>💡</td>
+<td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
+<td>CABA</td>
+</tr>
+
+<tr>
+<td>"dal v2"<br>A4</td>
+<td><img src="/uploads/models/sedici.jpg" style="max-width:100px;"></td>
+<td>2012</td>
+<td>💡</td>
+<td><b>SeDiCI (Servicio de Difusión de la Creación Intelectual)</b> de la Universidad Nacional de La Plata.</b><br>El dispositivo fue posteriormente transformado en un estativo cenital.</td>
+<td>La Plata</td>
+</tr>
+
+<tr>
+<td>"dal v2"<br>A4</td>
+<td><img src="/uploads/models/bibhuma.jpg" style="max-width:100px;"></td>
+<td>2012</td>
+<td>💡</td>
+<td><b>Biblioteca "Profesor Guillermo Obiols"</b> de la Facultad de Humanidades y Ciencias de la Educación (BIBHUMA) de la Universidad Nacional de La Plata.<br> Realizado por medio de un Convenio con Wikimedia Argentina.</td>
+<td>La Plata</td>
+</tr>
+
+</tbody>
+</table>
 
 ### Stack de software libre para digitalización utilizado por Bibliohack
 
