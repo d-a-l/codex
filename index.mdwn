@@ -186,7 +186,8 @@ Objetivo: Documentación y desarrollo de un kit de digitalización en el marco d
 <td><img src="/uploads/models/bib_mamba.jpg" style="max-width:100px;"></td>
 <td>2017</td>
 <td>📦</td>
-<td><b>Biblioteca del Museo de Arte Moderno de Buenos Aires.</b></td>
+<td><b>Biblioteca del Museo de Arte Moderno de Buenos Aires.</b><br>
+Objetivo: poner en valor fondos documentales sobre la historia del arte moderno.</td>
 <td>CABA</td>
 </tr>
 
@@ -202,7 +203,7 @@ Objetivo: Relevar la viabilidad del dispositivo y digitalizar material del archi
 
 
 <tr>
-<td rowspan="2">[["la escaner"|la_escaner]]<br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/colombia/1000x700">[laser]</td>
+<td rowspan="2">[["la&nbsp;escáner"|la_escaner]]<br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/colombia/1000x700">[laser]<br><a title="videos con instrucciones de ensamblado" href="Opencon_Latam_2019_Colombia">[manual]</a></td>
 <td><img src="/uploads/models/bibliored.jpg" style="max-width:100px;"></td>
 <td>nov/2019</td>
 <td>😀</td>
