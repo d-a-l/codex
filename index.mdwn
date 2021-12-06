@@ -190,7 +190,7 @@ Objetivo: Documentación y desarrollo de un kit de digitalización en el marco d
 <tbody>
 
 <tr>
-<td rowspan="2">"cabildo"<br>A3</td>
+<td rowspan="2"><i>"cabildo"</i><br>A3</td>
 <td><img src="/uploads/models/cabildo.jpg" style="max-width:100px;"></td>
 <td>2017</td>
 <td>🗄️</td>
@@ -208,7 +208,7 @@ Objetivo: poner en valor fondos documentales sobre la historia del arte moderno.
 </tr>
 
 <tr>
-<td>[["mamba"|mamba]]<br><a href="https://bibliohack.org/posts/Tecnolog%C3%ADa_Abierta_y_Documentos_de_Arte_Moderno/#desarrolloamedida">[esquemas]</a></td>
+<td><i>[["mamba"|mamba]]</i><br><a href="https://bibliohack.org/posts/Tecnolog%C3%ADa_Abierta_y_Documentos_de_Arte_Moderno/#desarrolloamedida">[esquemas]</a></td>
 <td><img src="/uploads/models/mamba.jpg" style="max-width:100px;"></td>
 <td>sept/2017</td>
 <td>💡</td>
@@ -219,7 +219,7 @@ Objetivo: Relevar la viabilidad del dispositivo y digitalizar material del archi
 
 
 <tr>
-<td rowspan="2">[["la&nbsp;escáner"|la_escaner]]<br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/colombia/1000x700">[laser]<br><a title="videos con instrucciones de ensamblado" href="Opencon_Latam_2019_Colombia">[manual]</a></td>
+<td rowspan="2"><i>[["la&nbsp;escáner"|la_escaner]]</i><br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/colombia/1000x700">[laser]<br><a title="videos con instrucciones de ensamblado" href="Opencon_Latam_2019_Colombia">[manual]</a></td>
 <td><img src="/uploads/models/bibliored.jpg" style="max-width:100px;"></td>
 <td>nov/2019</td>
 <td>😀</td>
@@ -237,7 +237,7 @@ Objetivo: Relevar la viabilidad de la construcción remota del dispositivo y des
 </tr>
 
 <tr>
-<td rowspan="2">[["cenital"|cenita]]<br><a title="Proyecto FreeCAD" target="_blank" href="https://github.com/Bibliohack/Cenital">[FreeCAD]</a><br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/Bibliohack/Cenital/tree/GG-model/_laser_cut/1250x900mm">[corte láser]</a></td>
+<td rowspan="2"><i>[["cenital"|cenita]]</i><br><a title="Proyecto FreeCAD" target="_blank" href="https://github.com/Bibliohack/Cenital">[FreeCAD]</a><br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/Bibliohack/Cenital/tree/GG-model/_laser_cut/1250x900mm">[corte láser]</a></td>
 <td><img src="/uploads/models/ma.jpg" style="max-width:100px;"></td>
 <td>may/2021</td>
 <td>😀</td>
@@ -272,7 +272,7 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 <tbody>
 
 <tr>
-<td rowspan="2">"dal"<br>A4</td>
+<td rowspan="2"><i>"dal"</i><br>A4</td>
 <td><img src="/uploads/models/dal.jpg" style="max-width:100px;"></td>
 <td>2011</td>
 <td>🗄️</td>
@@ -289,7 +289,7 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 </tr>
 
 <tr>
-<td rowspan="3">"dal v2"<br>A4</td>
+<td rowspan="3"><i>"dal&nbsp;v2"</i><br>A4</td>
 <td><img src="/uploads/models/dalv2.jpg" style="max-width:100px;"></td>
 <td>2012</td>
 <td>❌</td>
@@ -332,11 +332,9 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
  - [[chdkptp]] (extensión Picture Transfer Protocol para Canon Hack Development Kit <https://app.assembla.com/wiki/show/chdkptp>).
  - [[CHDK]] recursos para la instalación de CHDK.
 
-----
+### De Todo
 
-[[software libre para digitalización]]
-
-[[La Pila]] - [[instalaciones-mayo-2014]] - [[ddam]] - [Ikiwiki tips](http://dalwiki.derechoaleer.org/instalarikiwiki/) - [[Freecad-y-git]]
+[[La Pila]] - [[instalaciones-mayo-2014]] - [[ddam]] - [Ikiwiki tips](http://dalwiki.derechoaleer.org/instalarikiwiki/) - [[Freecad-y-git]] - [[software libre para digitalización]]
 
 [[Opencon Latam 2019 Colombia]]
 
@@ -347,8 +345,6 @@ Utilidades
 
 GNU/Linux:
 
-* [[Bibliohack instalador]]
-* [[Bibliohack Stack]]
 * [[Comparativa de distribuciones Linux]]
 * Instalación: [[Instalar ISO desde disco rígido con grub2]]
 * Tips [[Escritorios]]
