@@ -27,7 +27,7 @@ Referencias:
 <tbody>
 
 <tr>
-<td><code>[[cnba|escaner_cnba]]</code><hr>A3</td>
+<td><code>[[cnba|escaner_cnba]]</code><hr>A3<hr><a href="/cnba_preparacion_del_escaner">[esquemas]</a></td>
 <td><img src="/uploads/models/cnba.jpg" style="max-width:100px;"></td>
 <td>abr/2013</td>
 <td>💡</td>
