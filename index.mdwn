@@ -16,7 +16,8 @@
 <td><img src="/uploads/models/cnba.jpg" style="max-width:100px;"></td>
 <td>abr/2013</td>
 <td>💡</td>
-<td>Colegio Nacional Buenos Aires, UBA.</td>
+<td>Colegio Nacional Buenos Aires, UBA.<br>
+Objetivo: Digitalización de colecciones especiales que incluyen publicaciones periódicas del siglo XIX, fotografías antiguas, documentación sobre la historia del colegio y revistas estudiantiles; para acceso y visibilización a través de una biblioteca digital.</td>
 <td>CABA</td>
 </tr>
 
@@ -38,7 +39,7 @@
 </tr>
 
 <tr>
-<td>"portatil"</td>
+<td>[["portatil"|portatil_mdq]]</td>
 <td><img src="/uploads/models/portatil.jpg" style="max-width:100px;"></td>
 <td>2016</td>
 <td>🗄️</td>
