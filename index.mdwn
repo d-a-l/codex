@@ -75,7 +75,7 @@ Objetivo: Utilizar el dispositivo en el marco del programa de digitalización de
 <td> jun/2018 </td>
 <td>😀</td>
 <td><b>Biblioteca Ing. Agustín González, AySA.</b>
-Objetivo: Digitalización de los fondos de la biblioteca para acceso y preservación.</td>
+Objetivo: Digitalización de los fondos de la biblioteca para acceso y preservación.<a href="https://bibliohack.org/posts/Bibliohack_en_el_Palacio_de_Aguas_Corrientes/">Más info aquí</a>.</td>
 <td> CABA </td>
 </tr>
 
@@ -95,7 +95,7 @@ Objetivo: digitalización de acervos documentales históricos para acceso abiert
 <td> jun/2018 </td>
 <td>💡</td>
 <td><b>Facultad de Filosofía y Letras, UBA, (laboratorio de digitalización en la sede 25 de Mayo)</b>.<br>
-Objetivo: Poner a disposicion el equipo para ser utilizado por los institutos de investigación en humanidades que funcionan en ese espacio.</td>
+Objetivo: Poner a disposicion el equipo para ser utilizado por los institutos de investigación en humanidades que funcionan en ese espacio. <a href="https://bibliohack.org/posts/Estativos_de_Bibliohack_en_Filosof%c3%ada_y_Letras/#laexperienciaen25demayo">Más info aquí</a>.</td>
 <td> CABA </td>
 </tr>
 
