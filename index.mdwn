@@ -17,7 +17,7 @@
 <td>abr/2013</td>
 <td>💡</td>
 <td><b>Colegio Nacional Buenos Aires, UBA.</b><br>
-Objetivo: Digitalización de colecciones especiales que incluyen publicaciones periódicas del siglo XIX, fotografías antiguas, documentación sobre la historia del colegio y revistas estudiantiles; para acceso y visibilización a través de una biblioteca digital. mas info: <a href="https://bibliohack.org/tags/cnba/">aqui</a>.</td>
+Objetivo: Digitalización de colecciones especiales que incluyen publicaciones periódicas del siglo XIX, fotografías antiguas, documentación sobre la historia del colegio y revistas estudiantiles; para acceso y visibilización a través de una biblioteca digital. <a href="https://bibliohack.org/tags/cnba/">[+info]</a>.</td>
 <td>CABA</td>
 </tr>
 
@@ -36,7 +36,7 @@ Objetivo: Digitalizar tomos con copias únicas de sentencias judiciales desde 19
 <td>mar/2016</td>
 <td>❔</td>
 <td><b>Archivo del Centro de Estudios Históricos de la Fuerza Aérea Argentina (DEHFAA).</b><br>
-Objetivo: Puesta en valor el material de archivo de la Fuerza. Digitalizar el material de consulta frecuente.</td>
+Objetivo: Puesta en valor el material de archivo de la Fuerza. Digitalizar el material de consulta frecuente. <a href="https://bibliohack.org/posts/Digitalizaci%C3%B3n_en_el_Alas/">[+info]</a></td>
 <td>CABA</td>
 </tr>
 
@@ -65,7 +65,7 @@ Objetivo: En el Secrit, la <a href="https://bibliohack.org/posts/Estativo_en_V_i
 <td>jun/2018 </td>
 <td>😀</td>
 <td><b>Biblioteca Central, Facultad de Filosofía y Letras, UBA.</b>
-Objetivo: Utilizar el dispositivo en el marco del programa de digitalización de la biblioteca. <a href="https://bibliohack.org/posts/Estativos_de_Bibliohack_en_Filosof%C3%ADa_y_Letras/">Más info aquí</a>.</td>
+Objetivo: Utilizar el dispositivo en el marco del programa de digitalización de la biblioteca. <a href="https://bibliohack.org/posts/Estativos_de_Bibliohack_en_Filosof%C3%ADa_y_Letras/">[+info]</a>.</td>
 <td> CABA </td>
 </tr>
 
@@ -75,7 +75,7 @@ Objetivo: Utilizar el dispositivo en el marco del programa de digitalización de
 <td> jun/2018 </td>
 <td>😀</td>
 <td><b>Biblioteca Ing. Agustín González, AySA.</b>
-Objetivo: Digitalización de los fondos de la biblioteca para acceso y preservación.<a href="https://bibliohack.org/posts/Bibliohack_en_el_Palacio_de_Aguas_Corrientes/">Más info aquí</a>.</td>
+Objetivo: Digitalización de los fondos de la biblioteca para acceso y preservación. <a href="https://bibliohack.org/posts/Bibliohack_en_el_Palacio_de_Aguas_Corrientes/">[+info]</a>.</td>
 <td> CABA </td>
 </tr>
 
@@ -85,7 +85,7 @@ Objetivo: Digitalización de los fondos de la biblioteca para acceso y preservac
 <td> jun/2018 </td>
 <td>💡</td>
 <td><b>Biblioteca de la Academia Nacional de la Historia.</b><br>
-Objetivo: digitalización de acervos documentales históricos para acceso abierto, en el marco de un programa de colaboración entre la ANH y Wikimedia Argentina. <a href="https://bibliohack.org/posts/Bibliohack_en_la_Academia_Nacional_de_la_Historia/">Más info</a>.</td>
+Objetivo: digitalización de acervos documentales históricos para acceso abierto, en el marco de un programa de colaboración entre la ANH y Wikimedia Argentina. <a href="https://bibliohack.org/posts/Bibliohack_en_la_Academia_Nacional_de_la_Historia/">[+info]</a>.</td>
 <td> CABA </td>
 </tr>
 
@@ -95,7 +95,7 @@ Objetivo: digitalización de acervos documentales históricos para acceso abiert
 <td> jun/2018 </td>
 <td>💡</td>
 <td><b>Facultad de Filosofía y Letras, UBA, (laboratorio de digitalización en la sede 25 de Mayo)</b>.<br>
-Objetivo: Poner a disposicion el equipo para ser utilizado por los institutos de investigación en humanidades que funcionan en ese espacio. <a href="https://bibliohack.org/posts/Estativos_de_Bibliohack_en_Filosof%c3%ada_y_Letras/#laexperienciaen25demayo">Más info aquí</a>.</td>
+Objetivo: Poner a disposicion el equipo para ser utilizado por los institutos de investigación en humanidades que funcionan en ese espacio. <a href="https://bibliohack.org/posts/Estativos_de_Bibliohack_en_Filosof%c3%ada_y_Letras/#laexperienciaen25demayo">[+info]</a>.</td>
 <td> CABA </td>
 </tr>
 
@@ -105,7 +105,7 @@ Objetivo: Poner a disposicion el equipo para ser utilizado por los institutos de
 <td> sep/2018 </td>
 <td>😀</td>
 <td><b>Archivo del Agua, Departamento General de Irrigación.</b><br>
-Objetivo: Digitalización de documentos históricos del archivo para puesta en valor, preservación y acceso.<a href="https://bibliohack.org/tags/archivo-del-agua/">Más info aquí</a>.</td>
+Objetivo: Digitalización de documentos históricos del archivo para puesta en valor, preservación y acceso. <a href="https://bibliohack.org/tags/archivo-del-agua/">[+info]</a>.</td>
 <td> Mendoza </td>
 </tr>
 
@@ -123,7 +123,7 @@ Objetivo: Digitalización de documentos históricos del archivo para puesta en v
 <td> 2019 </td>
 <td>😀</td>
 <td><b>Biblioteca Central Rosario, Pontificia Universidad Católica Argentina (UCA).</b><br>
-Objetivo: Digitalización de colecciones especiales y otros fondos de interés por parte de institutos de investigación. <a href="https://bibliohack.org/posts/Estativo_en_V_en_UCA_Rosario/">Más info aqui</a>.</td>
+Objetivo: Digitalización de colecciones especiales y otros fondos de interés por parte de institutos de investigación. <a href="https://bibliohack.org/posts/Estativo_en_V_en_UCA_Rosario/">[+info]</a>.</td>
 <td> Rosario </td>  
 </tr>
 
@@ -197,7 +197,7 @@ Objetivo: poner en valor fondos documentales sobre la historia del arte moderno.
 <td>sept/2017</td>
 <td>💡</td>
 <td><b>Museo de Arte Moderno de Buenos Aires.</b><br>
-Objetivo: Relevar la viabilidad del dispositivo y digitalizar material del archivo documental del museo. <a href="https://bibliohack.org/tags/el-moderno/">Más información aqui</a>.</td>
+Objetivo: Relevar la viabilidad del dispositivo y digitalizar material del archivo documental del museo. <a href="https://bibliohack.org/tags/el-moderno/">[+info]</a>.</td>
 <td>CABA</td>
 </tr>
 
@@ -208,7 +208,7 @@ Objetivo: Relevar la viabilidad del dispositivo y digitalizar material del archi
 <td>nov/2019</td>
 <td>😀</td>
 <td><b>Bibliored, Biblioteca Pública Gabriel García Márquez.</b><br>
-Objetivo: Relevar la viabilidad de la construcción remota del dispositivo y destinarlo posteriormente a una biblioteca pública. <a href="https://bibliohack.org/posts/Se_armo_el_escaner/">Mas info sobre este proyecto</a></td>
+Objetivo: Relevar la viabilidad de la construcción remota del dispositivo y destinarlo posteriormente a una biblioteca pública. <a href="https://bibliohack.org/posts/Se_armo_el_escaner/">[+info]</a></td>
 <td>Bogotá</td>
 </tr>
 
@@ -226,7 +226,7 @@ Objetivo: Relevar la viabilidad de la construcción remota del dispositivo y des
 <td>may/2021</td>
 <td>😀</td>
 <td><b>Memoria Abierta</b>, en el Espacio Memoria y Derechos Humanos (Ex Esma).<br>
-Objetivo: Digitalizar el acervo documental de las organizaciones de derechos humanos en el marco del programa MEAP (Modern Endangered Archives Program) de la Universidad de California (UCLA), cumpliendo estándares FADGI.<a href="https://bibliohack.org/posts/Digitalizacion_de_la_memoria/">Más info</a>.</td>
+Objetivo: Digitalizar el acervo documental de las organizaciones de derechos humanos en el marco del programa MEAP (Modern Endangered Archives Program) de la Universidad de California (UCLA), cumpliendo estándares FADGI. <a href="https://bibliohack.org/posts/Digitalizacion_de_la_memoria/">[+info]</a>.</td>
 <td>CABA</td>
 </tr>
 
