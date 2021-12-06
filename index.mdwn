@@ -118,7 +118,7 @@ Objetivo: Digitalización de documentos históricos del archivo para puesta en v
 </tr>
 
 <tr>
-<td rowspan="5">"uca"</td>
+<td rowspan="5">"uca"<br><a target="_blank" title="Curvas en svg y pdf para corte laser"  href="https://github.com/d-a-l/estativos-desarrollo/tree/master/uca">[láser]</a></td>
 <td><img src="/uploads/models/uca.jpg" style="max-width:100px;"></td>
 <td> 2019 </td>
 <td>😀</td>
@@ -191,11 +191,12 @@ Objetivo: Documentación y desarrollo de un kit de digitalización en el marco d
 </tr>
 
 <tr>
-<td>"mamba"</td>
+<td>[["mamba"|mamba]]<br><a href="https://bibliohack.org/posts/Tecnolog%C3%ADa_Abierta_y_Documentos_de_Arte_Moderno/#desarrolloamedida">[esquemas]</a></td>
 <td><img src="/uploads/models/mamba.jpg" style="max-width:100px;"></td>
 <td>sept/2017</td>
 <td>💡</td>
-<td><b>Museo de Arte Moderno de Buenos Aires.</b></td>
+<td><b>Museo de Arte Moderno de Buenos Aires.</b><br>
+Objetivo: Relevar la viabilidad del dispositivo y digitalizar material del archivo documental del museo. <a href="https://bibliohack.org/tags/el-moderno/">Más información aqui</a>.</td>
 <td>CABA</td>
 </tr>
 
@@ -206,7 +207,7 @@ Objetivo: Documentación y desarrollo de un kit de digitalización en el marco d
 <td>nov/2019</td>
 <td>😀</td>
 <td><b>Bibliored, Biblioteca Pública Gabriel García Márquez.</b><br>
-Objetivo: Relevar la viavilidad de la construcción remota del dispositivo y destinar el dispositivo a una biblioteca pública. <a href="https://bibliohack.org/posts/Se_armo_el_escaner/">Mas info sobre este proyecto</a></td>
+Objetivo: Relevar la viabilidad de la construcción remota del dispositivo y destinarlo posteriormente a una biblioteca pública. <a href="https://bibliohack.org/posts/Se_armo_el_escaner/">Mas info sobre este proyecto</a></td>
 <td>Bogotá</td>
 </tr>
 
