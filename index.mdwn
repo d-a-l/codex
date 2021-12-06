@@ -147,7 +147,8 @@ Objetivo: Digitalización de colecciones especiales y otros fondos de interés p
 <td></td>
 <td>2021</td>
 <td>🔧</td>
-<td>Bibliohack</td>
+<td>Bibliohack<br>
+Objetivo: Documentación y desarrollo de un kit de digitalización en el marco de <a href="https://bibliohack.org/posts/Alianza_con_la_Universidad_de_Connecticut/">GLAMGear</a>.</td>
 <td>CABA</td>
 </tr>
 
