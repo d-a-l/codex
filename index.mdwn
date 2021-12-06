@@ -26,7 +26,8 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/tfaba.jpg" style="max-width:100px;"></td>
 <td>nov/2015</td>
 <td>❔</td>
-<td>Tribunal Fiscal de Apelaciones de Buenos Aires.</td>
+<td><b>Tribunal Fiscal de Apelaciones de Buenos Aires.</b><br>
+Objetivo: Digitalizar tomos con copias únicas de sentencias judiciales desde 1948 hasta 1999, para búsquedas y acceso por internet.</td>
 <td>La Plata</td>
 </tr>
 
@@ -34,7 +35,8 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/ffaa.jpg" style="max-width:100px;"></td>
 <td>mar/2016</td>
 <td>❔</td>
-<td>Archivo del Centro de Estudios Históricos de la Fuerza Aérea Argentina.</td>
+<td><b>Archivo del Centro de Estudios Históricos de la Fuerza Aérea Argentina (DEHFAA).</b><br>
+Objetivo: Puesta en valor el material de archivo de la Fuerza. Digitalizar el material de consulta frecuente.</td>
 <td>CABA</td>
 </tr>
 
@@ -43,7 +45,7 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/portatil.jpg" style="max-width:100px;"></td>
 <td>2016</td>
 <td>🗄️</td>
-<td>Bibiohack, utilizado entre 2016 y 2017 para demostraciones y eventos.</td>
+<td>Bibiohack, utilizado entre 2016 y 2017 para demostraciones y eventos. El dispositivo puede desarmarse y plegarse fácilmente hasta adquirir el tamaño de una valija de mano.</td>
 <td>CABA</td>
 </tr>
 
@@ -52,25 +54,28 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/secrit.jpg" style="max-width:100px;"></td>
 <td>mar/2017</td>
 <td>💡</td>
-<td>Casa Museo Rojas / Instituto de Investigaciones Bibliográficas y Crítica Textual (SECRIT/IIBICRIT), Conicet.</td>
+<td><b>Casa Museo Rojas / Instituto de Investigaciones Bibliográficas y Crítica Textual (SECRIT/IIBICRIT), Conicet.</b><br>
+Objetivo: En el Secrit, la <a href="https://bibliohack.org/posts/Estativo_en_V_iIbicrit_Secrit_Conicet/">digitalización de la revistas <i>Incipit</i></a> para acceso abierto, y posteriormente en <a href="https://bibliohack.org/posts/Seminario_de_edici%C3%B3n_y_digitalizaci%C3%B3n_cr%C3%ADtica/">Museo Casa de Ricardo Rojas</a> la digitalizacion de la obra "Historia de la Literatura Argentina".</td>
 <td>CABA</td>
 </tr>
 
 <tr>
-<td>"enve" </td>
+<td>"enve"</td>
 <td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
 <td>jun/2018 </td>
 <td>😀</td>
-<td> Biblioteca Central, Facultad de Filosofía y Letras, UBA.</td>
+<td><b>Biblioteca Central, Facultad de Filosofía y Letras, UBA.</b>
+Objetivo: Utilizar el dispositivo en el marco del programa de digitalización de la biblioteca. <a href="https://bibliohack.org/posts/Estativos_de_Bibliohack_en_Filosof%C3%ADa_y_Letras/">Más info aquí</a>.</td>
 <td> CABA </td>
 </tr>
 
 <tr>
-<td>"m"  </td>
+<td>"m"</td>
 <td><img src="/uploads/models/aysa.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>😀</td>
-<td> Biblioteca Ing. Agustín González, AySA.</td>
+<td><b>Biblioteca Ing. Agustín González, AySA.</b>
+Objetivo: Digitalización de los fondos de la biblioteca para acceso y preservación.</td>
 <td> CABA </td>
 </tr>
 
@@ -79,7 +84,8 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/anh.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>💡</td>
-<td> Biblioteca de la Academia Nacional de la Historia.</td>
+<td><b>Biblioteca de la Academia Nacional de la Historia.</b><br>
+Objetivo: digitalización de acervos documentales históricos para acceso abierto, en el marco de un programa de colaboración entre la ANH y Wikimedia Argentina. <a href="https://bibliohack.org/posts/Bibliohack_en_la_Academia_Nacional_de_la_Historia/">Más info</a>.</td>
 <td> CABA </td>
 </tr>
 
@@ -88,7 +94,8 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/25m.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>💡</td>
-<td> Facultad de Filosofía y Letras, UBA, (laboratorio de digitalización en la sede 25 de Mayo).</td>
+<td><b>Facultad de Filosofía y Letras, UBA, (laboratorio de digitalización en la sede 25 de Mayo)</b>.<br>
+Objetivo: Poner a disposicion el equipo para ser utilizado por los institutos de investigación en humanidades que funcionan en ese espacio.</td>
 <td> CABA </td>
 </tr>
 
@@ -97,7 +104,8 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/mdz.jpg" style="max-width:100px;"></td>
 <td> sep/2018 </td>
 <td>😀</td>
-<td> Archivo del Agua, Departamento General de Irrigación.</td>
+<td><b>Archivo del Agua, Departamento General de Irrigación.</b><br>
+Objetivo: Digitalización de documentos históricos del archivo para puesta en valor, preservación y acceso.<a href="https://bibliohack.org/tags/archivo-del-agua/">Más info aquí</a>.</td>
 <td> Mendoza </td>
 </tr>
 
@@ -105,8 +113,8 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/unr.jpg" style="max-width:100px;"></td>
 <td> nov/2018 </td>
 <td>🎁</td>
-<td> Universidad Nacional de Rosario.</td>
-<td> Rosario </td>
+<td><b>Universidad Nacional de Rosario.</b></td>
+<td>Rosario </td>
 </tr>
 
 <tr>
@@ -114,7 +122,8 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/uca.jpg" style="max-width:100px;"></td>
 <td> 2019 </td>
 <td>😀</td>
-<td> Biblioteca Central Rosario, UCA.</td>
+<td><b>Biblioteca Central Rosario, Pontificia Universidad Católica Argentina (UCA).</b><br>
+Objetivo: Digitalización de colecciones especiales y otros fondos de interés por parte de institutos de investigación. <a href="https://bibliohack.org/posts/Estativo_en_V_en_UCA_Rosario/">Más info aqui</a>.</td>
 <td> Rosario </td>  
 </tr>
 
@@ -122,7 +131,7 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/coop.jpg" style="max-width:100px;"></td>
 <td> mar/2020 </td>
 <td>💡</td>
-<td> Polo de Digitalización en IdelCoop (Idelcoop, Biblioteca Utopía del Centro Cultural de la Cooperación, Instituto Universitario de la Cooperación y Archivo Histórico del Cooperativismo Argentino)</td>
+<td> <b>Polo de Digitalización en IdelCoop</b> (Idelcoop, Biblioteca Utopía del Centro Cultural de la Cooperación, Instituto Universitario de la Cooperación y Archivo Histórico del Cooperativismo Argentino)</td>
 <td> CABA </td>
 </tr>
 
@@ -130,8 +139,8 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/cnba2.jpg" style="max-width:100px;"></td>
 <td> dic/2019 </td>
 <td>🔧</td>
-<td> Colegio Nacional Buenos Aires, UBA.</td>
-<td> CABA </td>
+<td>Colegio Nacional Buenos Aires, UBA.</td>
+<td>CABA </td>
 </tr>
 
 <tr>
@@ -176,7 +185,7 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/bib_mamba.jpg" style="max-width:100px;"></td>
 <td>2017</td>
 <td>📦</td>
-<td>Biblioteca del Museo de Arte Moderno de Buenos Aires.</td>
+<td><b>Biblioteca del Museo de Arte Moderno de Buenos Aires.</b></td>
 <td>CABA</td>
 </tr>
 
@@ -185,7 +194,7 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 <td><img src="/uploads/models/mamba.jpg" style="max-width:100px;"></td>
 <td>sept/2017</td>
 <td>💡</td>
-<td>Museo de Arte Moderno de Buenos Aires.</td>
+<td><b>Museo de Arte Moderno de Buenos Aires.</b></td>
 <td>CABA</td>
 </tr>
 
