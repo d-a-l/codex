@@ -272,46 +272,43 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 <tbody>
 
 <tr>
-<td>"dal"<br>A4</td>
+<td rowspan="2">"dal"<br>A4</td>
 <td><img src="/uploads/models/dal.jpg" style="max-width:100px;"></td>
 <td>2011</td>
-<td>💡</td>
+<td>🗄️</td>
 <td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
 <td>CABA</td>
 </tr>
 
 <tr>
-<td>"dal"<br>A4</td>
 <td><img src="/uploads/models/dal2.jpg" style="max-width:100px;"></td>
 <td>2012</td>
-<td>💡</td>
+<td>🗄️</td>
 <td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
 <td>CABA</td>
 </tr>
 
 <tr>
-<td>"dal v2"<br>A4</td>
+<td rowspan="3">"dal v2"<br>A4</td>
 <td><img src="/uploads/models/dalv2.jpg" style="max-width:100px;"></td>
 <td>2012</td>
-<td>💡</td>
+<td>❌</td>
 <td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
 <td>CABA</td>
 </tr>
 
 <tr>
-<td>"dal v2"<br>A4</td>
 <td><img src="/uploads/models/sedici.jpg" style="max-width:100px;"></td>
 <td>2012</td>
-<td>💡</td>
+<td>❔</td>
 <td><b>SeDiCI (Servicio de Difusión de la Creación Intelectual)</b> de la Universidad Nacional de La Plata.</b><br>El dispositivo fue posteriormente transformado en un estativo cenital.</td>
 <td>La Plata</td>
 </tr>
 
 <tr>
-<td>"dal v2"<br>A4</td>
 <td><img src="/uploads/models/bibhuma.jpg" style="max-width:100px;"></td>
 <td>2012</td>
-<td>💡</td>
+<td>❔</td>
 <td><b>Biblioteca "Profesor Guillermo Obiols"</b> de la Facultad de Humanidades y Ciencias de la Educación (BIBHUMA) de la Universidad Nacional de La Plata.<br> Realizado por medio de un Convenio con Wikimedia Argentina.</td>
 <td>La Plata</td>
 </tr>
