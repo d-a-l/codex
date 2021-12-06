@@ -208,7 +208,7 @@ Objetivo: poner en valor fondos documentales sobre la historia del arte moderno.
 </tr>
 
 <tr>
-<td class="model"><code>[[mamba|mamba]]</code><hr><a href="https://bibliohack.org/posts/Tecnolog%C3%ADa_Abierta_y_Documentos_de_Arte_Moderno/#desarrolloamedida">[esquemas]</a></td>
+<td class="model"><code>[[mamba|mamba]]</code><hr>Alto: 112 cm<br>Ancho de la base: 75cm<br>Ancho total: 165 cm<br>Profundidad: 80 cm<hr><a href="https://bibliohack.org/posts/Tecnolog%C3%ADa_Abierta_y_Documentos_de_Arte_Moderno/#desarrolloamedida">[esquemas]</a></td>
 <td><img src="/uploads/models/mamba.jpg" style="max-width:100px;"></td>
 <td>sept/2017</td>
 <td>💡</td>
