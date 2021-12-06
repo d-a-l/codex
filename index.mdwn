@@ -5,12 +5,12 @@
 Referencias:
 
 - 🔧: *en ensamble*, en proceso de ensamblado.
-- 🎁: *armado*, pero no operativo o sin lugar de emplazamiento.
+- 🎁: *armado*, estativo listo pero no operativo o sin lugar de emplazamiento.
 - 💡: *operativo*, cámaras y software operativo, listo para digitalizar en su emplazamiento definitivo.
 - 😀: *digitalizando*, dispositivo trabajando y con objetivos de digitalización asignados.
-- 📦: *depositado*, en desuso o en depósito dentro de la institución comitente.
+- 📦: *desuso*, en depósito dentro de la institución comitente.
 - ❌: *sin existencia*, el estativo fue destruido, desensamblado o descartado.
-- 🗄️: *archivado*, guardado en depósito en Bibliohack, puede haber piezas faltantes o estar parcialmente desarmado.
+- 🗄️: *archivado*, guardado en depósito en Bibliohack, puede haber faltantes.
 - ❔: *Sin información*
 
 </div>
