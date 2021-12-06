@@ -28,7 +28,7 @@ Referencias:
 
 <tr>
 <td class="model"><code>[[cnba|escaner_cnba]]</code><hr>formato: A3<hr><a href="/cnba_preparacion_del_escaner">[manual de uso]</a></td>
-<td><img src="/uploads/models/cnba.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/cnba.jpg"></td>
 <td>abr/2013</td>
 <td>💡</td>
 <td><b>Colegio Nacional Buenos Aires, UBA.</b><br>
