@@ -1,6 +1,8 @@
 Modelo Secrit
 -------------
 
+![modelo secrit](/uploads/models/secrit.jpg)
+
 Escaner de libros en "V" para el Instituto de Investigaciones Bibliográficas y Crítica Textual / Seminario de Edición y Crítica Textual SECRIT/IIBICRIT (Conicet) <http://www.iibicrit-conicet.gov.ar/>
 
 ### Materialidad
