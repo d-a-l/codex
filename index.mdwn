@@ -201,7 +201,7 @@ Objetivo: Documentación y desarrollo de un kit de digitalización en el marco d
 
 
 <tr>
-<td rowspan="2">[["la escaner"|la_escaner]]</td>
+<td rowspan="2">[["la escaner"|la_escaner]]<br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/colombia/1000x700">[corte laser]</td>
 <td><img src="/uploads/models/bibliored.jpg" style="max-width:100px;"></td>
 <td>nov/2019</td>
 <td>😀</td>
@@ -219,7 +219,7 @@ Objetivo: Relevar la viavilidad de la construcción remota del dispositivo y des
 </tr>
 
 <tr>
-<td rowspan="2">[["cenital"|cenita]]<br><a href="https://github.com/Bibliohack/Cenital">Proyecto CAD en github</a><br><a href="https://github.com/Bibliohack/Cenital/tree/GG-model/_laser_cut/1250x900mm">Curvas para corte láser</a></td>
+<td rowspan="2">[["cenital"|cenita]]<br><a title="Proyecto FreeCAD" target="_blank" href="https://github.com/Bibliohack/Cenital">[FreeCAD]</a><br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/Bibliohack/Cenital/tree/GG-model/_laser_cut/1250x900mm">[corte láser]</a></td>
 <td><img src="/uploads/models/ma.jpg" style="max-width:100px;"></td>
 <td>may/2021</td>
 <td>😀</td>
