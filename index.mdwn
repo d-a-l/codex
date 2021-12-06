@@ -155,7 +155,8 @@ Objetivo: Digitalización de colecciones especiales y otros fondos de interés p
 <td><img src="/uploads/models/uconn.jpg" style="max-width:100px;"></td>
 <td>2021</td>
 <td>🔧</td>
-<td>Universidad de Connecticut.</td>
+<td><b>Universidad de Connecticut.</b><br>
+Objetivo: Documentación y desarrollo de un kit de digitalización en el marco de <a href="https://bibliohack.org/posts/Alianza_con_la_Universidad_de_Connecticut/">GLAMGear</a>.</td>
 <td>Connecticut</td>
 </tr>
 
@@ -200,11 +201,12 @@ Objetivo: Digitalización de colecciones especiales y otros fondos de interés p
 
 
 <tr>
-<td rowspan="2">"la escaner"</td>
+<td rowspan="2">[["la escaner"|la_escaner]]</td>
 <td><img src="/uploads/models/bibliored.jpg" style="max-width:100px;"></td>
 <td>nov/2019</td>
 <td>😀</td>
-<td>Bibliored, Biblioteca Pública Gabriel García Márquez.</td>
+<td><b>Bibliored, Biblioteca Pública Gabriel García Márquez.</b><br>
+Objetivo: Relevar la viavilidad de la construcción remota del dispositivo y destinar el dispositivo a una biblioteca pública. <a href="https://bibliohack.org/posts/Se_armo_el_escaner/">Mas info sobre este proyecto</a></td>
 <td>Bogotá</td>
 </tr>
 
@@ -212,16 +214,17 @@ Objetivo: Digitalización de colecciones especiales y otros fondos de interés p
 <td><img src="/uploads/models/anh2.jpg" style="max-width:100px;"></td>
 <td>dic/2019</td>
 <td>💡</td>
-<td>Academia Nacional de la Historia.</td>
+<td><b>Academia Nacional de la Historia.</b></td>
 <td>CABA</td>
 </tr>
 
 <tr>
-<td rowspan="2">"cenital"</td>
+<td rowspan="2">[["cenital"|cenita]]<br><a href="https://github.com/Bibliohack/Cenital">Proyecto CAD en github</a><br><a href="https://github.com/Bibliohack/Cenital/tree/GG-model/_laser_cut/1250x900mm">Curvas para corte láser</a></td>
 <td><img src="/uploads/models/ma.jpg" style="max-width:100px;"></td>
 <td>may/2021</td>
 <td>😀</td>
-<td>Memoria Abierta, en el Espacio Memoria y Derechos Humanos (Ex Esma).</td>
+<td><b>Memoria Abierta</b>, en el Espacio Memoria y Derechos Humanos (Ex Esma).<br>
+Objetivo: Digitalizar el acervo documental de las organizaciones de derechos humanos en el marco del programa MEAP (Modern Endangered Archives Program) de la Universidad de California (UCLA), cumpliendo estándares FADGI.<a href="https://bibliohack.org/posts/Digitalizacion_de_la_memoria/">Más info</a>.</td>
 <td>CABA</td>
 </tr>
 
@@ -229,7 +232,9 @@ Objetivo: Digitalización de colecciones especiales y otros fondos de interés p
 <td></td>
 <td>dic/2021</td>
 <td>🔧</td>
-<td>Instituto de Investigaciones Gino Germani</td>
+<td><b>Instituto de Investigaciones Gino Germani</b><br>
+Objetivo: Digitalización del fondo documental Gino Germani <a href="https://www.pagina12.com.ar/346661-repatriaron-el-archivo-gino-germani">repatriado recientemente</a> por la Facultad de Ciencias Sociales de la UBA.
+</td>
 <td>CABA</td>
 </tr>
 
