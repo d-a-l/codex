@@ -38,7 +38,7 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 
 <tr>
 <td class="model" rowspan="2"><code>[[tfaba|TFABA]]</code><hr>formato: tabloide</td>
-<td><img src="/uploads/models/tfaba.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/tfaba.jpg"></td>
 <td>nov/2015</td>
 <td>❔</td>
 <td><b>Tribunal Fiscal de Apelaciones de Buenos Aires.</b><br>
@@ -47,7 +47,7 @@ Objetivo: Digitalizar tomos con copias únicas de sentencias judiciales desde 19
 </tr>
 
 <tr>
-<td><img src="/uploads/models/ffaa.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/ffaa.jpg"></td>
 <td>mar/2016</td>
 <td>❔</td>
 <td><b>Archivo del Centro de Estudios Históricos de la Fuerza Aérea Argentina (DEHFAA).</b><br>
@@ -57,7 +57,7 @@ Objetivo: Puesta en valor el material de archivo de la Fuerza. Digitalizar el ma
 
 <tr>
 <td class="model"><code>[[portatil|portatil_mdq]]</code><hr>formato: oficio</td>
-<td><img src="/uploads/models/portatil.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/portatil.jpg"></td>
 <td>2016</td>
 <td>🗄️</td>
 <td>Utilizado entre 2016 y 2017 para demostraciones y eventos. El dispositivo puede desarmarse y plegarse fácilmente hasta adquirir el tamaño de una valija de mano.</td>
@@ -66,7 +66,7 @@ Objetivo: Puesta en valor el material de archivo de la Fuerza. Digitalizar el ma
 
 <tr>
 <td class="model"><code>[[secrit|Secrit]]</code><hr>formato:tabloide</td>
-<td><img src="/uploads/models/secrit.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/secrit.jpg"></td>
 <td>mar/2017</td>
 <td>💡</td>
 <td><b>Casa Museo Rojas / Instituto de Investigaciones Bibliográficas y Crítica Textual (SECRIT/IIBICRIT), Conicet.</b><br>
@@ -76,7 +76,7 @@ Objetivo: En el Secrit, la <a href="https://bibliohack.org/posts/Estativo_en_V_i
 
 <tr>
 <td class="model"><code>enve</code><hr>formato: tabloide</td>
-<td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/puan.jpg"></td>
 <td>jun/2018 </td>
 <td>😀</td>
 <td><b>Biblioteca Central, Facultad de Filosofía y Letras, UBA.</b>
@@ -86,7 +86,7 @@ Objetivo: Utilizar el dispositivo en el marco del programa de digitalización de
 
 <tr>
 <td class="model"><code>m</code><hr>formato: tabloide</td>
-<td><img src="/uploads/models/aysa.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/aysa.jpg"></td>
 <td> jun/2018 </td>
 <td>😀</td>
 <td><b>Biblioteca Ing. Agustín González, AySA.</b>
@@ -96,7 +96,7 @@ Objetivo: Digitalización de los fondos de la biblioteca para acceso y preservac
 
 <tr>
 <td class="model"><code>n</code><hr>formato: tabloide</td>
-<td><img src="/uploads/models/anh.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/anh.jpg"></td>
 <td> jun/2018 </td>
 <td>💡</td>
 <td><b>Biblioteca de la Academia Nacional de la Historia.</b><br>
@@ -106,7 +106,7 @@ Objetivo: digitalización de acervos documentales históricos para acceso abiert
 
 <tr>
 <td class="model"><code>o</code><hr>formato: tabloide</td>
-<td><img src="/uploads/models/25m.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/25m.jpg"></td>
 <td> jun/2018 </td>
 <td>💡</td>
 <td><b>Facultad de Filosofía y Letras, UBA, (laboratorio de digitalización en la sede 25 de Mayo)</b>.<br>
@@ -116,7 +116,7 @@ Objetivo: Poner a disposicion el equipo para ser utilizado por los institutos de
 
 <tr>
 <td class="model" rowspan="2"><code>mendoza</code><hr>formato: tabloide<hr><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/mendoza">[archivos para corte láser]</td>
-<td><img src="/uploads/models/mdz.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/mdz.jpg"></td>
 <td> sep/2018 </td>
 <td>😀</td>
 <td><b>Archivo del Agua, Departamento General de Irrigación.</b><br>
@@ -125,7 +125,7 @@ Objetivo: Digitalización de documentos históricos del archivo para puesta en v
 </tr>
 
 <tr>
-<td><img src="/uploads/models/unr.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/unr.jpg"></td>
 <td> nov/2018 </td>
 <td>🎁</td>
 <td><b>Universidad Nacional de Rosario.</b></td>
@@ -134,7 +134,7 @@ Objetivo: Digitalización de documentos históricos del archivo para puesta en v
 
 <tr>
 <td class="model" rowspan="5"><code>uca</code><hr>formato: tabloide<hr><a target="_blank" title="Curvas en svg y pdf para corte laser"  href="https://github.com/d-a-l/estativos-desarrollo/tree/master/uca">[archivos para corte láser]</a></td>
-<td><img src="/uploads/models/uca.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/uca.jpg"></td>
 <td> 2019 </td>
 <td>😀</td>
 <td><b>Biblioteca Central Rosario, Pontificia Universidad Católica Argentina (UCA).</b><br>
@@ -143,7 +143,7 @@ Objetivo: Digitalización de colecciones especiales y otros fondos de interés p
 </tr>
 
 <tr>
-<td><img src="/uploads/models/coop.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/coop.jpg"></td>
 <td> mar/2020 </td>
 <td>💡</td>
 <td> <b>Polo de Digitalización en IdelCoop</b> (Idelcoop, Biblioteca Utopía del Centro Cultural de la Cooperación, Instituto Universitario de la Cooperación y Archivo Histórico del Cooperativismo Argentino)</td>
@@ -151,7 +151,7 @@ Objetivo: Digitalización de colecciones especiales y otros fondos de interés p
 </tr>
 
 <tr>
-<td><img src="/uploads/models/cnba2.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/cnba2.jpg"></td>
 <td> dic/2019 </td>
 <td>🔧</td>
 <td>Colegio Nacional Buenos Aires, UBA.</td>
@@ -168,7 +168,7 @@ Objetivo: Documentación y desarrollo de un kit de digitalización en el marco d
 </tr>
 
 <tr>
-<td><img src="/uploads/models/uconn.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/uconn.jpg"></td>
 <td>2021</td>
 <td>🔧</td>
 <td><b>Universidad de Connecticut.</b><br>
@@ -191,7 +191,7 @@ Objetivo: Documentación y desarrollo de un kit de digitalización en el marco d
 
 <tr>
 <td class="model" rowspan="2"><code>cabildo</code><hr>A3</td>
-<td><img src="/uploads/models/cabildo.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/cabildo.jpg"></td>
 <td>2017</td>
 <td>🗄️</td>
 <td>Utilizado en 2017 para demostraciones y eventos en Buenos Aires, Rosario y Mar del Plata.</td>
@@ -199,7 +199,7 @@ Objetivo: Documentación y desarrollo de un kit de digitalización en el marco d
 </tr>
 
 <tr>
-<td><img src="/uploads/models/bib_mamba.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/bib_mamba.jpg"></td>
 <td>2017</td>
 <td>📦</td>
 <td><b>Biblioteca del Museo de Arte Moderno de Buenos Aires.</b><br>
@@ -209,7 +209,7 @@ Objetivo: poner en valor fondos documentales sobre la historia del arte moderno.
 
 <tr>
 <td class="model"><code>[[mamba|mamba]]</code><hr>Alto: 112 cm / Ancho: 165 cm<br>Ancho de la base: 75 cm<br>Profundidad: 80 cm<hr><a href="https://bibliohack.org/posts/Tecnolog%C3%ADa_Abierta_y_Documentos_de_Arte_Moderno/#desarrolloamedida">[esquemas]</a></td>
-<td><img src="/uploads/models/mamba.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/mamba.jpg"></td>
 <td>sept/2017</td>
 <td>💡</td>
 <td><b>Museo de Arte Moderno de Buenos Aires.</b><br>
@@ -220,7 +220,7 @@ Objetivo: Relevar la viabilidad del dispositivo y digitalizar material del archi
 
 <tr>
 <td class="model" rowspan="2"><code>[[la&nbsp;escáner|la_escaner]]</code><hr><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/colombia/1000x700">[archivos para corte láser]<br><a title="videos con instrucciones de ensamblado" href="Opencon_Latam_2019_Colombia">[manual]</a></td>
-<td><img src="/uploads/models/bibliored.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/bibliored.jpg"></td>
 <td>nov/2019</td>
 <td>😀</td>
 <td><b>Bibliored, Biblioteca Pública Gabriel García Márquez.</b><br>
@@ -229,7 +229,7 @@ Objetivo: Relevar la viabilidad de la construcción remota del dispositivo y des
 </tr>
 
 <tr>
-<td><img src="/uploads/models/anh2.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/anh2.jpg"></td>
 <td>dic/2019</td>
 <td>💡</td>
 <td><b>Academia Nacional de la Historia.</b></td>
@@ -238,7 +238,7 @@ Objetivo: Relevar la viabilidad de la construcción remota del dispositivo y des
 
 <tr>
 <td class="model" rowspan="2"><code>[[cenital|cenita]]</code><hr><a title="Proyecto FreeCAD" target="_blank" href="https://github.com/Bibliohack/Cenital">[Proyecto FreeCAD]</a><br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/Bibliohack/Cenital/tree/GG-model/_laser_cut/1250x900mm">[archivos para corte láser]</a></td>
-<td><img src="/uploads/models/ma.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/ma.jpg"></td>
 <td>may/2021</td>
 <td>😀</td>
 <td><b>Memoria Abierta</b>, en el Espacio Memoria y Derechos Humanos (Ex Esma).<br>
@@ -273,7 +273,7 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 
 <tr>
 <td class="model" rowspan="2"><code>dal</code><hr>formato: A4</td>
-<td><img src="/uploads/models/dal.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/dal.jpg"></td>
 <td>2011</td>
 <td>🗄️</td>
 <td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
@@ -281,7 +281,7 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 </tr>
 
 <tr>
-<td><img src="/uploads/models/dal2.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/dal2.jpg"></td>
 <td>2012</td>
 <td>🗄️</td>
 <td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
@@ -290,7 +290,7 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 
 <tr>
 <td class="model" rowspan="3"><code>dal&nbsp;v2</code><hr>formato: A4</td>
-<td><img src="/uploads/models/dalv2.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/dalv2.jpg"></td>
 <td>2012</td>
 <td>🗄️</td>
 <td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
@@ -298,7 +298,7 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 </tr>
 
 <tr>
-<td><img src="/uploads/models/sedici.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/sedici.jpg"></td>
 <td>2012</td>
 <td>❔</td>
 <td><b>SeDiCI (Servicio de Difusión de la Creación Intelectual)</b> de la Universidad Nacional de La Plata.</b><br>El dispositivo fue posteriormente transformado en un estativo cenital.</td>
@@ -306,7 +306,7 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 </tr>
 
 <tr>
-<td><img src="/uploads/models/bibhuma.jpg" style="max-width:100px;"></td>
+<td><img src="/uploads/models/bibhuma.jpg"></td>
 <td>2012</td>
 <td>❔</td>
 <td><b>Biblioteca "Profesor Guillermo Obiols"</b> de la Facultad de Humanidades y Ciencias de la Educación (BIBHUMA) de la Universidad Nacional de La Plata.<br> Realizado por medio de un Convenio con Wikimedia Argentina.</td>
