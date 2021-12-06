@@ -261,7 +261,7 @@ Objetivo: Digitalización del fondo documental Gino Germani <a href="https://www
 
 **Proyecto DaL**
 
-El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la construcción de estativos del ["modelo estandar"](https://forum.diybookscanner.org/viewtopic.php?f=1&t=333) publicado en el foro diybookscanner, con variaciones y agregados.
+El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la construcción de estativos del ["modelo estandar"](https://forum.diybookscanner.org/viewtopic.php?f=1&t=333) publicado en el foro diybookscanner, con variaciones y agregados, durante los años 2011 y 2012.
 
 <table>
 <thead>
