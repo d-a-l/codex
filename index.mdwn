@@ -27,7 +27,7 @@ Referencias:
 <tbody>
 
 <tr>
-<td>[["cnba"|escaner_cnba]]</td>
+<td>[["cnba"|escaner_cnba]]<br>A3</td>
 <td><img src="/uploads/models/cnba.jpg" style="max-width:100px;"></td>
 <td>abr/2013</td>
 <td>💡</td>
@@ -37,7 +37,7 @@ Objetivo: Digitalización de colecciones especiales que incluyen publicaciones p
 </tr>
 
 <tr>
-<td rowspan="2">[["tfaba"|TFABA]]</td>
+<td rowspan="2">[["tfaba"|TFABA]]<br>tabloide</td>
 <td><img src="/uploads/models/tfaba.jpg" style="max-width:100px;"></td>
 <td>nov/2015</td>
 <td>❔</td>
@@ -56,7 +56,7 @@ Objetivo: Puesta en valor el material de archivo de la Fuerza. Digitalizar el ma
 </tr>
 
 <tr>
-<td>[["portatil"|portatil_mdq]]</td>
+<td>[["portatil"|portatil_mdq]]<br>oficio</td>
 <td><img src="/uploads/models/portatil.jpg" style="max-width:100px;"></td>
 <td>2016</td>
 <td>🗄️</td>
@@ -65,7 +65,7 @@ Objetivo: Puesta en valor el material de archivo de la Fuerza. Digitalizar el ma
 </tr>
 
 <tr>
-<td>[["secrit"|Secrit]]</td>
+<td>[["secrit"|Secrit]]<br>tabloide</td>
 <td><img src="/uploads/models/secrit.jpg" style="max-width:100px;"></td>
 <td>mar/2017</td>
 <td>💡</td>
@@ -75,7 +75,7 @@ Objetivo: En el Secrit, la <a href="https://bibliohack.org/posts/Estativo_en_V_i
 </tr>
 
 <tr>
-<td>"enve"</td>
+<td>"enve"<br>tabloide</td>
 <td><img src="/uploads/models/puan.jpg" style="max-width:100px;"></td>
 <td>jun/2018 </td>
 <td>😀</td>
@@ -85,7 +85,7 @@ Objetivo: Utilizar el dispositivo en el marco del programa de digitalización de
 </tr>
 
 <tr>
-<td>"m"</td>
+<td>"m"<br>tabloide</td>
 <td><img src="/uploads/models/aysa.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>😀</td>
@@ -95,7 +95,7 @@ Objetivo: Digitalización de los fondos de la biblioteca para acceso y preservac
 </tr>
 
 <tr>
-<td>"n"  </td>
+<td>"n"<br>tabloide</td>
 <td><img src="/uploads/models/anh.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>💡</td>
@@ -105,7 +105,7 @@ Objetivo: digitalización de acervos documentales históricos para acceso abiert
 </tr>
 
 <tr>
-<td> "o"  </td>
+<td>"o"<br>tabloide</td>
 <td><img src="/uploads/models/25m.jpg" style="max-width:100px;"></td>
 <td> jun/2018 </td>
 <td>💡</td>
@@ -115,7 +115,7 @@ Objetivo: Poner a disposicion el equipo para ser utilizado por los institutos de
 </tr>
 
 <tr>
-<td rowspan="2">"mendoza"<br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/mendoza">[laser]</td>
+<td rowspan="2">"mendoza"<br>tabloide<br><a title="Curvas en svg y pdf para corte laser" target="_blank" href="https://github.com/d-a-l/estativos-desarrollo/tree/master/mendoza">[laser]</td>
 <td><img src="/uploads/models/mdz.jpg" style="max-width:100px;"></td>
 <td> sep/2018 </td>
 <td>😀</td>
@@ -133,7 +133,7 @@ Objetivo: Digitalización de documentos históricos del archivo para puesta en v
 </tr>
 
 <tr>
-<td rowspan="5">"uca"<br><a target="_blank" title="Curvas en svg y pdf para corte laser"  href="https://github.com/d-a-l/estativos-desarrollo/tree/master/uca">[láser]</a></td>
+<td rowspan="5">"uca"<br>tabloide<br><a target="_blank" title="Curvas en svg y pdf para corte laser"  href="https://github.com/d-a-l/estativos-desarrollo/tree/master/uca">[láser]</a></td>
 <td><img src="/uploads/models/uca.jpg" style="max-width:100px;"></td>
 <td> 2019 </td>
 <td>😀</td>
@@ -190,7 +190,7 @@ Objetivo: Documentación y desarrollo de un kit de digitalización en el marco d
 <tbody>
 
 <tr>
-<td rowspan="2">"cabildo"</td>
+<td rowspan="2">"cabildo"<br>A3</td>
 <td><img src="/uploads/models/cabildo.jpg" style="max-width:100px;"></td>
 <td>2017</td>
 <td>🗄️</td>
