@@ -10,7 +10,7 @@
 
 ### Descargar el paquete de software de Bibliohack
 
-    wget http://bibliohack.org/files/bibliohack_install.tar.gz
+    wget http://files.bibliohack.org/bibliohack_install.tar.gz
 
 ### Crear el pendrive booteable:
 
