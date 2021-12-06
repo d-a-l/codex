@@ -3,6 +3,24 @@ Modelo Secrit
 
 Escaner de libros en "V" para el Instituto de Investigaciones Bibliográficas y Crítica Textual / Seminario de Edición y Crítica Textual SECRIT/IIBICRIT (Conicet) <http://www.iibicrit-conicet.gov.ar/>
 
+### Materialidad
+
+- Realizado con listones de madera pino-clear, pintado de negro
+- Utiliza correderas laterales para el movimiento de la platina
+- plátina de acrílico
+
+
+### Formato
+
+Tabloide (2 paginas simultáneas)
+
+### Características
+
+- Iluminación retro/frontal (sin reflejos en el acrílico)
+- Posiciones ajustables de las cámaras
+- Cama ajustable según tamaño del lomo del libro
+
+### Recursos
+
 * Fotos: <https://www.flickr.com/photos/derechoaleer/albums/72157679905208674>
 * Informe y conclusiones del proyecto elaborado por el equipo de digitalización <http://codex.bibliohack.org/media/files/Informe_Proyecto_Incipit.odt>
-
