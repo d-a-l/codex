@@ -292,7 +292,7 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 <td rowspan="3"><code>dal&nbsp;v2</code><hr>A4</td>
 <td><img src="/uploads/models/dalv2.jpg" style="max-width:100px;"></td>
 <td>2012</td>
-<td>❌</td>
+<td>🗄️</td>
 <td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
 <td>CABA</td>
 </tr>
