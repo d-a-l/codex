@@ -266,7 +266,7 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 <table>
 <thead>
   <tr>
-    <td>modelo</td><td>imagen</td><td>año</td><td>stat</td><td>institución comitente</td><td>ciudad</td>
+    <td>modelo</td><td>imagen</td><td>fecha</td><td>stat</td><td>institución comitente</td><td>ciudad</td>
   </tr>
 </thead>
 <tbody>
@@ -276,7 +276,8 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 <td><img src="/uploads/models/dal.jpg"></td>
 <td>2011</td>
 <td>🗄️</td>
-<td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
+<td><b>Facultad de Filosofía y Letras de la UBA.</b><br>
+Prueba piloto de digitalización.</td>
 <td>CABA</td>
 </tr>
 
@@ -284,7 +285,8 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 <td><img src="/uploads/models/dal2.jpg"></td>
 <td>2012</td>
 <td>🗄️</td>
-<td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
+<td><b>Facultad de Filosofía y Letras de la UBA.</b><br>
+Digitalizacion en el marco del "Proyecto Memoria" de la Facultad.</td>
 <td>CABA</td>
 </tr>
 
@@ -293,7 +295,8 @@ El [[proyecto DaL|DaL]] es un antecedente de Bibliohack y consistió en la const
 <td><img src="/uploads/models/dalv2.jpg"></td>
 <td>2012</td>
 <td>🗄️</td>
-<td><b>Facultad de Filosofía y Letras de la UBA.</b></td>
+<td><b>Facultad de Filosofía y Letras de la UBA.</b><br>
+Digitalizacion en el marco del "Proyecto Memoria" de la Facultad.</td>
 <td>CABA</td>
 </tr>
 
