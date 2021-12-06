@@ -4,7 +4,7 @@
 
 Referencias:
 
-- 🔧: *en ensamble*, en proceso de ensamblado.
+- 🔧: *en construcción*, en proceso de ensamblado.
 - 🎁: *armado*, estativo listo pero no operativo o sin lugar de emplazamiento.
 - 💡: *operativo*, cámaras y software operativo, listo para digitalizar en su emplazamiento definitivo.
 - 😀: *digitalizando*, dispositivo trabajando y con objetivos de digitalización asignados.
