@@ -9,7 +9,7 @@ Escaner de libros en "V" diseñado para el Instituto de Investigaciones Bibliogr
 : ToDo
 
 *Materialidad*
-: Realizado con listones de madera pino-clear, pintado de negro pizarra / Utiliza correderas para el movimiento de la platina y de la base / plátina de acrílico
+: Estructura realizada con listones de madera pino-clear, pintado de negro pizarra / Base de la cuna realizada en MDF crudo de 18mm / Otros elementos de junta y apoyo en HDF (chapadur) de 3 mm / plátina de acrílico / Correderas  telescópicas para el movimiento de la plátina y de la base / pantallas para luces de polipropileno corrugado
 
 
 *Formato*
@@ -17,12 +17,11 @@ Escaner de libros en "V" diseñado para el Instituto de Investigaciones Bibliogr
 
 
 *Iluminación*
-: retro/frontal (sin reflejos en el acrílico), con lamparas fluorescentes
-
-- Cama ajustable según tamaño del lomo del libro
+: retro/frontal (sin reflejos en el acrílico), con lamparas fluorescentes y pantalla parabolica
 
 *Otras caraterísticas*
-: Posiciones ajustables de las cámaras
+: Posiciones ajustables de las cámaras / Cuna ajustable según tamaño del lomo del libro
+
 
 ### Recursos
 
