@@ -19,6 +19,10 @@ Escaner de libros en "V" diseñado para el Instituto de Investigaciones Bibliogr
 *Iluminación*
 : retro/frontal (sin reflejos en el acrílico), con lamparas fluorescentes y pantalla parabolica
 
+*Cámaras*
+: Canon de bajo costo
+
+
 *Otras caraterísticas*
 : Posiciones ajustables de las cámaras / Cuna ajustable según tamaño del lomo del libro
 
