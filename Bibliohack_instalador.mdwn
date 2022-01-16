@@ -1,6 +1,6 @@
 ## Instalador de Bibliohack para Ubuntu 18.04 "Bionic Beaver"
 
-*Este tutorial indica como preparar las herramientas de instalacion en una computadora con conexion a internet, para instalar el sistema operativo y todo el software necesario en una PC sin conexión (PC-objetivo)*
+*Este tutorial indica como preparar las herramientas de instalación en una computadora con conexión a internet, para instalar el sistema operativo y todo el software necesario en una PC sin conexión (PC-objetivo)*
 
 **1) En una PC con conexión a internet (con Ubuntu o Debian):**
 
@@ -16,7 +16,7 @@
 
 usar *"Creador de discos de arranque"* o *"Startup Disk Creator"* (en *"Herramientas de Sistema"* -> *"Administración"*), seleccionar el ISO descargado, el pendrive y elegir *"Crear Disco de Arranque"*.
 
-Tambien copiar el archivo bibliohack_install.tar.gz al Pendrive, y en caso de no ser posible copiarlo a otro Pendrive.
+También copiar el archivo `bibliohack_install.tar.gz` al Pendrive, y en caso de no ser posible copiarlo a otro Pendrive.
 
 ----
 
@@ -24,9 +24,9 @@ Tambien copiar el archivo bibliohack_install.tar.gz al Pendrive, y en caso de no
 
 ### Instalar Ubuntu 18.04
 
-**Atencion: todos los datos del disco de la PC-objetivo se borraran!**. Si desea instalar el sistema operativo en una particion del disco sin modificar el resto ir a "[[Instalar Ubuntu 18.04 en una particion del disco]]"
+**Atención: todos los datos del disco de la PC-objetivo se borrarán!**. Si desea instalar el sistema operativo en una partición del disco sin modificar el resto ir a "[[Instalar Ubuntu 18.04 en una particion del disco]]"
 
-Si la PC objetivo tiene una conexión a internet muy deficiente se recomienda **desconectar el cable de internet** de la PC (hace mas rápida la instalación al no intentar infructuosamente descargar paquetes de la red)
+Si la PC objetivo tiene una conexión a internet muy deficiente se recomienda **desconectar el cable de internet** de la PC (hace más rápida la instalación al no intentar infructuosamente descargar paquetes de la red)
 
 Comenzar:
 
@@ -45,21 +45,21 @@ En las siguientes opciones de instalación seleccionar:
 
 (Un popup preguntará si deseamos desmontar las particiones, responder que NO)
 
-Cuando se solicite la definicion de nombre de usuario y sistema, los nombres canonicos de Bibliohack son:
+Cuando se solicite la definicion de nombre de usuario y sistema, los nombres canónicos de Bibliohack son:
 
 - nombre y nombre de usuario: `bibliohack`
 - nombre del equipo: `bibliohack-ubuntu1804`
 - contraseña temporal: `bibliohack`
 
-Luego se realiza la instalación del sistema que tarda 15 o 20 minutos. Al terminar, reiniciar sacando previamente el pendrive para que inicie del disco.
+Luego se realiza la instalación del sistema que tarda 15 ó 20 minutos. Al terminar, reiniciar sacando previamente el pendrive para que inicie del disco.
 
 ### Instalar Bibliohack
 
 El paquete de software de Bibliohack descargado incluye el software y todas las dependencias necesarias, sin embargo **si existe conectividad en la PC-objetivo puede probar [[instalar dependencias de bibliohack usando apt]]**
 
-Iniciar sesion en Ubuntu 18.04 utilizando el usuario y contraseña definidas en la instalación. Abrir el explorador de archivos copiar el instalador `bibliohack_install.tar.gz` desde el pendrive a la Carpeta personal del usuario. (Para descargarlo se puede usar `wget http://bibliohack.org/files/bibliohack_install.tar.gz`)
+Iniciar sesión en Ubuntu 18.04 utilizando el usuario y contraseña definidas en la instalación. Abrir el explorador de archivos, copiar el instalador `bibliohack_install.tar.gz` desde el pendrive a la Carpeta personal del usuario. (Para descargarlo se puede usar `wget http://bibliohack.org/files/bibliohack_install.tar.gz`)
 
-Abrir una terminal (en *"Herramientas de Sistema"* -> *"Terminal*). Ir a la carpeta donde haya copiado el instalador (si es la Carpeta personal la terminal se iniciara alli por defecto) y descomprimir el archivo:
+Abrir una terminal (en *"Herramientas de Sistema"* -> *"Terminal*). Ir a la carpeta donde haya copiado el instalador (si es la Carpeta personal la terminal se iniciará allí por defecto) y descomprimir el archivo:
 
     tar xzvf bibliohack_install.tar.gz
 
@@ -71,15 +71,15 @@ iniciar el instalador (**atención, sin usar `sudo`**):
 
     bash install
 
-**el instalador instalará todas las apicaciones de bibliohack automaticamente sin necesidad de conexion a internet!**
+**el instalador instalará todas las apicaciones de bibliohack automáticamente sin necesidad de conexión a internet!**
 
 **Nota: si eligió instalar las dependencias desde Apt no hay problema, el instalador ignorará las dependencias que trae el paquete offline y dejará las mas actuales que ya fueron instalados vía apt desde internet**
 
 ### Escritorio liviano
 
-Los paquetes que hay que instalar son `lightdm` y `gnome-session-flashback`. El nuevo escritorio aparece como una opción para el usuario al iniciar sesión, que toma el escritorio por defecto al ultimo seleccionado.
+Los paquetes que hay que instalar son `lightdm` y `gnome-session-flashback`. El nuevo escritorio aparece como una opción para el usuario al iniciar sesión, que toma el escritorio por defecto al último seleccionado.
 
-**Miscelaneas:**
+**Misceláneas:**
 
 Para deshabilitar el molesto popup de actualizaciones de software:
 
@@ -91,27 +91,27 @@ desinstalar `unattended-upgrades`
 
 ### Iconos
 
-En gnome flashback: haciendo `Alt` + `click derecho` sobre el panel del escritorio aparece la opcion *"Añadir al panel"*, y añadimos un *"Lanzador de aplicaciones personalizado"*, donde hay que seleccionar:
+En gnome flashback: haciendo `Alt` + `clic derecho` sobre el panel del escritorio aparece la opción *"Añadir al panel"*, y añadimos un *"Lanzador de aplicaciones personalizado"*, donde hay que seleccionar:
 
 Para Dalclick:
 
 - Tipo: *Aplicación en Terminal*
 - Nombre: *Dalclick*
 - Comando: `/opt/bibliohack/dalclick/dalclick`
-- En el Icono, hacer click y buscar una cámara
+- En el Icono, hacer clic y buscar una cámara
 
 Para Dalproc o Gestor de postproceso:
 
 - Tipo: *Aplicación en Terminal*
 - Nombre: *Gestor de Posproceso*
 - Comando: `/opt/bibliohack/dalclick/ppm/ppm_daemon.sh`
-- En el Icono, hacer click y buscar un engranaje
+- En el Icono, hacer clic y buscar un engranaje
 
 ### Varios
 
 Enlace de nuevo usuario a foro bibliohack: <http://foro.bibliohack.org/ucp.php?mode=register>
 
-**Problemas con las resolución de la pantalla**
+**Problemas con la resolución de la pantalla**
 
     cvt <resX> <resY> <Khz>
 
@@ -134,7 +134,7 @@ devuelve
     Screen 0: minimum XXXxYYY, current XXXxYYY, etc
     <puerto> connected primary etc
 
-para hacer permanente, agregar las lineas xrandr a `~/.profile` ó `~/.profile`o sino
+para hacer permanente, agregar las líneas xrandr a `~/.profile` ó `~/.profile`o sino
 
     Section "Monitor"
         Identifier "puerto"
