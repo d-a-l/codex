@@ -19,4 +19,4 @@ modificar `.git/config`
         smudge = ./zippey.py d
         clean = ./zippey.py e
 
-lo mas prolijo es copiar zippey a `/usr/bin/zippey' !
+lo más prolijo es copiar zippey a `/usr/bin/zippey' !
