@@ -54,7 +54,7 @@ añadirle los archivos actuales
     git add -A
     git commit
 
-borrar la rama principal (donde está el hisotrial que queremos borrar)
+borrar la rama principal (donde está el historial que queremos borrar)
 
     git branch -D master
 
