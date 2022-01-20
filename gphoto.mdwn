@@ -1,6 +1,6 @@
 ### Sobre gPhoto
 
-[`gPhoto2`](http://gphoto.sourceforge.net/) es un set de aplicaciones libres para cámaras digitales, listo para usar, desarrollado por un gran equipo de colaboradores voluntarios alrededor del mundo. Soporta mas de 1600 camaras y es utilizado para descargar y interactuar con las camras digitales desde una PC con un sistema operativo GNU/Linux. 
+[`gPhoto2`](http://gphoto.sourceforge.net/) es un set de aplicaciones libres para cámaras digitales, listo para usar, desarrollado por un gran equipo de colaboradores voluntarios alrededor del mundo. Soporta más de 1600 cámaras y es utilizado para descargar y interactuar con las cámaras digitales desde una PC con un sistema operativo GNU/Linux. 
 
 `libgphoto2` es la librería que pueden utilizar otros programas para acceder a las cámaras digitales.
 
