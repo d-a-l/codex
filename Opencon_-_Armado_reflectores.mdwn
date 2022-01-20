@@ -42,7 +42,7 @@ Armado del porta-reflector 4
 Your browser does not support the video tag.
 </video> 
 
-Porta-reflector, fijaciones para material translucido
+Porta-reflector, fijaciones para material translúcido
 
 <video width="320" height="568" controls>
   <source src="/media/video/opencon-latam-2019/video16.mp4" type="video/mp4">
