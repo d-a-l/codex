@@ -1,11 +1,11 @@
 Bibliohack en máquina virtual
 ----------------------------
 
-Version de VirtualBox en el SO anfitrion
+Versión de VirtualBox en el SO anfitrión
 
      Versión 5.1.16 r113841 (Qt5.5.1)
 
-Version de CD de Guest Additions para bibliohack:
+Versión de CD de Guest Additions para bibliohack:
 
      VBoxGuestAdditions_5.1.16.iso
 
@@ -13,9 +13,9 @@ Version de CD de Guest Additions para bibliohack:
 Agregar Guest Additions en bibliohack
 -------------------------------------
 
-Si no funciona la opción del menu del sistema anfitrión se puede usar la iso de Guest Additions que se descarga desde el sitio de Oracle Virtualbox. Luego:
+Si no funciona la opción del menú del sistema anfitrión se puede usar la iso de Guest Additions que se descarga desde el sitio de Oracle Virtualbox. Luego:
 
-- Cargar el iso desde el menu de virtualbox como un nuevo cd en la unidad virtual, y luego en el sistema invitado, desde una consola (como *root*)
+- Cargar el iso desde el menú de virtualbox como un nuevo cd en la unidad virtual, y luego en el sistema invitado, desde una consola (como *root*)
 
     bash /media/cdrom0/autorun.sh
 
@@ -23,9 +23,9 @@ Si no funciona la opción del menu del sistema anfitrión se puede usar la iso d
 Agregar VirtualBox Extension Pack
 -------------------------
 
-Para mejor soporte USB descargar del sitio de Virtualbox "Oracle VM VirtualBox Extension Pack" para la versión de Virtualbox que se este utilizando en el sistema.
+Para un mejor soporte USB descargar del sitio de Virtualbox "Oracle VM VirtualBox Extension Pack" para la versión de Virtualbox que se esté utilizando en el sistema.
 
-- Version 5.1.16 enlace de descarga -> <http://download.virtualbox.org/virtualbox/5.1.16/Oracle_VM_VirtualBox_Extension_Pack-5.1.16-113841.vbox-extpack>
+- Versión 5.1.16 enlace de descarga -> <http://download.virtualbox.org/virtualbox/5.1.16/Oracle_VM_VirtualBox_Extension_Pack-5.1.16-113841.vbox-extpack>
 
 Abrir el archivo descargado con Virtualbox para realizar la instalación
 
@@ -33,11 +33,11 @@ Abrir el archivo descargado con Virtualbox para realizar la instalación
 Montar carpeta compartida
 -------------------------
 
-**Importante**: dar permisos a los usuarios en la maquina invitada, editando como *root*
+**Importante**: dar permisos a los usuarios en la máquina invitada, editando como *root*
 
      nano /etc/group
 
-y cambiando la linea 
+y cambiando la línea 
 
      vboxsf:x:999: 
 
@@ -47,7 +47,7 @@ por
 
 En el sistema anfitrión agregar nombre y ruta de una carpeta para compartir desde *configuración/carpetas compartidas*. Se puede seleccionar 'automount' para facilitar el proceso.
 
-Para montar la carpeta compartida en el sistema invitado usar el menu contextual sobre la unidad compartida que aparecerá en el explorador de archivos, o desde la consola:
+Para montar la carpeta compartida en el sistema invitado usar el menú contextual sobre la unidad compartida que aparecerá en el explorador de archivos, o desde la consola:
 
      mkdir <punto de montaje>
      mount -t vboxsf <nombre carpeta anfitriona> <punto de montaje>
@@ -60,7 +60,7 @@ En el sistema anfitrión agregar al grupo de usuarios de Virtualbox los usuarios
 
      sudo usermod -a -G vboxusers <usuario>
 
-Luego: cerrar Virtualbox, salir de la sesión de usuario de linux, volver a loguearse, iniciar Virtualbox. Si funciona correctamente, deben aparecer en el ícono "agregar nuevo filtro USB", en la seccion *configuración usb*, una lista con los dispositivos conectados al anfitrión. Seleccionando el dispositivo este queda habilitado en el sistema operativo invitado.
+Luego: cerrar Virtualbox, salir de la sesión de usuario de linux, volver a loguearse, iniciar Virtualbox. Si funciona correctamente, deben aparecer en el ícono "agregar nuevo filtro USB", en la sección *configuración usb*, una lista con los dispositivos conectados al anfitrión. Seleccionando el dispositivo este queda habilitado en el sistema operativo invitado.
 
 
 Configuración máquina virtual bibliohack
