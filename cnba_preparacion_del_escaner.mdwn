@@ -31,11 +31,11 @@ Las fuentes de alimentación (una para cada cámara) se enchufan a los tomacorri
 ![fig](/media/img/cnba-scanner-manual/fijacion_camaras.png)
 @@Figura 6@@ - Puntos de fijación de las cámaras digitales al soporte.
 
-@@figura 7 vista de la colocacion de la camara, una mano toma la camara y la otra ajusta el tornillo y señalamiento de las partes: tornillo, tuercas, suplemento, antideslizante, etc@@
+@@figura 7 vista de la colocación de la cámara, una mano toma la camara y la otra ajusta el tornillo y señalamiento de las partes: tornillo, tuercas, suplemento, antideslizante, etc@@
 
 **Paso 2**: Enchufar las fuentes ßßSßß a los tomacorrientes laterales en el tablero ßßGßß y extender cada cable hacia los puntos de montaje de las cámaras ßßMßß. Utilice los listones de la estructura del escáner para desplegar los cables prolijamente. 
 
-**Nota**: no es necesario enchufar y desenchufar las fuentes de alimentación en cada sesión de digitalización, déjelas enchufadas, pero desconéctelas de la red eléctrica apagando el escáner desde la tecla ßßUßß o desenchufando la conexion principal ßßWßß.
+**Nota**: no es necesario enchufar y desenchufar las fuentes de alimentación en cada sesión de digitalización, déjelas enchufadas, pero desconéctelas de la red eléctrica apagando el escáner desde la tecla ßßUßß o desenchufando la conexión principal ßßWßß.
 
 
 ## 2. Conexión de las cámaras digitales ##
@@ -43,7 +43,7 @@ Las fuentes de alimentación (una para cada cámara) se enchufan a los tomacorri
 Identifique los conectores USB y de alimentación @@(Fig. 4)@@ que se encuentran próximos al punto de fijación de la cámara ßßMßß en el escáner. Abrir el panel de conexión en el costado derecho de la *Canon PowerShot SX130 IS* @@(Fig. 5)@@. Con *mucha delicadeza* enchufar ambos conectores a los puntos de conexión correspondientes.
 
 ![Figura 4](/media/img/cnba-scanner-manual/usb-fuente.png)
-@@Figura 4@@ - Conector de alimentación DC y conenctor USB
+@@Figura 4@@ - Conector de alimentación DC y conector USB
 
 ![Figura 5](/media/img/cnba-scanner-manual/conexiones_camara.png)
 @@Figura 5@@ - Panel lateral de la Canon PowerShot SX130 IS
@@ -84,7 +84,7 @@ Identifique los conectores USB y de alimentación @@(Fig. 4)@@ que se encuentran
 
 **Paso 3**: (PC) Ingresar nombre de usuario y contraseña para iniciar la sesión. 
 
-**Paso 4**: (PC) Una vez iniciado la sesión, hacer *doble click* en el icono [imagen del icono aquí!] para iniciar el *software asistente de digitalización* (DALclick). Cuando el programa le solicite que conecte las cámaras, hágalo desde el enlace distribuidor USB ßßAßß.
+**Paso 4**: (PC) Una vez iniciado la sesión, hacer *doble clic* en el icono [imagen del icono aquí!] para iniciar el *software asistente de digitalización* (DALclick). Cuando el programa le solicite que conecte las cámaras, hágalo desde el enlace distribuidor USB ßßAßß.
 
 
 ## 5. Posicionamiento de las cámaras según las dimensiones del libro ##
@@ -113,11 +113,11 @@ Identifique los conectores USB y de alimentación @@(Fig. 4)@@ que se encuentran
 
 **Paso 6**: En la @@guía@@ buscar el orificio que corresponda al número de posición indicado por DALclick. 
 
-**Paso 7**: Acoplar el @@soporte porta-cámara@@ en el orificio correspondiente y colocar nuevamente la mariposa ßßHßß. Fijar el soporte a la guia ajustando la mariposa. Para que el soporte quede bien alineado con la guia, asegúrese que el plano circular (indicar) apoye completamente con la guía mientras ajusta la mariposa.
+**Paso 7**: Acoplar el @@soporte porta-cámara@@ en el orificio correspondiente y colocar nuevamente la mariposa ßßHßß. Fijar el soporte a la guía ajustando la mariposa. Para que el soporte quede bien alineado con la guía, asegúrese que el plano circular (indicar) apoye completamente con la guía mientras ajusta la mariposa.
 
-@@[fig 12: posicion de las manos colocando el conjunto y presionando el plano circular contra la guia]@@
+@@[fig 12: posición de las manos colocando el conjunto y presionando el plano circular contra la guía]@@
 
-ToDo: colocar una madera tope que evite que el tornillo cabeza redonda y cuello cuadrado se separe del conjunto porta-camara
+ToDo: colocar una madera tope que evite que el tornillo cabeza redonda y cuello cuadrado se separe del conjunto porta-cámara
 
 ## 6. Alineación de las cámaras ##
 
@@ -125,16 +125,16 @@ ToDo: colocar una madera tope que evite que el tornillo cabeza redonda y cuello 
 
 [fig 13 - eje X y perilla G]
 
-Utilizando la escuadra N, cuyo angulo es de 140°, se deberá alinear el brazo (X) aflojando la perilla ßßGßß. La escuadra deberá colocarse tal como se indica en la @@fig 14@@. Para alinear el brazo (X) la linea blanca trazada sobre el mismo (Z) debera alinearse con la escuadra. Una vez alineado asegurarse de ajustar bien la perilla (Y)
+Utilizando la escuadra N, cuyo ángulo es de 140°, se deberá alinear el brazo (X) aflojando la perilla ßßGßß. La escuadra deberá colocarse tal como se indica en la @@fig 14@@. Para alinear el brazo (X) la línea blanca trazada sobre el mismo (Z) debera alinearse con la escuadra. Una vez alineado asegurarse de ajustar bien la perilla (Y)
 
 [fig 13: vista donde se vea el brazo Y, la linea, la escuadra colocada y el eje A representado]
 
 ### Ortogonalidad del Eje Z: ###
 
 - Colocar el plano cuadriculado en la cama del escaner
-- Encender el display de la cámara, presionando levemente el boton de disparo (A).
-- aflojando la perilla (N), mover el soporte hasta que la horizontal y vertical del plano cuadriculado, quede alienado con el display de la camara
-- Asegurase de dejar bien ajustada la perilla N al terminar la alineación.
+- Encender el display de la cámara, presionando levemente el botón de disparo (A).
+- aflojando la perilla (N), mover el soporte hasta que la horizontal y vertical del plano cuadriculado, quede alienado con el display de la cámara
+- Asegúrese de dejar bien ajustada la perilla N al terminar la alineación.
 
 ![fig 13](/media/img/cnba-scanner-manual/ejes.png)
 (ojo solo debera mostrarse el eje Z)
@@ -144,20 +144,20 @@ Utilizando la escuadra N, cuyo angulo es de 140°, se deberá alinear el brazo (
 
 ### Ortogonalidad del Eje Y: ###
 
-- Aflojar levemente el tornillo que fija la cámara y moviendola segun el eje C asegurarse de que las horizontales del plano cuadriculado se observen paralelas en el display, sin perspectiva.
+- Aflojar levemente el tornillo que fija la cámara y moviéndola según el eje C asegúrese de que las horizontales del plano cuadriculado se observen paralelas en el display, sin perspectiva.
 
-Para obtener mas precisión, en DALclick seleccione "vista previa". A continuacion las cámaras tomaran una imagen de prueba que se mostrara en pantalla. Podra hacer ajustes mas precisos repitiendo el proceso indicado para alinear los ejes B y C y tomando tantos test como sea necesario.
+Para obtener más precisión, en DALclick seleccione "vista previa". A continuación las cámaras tomarán una imagen de prueba que se mostrará en pantalla. Podrá hacer ajustes más precisos repitiendo el proceso indicado para alinear los ejes B y C y tomando tantos test como sea necesario.
 
 - ajustar la altura correcta de la cama
-  * colocar las camaras en la posicion de zoom determinada en la tabla
+  * colocar las cámaras en la posición de zoom determinada en la tabla
   * colocar el libro
   * realizar test y subir o bajar la cama hasta obtener el encuadre correcto
 
 - ajustar reflejos
-  * mover las luces segun indicacion en cuadro para evitar reflejos
+  * mover las luces según indicación en cuadro para evitar reflejos
 
-- comenzar el proceso de digitalizacion
-  * realizar test enfoque/sincro zoomn de paginas centrales del libro
+- comenzar el proceso de digitalización
+  * realizar test enfoque/sincro zoom de páginas centrales del libro
   * colocar el libro cerrado y empezar a digitalizar
 
 
