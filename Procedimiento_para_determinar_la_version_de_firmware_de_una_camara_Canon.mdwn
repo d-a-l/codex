@@ -1,7 +1,7 @@
 Procedimiento para determinar la versión de firmware de una cámara Canon
 ------------------------------------------------------------------------
 
-1) Montar la tarjeta SD desbloqueada en un slot de una PC o notebook (o dispositivo adapatador USB).
+1) Montar la tarjeta SD desbloqueada en un slot de una PC o notebook (o dispositivo adaptador USB).
 
 2) Crear en la carpeta raíz de la tarjeta dos archivos vacíos con el siguiente nombre:
 

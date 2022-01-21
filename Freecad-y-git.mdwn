@@ -2,7 +2,7 @@
 
 Ver -> <https://blog.lambda.cx/posts/freecad-and-git/>
 
-descargar [zippey](https://bitbucket.org/sippey/zippey/src/master/) en en el repo -> [raw](https://bitbucket.org/sippey/zippey/raw/f037ce9e9b968fa053f95cd2804a248021ffcb41/zippey.py) en el repositorio y darle permisos de ejecución
+descargar [zippey](https://bitbucket.org/sippey/zippey/src/master/) en el repo -> [raw](https://bitbucket.org/sippey/zippey/raw/f037ce9e9b968fa053f95cd2804a248021ffcb41/zippey.py) en el repositorio y darle permisos de ejecución
 
     chmod a+x ./zippey.py
 
@@ -19,4 +19,4 @@ modificar `.git/config`
         smudge = ./zippey.py d
         clean = ./zippey.py e
 
-lo más prolijo es copiar zippey a `/usr/bin/zippey' !
+Todo: conviene copiar zippey a `/usr/bin/zippey'?

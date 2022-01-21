@@ -25,5 +25,5 @@ pdfbeads: <http://codex.bibliohack.org/pdfbeads/>
 
 scantailor-enhanced: <http://codex.bibliohack.org/scan_tailor/>
 
-IM: [Image Representation, Storage, Capture and Processing](http://www.tecgraf.puc-rio.br/im/) no lo usa chdkptp pero si dalclick!
+IM: [Image Representation, Storage, Capture and Processing](http://www.tecgraf.puc-rio.br/im/) no lo usa chdkptp pero sí dalclick!
 
