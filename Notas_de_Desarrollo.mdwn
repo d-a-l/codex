@@ -28,7 +28,7 @@ Estos principios sirven solo para guiar el desarrollo, no pretenden dar un orden
 
 **test:** directorio para realizar test transitorios de capturas
 
-**etc:** directorio que guarda patrones o muestras útilidades para el pre o posprocesamiento, como patrones para mejorar uniformidad de iluminación, la corrección de colores o la deformación óptica de las lentes.
+**etc:** directorio que guarda patrones o muestras útiles para el pre o posprocesamiento, como patrones para mejorar uniformidad de iluminación, la corrección de colores o la deformación óptica de las lentes.
 
 **raw:** en este directorio se guardan las imágenes *crudas o sin procesar*, y sus metadatos, obtenidos del dispositivo. Entiéndase "sin procesar", como "sin procesos realizados en dalclick". El archivo puede tener el pre-procesamiento realizado por el dispositivo, aunque siempre debe seguirse el criterio de mínimo procesado razonable para conservar la máxima información del registro del sensor. Los dispositivos pueden incluir filtros de *software* o *hardware* -por ejemplo- para eliminar *unreliable* pixels, o mejorar equilibrio tonal según el tipo de iluminación. Estos procesos pueden ser más confiables que otras alternativas posteriores, en la medida que están optimizadas exclusivamente para las caracteristicas del dispositivo por sus propios diseñadores. Entonces puede haber imágenes de diverso formato en esta carpeta: `.raw` (crudas del sensor), `.tif` (con filtros del dispositivo) o `.jpg` (con filtros y compresión del dispositivo), `.meta` (metadatos de un registro), etc..
 
