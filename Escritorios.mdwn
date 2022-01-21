@@ -3,7 +3,7 @@ Gnome
 
 ## Gestionar Bookmarks de nautilus ##
 
-editar `~/.config/user-dirs.dirs` y comentar la linea que se desea suprimir
+editar `~/.config/user-dirs.dirs` y comentar la línea que se desea suprimir
 
      XDG_VIDEOS_DIR="$HOME/Videos"
 
