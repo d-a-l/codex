@@ -1,12 +1,12 @@
 ## scantailor
 
-Primero instalar todas las dependencias que indicadas en la seccion "Pre-requisitos para la compilación" en este link:
+Primero instalar todas las dependencias que indicadas en la sección "Pre-requisitos para la compilación" en este enlace:
 
    <http://codex.proyecto.derechoaleer.org/scan_tailor>
 
 Luego instalar el paquete debian de scantailor (de cuando lo compilé yo en la PC del cnba)
 
-decargar:
+descargar:
 
    <http://grafiks.info/ddam/scantailor_0.9.10-dal-1_i386.deb>
 
@@ -14,7 +14,7 @@ luego como root
 
     dpkg -i scantailor_0.9.10-dal-1_i386.deb
 
-si no anda, está la opción de compilar tal como esta indicado en el primer link, aunque lleva tiempo.
+si no anda, está la opción de compilar tal como está indicado en el primer enlace, aunque lleva tiempo.
 
 
 ## tesseract-ocr
@@ -23,7 +23,7 @@ Como root instalar desde el repositorio de Debian
 
     apt-get install tesseract-ocr tesseract-ocr-spa
 
-mas info aquí:
+más info aquí:
 
    <http://codex.proyecto.derechoaleer.org/tesseract-ocr/>
 
@@ -34,14 +34,14 @@ Como root instalar desde el repositorio de Debian
 
     apt-get install cuneiform
 
-mas info aquí:
+más info aquí:
 
    <http://codex.proyecto.derechoaleer.org/cuneiform/>
 
 
 ## pdfbeads
 
-Este hay que compilar si o si, (parece que no genere un .deb cuando compilé). Seguir instrucciones de aqui:
+Este hay que compilarlo sí o sí, (parece que no generó un .deb cuando compilé). Seguir instrucciones de aqui:
 
    <http://codex.proyecto.derechoaleer.org/pdfbeads/>
 
@@ -58,7 +58,7 @@ En la carpeta de usuario /home/usuario/ crear (si no existe) la carpeta `bin`
     mkdir bin
     cd bin
 
-Copiar el archivo tar.gz descargado ahi, y descomprimir
+Copiar el archivo tar.gz descargado ahí, y descomprimir
 
     tar -xzvf pdfbeads_scripts.tar.gz
 
@@ -67,7 +67,7 @@ Luego hacer que los scripts sean ejecutables (también se puede desde el explora
     cd /home/<usuario>/bin
     chmod a+x generar*
 
-Despues hay que modificar la profile de bash para que los scripts que están en `bin` aparezcan como comandos en la consola:
+Después hay que modificar la profile de bash para que los scripts que están en `bin` aparezcan como comandos en la consola:
 
 Abrir el archivo `/home/<usuario>/.profile` con un editor de texto y agregar al final:
 
@@ -78,7 +78,7 @@ Abrir el archivo `/home/<usuario>/.profile` con un editor de texto y agregar al 
 
 guardar el archivo y cerrar el editor de texto.
 
-En la consola se deberian poder ejecutar los scripts, se puede probar escribiendo:
+En la consola se deberían poder ejecutar los scripts, se puede probar escribiendo:
 
     generar
 
