@@ -110,7 +110,7 @@ Objetivo: digitalización de acervos documentales históricos para acceso abiert
 <td> jun/2018 </td>
 <td>💡</td>
 <td><b>Facultad de Filosofía y Letras, UBA, (laboratorio de digitalización en la sede 25 de Mayo)</b>.<br>
-Objetivo: Poner a disposicion el equipo para ser utilizado por los institutos de investigación en humanidades que funcionan en ese espacio. <a href="https://bibliohack.org/posts/Estativos_de_Bibliohack_en_Filosof%c3%ada_y_Letras/#laexperienciaen25demayo">[+info]</a>.</td>
+Objetivo: Poner a disposición el equipo para ser utilizado por los institutos de investigación en humanidades que funcionan en ese espacio. <a href="https://bibliohack.org/posts/Estativos_de_Bibliohack_en_Filosof%c3%ada_y_Letras/#laexperienciaen25demayo">[+info]</a>.</td>
 <td> CABA </td>
 </tr>
 
@@ -296,7 +296,7 @@ Digitalizacion en el marco del "Proyecto Memoria" de la Facultad.</td>
 <td>2012</td>
 <td>🗄️</td>
 <td><b>Facultad de Filosofía y Letras de la UBA.</b><br>
-Digitalizacion en el marco del "Proyecto Memoria" de la Facultad.</td>
+Digitalización en el marco del "Proyecto Memoria" de la Facultad.</td>
 <td>CABA</td>
 </tr>
 
@@ -324,14 +324,14 @@ Digitalizacion en el marco del "Proyecto Memoria" de la Facultad.</td>
 #### Bibliohack Stack
 
  - [Instalador del stack de software de Bibliohack](https://github.com/Bibliohack/bibliohack_stack) en github (sólo para Ubuntu 18.04).
- - [[Bibliohack_Stack]]: pagina de referencia sobre cada componente. 
+ - [[Bibliohack_Stack]]: página de referencia sobre cada componente. 
  - [[Bibliohack_instalador]]: instrucciones paso a paso de cómo realizar la instalación del paquete de software y del sistema operativo.
 
 #### Instalación manual de cada componente
 
  - [[scan_tailor]] (en todas sus versiones).
  - [[Tesseract OCR|tesseract-ocr]]
- - [[PDFbeads|pdfbeads]] y [pdfbeads-kopi](https://github.com/Bibliohack/pdfbeads-kopi). (pdfbeads-kopi es un fork de pdfbeads que se instala en las ultimas versiones de Ubuntu/Debian).
+ - [[PDFbeads|pdfbeads]] y [pdfbeads-kopi](https://github.com/Bibliohack/pdfbeads-kopi). (pdfbeads-kopi es un fork de pdfbeads que se instala en las últimas versiones de Ubuntu/Debian).
  - [[chdkptp]] (extensión Picture Transfer Protocol para Canon Hack Development Kit <https://app.assembla.com/wiki/show/chdkptp>).
  - [[CHDK]] recursos para la instalación de CHDK.
 
