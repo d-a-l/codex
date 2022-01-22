@@ -39,7 +39,7 @@ Actualizar la lista de paquetes:
 
 #### Compilación de la librería ['jbig2enc'](https://github.com/agl/jbig2enc)
 
-ToDo: verificar la relacion de jbigenc `big2dec libjbig2dec0 libjbig2dec0-dev` de Ubuntu 16.04 reemplazan esta compilación
+ToDo: verificar la relación de jbigenc `big2dec libjbig2dec0 libjbig2dec0-dev` de Ubuntu 16.04 reemplazan esta compilación
 
 Un requisito previo a la instalación de PDFbeads es la compilación de JBIG2. [JBIG2](http://en.wikipedia.org/wiki/JBIG2) es un algoritmo estandarizado de compresión que genera imágenes de menor tamaño. `jbig2enc` es una implementación libre en python.
 
@@ -100,7 +100,7 @@ Instalar los siguientes paquetes de Ruby que pueden instalarse desde el gestor d
 
 ##### instalación de Ruby 1.9.3 en Debian 8 "Jessie" o Ubuntu 16.04
 
-En caso de haber instalado una versión de Ruby con el sistema de paquetes de Debian, se recomieda desintalarlo (como *root* o usando `sudo`):
+En caso de haber instalado una versión de Ruby con el sistema de paquetes de Debian, se recomienda desinstalarlo (como *root* o usando `sudo`):
 
      apt-get autoremove ruby ruby-rmagick ruby-hpricot rubygems
 
@@ -116,7 +116,7 @@ donde `<usuario>` es el usuario (o los usuarios) sin privilegios que utilizarán
 
 Como el entorno de RVM se carga desde `/etc/profile.d/rvm.sh`, hay que loguearse nuevamente para que se cargue desde una *login shell* (por lo tanto para loguearse como *root* no basta con `su -` en una emulador de terminal, se debe utilizar una consola con *login* desde `Ctrl + Alt + Fx` (en una máquina virtual esto se consigue con HOST + Fx, donde HOST generalmente la tecla `Ctrl` derecha. Para volver a la intefase gráfica usar `Ctrl + Alt + F7`. Generalmente se usa `Ctrl + Alt + F1` para abrir una consola)
 
-Si se usa un emulador de terminal (*"non-login shell"*) en vez de una terminal virtual (*login shell* a las que se accede con `Ctrl + Alt + Fx`) asegurarse de que la opción "Run command as login shell" o "Ejecutar el comando como un intérprete de conexión" este seleccionada, si no la función `rvm` no estará disponible. Esta opción se encuentra en la pestaña "Title and Command" en "Profile Preferences" ó "Título y comandos" en el menú Editar -> "Preferencias del perfil" de la consola.
+Si se usa un emulador de terminal (*"non-login shell"*) en vez de una terminal virtual (*login shell* a las que se accede con `Ctrl + Alt + Fx`) asegurarse de que la opción "Run command as login shell" o "Ejecutar el comando como un intérprete de conexión" esté seleccionada, si no la función `rvm` no estará disponible. Esta opción se encuentra en la pestaña "Title and Command" en "Profile Preferences" ó "Título y comandos" en el menú Editar -> "Preferencias del perfil" de la consola.
 
 Logueado como *root* instalar Ruby
 
@@ -135,7 +135,7 @@ Más info en:
 
     sudo gem install iconv -v 1.0.3
 
-Esto soluciona el problema del error *'require': cannot load such file -- iconv (LoadError)* (a partir de la version 2.2 de ruby iconv ya no esta incluido en la libreria estandar, pero no esta agregada en las dependencias de pdfbeads) 
+Esto soluciona el problema del error *'require': cannot load such file -- iconv (LoadError)* (a partir de la version 2.2 de ruby iconv ya no esta incluido en la libreria estandar, pero no está agregada en las dependencias de pdfbeads) 
 
 ##### instalación de PDFbeads
 
