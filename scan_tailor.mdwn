@@ -44,7 +44,7 @@ En **Ubuntu Xenial** (ToDo: verificar si es necesario el paquete `libjpeg8-dev`)
 
 #### Opción 1) Descargar la última versión de Scan Tailor
 
-* Descargar la última versión desde el sitio de Scan Tailor en [`GitHub`](https://github.com/scantailor/scantailor/releases). También están disponibles los repositorios antiguos de [`sourceforge`](http://sourceforge.net/projects/scantailor/files/latest/download) (no recomedado). Link de descarga para la versión 0.9.11.1 (julio de 2015): [`RELEASE_0_9_11_1.tar.gz`](https://github.com/scantailor/scantailor/archive/RELEASE_0_9_11_1.tar.gz).
+* Descargar la última versión desde el sitio de Scan Tailor en [`GitHub`](https://github.com/scantailor/scantailor/releases). También están disponibles los repositorios antiguos de [`sourceforge`](http://sourceforge.net/projects/scantailor/files/latest/download) (no recomendado). Enlace de descarga para la versión 0.9.11.1 (julio de 2015): [`RELEASE_0_9_11_1.tar.gz`](https://github.com/scantailor/scantailor/archive/RELEASE_0_9_11_1.tar.gz).
 * Copiar el archivo descargado a un directorio para compilar, por ejemplo: `/opt/src`, o `/home/<usuario>/src`
 * Descomprimir el archivo.
 
@@ -76,11 +76,11 @@ Opción desde sourceforge:
 
 ### Scantailor Enhanced
 
-Scantailor Enhanced es un *branch* del proyecto con funciones agregadas que no estan en la rama primcipal (julio 2015). Se puede instalar clonando el repositorio (recomendado):
+Scantailor Enhanced es un *branch* del proyecto con funciones agregadas que no están en la rama primcipal (julio 2015). Se puede instalar clonando el repositorio (recomendado):
 
      git clone -b enhanced https://github.com/scantailor/scantailor.git
 
-O descargar los archivos compilados o para compilar desde la antiguo repositorio del proyecto en Sourceforge <http://sourceforge.net/projects/scantailor/files/scantailor-devel/enhanced/>.
+O descargar los archivos compilados o para compilar desde el antiguo repositorio del proyecto en Sourceforge <http://sourceforge.net/projects/scantailor/files/scantailor-devel/enhanced/>.
 
 **Para Ubuntu 16.04**: use el siguiente repositorio que corrige un error de compilación por problemas entre las nuevas versiones del libboost y QT (ver [commit con corrección](qt4-parsing-error-on-libboost), [explicación en stackoverflow](http://stackoverflow.com/questions/15455178/qt4-cgal-parse-error-at-boost-join))
 
@@ -90,11 +90,11 @@ O descargar los archivos compilados o para compilar desde la antiguo repositorio
 
 ### Compilar
 
-Abrir una consola en directorio que contiene el código fuente de Scan Tailor y ejecutar:
+Abrir una consola en directorio que contiene el código fuente de Scantailor y ejecutar:
 
     cmake .
 
-*Nota*: Observe que debe escribir un punto "." luego del comando cmake para indicarle que esta trabajando en el directorio actual.
+*Nota*: Observe que debe escribir un punto "." luego del comando `cmake` para indicarle que está trabajando en el directorio actual.
 
 Al finalizar el proceso debe leerse:
 
@@ -111,7 +111,7 @@ Instalar en el sistema (como *root*)
 
 **Nota 1**: en vez de `make install` puede utilizarse `checkinstall`, que permite desinstalar el programa facilmente desde el gestor de paquetes de Debian. Si no está instalado: `apt-get install checkinstall`
 
-**Nota 2**: Puede ejecutarse el binario compilado en el código fuente sin instalar, y de esta forma evitar conflictos con la instalción realizada desde el repositorio de Debian y tenr ambas opciones disponibles. Entonces, para ejecutar Scantailor Enhanced podría usar:
+**Nota 2**: Puede ejecutarse el binario compilado en el código fuente sin instalar, y de esta forma evitar conflictos con la instalción realizada desde el repositorio de Debian y tener ambas opciones disponibles. Entonces, para ejecutar Scantailor Enhanced podría usar:
 
      /opt/src/scantailor-enhanced/scantailor-cli
 
@@ -137,7 +137,7 @@ Dependencias para Ubuntu Bionic 18.04
 
     sudo apt-get install libboost-all-dev build-essential gcc-7 g++-7 libjpeg-dev libpng-dev libtiff5-dev libboost-test1.65-dev libboost-test1.65.1 qtbase5-dev qttools5-dev qttools5-dev-tools libqt5opengl5-dev libpthread-stubs0-dev
 
-(verificar si estas estan instaladas)
+(verificar si éstas están instaladas)
 
     sudo apt-get install libc6 libgcc1 libjpeg8 libqt4-xml libqtcore4 libqtgui4 libstdc++6 libtiff5 libxrender1
 
@@ -154,7 +154,7 @@ Instalar:
 
 #### Cmake
 
-`scantailor-advanced` requiere una version de `cmake` que no está en `Ubuntu 16.04`, para compilar instalar una version mas reciente:
+`scantailor-advanced` requiere una versión de `cmake` que no está en `Ubuntu 16.04`, para compilar instalar una versión más reciente:
 
 Descargar la última version estable desde <https://cmake.org/download/>, ejemplo:
 
@@ -174,7 +174,7 @@ para saber si se instaló correctamente:
     
     cmake --version
 
-mas info en [How do I install the latest version of cmake from the command line?](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line)
+más info en [How do I install the latest version of cmake from the command line?](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line)
 
 ## Scantailor Universal (Ubuntu 18.04)
 
