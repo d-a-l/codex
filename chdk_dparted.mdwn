@@ -4,7 +4,7 @@
 
 Para instalar y hacer *booteable* CHDK en una cámara Canon, el proceso es tan simple como copiar el árbol de archivos CHDK en la tarjeta SD, y marcarla como `look`. Sin embargo algunas cámaras, como la Canon PowerShot SX130 IS, necesitan algunos ajustes más: se deben crear dos particiones lógicas dentro de la tarjeta, una para el sistema de arranque de CHDK y otra para el almacenamiento de las fotos. Este proceso se puede realizar con cualquier programa [[editor de particiones|http://es.wikipedia.org/wiki/Editor_de_particiones]]. En nuestro caso usamos GParted.
 
-[[GParted|http://es.wikipedia.org/wiki/GParted]] es un programa que se utiliza para crear y borrar particiones en los dispositivos de almacenamiento que utilice su PC bajo GNU/Linux. **Atención, Gparted corre como "root", por lo tanto puede alterar cualquier dispositivo, incluido su disco rígido, por lo tanto se debe ser muy cuidadoso al elegir el dispositivo correcto**. La mayor parte de las operaciones en GParted, primero se configuran y recién al hacer clic sobre "OK", se ralizan efectivamente en el dispositivo, luego de pedir una confirmacióń.
+[[GParted|http://es.wikipedia.org/wiki/GParted]] es un programa que se utiliza para crear y borrar particiones en los dispositivos de almacenamiento que utilice su PC bajo GNU/Linux. **Atención, Gparted corre como "root", por lo tanto puede alterar cualquier dispositivo, incluido su disco rígido, por lo tanto se debe ser muy cuidadoso al elegir el dispositivo correcto**. La mayor parte de las operaciones en GParted, primero se configuran y recién al hacer clic sobre "OK", se realizan efectivamente en el dispositivo, luego de pedir una confirmacióń.
 
 ### Selección del dispositivo y borrado de su contenido
 
@@ -47,7 +47,7 @@ Ahora se debe aplicar la etiqueta "boot" a la primer partición creada:
 
 ### Copiar la direción de la partición FAT16
 
-Copiar la dirección en el sistema de la primer partición FAT16 de la tarjeta. En el ejemplo es `/dev/sdc1/`, sin embargo esta dirección varía segun el numero de dispositivos que tenga su PC (uno, o más discos rígidos o unidades de almacenamiento)
+Copiar la dirección en el sistema de la primer partición FAT16 de la tarjeta. En el ejemplo es `/dev/sdc1/`, sin embargo esta dirección varía según el numero de dispositivos que tenga su PC (uno, o más discos rígidos o unidades de almacenamiento)
 ![gparted](/media/img/gparted-chdk/gparted-10.png)
 
 **con este dato ya puede seguir el paso 10) del tutorial de [[Instalación de CHDK en cámaras Canon PowerShot SX130 IS|cnba_chdk_canonsx130]]**
